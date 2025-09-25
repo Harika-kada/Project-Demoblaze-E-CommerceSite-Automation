@@ -31,6 +31,7 @@ public class ScreenshotUtil
             String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
 
             String folderPath = System.getProperty("user.dir") + "/output/screenshots/" + status;
+            new File(folderPath).mkdirs();
             String filePath = folderPath + "/" + testName + "_" + timestamp + ".png";
 
             FileHandler.copy(src, new File(filePath));
