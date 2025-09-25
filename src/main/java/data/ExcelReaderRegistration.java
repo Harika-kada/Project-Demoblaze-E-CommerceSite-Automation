@@ -54,4 +54,25 @@ public class ExcelReaderRegistration {
             default: return cell.toString().trim();
         }
     }
+
+//    public Object[][] provideExcelData() throws IOException {
+//        String excelFilePath = "src\\main\\resources\\testdata.xlsx";
+//        try (FileInputStream fis = new FileInputStream(excelFilePath);
+//             XSSFWorkbook workbook = new XSSFWorkbook(fis)) {
+//
+//            XSSFSheet sheet = workbook.getSheet("Registration");
+//            int rowCount = sheet.getPhysicalNumberOfRows();
+//            int colCount = sheet.getRow(0).getLastCellNum();
+//            Object[][] data = new Object[rowCount - 1][colCount];
+//
+//            for (int i = 1; i < rowCount; i++) {
+//                XSSFRow row = sheet.getRow(i);
+//                for (int j = 0; j < colCount; j++) {
+//                    Cell cell = row.getCell(j);
+//                    data[i - 1][j] = (cell == null) ? "" : cell.toString().trim();
+//                }
+//            }
+//            return data;
+//        }
+//    }
 }
