@@ -20,7 +20,6 @@ public class ExtentManager
             ExtentSparkReporter sparkReporter = new ExtentSparkReporter(reportPath);
             sparkReporter.config().setReportName("Demoblaze Automation Report");
             sparkReporter.config().setDocumentTitle("Test Execution Summary");
-//            sparkReporter.config().setTheme(Theme.STANDARD);
 
             extent = new ExtentReports();
             extent.attachReporter(sparkReporter);
