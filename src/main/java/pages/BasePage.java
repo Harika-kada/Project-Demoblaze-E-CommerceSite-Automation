@@ -17,8 +17,8 @@ public class BasePage {
     protected WebDriver driver;
     protected WebDriverWait wait;
 
-    public BasePage() {
-        this.driver = DriverManager.getDriver();
+    public BasePage(WebDriver driver) {
+        this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(
                 Integer.parseInt(
                         ConfigManager.getExplicitWait("explicit.wait"))));
@@ -27,12 +27,11 @@ public class BasePage {
 
     protected void click(WebElement element, String elementName) {
         try {
-            wait.until(ExpectedConditions.elementToBeClickable(element));
-            element.click();
+            wait.until(ExpectedConditions.elementToBeClickable(element)).click();
             LoggerUtil.info("Clicked element: " + elementName);
         } catch (Exception e) {
-            LoggerUtil.error("Failed to click element: " + elementName);
-            throw e;
+            LoggerUtil.error("Failed to click element: " + elementName + ". Error: " + e.getMessage());
+            throw new RuntimeException("Click failed on " + elementName, e);
         }
     }
 
@@ -43,8 +42,8 @@ public class BasePage {
             element.sendKeys(text);
             LoggerUtil.info("Typed value as: " + text + " to element " + elementName);
         } catch (Exception e) {
-            LoggerUtil.error("Failed to type: " + text + " to element " + elementName);
-            throw e;
+            LoggerUtil.error("Failed to type: " + text + " to element " + elementName + ". Error: " + e.getMessage());
+            throw new RuntimeException("Type failed on " + elementName, e);
         }
     }
 
@@ -52,23 +51,22 @@ public class BasePage {
         try {
             wait.until(ExpectedConditions.visibilityOf(element));
             String text = element.getText();
-            LoggerUtil.info("Successfully read the value as: " + text + " to element " + elementName);
+            LoggerUtil.info("Successfully read the value as: " + text + " from element " + elementName);
             return text;
         } catch (Exception e) {
-            LoggerUtil.error("Failed to read the value from element: " + elementName);
-            throw e;
+            LoggerUtil.error("Failed to read the value from element: " + elementName + ". Error: " + e.getMessage());
+            throw new RuntimeException("Get text failed on " + elementName, e);
         }
     }
 
     public boolean isElementDisplayed(WebElement element, String elementName) {
         try {
             wait.until(ExpectedConditions.visibilityOf(element));
-            boolean isDisplayed = element.isDisplayed();
             LoggerUtil.info("Successfully displayed element: " + elementName);
-            return isDisplayed;
+            return element.isDisplayed();
         } catch (Exception e) {
             LoggerUtil.error("Element not displayed: " + elementName);
-            throw e;
+            return false;
         }
     }
     public boolean isAlertPresent() {
@@ -79,33 +77,24 @@ public class BasePage {
             return false;
         }
     }
-    public String getAlertText() {
+    public String handleAlertAndGetText() {
         try {
             wait.until(ExpectedConditions.alertIsPresent());
-            String alertMessage = driver.switchTo().alert().getText();
-            LoggerUtil.warn("Alert message: " + alertMessage);
-            driver.switchTo().alert().accept();
-            return alertMessage;
-        } catch (Exception e) {
-            LoggerUtil.error("No alert present or failed to read alert.");
-            throw e;
+            Alert alert = driver.switchTo().alert();
+            String alertText = alert.getText();
+            alert.accept();
+            return alertText;
+        } catch (TimeoutException e) {
+            return null;
         }
     }
-//    public String handleAlertIfPresent() {
-//        try {
-//            wait.until(ExpectedConditions.alertIsPresent());
-//            Alert alert = driver.switchTo().alert();
-//            String text = alert.getText();
-//            LoggerUtil.warn("Alert: " + text);
-//            alert.accept();
-//            return text;
-//        }
-//        catch (TimeoutException e) {
-//            return null;
-//        }
-//        catch (Exception e) {
-//            LoggerUtil.error("Failed to handle alert: " + e.getMessage());
-//            return null;
-//        }
-//    }
+    // As an alternative, you can also have a simple accept method
+    public void acceptAlert() {
+        try {
+            wait.until(ExpectedConditions.alertIsPresent()).accept();
+            LoggerUtil.info("Alert accepted.");
+        } catch (Exception e) {
+            LoggerUtil.warn("No alert was present to accept.");
+        }
+    }
 }
