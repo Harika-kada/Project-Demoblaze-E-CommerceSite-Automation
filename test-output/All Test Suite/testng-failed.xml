@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+<suite thread-count="2" parallel="tests" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="listeners.TestListener"/>
   </listeners>
-  <test thread-count="5" name="Firefox Test(failed)">
+  <test thread-count="2" parallel="tests" name="Chrome Tests(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="tests.SearchTests">
-        <methods>
-          <include name="testSearchByProductName"/>
-          <include name="initialSetup"/>
-          <include name="tearDown"/>
-          <include name="testSearchByCategory"/>
-        </methods>
-      </class> <!-- tests.SearchTests -->
       <class name="tests.RegistrationTest">
         <methods>
           <include name="tearDown"/>
@@ -21,15 +14,58 @@
           <include name="testSignUp" invocation-numbers="0"/>
         </methods>
       </class> <!-- tests.RegistrationTest -->
-      <class name="tests.LoginTests">
+      <class name="tests.SearchTests">
         <methods>
-          <include name="loginWithValidData"/>
-          <include name="loginWithInvalidData"/>
-          <include name="loginWithEmptyFields"/>
+          <include name="testSearchByProductName" invocation-numbers="0 1"/>
           <include name="initialSetup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- tests.LoginTests -->
+      </class> <!-- tests.SearchTests -->
+      <class name="tests.CheckoutTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialSetup"/>
+          <include name="testWithMissingShippingAddress"/>
+          <include name="testForRegisteredCheckout"/>
+          <include name="testWithMissingPaymentMethod"/>
+        </methods>
+      </class> <!-- tests.CheckoutTests -->
     </classes>
-  </test> <!-- Firefox Test(failed) -->
+  </test> <!-- Chrome Tests(failed) -->
+  <test thread-count="2" parallel="tests" name="Firefox Tests(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="tests.RegistrationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialSetup"/>
+          <include name="testSignUp" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.RegistrationTest -->
+      <class name="tests.SearchTests">
+        <methods>
+          <include name="testSearchByProductName" invocation-numbers="0 1"/>
+          <include name="initialSetup"/>
+          <include name="tearDown"/>
+          <include name="testSearchByCategory" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.SearchTests -->
+      <class name="tests.CartTests">
+        <methods>
+          <include name="initialSetup"/>
+          <include name="tearDown"/>
+          <include name="testCartPersistenceAcrossSessions"/>
+        </methods>
+      </class> <!-- tests.CartTests -->
+      <class name="tests.CheckoutTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialSetup"/>
+          <include name="testForRegisteredCheckout"/>
+          <include name="testWithMissingShippingAddress"/>
+          <include name="testWithMissingPaymentMethod"/>
+        </methods>
+      </class> <!-- tests.CheckoutTests -->
+    </classes>
+  </test> <!-- Firefox Tests(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

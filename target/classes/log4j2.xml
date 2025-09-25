@@ -8,8 +8,8 @@
 
         <!-- Rolling File Appender -->
         <RollingFile name="RollingFileAppender"
-                     fileName="C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze\output\logs\automation.log"
-                     filePattern="C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze\output\logs\automation-%d{yyyy-MM-dd}.log">
+                     fileName="C:\\Users\\kadahari\\Desktop\\Harika\\C\\Demoblaze\\output\\logs\\automation.log"
+                     filePattern="C:\\Users\\kadahari\\Desktop\\Harika\\C\\Demoblaze\\output\\logs\\automation-%d{yyyy-MM-dd}.log">
             <PatternLayout>
                 <Pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Pattern>
             </PatternLayout>
@@ -26,3 +26,30 @@
         </Root>
     </Loggers>
 </Configuration>
+
+
+        <!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<Configuration status="INFO">-->
+<!--    &lt;!&ndash; Define appenders &ndash;&gt;-->
+<!--    <Appenders>-->
+<!--        &lt;!&ndash; Console appender &ndash;&gt;-->
+<!--        <Console name="ConsoleAppender" target="SYSTEM_OUT">-->
+<!--            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />-->
+<!--        </Console>-->
+
+<!--        &lt;!&ndash; File appender &ndash;&gt;-->
+<!--        <File name="file" fileName="C:\\Users\\kadahari\\Desktop\\Harika\\C\\Demoblaze\\output\\logs\\automation.log">-->
+<!--            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />-->
+<!--        </File>-->
+<!--    </Appenders>-->
+
+<!--    &lt;!&ndash; Define loggers &ndash;&gt;-->
+<!--    <Loggers>-->
+<!--        &lt;!&ndash; Root logger with INFO level &ndash;&gt;-->
+<!--        <Root level="INFO">-->
+<!--            <AppenderRef ref="ConsoleAppender" />-->
+<!--            <AppenderRef ref="file" />-->
+<!--        </Root>-->
+<!--    </Loggers>-->
+<!--</Configuration>-->
+

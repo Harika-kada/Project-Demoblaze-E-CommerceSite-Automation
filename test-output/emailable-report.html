@@ -8,159 +8,221 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">0</td><td class="num">13,788</td><td></td><td></td></tr>
+<tr><th colspan="8">All Test Suite</th></tr>
+<tr><td><a href="#t0">Chrome Tests</a></td><td class="num">19</td><td class="num">0</td><td class="num">0</td><td class="num attn">6</td><td class="num">219,226</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Firefox Tests</a></td><td class="num">17</td><td class="num">0</td><td class="num">0</td><td class="num attn">8</td><td class="num">260,103</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">36</th><th class="num">0</th><th class="num">0</th><th class="num attn">14</th><th class="num">479,329</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">tests.LoginTests</td><td><a href="#m0">initialSetup</a></td><td rowspan="1">1758792327121</td><td rowspan="1">12483</td></tr><tr><th colspan="4">Default test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="5">tests.LoginTests</td><td><a href="#m1">initialSetup</a></td><td rowspan="2">1758792339931</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m2">initialSetup</a></td></tr><tr class="skippedeven"><td><a href="#m3">tearDown</a></td><td rowspan="3">1758792339873</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m4">tearDown</a></td></tr><tr class="skippedeven"><td><a href="#m5">tearDown</a></td></tr><tr><th colspan="4">Default test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">tests.LoginTests</td><td><a href="#m6">loginWithValidData</a></td><td rowspan="3">1758792339839</td><td rowspan="3">3</td></tr><tr class="skippedeven"><td><a href="#m7">loginWithValidData</a></td></tr><tr class="skippedeven"><td><a href="#m8">loginWithValidData</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Chrome Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">tests.CheckoutTests</td><td><a href="#m0">testForRegisteredCheckout</a></td><td rowspan="1">1758796508696</td><td rowspan="1">5535</td></tr><tr class="failedeven"><td><a href="#m1">testWithMissingPaymentMethod</a></td><td rowspan="1">1758796530534</td><td rowspan="1">46</td></tr><tr class="failedeven"><td><a href="#m2">testWithMissingShippingAddress</a></td><td rowspan="1">1758796516056</td><td rowspan="1">12852</td></tr><tr class="failedodd"><td rowspan="1">tests.RegistrationTest</td><td><a href="#m3">testSignUp</a></td><td rowspan="1">1758796390952</td><td rowspan="1">2326</td></tr><tr class="failedeven"><td rowspan="2">tests.SearchTests</td><td><a href="#m4">testSearchByProductName</a></td><td rowspan="2">1758796409806</td><td rowspan="2">946</td></tr><tr class="failedeven"><td><a href="#m5">testSearchByProductName</a></td></tr><tr><th colspan="4">Chrome Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">tests.CartTests</td><td><a href="#m6">testAddProductToCart</a></td><td rowspan="2">1758796435974</td><td rowspan="2">5125</td></tr><tr class="passedeven"><td><a href="#m7">testAddProductToCart</a></td></tr><tr class="passedeven"><td><a href="#m8">testCartPersistenceAcrossSessions</a></td><td rowspan="1">1758796467273</td><td rowspan="1">12097</td></tr><tr class="passedeven"><td><a href="#m9">testPriceCalculationVerification</a></td><td rowspan="1">1758796484761</td><td rowspan="1">5688</td></tr><tr class="passedeven"><td><a href="#m10">testRemoveProductFromCart</a></td><td rowspan="2">1758796457813</td><td rowspan="2">6752</td></tr><tr class="passedeven"><td><a href="#m11">testRemoveProductFromCart</a></td></tr><tr class="passedodd"><td rowspan="2">tests.CheckoutTests</td><td><a href="#m12">testForGuestCheckout</a></td><td rowspan="1">1758796493125</td><td rowspan="1">13844</td></tr><tr class="passedodd"><td><a href="#m13">testGuestCheckoutWithDebitCard</a></td><td rowspan="1">1758796532233</td><td rowspan="1">12203</td></tr><tr class="passedeven"><td rowspan="8">tests.LoginTests</td><td><a href="#m14">loginWithEmptyFields</a></td><td rowspan="2">1758796379716</td><td rowspan="2">1360</td></tr><tr class="passedeven"><td><a href="#m15">loginWithEmptyFields</a></td></tr><tr class="passedeven"><td><a href="#m16">loginWithInvalidData</a></td><td rowspan="3">1758796374986</td><td rowspan="3">1820</td></tr><tr class="passedeven"><td><a href="#m17">loginWithInvalidData</a></td></tr><tr class="passedeven"><td><a href="#m18">loginWithInvalidData</a></td></tr><tr class="passedeven"><td><a href="#m19">loginWithValidData</a></td><td rowspan="3">1758796341555</td><td rowspan="3">5351</td></tr><tr class="passedeven"><td><a href="#m20">loginWithValidData</a></td></tr><tr class="passedeven"><td><a href="#m21">loginWithValidData</a></td></tr><tr class="passedodd"><td rowspan="3">tests.SearchTests</td><td><a href="#m22">testSearchByCategory</a></td><td rowspan="2">1758796396904</td><td rowspan="2">3070</td></tr><tr class="passedodd"><td><a href="#m23">testSearchByCategory</a></td></tr><tr class="passedodd"><td><a href="#m24">testSearchWithNoResults</a></td><td rowspan="1">1758796420030</td><td rowspan="1">255</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Firefox Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.CartTests</td><td><a href="#m25">testCartPersistenceAcrossSessions</a></td><td rowspan="1">1758796503713</td><td rowspan="1">13403</td></tr><tr class="failedodd"><td rowspan="3">tests.CheckoutTests</td><td><a href="#m26">testForRegisteredCheckout</a></td><td rowspan="1">1758796547948</td><td rowspan="1">2191</td></tr><tr class="failedodd"><td><a href="#m27">testWithMissingPaymentMethod</a></td><td rowspan="1">1758796569856</td><td rowspan="1">25</td></tr><tr class="failedodd"><td><a href="#m28">testWithMissingShippingAddress</a></td><td rowspan="1">1758796554696</td><td rowspan="1">10337</td></tr><tr class="failedeven"><td rowspan="1">tests.RegistrationTest</td><td><a href="#m29">testSignUp</a></td><td rowspan="1">1758796409045</td><td rowspan="1">2244</td></tr><tr class="failedodd"><td rowspan="3">tests.SearchTests</td><td><a href="#m30">testSearchByCategory</a></td><td rowspan="1">1758796417976</td><td rowspan="1">828</td></tr><tr class="failedodd"><td><a href="#m31">testSearchByProductName</a></td><td rowspan="2">1758796433086</td><td rowspan="2">691</td></tr><tr class="failedodd"><td><a href="#m32">testSearchByProductName</a></td></tr><tr><th colspan="4">Firefox Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">tests.CartTests</td><td><a href="#m33">testAddProductToCart</a></td><td rowspan="2">1758796465893</td><td rowspan="2">5101</td></tr><tr class="passedeven"><td><a href="#m34">testAddProductToCart</a></td></tr><tr class="passedeven"><td><a href="#m35">testPriceCalculationVerification</a></td><td rowspan="1">1758796522800</td><td rowspan="1">5026</td></tr><tr class="passedeven"><td><a href="#m36">testRemoveProductFromCart</a></td><td rowspan="2">1758796491054</td><td rowspan="2">6478</td></tr><tr class="passedeven"><td><a href="#m37">testRemoveProductFromCart</a></td></tr><tr class="passedodd"><td rowspan="2">tests.CheckoutTests</td><td><a href="#m38">testForGuestCheckout</a></td><td rowspan="1">1758796533180</td><td rowspan="1">10273</td></tr><tr class="passedodd"><td><a href="#m39">testGuestCheckoutWithDebitCard</a></td><td rowspan="1">1758796574425</td><td rowspan="1">10020</td></tr><tr class="passedeven"><td rowspan="8">tests.LoginTests</td><td><a href="#m40">loginWithEmptyFields</a></td><td rowspan="2">1758796394084</td><td rowspan="2">916</td></tr><tr class="passedeven"><td><a href="#m41">loginWithEmptyFields</a></td></tr><tr class="passedeven"><td><a href="#m42">loginWithInvalidData</a></td><td rowspan="3">1758796385609</td><td rowspan="3">2212</td></tr><tr class="passedeven"><td><a href="#m43">loginWithInvalidData</a></td></tr><tr class="passedeven"><td><a href="#m44">loginWithInvalidData</a></td></tr><tr class="passedeven"><td><a href="#m45">loginWithValidData</a></td><td rowspan="3">1758796343997</td><td rowspan="3">4924</td></tr><tr class="passedeven"><td><a href="#m46">loginWithValidData</a></td></tr><tr class="passedeven"><td><a href="#m47">loginWithValidData</a></td></tr><tr class="passedodd"><td rowspan="2">tests.SearchTests</td><td><a href="#m48">testSearchByCategory</a></td><td rowspan="1">1758796425268</td><td rowspan="1">1003</td></tr><tr class="passedodd"><td><a href="#m49">testSearchWithNoResults</a></td><td rowspan="1">1758796446839</td><td rowspan="1">689</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">tests.LoginTests#initialSetup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NumberFormatException: Cannot parse null string
-	at java.base/java.lang.Integer.parseInt(Integer.java:624)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at pages.BasePage.&lt;init&gt;(BasePage.java:23)
-	at tests.LoginTests.initialSetup(LoginTests.java:37)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+<h2>Chrome Tests</h2><h3 id="m0">tests.CheckoutTests#testForRegisteredCheckout</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Could not find and click product: Sony vaio i5
+	at pages.HomePage.selectProduct(HomePage.java:74)
+	at tests.CheckoutTests.runCheckoutTest(CheckoutTests.java:75)
+	at tests.CheckoutTests.testForRegisteredCheckout(CheckoutTests.java:117)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">tests.LoginTests#initialSetup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">tests.LoginTests#initialSetup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">tests.LoginTests#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">tests.LoginTests#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">tests.LoginTests#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">tests.LoginTests#loginWithValidData</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Validuser1</td><td>validPass@123</td><td>true</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.NumberFormatException: Cannot parse null string
-	at java.base/java.lang.Integer.parseInt(Integer.java:624)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at pages.BasePage.&lt;init&gt;(BasePage.java:23)
-	at tests.LoginTests.initialSetup(LoginTests.java:37)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.RuntimeException: Click failed on Product: Sony vaio i5
+	at pages.BasePage.click(BasePage.java:34)
+	at pages.HomePage.selectProduct(HomePage.java:70)
+	... 22 more
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.186)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d95ca5c410f4bf48f027d0f3a94fa228, clickElement {id=f.437ED7C591375E5BFED981ADC0C80EB9.d.72A22F2625E2E7D5FE6CAF174347B7DC.e.143}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.186, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54365}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54365/devtoo..., se:cdpVersion: 140.0.7339.186, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d95ca5c410f4bf48f027d0f3a94fa228)] -&gt; xpath: //a[@class=&apos;hrefch&apos;][text()=&apos;Sony vaio i5&apos;]]
+Session ID: d95ca5c410f4bf48f027d0f3a94fa228
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at pages.BasePage.click(BasePage.java:30)
+	... 23 more
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.CheckoutTests#testWithMissingPaymentMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Scenario not found for: Registered, 789 Oak St, TX, 
+	at tests.CheckoutTests.lambda$1(CheckoutTests.java:64)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at tests.CheckoutTests.getScenario(CheckoutTests.java:64)
+	at tests.CheckoutTests.testWithMissingPaymentMethod(CheckoutTests.java:128)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">tests.LoginTests#loginWithValidData</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Validuser</td><td>validPass123</td><td>true</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.NumberFormatException: Cannot parse null string
-	at java.base/java.lang.Integer.parseInt(Integer.java:624)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at pages.BasePage.&lt;init&gt;(BasePage.java:23)
-	at tests.LoginTests.initialSetup(LoginTests.java:37)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.CheckoutTests#testWithMissingShippingAddress</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Validation failed for user type: Guest expected [Shipping address required] but found [Thank you for your purchase!]
+	at tests.CheckoutTests.runCheckoutTest(CheckoutTests.java:104)
+	at tests.CheckoutTests.testWithMissingShippingAddress(CheckoutTests.java:123)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">tests.LoginTests#loginWithValidData</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Validuser_100</td><td>valid</td><td>true</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.NumberFormatException: Cannot parse null string
-	at java.base/java.lang.Integer.parseInt(Integer.java:624)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at pages.BasePage.&lt;init&gt;(BasePage.java:23)
-	at tests.LoginTests.initialSetup(LoginTests.java:37)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.RegistrationTest#testSignUp</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Validuser13</td><td>ValidPass@123</td><td>true</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: Testcase failed. Registration blocked: User already exists.
+	at tests.RegistrationTest.testSignUp(RegistrationTest.java:67)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.SearchTests#testSearchByProductName</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Sony xperia z5</td><td>Phones</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: TestCase failed. Product &apos;Sony xperia z5&apos; is not visible.
+	at tests.SearchTests.testSearchByProductName(SearchTests.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.SearchTests#testSearchByProductName</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Sony vaio i5</td><td>Laptops</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: TestCase failed. Product &apos;Sony vaio i5&apos; is not visible.
+	at tests.SearchTests.testSearchByProductName(SearchTests.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.CartTests#testAddProductToCart</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Sony vaio i5</td><td>Add</td><td>1.0</td><td>790.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.CartTests#testAddProductToCart</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Samsung galaxy s6</td><td>Add</td><td>1.0</td><td>360.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.CartTests#testCartPersistenceAcrossSessions</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.CartTests#testPriceCalculationVerification</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">tests.CartTests#testRemoveProductFromCart</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Sony vaio i5</td><td>Remove</td><td>0.0</td><td>0.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">tests.CartTests#testRemoveProductFromCart</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Samsung galaxy s6</td><td>Remove</td><td>0.0</td><td>0.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">tests.CheckoutTests#testForGuestCheckout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">tests.CheckoutTests#testGuestCheckoutWithDebitCard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">tests.LoginTests#loginWithEmptyFields</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Validuser1</td><td></td><td>true</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">tests.LoginTests#loginWithEmptyFields</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td></td><td></td><td>true</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">tests.LoginTests#loginWithInvalidData</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>invalidUser</td><td>wrongPass</td><td>false</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">tests.LoginTests#loginWithInvalidData</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Validuser1</td><td>ValidPass@123</td><td>false</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">tests.LoginTests#loginWithInvalidData</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>invalidUser</td><td>validPass@123</td><td>false</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">tests.LoginTests#loginWithValidData</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Validuser</td><td>validPass123</td><td>true</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">tests.LoginTests#loginWithValidData</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Validuser1</td><td>validPass@123</td><td>true</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">tests.LoginTests#loginWithValidData</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Validuser_100</td><td>valid</td><td>true</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">tests.SearchTests#testSearchByCategory</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Apple monitor 24</td><td>Monitors</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">tests.SearchTests#testSearchByCategory</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>ASUS Full HD</td><td>Monitors</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">tests.SearchTests#testSearchWithNoResults</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Firefox Tests</h2><h3 id="m25">tests.CartTests#testCartPersistenceAcrossSessions</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Testcase failed: Product was not found after restarting session. expected [true] but found [false]
+	at tests.CartTests.testCartPersistenceAcrossSessions(CartTests.java:151)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">tests.CheckoutTests#testForRegisteredCheckout</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Could not find and click product: Sony vaio i5
+	at pages.HomePage.selectProduct(HomePage.java:74)
+	at tests.CheckoutTests.runCheckoutTest(CheckoutTests.java:75)
+	at tests.CheckoutTests.testForRegisteredCheckout(CheckoutTests.java:117)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.RuntimeException: Click failed on Product: Sony vaio i5
+	at pages.BasePage.click(BasePage.java:34)
+	at pages.HomePage.selectProduct(HomePage.java:70)
+	... 22 more
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element &lt;a class=&quot;hrefch&quot; href=&quot;prod.html?idp_=8&quot;&gt; is not clickable at point (1530,1401) because another element &lt;div id=&quot;logInModal&quot; class=&quot;modal fade show&quot;&gt; obscures it
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [4e25ef76-0c4e-4ee0-a63a-dcc600d20880, clickElement {id=8de2209e-5a55-445e-b8d5-38565a88360c}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11044, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (4e25ef76-0c4e-4ee0-a63a-dcc600d20880)] -&gt; xpath: //a[@class=&apos;hrefch&apos;][text()=&apos;Sony vaio i5&apos;]]
+Session ID: 4e25ef76-0c4e-4ee0-a63a-dcc600d20880
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at pages.BasePage.click(BasePage.java:30)
+	... 23 more
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m27">tests.CheckoutTests#testWithMissingPaymentMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Scenario not found for: Registered, 789 Oak St, TX, 
+	at tests.CheckoutTests.lambda$1(CheckoutTests.java:64)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at tests.CheckoutTests.getScenario(CheckoutTests.java:64)
+	at tests.CheckoutTests.testWithMissingPaymentMethod(CheckoutTests.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m28">tests.CheckoutTests#testWithMissingShippingAddress</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Validation failed for user type: Guest expected [Shipping address required] but found [Thank you for your purchase!]
+	at tests.CheckoutTests.runCheckoutTest(CheckoutTests.java:104)
+	at tests.CheckoutTests.testWithMissingShippingAddress(CheckoutTests.java:123)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m29">tests.RegistrationTest#testSignUp</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Validuser13</td><td>ValidPass@123</td><td>true</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: Testcase failed. Registration blocked: User already exists.
+	at tests.RegistrationTest.testSignUp(RegistrationTest.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m30">tests.SearchTests#testSearchByCategory</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Apple monitor 24</td><td>Monitors</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: TestCase failed. Expected product &apos;Apple monitor 24&apos; to be visible under category &apos;Monitors&apos;, but it was not found. expected object to not be null
+	at tests.SearchTests.testSearchByCategory(SearchTests.java:91)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m31">tests.SearchTests#testSearchByProductName</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Sony xperia z5</td><td>Phones</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: TestCase failed. Product &apos;Sony xperia z5&apos; is not visible.
+	at tests.SearchTests.testSearchByProductName(SearchTests.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m32">tests.SearchTests#testSearchByProductName</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Sony vaio i5</td><td>Laptops</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: TestCase failed. Product &apos;Sony vaio i5&apos; is not visible.
+	at tests.SearchTests.testSearchByProductName(SearchTests.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m33">tests.CartTests#testAddProductToCart</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Sony vaio i5</td><td>Add</td><td>1.0</td><td>790.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m34">tests.CartTests#testAddProductToCart</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Samsung galaxy s6</td><td>Add</td><td>1.0</td><td>360.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m35">tests.CartTests#testPriceCalculationVerification</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m36">tests.CartTests#testRemoveProductFromCart</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Sony vaio i5</td><td>Remove</td><td>0.0</td><td>0.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m37">tests.CartTests#testRemoveProductFromCart</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Samsung galaxy s6</td><td>Remove</td><td>0.0</td><td>0.0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m38">tests.CheckoutTests#testForGuestCheckout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m39">tests.CheckoutTests#testGuestCheckoutWithDebitCard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m40">tests.LoginTests#loginWithEmptyFields</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Validuser1</td><td></td><td>true</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m41">tests.LoginTests#loginWithEmptyFields</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td></td><td></td><td>true</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m42">tests.LoginTests#loginWithInvalidData</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>invalidUser</td><td>wrongPass</td><td>false</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m43">tests.LoginTests#loginWithInvalidData</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Validuser1</td><td>ValidPass@123</td><td>false</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m44">tests.LoginTests#loginWithInvalidData</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>invalidUser</td><td>validPass@123</td><td>false</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m45">tests.LoginTests#loginWithValidData</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Validuser</td><td>validPass123</td><td>true</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m46">tests.LoginTests#loginWithValidData</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Validuser_100</td><td>valid</td><td>true</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m47">tests.LoginTests#loginWithValidData</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Validuser1</td><td>validPass@123</td><td>true</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m48">tests.SearchTests#testSearchByCategory</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>ASUS Full HD</td><td>Monitors</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m49">tests.SearchTests#testSearchWithNoResults</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

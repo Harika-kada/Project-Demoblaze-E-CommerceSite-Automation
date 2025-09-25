@@ -1,14 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-	<listeners>
-		<listener class-name="listeners.TestListener"></listener>
-	</listeners>
-  <test name="Firefox Test">
-    <classes>
-      <class name="tests.SearchTests"/>
-      <class name="tests.LoginTests"/>
-      <class name="tests.RegistrationTest"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+    <test name="Firefox Tests">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="tests.LoginTests">
+                <methods>
+                    <include name="loginWithValidData"/>
+                    <include name="loginWithInvalidData"/>
+                    <include name="loginWithEmptyFields"/>
+<!--                    <include name="loginWithRememberMe"/>-->
+                </methods>
+            </class>
+            <class name="tests.RegistrationTest">
+                <methods>
+                    <include name="testSignUp"/>
+                </methods>
+            </class>
+            <class name="tests.SearchTests">
+                <methods>
+                    <include name="testSearchByCategory"/>
+                    <include name="testSearchByProductName"/>
+                    <include name="testSearchWithNoResults"/>
+                </methods>
+            </class>
+            <class name="tests.CartTests">
+                <methods>
+                    <include name="testAddProductToCart"/>
+                    <include name="testRemoveProductFromCart"/>
+                    <include name="testCartPersistenceAcrossSessions"/>
+                    <include name="testPriceCalculationVerification"/>
+                </methods>
+            </class>
+            <class name="tests.CheckoutTests">
+                <methods>
+                    <include name="testForGuestCheckout"/>
+                    <include name="testForRegisteredCheckout"/>
+                    <include name="testWithMissingShippingAddress"/>
+                    <include name="testWithMissingPaymentMethod"/>
+                    <include name="testGuestCheckoutWithDebitCard"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Chrome Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.LoginTests">
+                <methods>
+                    <include name="loginWithValidData"/>
+                    <include name="loginWithInvalidData"/>
+                    <include name="loginWithEmptyFields"/>
+<!--                    <include name="loginWithRememberMe"/>-->
+                </methods>
+            </class>
+            <class name="tests.RegistrationTest">
+                <methods>
+                    <include name="testSignUp"/>
+                </methods>
+            </class>
+            <class name="tests.SearchTests">
+                <methods>
+                    <include name="testSearchByCategory"/>
+                    <include name="testSearchByProductName"/>
+                    <include name="testSearchWithNoResults"/>
+                </methods>
+            </class>
+            <class name="tests.CartTests">
+                <methods>
+                    <include name="testAddProductToCart"/>
+                    <include name="testRemoveProductFromCart"/>
+                    <include name="testCartPersistenceAcrossSessions"/>
+                    <include name="testPriceCalculationVerification"/>
+                </methods>
+            </class>
+            <class name="tests.CheckoutTests">
+                <methods>
+                    <include name="testForGuestCheckout"/>
+                    <include name="testForRegisteredCheckout"/>
+                    <include name="testWithMissingShippingAddress"/>
+                    <include name="testWithMissingPaymentMethod"/>
+                    <include name="testGuestCheckoutWithDebitCard"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

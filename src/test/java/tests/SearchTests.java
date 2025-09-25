@@ -20,85 +20,91 @@ import java.time.Duration;
 @Listeners(listeners.TestListener.class)
 public class SearchTests {
 
-    private WebDriver driver;
-    private HomePage homePage;
+	private WebDriver driver;
+	private HomePage homePage;
 
-    @Parameters("browser")
-    @BeforeMethod
-    public void initialSetup(@Optional("firefox") String browser) {
-        LoggerUtil.info("Setting up test....");
+	@Parameters("browser")
+	@BeforeMethod
+	public void initialSetup(@Optional("firefox") String browser) {
+		LoggerUtil.info("Setting up test....");
 
-        DriverManager.setBrowser(browser);
-        driver = DriverManager.getDriver();
-        driver.manage().window().maximize();
-        driver.manage().deleteAllCookies();
+		DriverManager.setBrowser(browser);
+		driver = DriverManager.getDriver();
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
 
-        homePage = new HomePage(driver);
-        homePage.navigateToWebsite();
-        Assert.assertTrue(homePage.isHomePageLoaded(), "Homepage did not load properly in setup.");
-    }
-    @AfterMethod
-    public void tearDown() {
-        DriverManager.quitDriver();
-        LoggerUtil.info("Finishing tests.");
-    }
-    private WebDriverWait getWait() {
-        return new WebDriverWait(driver, Duration.ofSeconds(5));
-    }
-    @DataProvider(name = "searchByProduct")
-    public Object[][] searchByProduct() {
-        return new ExcelReaderSearch().getFilteredSearchData("product", "Sony");
-    }
-    @Test(dataProvider = "searchByProduct", description = "Searching by product name")
-    public void testSearchByProductName(String productName, String category)
-    {
-        LoggerUtil.info("...SEARCH BY PRODUCT NAME...");
-        String testName = "testSearchByProduct_" + productName;
+		homePage = new HomePage(driver);
+		homePage.navigateToWebsite();
+		Assert.assertTrue(homePage.isHomePageLoaded(), "Homepage did not load properly in setup.");
+	}
 
-        homePage.navigateToWebsite();
-        Assert.assertTrue(homePage.isHomePageLoaded(), "Homepage did not load properly");
-        LoggerUtil.info("Checking visibility of product: " + productName);
-        if (!homePage.isProductVisible(productName)) {
-            ScreenshotUtil.captureFailScreenshot(testName);
-            LoggerUtil.error("Product '" + productName + "' is not visible.");
-            Assert.fail("TestCase failed. Product '" + productName + "' is not visible.");
-        }
+	@AfterMethod
+	public void tearDown() {
+		DriverManager.quitDriver();
+		LoggerUtil.info("Finishing tests.");
+	}
 
-        LoggerUtil.info("TestCase passed. Product '" + productName + "' is visible.");
-        ScreenshotUtil.capturePassScreenshot(testName);
-    }
+	private WebDriverWait getWait() {
+		return new WebDriverWait(driver, Duration.ofSeconds(5));
+	}
 
-    @DataProvider(name = "searchByCategory")
-    public Object[][] searchByCategory() {
-        String category = System.getProperty("test.category", "Monitors");
-        return new ExcelReaderSearch().getFilteredSearchData("category", category);
-    }
-    @Test(dataProvider = "searchByCategory", description = "Searching by category")
-    public void testSearchByCategory(String productName, String category)
-    {
-        LoggerUtil.info("...SEARCH BY CATEGORY: " + category + " FOR PRODUCT: " + productName + "...");
+	@DataProvider(name = "searchByProduct")
+	public Object[][] searchByProduct() {
+		return new ExcelReaderSearch().getFilteredSearchData("product", "Sony");
+	}
 
-        LoggerUtil.info("Selecting category: " + category);
-        Assert.assertTrue(homePage.isValidCategory(category), "Invalid category: " + category);
-        homePage.selectCategory(category);
+	@Test(dataProvider = "searchByProduct", description = "Searching by product name")
+	public void testSearchByProductName(String productName, String category) {
+		LoggerUtil.info("...SEARCH BY PRODUCT NAME...");
+		String testName = "testSearchByProduct_" + productName;
 
-        getWait().until(ExpectedConditions.visibilityOfAllElements(homePage.getProductTitles()));
+		homePage.navigateToWebsite();
+		Assert.assertTrue(homePage.isHomePageLoaded(), "Homepage did not load properly");
+		LoggerUtil.info("Checking visibility of product: " + productName);
+		if (!homePage.isProductVisible(productName)) {
+			ScreenshotUtil.captureFailScreenshot(testName);
+			LoggerUtil.error("Product '" + productName + "' is not visible.");
+			Assert.fail("TestCase failed. Product '" + productName + "' is not visible.");
+		}
 
-        WebElement productElement = homePage.getProductElement(productName);
-        Assert.assertNotNull(productElement,"TestCase failed. Expected product '" + productName + "' to be visible under category '" + category + "', but it was not found.");
+		LoggerUtil.info("TestCase passed. Product '" + productName + "' is visible.");
+		ScreenshotUtil.capturePassScreenshot(testName);
+	}
 
-        getWait().until(ExpectedConditions.visibilityOf(productElement));
+	@DataProvider(name = "searchByCategory")
+	public Object[][] searchByCategory() {
+		String category = System.getProperty("test.category", "Monitors");
+		return new ExcelReaderSearch().getFilteredSearchData("category", category);
+	}
 
-        LoggerUtil.info("TestCase passed. Product '" + productName + "' is visible under category '" + category + "'");
-    }
-    @Test
-    public void testSearchWithNoResults() {
+	@Test(dataProvider = "searchByCategory", description = "Searching by category")
+	public void testSearchByCategory(String productName, String category) {
+		LoggerUtil.info("...SEARCH BY CATEGORY: " + category + " FOR PRODUCT: " + productName + "...");
 
-        homePage.selectCategory("Phones");
-        Assert.assertFalse(homePage.isProductVisible("NonExistentProduct"),"TestCase failed. Found an unexpected product ('NonExistentProduct') after filtering.");
+		LoggerUtil.info("Selecting category: " + category);
+		Assert.assertTrue(homePage.isValidCategory(category), "Invalid category: " + category);
+		homePage.selectCategory(category);
 
-        LoggerUtil.info("TestCase passed. Product not found as expected.");
-    }
+		getWait().until(ExpectedConditions.visibilityOfAllElements(homePage.getProductTitles()));
+
+		WebElement productElement = homePage.getProductElement(productName);
+		Assert.assertNotNull(productElement, "TestCase failed. Expected product '" + productName
+				+ "' to be visible under category '" + category + "', but it was not found.");
+
+		getWait().until(ExpectedConditions.visibilityOf(productElement));
+
+		LoggerUtil.info("TestCase passed. Product '" + productName + "' is visible under category '" + category + "'");
+	}
+
+	@Test
+	public void testSearchWithNoResults() {
+
+		homePage.selectCategory("Phones");
+		Assert.assertFalse(homePage.isProductVisible("NonExistentProduct"),
+				"TestCase failed. Found an unexpected product ('NonExistentProduct') after filtering.");
+
+		LoggerUtil.info("TestCase passed. Product not found as expected.");
+	}
 
 //    @Test
 //    public void testSearchMultipleProducts() {
