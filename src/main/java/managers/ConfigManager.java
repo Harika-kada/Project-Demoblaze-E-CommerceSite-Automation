@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigManager {
+    
     private static final Properties properties = new Properties();
     private static final String CONFIG_FILE = "src/main/resources/config.properties";
 
