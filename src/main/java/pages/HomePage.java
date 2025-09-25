@@ -1,6 +1,7 @@
 package pages;
 
 import managers.ConfigManager;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,9 +10,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import utils.LoggerUtil;
 
 import java.util.List;
+import java.util.Map;
 
-public class HomePage extends BasePage
-{
+public class HomePage extends BasePage {
     @FindBy(id = "logout2")
     private WebElement logoutButton;
 
@@ -27,32 +28,70 @@ public class HomePage extends BasePage
     @FindBy(css = ".card-title")
     private List<WebElement> productTitles;
 
-    public HomePage() {
-        super();
-        PageFactory.initElements(driver, this);
+    @FindBy(xpath = "//a[@class='hrefch']")
+    private List<WebElement> productLinks;
+
+    @FindBy(xpath = "//a[text()='Cart']")
+    private WebElement cartButton;
+
+    private Map<String, WebElement> categoryMap;
+
+    public HomePage(WebDriver driver) {
+        super(driver);
+
+        this.categoryMap = Map.of(
+                "phones", phonesCategory,
+                "laptops", laptopsCategory,
+                "monitors", monitorsCategory
+        );
+    }
+    public List<WebElement> getProductTitles() {
+        return productTitles;
     }
     public void navigateToWebsite() {
-        driver.get(ConfigManager.getUrl("base_url"));
-        LoggerUtil.info("Navigating to website url " + ConfigManager.getUrl("base_url"));
+        String url = ConfigManager.getUrl("base_url");
+        driver.get(url);
+        LoggerUtil.info("Navigating to website url: " + url);
     }
-    public void selectCategory(String category) {
-        switch (category.toLowerCase()) {
-            case "phones":
-                phonesCategory.click();
-                break;
-            case "laptops":
-                laptopsCategory.click();
-                break;
-            case "monitors":
-                monitorsCategory.click();
-                break;
-            default:
-                throw new IllegalArgumentException("Invalid category: " + category);
+    public boolean isHomePageLoaded() {
+        try {
+            wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@class='nav-link'][contains(text(), 'Home')]")));
+            LoggerUtil.info("Home page loaded successfully.");
+            return true;
+        } catch (Exception e) {
+            LoggerUtil.error("Home page failed to load: " + e.getMessage());
+            return false;
         }
     }
+    public void selectProduct(String productName) {
+        try {
+            String productLinkXPath = String.format("//a[@class='hrefch'][text()='%s']", productName);
+            WebElement productLink = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(productLinkXPath)));
+            click(productLink, "Product: " + productName);
+            LoggerUtil.info("Successfully selected the product: " + productName);
+        } catch (Exception e) {
+            LoggerUtil.error("Failed to select product '" + productName + "'. Error: " + e.getMessage());
+            throw new RuntimeException("Could not find and click product: " + productName, e);
+        }
+    }
+    public void selectCategory(String category) {
+        WebElement element = categoryMap.get(category.toLowerCase());
+        if (element == null) {
+            throw new IllegalArgumentException("Invalid category: " + category);
+        }
+        click(element, category + " Category");
+    }
+    public boolean isValidCategory(String category) {
+        return categoryMap.containsKey(category.toLowerCase());
+    }
     public boolean isProductVisible(String productName) {
+        return productTitles.stream().anyMatch(title -> title.getText().equalsIgnoreCase(productName));
+    }
+    public WebElement getProductElement(String productName) {
         return productTitles.stream()
-                .anyMatch(title -> title.getText().equalsIgnoreCase(productName));
+                .filter(p -> p.getText().equalsIgnoreCase(productName))
+                .findFirst()
+                .orElse(null);
     }
     public void logout() {
         try {
