@@ -2,6 +2,7 @@ package pages;
 
 
 import managers.ConfigManager;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -25,23 +26,19 @@ public class RegistrationPage extends BasePage
     @FindBy(xpath = "//button[contains(text(),'Sign up')]")
     private WebElement signUpButton;
 
-    @FindBy(xpath = "//button[contains(text(),'Close')]")
+    @FindBy(xpath = "//div[@id='signInModal']//button[contains(text(),'Close')]")
     private WebElement closeButton;
 
-    public RegistrationPage()
+    public RegistrationPage(WebDriver driver)
     {
-        super();
+        super(driver);
         PageFactory.initElements(driver, this);
     }
     public void navigateToSignUpPage()
     {
-        driver.get(ConfigManager.getUrl("base_url"));
-        LoggerUtil.info("Navigating to website url " + ConfigManager.getUrl("base_url"));
-
-        click(openSignupPage, "Navigating to SignUp page");
-
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        click(openSignupPage, "Clicked on signup link");
         wait.until(ExpectedConditions.visibilityOf(usernameField));
+        LoggerUtil.info("Opened signup page.");
     }
     public void signUp(String username, String password)
     {
