@@ -1,31 +1,41 @@
 package tests;
 
-import data.ExcelReaderLogin;
 import data.ExcelReaderRegistration;
 import managers.ConfigManager;
 import managers.DriverManager;
 
 import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
+import pages.BasePage;
 import pages.RegistrationPage;
 import utils.LoggerUtil;
 
 import java.time.Duration;
 
+@Listeners(listeners.TestListener.class)
 public class RegistrationTest
 {
+    private WebDriver driver;
+    BasePage basePage;
+    RegistrationPage signUpPage;
+
+    @Parameters("browser")
     @BeforeMethod
-    public void initialSetup() {
+    public void initialSetup(@Optional("firefox") String browser) {
         LoggerUtil.info("Setting up test....");
-        DriverManager.getDriver().manage().window().maximize();
-        DriverManager.getDriver().manage().deleteAllCookies();
+
+        DriverManager.setBrowser(browser);
+
+        driver = DriverManager.getDriver();
+        driver.manage().window().maximize();
+        driver.manage().deleteAllCookies();
+
+        basePage = new BasePage(driver);
+        signUpPage = new RegistrationPage(driver);
+        driver.get(ConfigManager.getUrl("base_url"));
     }
     @AfterMethod
     public void tearDown() {
@@ -38,45 +48,25 @@ public class RegistrationTest
     }
     @Test(dataProvider = "validRegistrationData", description = "Verifying with all valid credentials")
     public void testSignUp(String username, String password, boolean expectedResult) {
-        String testName = "testSignUp";
+        LoggerUtil.info("...TEST SIGNUP FOR USER: " + username + "...");
 
-        RegistrationPage signUpPage = new RegistrationPage();
         signUpPage.navigateToSignUpPage();
         signUpPage.signUp(username, password);
 
-        WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(3));
-        try {
-            wait.until(ExpectedConditions.alertIsPresent());
+        String alertText = basePage.handleAlertAndGetText();
+        Assert.assertNotNull(alertText, "Expected an alert message after registration but none was shown.");
 
-            Alert alert = DriverManager.getDriver().switchTo().alert();
-            String alertText = alert.getText();
-            alert.accept();
-            LoggerUtil.info("Alert displayed: " + alertText);
+        if (alertText.equals("Sign up successful.")) {
+            Assert.assertTrue(expectedResult, "Test passed, but expectedResult was FALSE.");
+            LoggerUtil.info("Testcase passed. Registration successful for user: " + username);
 
-            if (alertText.equals("Sign up successful.")) {
-//                ScreenshotUtil.capturePassScreenshot(testName);
-                LoggerUtil.info("Testcase passed. Registration successful for user: " + username);
-            } else if (alertText.equals("This user already exist.")) {
-//                ScreenshotUtil.captureFailScreenshot(testName);
-                LoggerUtil.warn("Testcase failed. Registration failed: User already exists - " + username);
-                Assert.fail("Testcase failed. Registration failed: Duplicate user.");
-            } else {
-//                ScreenshotUtil.captureFailScreenshot(testName);
-                LoggerUtil.error("Unexpected alert message: " + alertText);
-                Assert.fail("Testcase failed. Signup failed: Unexpected alert message.");
-            }
+        } else if (alertText.equals("This user already exist.")) {
+            LoggerUtil.warn("Registration blocked: User already exists - " + username);
+            Assert.fail("Testcase failed. Registration blocked: User already exists.");
 
-//            boolean isInvalidSignIn = alertText.equals("This user already exist.");
-//            Assert.assertTrue(isInvalidSignIn, "Unexpected alert message: " + alertText);
-//            ScreenshotUtil.captureFailScreenshot(testName);
-//            LoggerUtil.error("SignUp failed for user: " + ConfigManager.getProperty("valid.username"));
-        }
-        catch (TimeoutException | NoAlertPresentException e) {
-//            ScreenshotUtil.capturePassScreenshot(testName);
-//            LoggerUtil.info("Signup successful for user: " + ConfigManager.getProperty("valid.username"));
-//            ScreenshotUtil.captureFailScreenshot(testName);
-            LoggerUtil.error("Testcase failed. Signup failed: No alert was displayed.");
-            Assert.fail("Testcase failed. Signup failed: No alert was displayed.");
+        } else {
+            LoggerUtil.error("Unexpected alert message: " + alertText);
+            Assert.fail("Testcase failed. Signup failed: Unexpected alert message: " + alertText);
         }
     }
 }
