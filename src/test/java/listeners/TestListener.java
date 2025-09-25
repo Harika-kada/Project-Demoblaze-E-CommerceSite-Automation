@@ -19,7 +19,15 @@ import java.nio.file.Paths;
 import java.util.Arrays;
 
 public class TestListener implements ITestListener {
-
+//    @Override
+//    public void onTestFailure(ITestResult result) {
+//        TakesScreenshot ts = (TakesScreenshot) DriverManager.getDriver();
+//        File src = ts.getScreenshotAs(OutputType.FILE);
+//        try {
+//            Files.copy(src.toPath(), Paths.get("output/screenshots/" + result.getName() + ".png"));
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
     private static final List<TestResultModel> results = new ArrayList<>();
 
     @Override
@@ -28,7 +36,6 @@ public class TestListener implements ITestListener {
         String browser = context.getCurrentXmlTest().getParameter("browser");
         ExtentManager.getExtent().setSystemInfo("Browser", browser);
     }
-
     @Override
     public void onTestStart(ITestResult result) {
         String className = result.getTestClass().getName();
@@ -39,37 +46,36 @@ public class TestListener implements ITestListener {
         LoggerUtil.info("Starting test: " + methodName);
         extentTest.info("Test parameters: " + Arrays.toString(result.getParameters()));
     }
-
     @Override
     public void onTestSuccess(ITestResult result) {
-//        LoggerUtil.info("Test passed: " + result.getName());
-//        String screenshotPath = ScreenshotUtil.capturePassScreenshot(result.getName());
         String screenshotPath = ScreenshotUtil.capturePassScreenshot(result.getName());
-        results.add(new TestResultModel(result.getName(), "PASS", "screenshots/" + result.getName() + ".png"));
+
         ExtentManager.getTest().get().pass("Test passed");
         ExtentManager.getTest().get().addScreenCaptureFromPath(screenshotPath);
 
+        String relativePathForCustomReport = screenshotPath.substring(
+                screenshotPath.indexOf("output/"));
+        results.add(new TestResultModel(result.getName(), "PASS", relativePathForCustomReport));
 //        attachScreenshotToAllure(screenshotPath);
     }
-
     @Override
     public void onTestFailure(ITestResult result) {
-//        LoggerUtil.error("Test failed: " + result.getName());
-//        String screenshotPath = ScreenshotUtil.captureFailScreenshot(result.getName());
         String screenshotPath = ScreenshotUtil.captureFailScreenshot(result.getName());
-        results.add(new TestResultModel(result.getName(), "FAIL", "screenshots/" + result.getName() + ".png"));
+
         ExtentManager.getTest().get().fail(result.getThrowable());
         ExtentManager.getTest().get().addScreenCaptureFromPath(screenshotPath);
 
+        String relativePathForCustomReport = screenshotPath.substring(
+                screenshotPath.indexOf("output/"));
+
+        results.add(new TestResultModel(result.getName(), "FAIL", relativePathForCustomReport));
 //        attachScreenshotToAllure(screenshotPath);
     }
-
     @Override
     public void onTestSkipped(ITestResult result) {
         LoggerUtil.warn("Test skipped: " + result.getName());
         ExtentManager.getTest().get().skip("Test skipped");
     }
-
     @Override
     public void onFinish(ITestContext context) {
         LoggerUtil.info("Test suite finished: " + context.getName());
