@@ -1,0 +1,755 @@
+21:56:13.995 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+21:56:14.040 [main] INFO  utils.LoggerUtil - Setting up test....
+21:56:14.424 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+21:56:14.445 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+21:56:21.331 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+21:56:21.771 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to SignUp page
+21:56:21.882 [main] INFO  utils.LoggerUtil - Typed value as: ValidUser to element UserName
+21:56:21.990 [main] INFO  utils.LoggerUtil - Typed value as: validPass123 to element Password
+21:56:22.288 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+21:56:23.393 [main] INFO  utils.LoggerUtil - Alert displayed: This user already exist.
+21:56:23.668 [main] INFO  utils.LoggerUtil - Browser screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze\output\screenshots\fail\testSignUp_browser_20250917_215623.png
+21:56:24.441 [main] INFO  utils.LoggerUtil - Desktop screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze\output\screenshots\fail\testSignUp_desktop_20250917_215623.png
+21:56:24.445 [main] WARN  utils.LoggerUtil - Signup failed: User already exists - ValidUser
+21:56:26.181 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:03:19.586 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+22:03:19.623 [main] INFO  utils.LoggerUtil - Setting up test....
+22:03:20.469 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Reading https://raw.githubusercontent.com/bonigarcia/webdrivermanager/master/docs/mirror/geckodriver to seek geckodriver
+22:03:21.006 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:03:28.258 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:03:28.629 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to SignUp page
+22:03:28.775 [main] INFO  utils.LoggerUtil - Typed value as: ValidUser to element UserName
+22:03:28.912 [main] INFO  utils.LoggerUtil - Typed value as: validPass123 to element Password
+22:03:29.201 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:03:29.776 [main] INFO  utils.LoggerUtil - Alert displayed: This user already exist.
+22:03:29.903 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze\output\screenshots\fail\testSignUp_20250917_220329.png
+22:03:29.903 [main] WARN  utils.LoggerUtil - Signup failed: User already exists - ValidUser
+22:03:30.967 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:15:12.916 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+22:15:13.623 [main] INFO  utils.LoggerUtil - Setting up test....
+22:15:13.954 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:15:13.977 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:15:22.186 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:15:22.610 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:15:22.731 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:15:22.875 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:15:23.217 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:15:26.408 [main] INFO  utils.LoggerUtil - Login successful for user: Validuser1
+22:15:26.537 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze\output\screenshots\pass\loginWithValidData_Validuser1_20250917_221526.png
+22:15:26.994 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:15:27.050 [main] INFO  utils.LoggerUtil - Successfully logged out
+22:15:28.500 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:15:28.503 [main] INFO  utils.LoggerUtil - Setting up test....
+22:15:28.541 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:15:28.577 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:15:35.816 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:15:36.245 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:15:36.566 [main] INFO  utils.LoggerUtil - Typed value as: Validuser to element UserName
+22:15:36.704 [main] INFO  utils.LoggerUtil - Typed value as: ValidPass123 to element Password
+22:15:36.995 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:15:38.058 [main] INFO  utils.LoggerUtil - Alert message: Wrong password.
+22:15:38.089 [main] WARN  utils.LoggerUtil - Alert displayed: Wrong password.
+22:15:38.208 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze\output\screenshots\fail\loginWithValidData_Validuser_20250917_221538.png
+22:15:38.208 [main] ERROR utils.LoggerUtil - Login failed for user: Validuser
+22:15:39.712 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:15:39.714 [main] INFO  utils.LoggerUtil - Setting up test....
+22:15:39.729 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:15:39.741 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:15:46.891 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:15:47.355 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:15:48.035 [main] INFO  utils.LoggerUtil - Typed value as: Validuser_100 to element UserName
+22:15:48.169 [main] INFO  utils.LoggerUtil - Typed value as: valid to element Password
+22:15:48.624 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:15:51.759 [main] INFO  utils.LoggerUtil - Login successful for user: Validuser_100
+22:15:51.850 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze\output\screenshots\pass\loginWithValidData_Validuser_100_20250917_221551.png
+22:15:52.338 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:15:52.408 [main] INFO  utils.LoggerUtil - Successfully logged out
+22:15:54.646 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:19:41.996 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+22:19:42.692 [main] INFO  utils.LoggerUtil - Setting up test....
+22:19:43.140 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:19:43.179 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:19:52.587 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:19:52.965 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:19:53.178 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:19:53.309 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:19:53.624 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:19:55.387 [main] INFO  utils.LoggerUtil - Login successful for user: Validuser1
+22:19:55.961 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:19:56.040 [main] INFO  utils.LoggerUtil - Successfully logged out
+22:20:00.172 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:20:00.172 [main] INFO  utils.LoggerUtil - Setting up test....
+22:20:00.197 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:20:00.238 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:20:07.456 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:20:07.823 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:20:08.657 [main] INFO  utils.LoggerUtil - Typed value as: Validuser to element UserName
+22:20:08.754 [main] INFO  utils.LoggerUtil - Typed value as: ValidPass123 to element Password
+22:20:09.118 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:20:12.417 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:20:12.419 [main] INFO  utils.LoggerUtil - Setting up test....
+22:20:12.444 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:20:12.480 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:20:20.090 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:20:20.567 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:20:20.735 [main] INFO  utils.LoggerUtil - Typed value as: Validuser_100 to element UserName
+22:20:20.904 [main] INFO  utils.LoggerUtil - Typed value as: valid to element Password
+22:20:21.214 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:20:22.863 [main] INFO  utils.LoggerUtil - Login successful for user: Validuser_100
+22:20:23.432 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:20:23.521 [main] INFO  utils.LoggerUtil - Successfully logged out
+22:20:27.670 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:21:09.279 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+22:21:09.821 [main] INFO  utils.LoggerUtil - Setting up test....
+22:21:10.150 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:21:10.169 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:21:16.823 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:21:17.358 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:21:18.034 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:21:18.240 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:21:18.657 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:21:20.301 [main] INFO  utils.LoggerUtil - Login successful for user: Validuser1
+22:21:20.822 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:21:20.875 [main] INFO  utils.LoggerUtil - Successfully logged out
+22:21:25.104 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:21:25.107 [main] INFO  utils.LoggerUtil - Setting up test....
+22:21:25.139 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:21:25.165 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:21:32.379 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:21:32.966 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:21:33.118 [main] INFO  utils.LoggerUtil - Typed value as: Validuser to element UserName
+22:21:33.408 [main] INFO  utils.LoggerUtil - Typed value as: ValidPass123 to element Password
+22:21:33.714 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:21:35.799 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:21:35.801 [main] INFO  utils.LoggerUtil - Setting up test....
+22:21:35.812 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:21:35.822 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:21:43.092 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:21:43.641 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:21:43.805 [main] INFO  utils.LoggerUtil - Typed value as: Validuser_100 to element UserName
+22:21:43.923 [main] INFO  utils.LoggerUtil - Typed value as: valid to element Password
+22:21:44.242 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:21:45.880 [main] INFO  utils.LoggerUtil - Login successful for user: Validuser_100
+22:21:46.431 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:21:46.504 [main] INFO  utils.LoggerUtil - Successfully logged out
+22:21:50.616 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:25:39.978 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+22:25:40.500 [main] INFO  utils.LoggerUtil - Setting up test....
+22:25:41.757 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:25:41.778 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:25:48.669 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:25:49.042 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:25:49.249 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:25:49.452 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:25:49.778 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:25:52.921 [main] INFO  utils.LoggerUtil - Login testcase successful for user: Validuser1
+22:25:53.388 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:25:53.436 [main] INFO  utils.LoggerUtil - Successfully logged out
+22:25:54.788 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:25:54.790 [main] INFO  utils.LoggerUtil - Setting up test....
+22:25:54.818 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:25:54.840 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:26:02.977 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:26:03.529 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:26:03.650 [main] INFO  utils.LoggerUtil - Typed value as: Validuser to element UserName
+22:26:03.855 [main] INFO  utils.LoggerUtil - Typed value as: ValidPass123 to element Password
+22:26:04.184 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:26:04.732 [main] INFO  utils.LoggerUtil - Alert message: Wrong password.
+22:26:04.757 [main] WARN  utils.LoggerUtil - Alert displayed: Wrong password.
+22:26:04.916 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze\output\screenshots\fail\loginWithValidData_Validuser_20250917_222604.png
+22:26:04.916 [main] ERROR utils.LoggerUtil - Login test case failed for user: Validuser
+22:26:09.421 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:26:09.423 [main] INFO  utils.LoggerUtil - Setting up test....
+22:26:09.458 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:26:09.491 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:26:17.409 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:26:17.859 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:26:17.992 [main] INFO  utils.LoggerUtil - Typed value as: Validuser_100 to element UserName
+22:26:18.157 [main] INFO  utils.LoggerUtil - Typed value as: valid to element Password
+22:26:18.459 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:26:21.592 [main] INFO  utils.LoggerUtil - Login testcase successful for user: Validuser_100
+22:26:22.089 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:26:22.142 [main] INFO  utils.LoggerUtil - Successfully logged out
+22:26:23.547 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:32:44.503 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+22:32:45.052 [main] INFO  utils.LoggerUtil - Setting up test....
+22:32:45.377 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:32:45.401 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:32:52.988 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:32:53.398 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:32:53.701 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:32:53.895 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:32:54.228 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:32:57.362 [main] INFO  utils.LoggerUtil - Login testcase successful for user: Validuser1
+22:32:57.477 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze\output\screenshots\pass\loginWithValidData_Validuser1_20250917_223257.png
+22:32:57.962 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:32:58.013 [main] INFO  utils.LoggerUtil - Successfully logged out
+22:32:59.999 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:33:00.003 [main] INFO  utils.LoggerUtil - Setting up test....
+22:33:00.035 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:33:00.069 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:33:07.873 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:33:08.281 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:33:09.028 [main] INFO  utils.LoggerUtil - Typed value as: Validuser to element UserName
+22:33:09.184 [main] INFO  utils.LoggerUtil - Typed value as: validPass123 to element Password
+22:33:09.498 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:33:12.627 [main] INFO  utils.LoggerUtil - Login testcase successful for user: Validuser
+22:33:12.727 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze\output\screenshots\pass\loginWithValidData_Validuser_20250917_223312.png
+22:33:13.211 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:33:13.271 [main] INFO  utils.LoggerUtil - Successfully logged out
+22:33:14.562 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:33:14.565 [main] INFO  utils.LoggerUtil - Setting up test....
+22:33:14.593 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:33:14.629 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:33:22.218 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:33:22.717 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:33:22.915 [main] INFO  utils.LoggerUtil - Typed value as: Validuser_100 to element UserName
+22:33:23.177 [main] INFO  utils.LoggerUtil - Typed value as: valid to element Password
+22:33:23.492 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:33:26.676 [main] INFO  utils.LoggerUtil - Login testcase successful for user: Validuser_100
+22:33:26.851 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze\output\screenshots\pass\loginWithValidData_Validuser_100_20250917_223326.png
+22:33:27.646 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:33:27.718 [main] INFO  utils.LoggerUtil - Successfully logged out
+22:33:29.236 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:40:11.191 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+22:40:11.752 [main] INFO  utils.LoggerUtil - Setting up test....
+22:40:12.097 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:40:12.119 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:40:19.051 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:40:19.637 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:40:19.809 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+22:40:19.923 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:40:20.230 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:40:21.303 [main] INFO  utils.LoggerUtil - Alert message: Wrong password.
+22:40:21.335 [main] WARN  utils.LoggerUtil - Alert displayed: Wrong password.
+22:40:21.338 [main] ERROR utils.LoggerUtil - Login test case passed for user: invalidUser
+22:40:25.831 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:40:25.832 [main] INFO  utils.LoggerUtil - Setting up test....
+22:40:25.862 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:40:25.889 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:40:33.473 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:40:33.985 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:40:34.103 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:40:34.399 [main] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+22:40:34.712 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:40:35.762 [main] INFO  utils.LoggerUtil - Alert message: Wrong password.
+22:40:35.792 [main] WARN  utils.LoggerUtil - Alert displayed: Wrong password.
+22:40:35.792 [main] ERROR utils.LoggerUtil - Login test case passed for user: Validuser1
+22:40:39.961 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:40:39.963 [main] INFO  utils.LoggerUtil - Setting up test....
+22:40:39.988 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:40:40.000 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:40:47.370 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:40:47.780 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:40:47.916 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+22:40:48.046 [main] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+22:40:48.489 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:40:49.546 [main] INFO  utils.LoggerUtil - Alert message: Wrong password.
+22:40:49.573 [main] WARN  utils.LoggerUtil - Alert displayed: Wrong password.
+22:40:49.573 [main] ERROR utils.LoggerUtil - Login test case passed for user: invalidUser
+22:40:53.924 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:41:35.046 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+22:41:35.609 [main] INFO  utils.LoggerUtil - Setting up test....
+22:41:35.962 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:41:35.988 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:41:43.792 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:41:44.386 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:41:44.535 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+22:41:44.755 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:41:45.100 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:41:46.200 [main] INFO  utils.LoggerUtil - Alert message: Wrong password.
+22:41:46.236 [main] WARN  utils.LoggerUtil - Alert displayed: Wrong password.
+22:41:46.245 [main] ERROR utils.LoggerUtil - Login test case passed for user: invalidUser
+22:41:47.678 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:41:47.682 [main] INFO  utils.LoggerUtil - Setting up test....
+22:41:47.713 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:41:47.755 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:41:55.032 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:41:55.506 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:41:55.652 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:41:55.784 [main] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+22:41:56.214 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:41:57.294 [main] INFO  utils.LoggerUtil - Alert message: Wrong password.
+22:41:57.334 [main] WARN  utils.LoggerUtil - Alert displayed: Wrong password.
+22:41:57.334 [main] ERROR utils.LoggerUtil - Login test case passed for user: Validuser1
+22:41:58.717 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:41:58.718 [main] INFO  utils.LoggerUtil - Setting up test....
+22:41:58.728 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:41:58.737 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:42:06.135 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:42:06.610 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:42:07.112 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+22:42:07.297 [main] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+22:42:07.643 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:42:08.729 [main] INFO  utils.LoggerUtil - Alert message: Wrong password.
+22:42:08.760 [main] WARN  utils.LoggerUtil - Alert displayed: Wrong password.
+22:42:08.760 [main] ERROR utils.LoggerUtil - Login test case passed for user: invalidUser
+22:42:10.229 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:42:33.766 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+22:42:34.343 [main] INFO  utils.LoggerUtil - Setting up test....
+22:42:34.724 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:42:34.745 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:42:42.604 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:42:43.269 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:42:43.449 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+22:42:43.609 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:42:43.912 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:42:44.984 [main] INFO  utils.LoggerUtil - Alert message: Wrong password.
+22:42:45.015 [main] WARN  utils.LoggerUtil - Alert displayed: Wrong password.
+22:42:45.190 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze\output\screenshots\pass\loginWithInvalidData_invalidUser_20250917_224245.png
+22:42:45.190 [main] ERROR utils.LoggerUtil - Login test case passed for user: invalidUser
+22:42:47.092 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:42:47.094 [main] INFO  utils.LoggerUtil - Setting up test....
+22:42:47.130 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:42:47.163 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:42:54.205 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:42:54.637 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:42:55.378 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:42:55.524 [main] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+22:42:55.869 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:42:56.912 [main] INFO  utils.LoggerUtil - Alert message: Wrong password.
+22:42:56.945 [main] WARN  utils.LoggerUtil - Alert displayed: Wrong password.
+22:42:57.077 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze\output\screenshots\pass\loginWithInvalidData_Validuser1_20250917_224257.png
+22:42:57.078 [main] ERROR utils.LoggerUtil - Login test case passed for user: Validuser1
+22:42:59.101 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:42:59.103 [main] INFO  utils.LoggerUtil - Setting up test....
+22:42:59.126 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:42:59.158 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:43:06.758 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:43:07.321 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:43:07.617 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+22:43:07.760 [main] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+22:43:08.055 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:43:09.133 [main] INFO  utils.LoggerUtil - Alert message: Wrong password.
+22:43:09.156 [main] WARN  utils.LoggerUtil - Alert displayed: Wrong password.
+22:43:09.282 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze\output\screenshots\pass\loginWithInvalidData_invalidUser_20250917_224309.png
+22:43:09.283 [main] ERROR utils.LoggerUtil - Login test case passed for user: invalidUser
+22:43:11.497 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:44:18.122 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+22:44:18.715 [main] INFO  utils.LoggerUtil - Setting up test....
+22:44:19.060 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:44:19.080 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:44:26.850 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:44:27.573 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:44:27.824 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+22:44:28.125 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:44:28.482 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:44:29.059 [main] INFO  utils.LoggerUtil - Alert message: Wrong password.
+22:44:29.096 [main] WARN  utils.LoggerUtil - Alert displayed: Wrong password.
+22:44:29.101 [main] ERROR utils.LoggerUtil - Login test case passed for user: invalidUser
+22:44:30.817 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:44:30.822 [main] INFO  utils.LoggerUtil - Setting up test....
+22:44:30.855 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:44:30.892 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:44:39.030 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:44:39.652 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:44:39.761 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:44:39.882 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:44:40.181 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:44:44.301 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:44:44.302 [main] INFO  utils.LoggerUtil - Setting up test....
+22:44:44.316 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:44:44.332 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:44:50.847 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:44:51.274 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:44:51.447 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+22:44:51.782 [main] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+22:44:52.146 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:44:53.253 [main] INFO  utils.LoggerUtil - Alert message: Wrong password.
+22:44:53.286 [main] WARN  utils.LoggerUtil - Alert displayed: Wrong password.
+22:44:53.287 [main] ERROR utils.LoggerUtil - Login test case passed for user: invalidUser
+22:44:54.722 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:56:34.469 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+22:56:35.101 [main] INFO  utils.LoggerUtil - Setting up test....
+22:56:35.468 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:56:35.489 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:56:42.433 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:56:42.785 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:56:42.906 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+22:56:43.035 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:56:43.329 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:56:44.385 [main] INFO  utils.LoggerUtil - Alert message: Wrong password.
+22:56:44.432 [main] WARN  utils.LoggerUtil - Alert displayed: Wrong password.
+22:56:44.563 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze\output\screenshots\pass\loginWithInvalidData_invalidUser_20250917_225644.png
+22:56:44.563 [main] INFO  utils.LoggerUtil - Login correctly rejected for user: invalidUser
+22:56:45.938 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:56:45.940 [main] INFO  utils.LoggerUtil - Setting up test....
+22:56:45.957 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:56:45.973 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:56:52.315 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:56:52.840 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:56:53.585 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:56:53.752 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:56:54.054 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:56:57.175 [main] INFO  utils.LoggerUtil - Successfully displayed element: Logout Button
+22:56:58.223 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:56:58.223 [main] INFO  utils.LoggerUtil - Setting up test....
+22:56:58.228 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:56:58.260 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:57:04.878 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:57:05.400 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:57:06.039 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+22:57:06.273 [main] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+22:57:06.552 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:57:07.621 [main] INFO  utils.LoggerUtil - Alert message: Wrong password.
+22:57:07.654 [main] WARN  utils.LoggerUtil - Alert displayed: Wrong password.
+22:57:07.757 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze\output\screenshots\pass\loginWithInvalidData_invalidUser_20250917_225707.png
+22:57:07.757 [main] INFO  utils.LoggerUtil - Login correctly rejected for user: invalidUser
+22:57:09.594 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:00:52.341 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+23:00:52.877 [main] INFO  utils.LoggerUtil - Setting up test....
+23:00:53.219 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:00:53.244 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:01:00.072 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+23:01:00.684 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+23:01:00.888 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+23:01:01.077 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+23:01:01.421 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+23:01:02.507 [main] INFO  utils.LoggerUtil - Alert message: Wrong password.
+23:01:02.532 [main] WARN  utils.LoggerUtil - Alert displayed: Wrong password.
+23:01:02.542 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+23:01:04.027 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:01:04.030 [main] INFO  utils.LoggerUtil - Setting up test....
+23:01:04.056 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:01:04.074 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:01:11.503 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+23:01:11.877 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+23:01:12.135 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+23:01:12.412 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+23:01:12.811 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+23:01:15.932 [main] INFO  utils.LoggerUtil - Successfully displayed element: Logout Button
+23:01:17.072 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:01:17.075 [main] INFO  utils.LoggerUtil - Setting up test....
+23:01:17.100 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:01:17.132 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:01:24.454 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+23:01:24.951 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+23:01:25.236 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+23:01:25.389 [main] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+23:01:25.922 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+23:01:26.994 [main] INFO  utils.LoggerUtil - Alert message: Wrong password.
+23:01:27.033 [main] WARN  utils.LoggerUtil - Alert displayed: Wrong password.
+23:01:27.034 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+23:01:28.508 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:04:43.653 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+23:04:44.180 [main] INFO  utils.LoggerUtil - Setting up test....
+23:04:44.528 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:04:44.549 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:04:51.965 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+23:04:52.287 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+23:04:52.440 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+23:04:52.666 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+23:04:52.987 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+23:04:53.552 [main] INFO  utils.LoggerUtil - Alert message: Wrong password.
+23:04:53.593 [main] WARN  utils.LoggerUtil - Alert displayed: Wrong password.
+23:04:53.593 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+23:04:55.066 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:04:55.068 [main] INFO  utils.LoggerUtil - Setting up test....
+23:04:55.105 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:04:55.144 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:05:03.019 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+23:05:03.559 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+23:05:03.813 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+23:05:03.966 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+23:05:04.299 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+23:05:07.439 [main] INFO  utils.LoggerUtil - Successfully displayed element: Logout Button
+23:05:07.553 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze\output\screenshots\fail\loginWithInvalidData_Validuser1_20250917_230507.png
+23:05:07.553 [main] ERROR utils.LoggerUtil - Testcase failed. Login unexpectedly succeeded for user: Validuser1
+23:05:08.023 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+23:05:08.085 [main] INFO  utils.LoggerUtil - Successfully logged out
+23:05:09.578 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:05:09.580 [main] INFO  utils.LoggerUtil - Setting up test....
+23:05:09.607 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:05:09.640 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:05:17.614 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+23:05:18.152 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+23:05:18.882 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+23:05:19.036 [main] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+23:05:19.351 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+23:05:20.395 [main] INFO  utils.LoggerUtil - Alert message: Wrong password.
+23:05:20.418 [main] WARN  utils.LoggerUtil - Alert displayed: Wrong password.
+23:05:20.418 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+23:05:21.831 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:08:08.804 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+23:08:09.378 [main] INFO  utils.LoggerUtil - Setting up test....
+23:08:09.762 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:08:09.794 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:08:16.545 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+23:08:16.992 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+23:08:17.101 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+23:08:17.260 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+23:08:17.544 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+23:08:18.605 [main] INFO  utils.LoggerUtil - Alert message: Wrong password.
+23:08:18.644 [main] WARN  utils.LoggerUtil - Alert displayed: Wrong password.
+23:08:18.646 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+23:08:19.739 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:08:19.742 [main] INFO  utils.LoggerUtil - Setting up test....
+23:08:19.762 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:08:19.772 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:08:26.110 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+23:08:26.495 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+23:08:27.116 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+23:08:27.177 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+23:08:27.439 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+23:08:30.559 [main] INFO  utils.LoggerUtil - Successfully displayed element: Logout Button
+23:08:30.720 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze\output\screenshots\fail\loginWithInvalidData_Validuser1_20250917_230830.png
+23:08:30.720 [main] ERROR utils.LoggerUtil - Testcase failed. Login unexpectedly succeeded for user: Validuser1
+23:08:31.751 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:08:31.751 [main] INFO  utils.LoggerUtil - Setting up test....
+23:08:31.782 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:08:31.819 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:08:38.569 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+23:08:38.960 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+23:08:39.177 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+23:08:39.342 [main] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+23:08:39.637 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+23:08:40.691 [main] INFO  utils.LoggerUtil - Alert message: Wrong password.
+23:08:40.714 [main] WARN  utils.LoggerUtil - Alert displayed: Wrong password.
+23:08:40.715 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+23:08:42.078 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:21:57.877 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+23:22:50.306 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+23:22:51.334 [main] INFO  utils.LoggerUtil - Setting up test....
+23:22:51.995 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:22:52.038 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:23:00.911 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+23:23:01.546 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+23:23:01.775 [main] INFO  utils.LoggerUtil - Typed value as:  to element UserName
+23:23:01.884 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+23:23:02.080 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+23:23:02.123 [main] INFO  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+23:23:02.175 [main] WARN  utils.LoggerUtil - Alert displayed: Please fill out Username and Password.
+23:23:03.746 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:23:03.749 [main] INFO  utils.LoggerUtil - Setting up test....
+23:23:03.782 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:23:03.810 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:23:11.088 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+23:23:11.627 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+23:23:11.866 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+23:23:11.988 [main] INFO  utils.LoggerUtil - Typed value as:  to element Password
+23:23:12.241 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+23:23:12.274 [main] INFO  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+23:23:12.302 [main] WARN  utils.LoggerUtil - Alert displayed: Please fill out Username and Password.
+23:23:14.248 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:23:14.250 [main] INFO  utils.LoggerUtil - Setting up test....
+23:23:14.266 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:23:14.276 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:23:21.806 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+23:23:22.204 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+23:23:22.875 [main] INFO  utils.LoggerUtil - Typed value as:  to element UserName
+23:23:23.018 [main] INFO  utils.LoggerUtil - Typed value as:  to element Password
+23:23:23.328 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+23:23:23.361 [main] INFO  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+23:23:23.398 [main] WARN  utils.LoggerUtil - Alert displayed: Please fill out Username and Password.
+23:23:25.070 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:24:34.439 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+23:24:34.990 [main] INFO  utils.LoggerUtil - Setting up test....
+23:24:35.332 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:24:35.357 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:24:43.845 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+23:24:44.242 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+23:24:44.354 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+23:24:44.492 [main] INFO  utils.LoggerUtil - Typed value as:  to element Password
+23:24:44.719 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+23:24:44.763 [main] INFO  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+23:24:44.804 [main] WARN  utils.LoggerUtil - Alert displayed: Please fill out Username and Password.
+23:24:46.874 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:24:46.876 [main] INFO  utils.LoggerUtil - Setting up test....
+23:24:46.902 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:24:46.943 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:24:54.325 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+23:24:54.949 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+23:24:55.062 [main] INFO  utils.LoggerUtil - Typed value as:  to element UserName
+23:24:55.176 [main] INFO  utils.LoggerUtil - Typed value as:  to element Password
+23:24:55.461 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+23:24:55.502 [main] INFO  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+23:24:55.552 [main] WARN  utils.LoggerUtil - Alert displayed: Please fill out Username and Password.
+23:24:57.443 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:32:29.393 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+23:32:29.954 [main] INFO  utils.LoggerUtil - Setting up test....
+23:32:42.387 [main] WARN  io.github.bonigarcia.wdm.versions.VersionDetector - Error reading commands.properties, using local instead
+23:32:42.771 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:32:42.787 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:33:00.042 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:33:00.044 [main] INFO  utils.LoggerUtil - Setting up test....
+23:33:00.074 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:33:00.090 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:33:07.446 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:33:26.603 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+23:33:27.793 [main] INFO  utils.LoggerUtil - Setting up test....
+23:33:28.533 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:33:28.582 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:33:37.663 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+23:33:38.107 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+23:33:38.229 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+23:33:38.415 [main] INFO  utils.LoggerUtil - Typed value as:  to element Password
+23:33:38.633 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+23:33:38.671 [main] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+23:33:40.667 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:33:40.669 [main] INFO  utils.LoggerUtil - Setting up test....
+23:33:40.687 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:33:40.715 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:33:48.225 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+23:33:48.748 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+23:33:48.911 [main] INFO  utils.LoggerUtil - Typed value as:  to element UserName
+23:33:49.012 [main] INFO  utils.LoggerUtil - Typed value as:  to element Password
+23:33:49.395 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+23:33:49.430 [main] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+23:33:51.052 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:34:33.979 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+23:34:34.529 [main] INFO  utils.LoggerUtil - Setting up test....
+23:34:34.871 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:34:34.898 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:34:42.337 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+23:34:42.840 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+23:34:42.959 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+23:34:43.135 [main] INFO  utils.LoggerUtil - Typed value as:  to element Password
+23:34:43.442 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+23:34:43.489 [main] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+23:34:43.541 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+23:34:45.409 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:34:45.411 [main] INFO  utils.LoggerUtil - Setting up test....
+23:34:45.437 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:34:45.466 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:34:53.324 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+23:34:53.698 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+23:34:53.807 [main] INFO  utils.LoggerUtil - Typed value as:  to element UserName
+23:34:53.915 [main] INFO  utils.LoggerUtil - Typed value as:  to element Password
+23:34:54.171 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+23:34:54.203 [main] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+23:34:54.229 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+23:34:56.235 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:35:33.064 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+23:35:33.626 [main] INFO  utils.LoggerUtil - Setting up test....
+23:35:33.983 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:35:34.004 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:35:42.161 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+23:35:42.671 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+23:35:42.843 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+23:35:42.963 [main] INFO  utils.LoggerUtil - Typed value as:  to element Password
+23:35:43.194 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+23:35:43.228 [main] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+23:35:43.434 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze\output\screenshots\pass\loginWithEmptyFields_Validuser1_20250917_233543.png
+23:35:43.434 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+23:35:45.218 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:35:45.221 [main] INFO  utils.LoggerUtil - Setting up test....
+23:35:45.255 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:35:45.293 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:35:52.883 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+23:35:53.253 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+23:35:53.369 [main] INFO  utils.LoggerUtil - Typed value as:  to element UserName
+23:35:53.486 [main] INFO  utils.LoggerUtil - Typed value as:  to element Password
+23:35:53.773 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+23:35:53.807 [main] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+23:35:54.026 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze\output\screenshots\pass\loginWithEmptyFields__20250917_233553.png
+23:35:54.028 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+23:35:55.990 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:37:00.618 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+23:37:01.158 [main] INFO  utils.LoggerUtil - Setting up test....
+23:37:01.520 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:37:01.543 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:37:07.631 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+23:37:08.095 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+23:37:08.319 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+23:37:08.637 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+23:37:09.010 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+23:37:12.159 [main] INFO  utils.LoggerUtil - Successfully displayed element: Logout Button
+23:37:12.289 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze\output\screenshots\fail\loginWithEmptyFields_Validuser1_20250917_233712.png
+23:37:12.289 [main] ERROR utils.LoggerUtil - Login unexpectedly succeeded with empty credentials.
+23:37:13.351 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:37:13.353 [main] INFO  utils.LoggerUtil - Setting up test....
+23:37:13.387 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:37:13.552 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:37:21.288 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+23:37:21.742 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+23:37:21.901 [main] INFO  utils.LoggerUtil - Typed value as:  to element UserName
+23:37:22.130 [main] INFO  utils.LoggerUtil - Typed value as:  to element Password
+23:37:22.425 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+23:37:22.460 [main] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+23:37:22.497 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+23:37:25.369 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:49:57.134 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:49:57.172 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:50:02.592 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+23:50:03.746 [main] INFO  utils.LoggerUtil - Setting up test....
+23:50:06.327 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+23:50:06.709 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+23:50:06.827 [main] INFO  utils.LoggerUtil - Typed value as: rememberUser to element UserName
+23:50:06.976 [main] INFO  utils.LoggerUtil - Typed value as: remember123 to element Password
+23:50:07.268 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+23:50:08.343 [main] ERROR utils.LoggerUtil - Element not displayed: Logout Button
+23:50:09.582 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:51:40.527 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:51:40.559 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:51:45.474 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+23:51:46.849 [main] INFO  utils.LoggerUtil - Setting up test....
+23:51:49.343 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+23:51:49.905 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+23:51:50.164 [main] INFO  utils.LoggerUtil - Typed value as: rememberUser to element UserName
+23:51:50.330 [main] INFO  utils.LoggerUtil - Typed value as: remember123 to element Password
+23:51:50.784 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+23:51:51.882 [main] ERROR utils.LoggerUtil - Element not displayed: Logout Button
+23:51:53.444 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:52:43.813 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:52:43.836 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:52:48.981 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+23:52:50.659 [main] INFO  utils.LoggerUtil - Setting up test....
+23:52:53.016 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+23:52:53.620 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+23:52:53.740 [main] INFO  utils.LoggerUtil - Typed value as: rememberUser to element UserName
+23:52:53.937 [main] INFO  utils.LoggerUtil - Typed value as: remember123 to element Password
+23:52:54.276 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+23:52:55.415 [main] ERROR utils.LoggerUtil - Element not displayed: Logout Button
+23:52:56.784 [main] INFO  utils.LoggerUtil - Finishing tests.
