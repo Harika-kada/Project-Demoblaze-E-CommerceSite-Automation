@@ -19,16 +19,9 @@
           <include name="testSearchByProductName" invocation-numbers="0 1"/>
           <include name="initialSetup"/>
           <include name="tearDown"/>
-          <include name="testSearchByCategory" invocation-numbers="0"/>
+          <include name="testSearchByCategory" invocation-numbers="1"/>
         </methods>
       </class> <!-- tests.SearchTests -->
-      <class name="tests.CartTests">
-        <methods>
-          <include name="initialSetup"/>
-          <include name="tearDown"/>
-          <include name="testCartPersistenceAcrossSessions"/>
-        </methods>
-      </class> <!-- tests.CartTests -->
       <class name="tests.CheckoutTests">
         <methods>
           <include name="tearDown"/>
@@ -58,13 +51,6 @@
           <include name="testSearchByCategory" invocation-numbers="1"/>
         </methods>
       </class> <!-- tests.SearchTests -->
-      <class name="tests.CartTests">
-        <methods>
-          <include name="initialSetup"/>
-          <include name="tearDown"/>
-          <include name="testCartPersistenceAcrossSessions"/>
-        </methods>
-      </class> <!-- tests.CartTests -->
       <class name="tests.CheckoutTests">
         <methods>
           <include name="tearDown"/>

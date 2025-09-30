@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods, 8 failed,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.CartTests" class="method navigator-link" hash-for-method="testCartPersistenceAcrossSessions">testCartPersistenceAcrossSessions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.CheckoutTests" class="method navigator-link" hash-for-method="testForRegisteredCheckout">testForRegisteredCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.SearchTests" class="method navigator-link" hash-for-method="testSearchByCategory(Apple monitor 24, Monitors)">testSearchByCategory(Apple monitor 24, Monitors)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.SearchTests" class="method navigator-link" hash-for-method="testSearchByProductName(Sony vaio i5, Laptops)">testSearchByProductName(Sony vaio i5, Laptops)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.SearchTests" class="method navigator-link" hash-for-method="testSearchByProductName(Sony xperia z5, Phones)">testSearchByProductName(Sony xperia z5, Phones)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.RegistrationTest" class="method navigator-link" hash-for-method="testSignUp(Validuser13, ValidPass@123, true)">testSignUp(Validuser13, ValidPass@123, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.CheckoutTests" class="method navigator-link" hash-for-method="testWithMissingPaymentMethod">testWithMissingPaymentMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.CheckoutTests" class="method navigator-link" hash-for-method="testWithMissingShippingAddress">testWithMissingShippingAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.LoginTests" class="method navigator-link" hash-for-method="loginWithEmptyFields(Validuser1, , true)">loginWithEmptyFields(Validuser1, , true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.LoginTests" class="method navigator-link" hash-for-method="loginWithEmptyFields(, , true)">loginWithEmptyFields(, , true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.LoginTests" class="method navigator-link" hash-for-method="loginWithInvalidData(Validuser1, ValidPass@123, false)">loginWithInvalidData(Validuser1, ValidPass@123, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.LoginTests" class="method navigator-link" hash-for-method="loginWithInvalidData(invalidUser, wrongPass, false)">loginWithInvalidData(invalidUser, wrongPass, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.LoginTests" class="method navigator-link" hash-for-method="loginWithInvalidData(invalidUser, validPass@123, false)">loginWithInvalidData(invalidUser, validPass@123, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.LoginTests" class="method navigator-link" hash-for-method="loginWithValidData(Validuser, validPass123, true)">loginWithValidData(Validuser, validPass123, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.LoginTests" class="method navigator-link" hash-for-method="loginWithValidData(Validuser1, validPass@123, true)">loginWithValidData(Validuser1, validPass@123, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.LoginTests" class="method navigator-link" hash-for-method="loginWithValidData(Validuser_100, valid, true)">loginWithValidData(Validuser_100, valid, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.CartTests" class="method navigator-link" hash-for-method="testAddProductToCart(Samsung galaxy s6, Add, 1.0, 360.0)">testAddProductToCart(Samsung galaxy s6, Add, 1.0, 360.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.CartTests" class="method navigator-link" hash-for-method="testAddProductToCart(Sony vaio i5, Add, 1.0, 790.0)">testAddProductToCart(Sony vaio i5, Add, 1.0, 790.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.CheckoutTests" class="method navigator-link" hash-for-method="testForGuestCheckout">testForGuestCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.CheckoutTests" class="method navigator-link" hash-for-method="testGuestCheckoutWithDebitCard">testGuestCheckoutWithDebitCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.CartTests" class="method navigator-link" hash-for-method="testPriceCalculationVerification">testPriceCalculationVerification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.CartTests" class="method navigator-link" hash-for-method="testRemoveProductFromCart(Samsung galaxy s6, Remove, 0.0, 0.0)">testRemoveProductFromCart(Samsung galaxy s6, Remove, 0.0, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.CartTests" class="method navigator-link" hash-for-method="testRemoveProductFromCart(Sony vaio i5, Remove, 0.0, 0.0)">testRemoveProductFromCart(Sony vaio i5, Remove, 0.0, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.SearchTests" class="method navigator-link" hash-for-method="testSearchByCategory(ASUS Full HD, Monitors)">testSearchByCategory(ASUS Full HD, Monitors)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.SearchTests" class="method navigator-link" hash-for-method="testSearchWithNoResults">testSearchWithNoResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.CartTests" class="method navigator-link" hash-for-method="testUpdateProductQuantity">testUpdateProductQuantity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.RegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUp(Validuser13, ValidPass@123, true)">
+                  </a> <!-- testSignUp(Validuser13, ValidPass@123, true) -->
+                  <span class="method-name">testSignUp</span>
+                  <span class="parameters">(Validuser13,ValidPass@123,true)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Testcase failed. Registration blocked: User already exists.
+	at tests.RegistrationTest.testSignUp(RegistrationTest.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verifying with all valid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.CartTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCartPersistenceAcrossSessions">
+                  </a> <!-- testCartPersistenceAcrossSessions -->
+                  <span class="method-name">testCartPersistenceAcrossSessions</span>
+                  <div class="stack-trace">java.lang.AssertionError: Testcase failed: Product was not found after restarting session. expected [true] but found [false]
+	at tests.CartTests.testCartPersistenceAcrossSessions(CartTests.java:151)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.SearchTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchByCategory(Apple monitor 24, Monitors)">
+                  </a> <!-- testSearchByCategory(Apple monitor 24, Monitors) -->
+                  <span class="method-name">testSearchByCategory</span>
+                  <span class="parameters">(Apple monitor 24,Monitors)</span>
+                  <div class="stack-trace">java.lang.AssertionError: TestCase failed. Expected product &apos;Apple monitor 24&apos; to be visible under category &apos;Monitors&apos;, but it was not found. expected object to not be null
+	at tests.SearchTests.testSearchByCategory(SearchTests.java:91)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Searching by category)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchByProductName(Sony vaio i5, Laptops)">
+                  </a> <!-- testSearchByProductName(Sony vaio i5, Laptops) -->
+                  <span class="method-name">testSearchByProductName</span>
+                  <span class="parameters">(Sony vaio i5,Laptops)</span>
+                  <div class="stack-trace">java.lang.AssertionError: TestCase failed. Product &apos;Sony vaio i5&apos; is not visible.
+	at tests.SearchTests.testSearchByProductName(SearchTests.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Searching by product name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchByProductName(Sony xperia z5, Phones)">
+                  </a> <!-- testSearchByProductName(Sony xperia z5, Phones) -->
+                  <span class="method-name">testSearchByProductName</span>
+                  <span class="parameters">(Sony xperia z5,Phones)</span>
+                  <div class="stack-trace">java.lang.AssertionError: TestCase failed. Product &apos;Sony xperia z5&apos; is not visible.
+	at tests.SearchTests.testSearchByProductName(SearchTests.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Searching by product name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.CheckoutTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testForRegisteredCheckout">
+                  </a> <!-- testForRegisteredCheckout -->
+                  <span class="method-name">testForRegisteredCheckout</span>
+                  <div class="stack-trace">java.lang.RuntimeException: Could not find and click product: Sony vaio i5
+	at pages.HomePage.selectProduct(HomePage.java:74)
+	at tests.CheckoutTests.runCheckoutTest(CheckoutTests.java:75)
+	at tests.CheckoutTests.testForRegisteredCheckout(CheckoutTests.java:117)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.RuntimeException: Click failed on Product: Sony vaio i5
+	at pages.BasePage.click(BasePage.java:34)
+	at pages.HomePage.selectProduct(HomePage.java:70)
+	... 33 more
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element &lt;a class=&quot;hrefch&quot; href=&quot;prod.html?idp_=8&quot;&gt; is not clickable at point (1944,1451) because another element &lt;div id=&quot;logInModal&quot; class=&quot;modal fade show&quot;&gt; obscures it
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [013b9277-c265-4975-a66b-95a8ab3d64aa, clickElement {id=48a806f2-e27f-4f4a-9170-aefea56029a0}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11072, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (013b9277-c265-4975-a66b-95a8ab3d64aa)] -&gt; xpath: //a[@class=&apos;hrefch&apos;][text()=&apos;Sony vaio i5&apos;]]
+Session ID: 013b9277-c265-4975-a66b-95a8ab3d64aa
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at pages.BasePage.click(BasePage.java:30)
+	... 34 more
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithMissingPaymentMethod">
+                  </a> <!-- testWithMissingPaymentMethod -->
+                  <span class="method-name">testWithMissingPaymentMethod</span>
+                  <div class="stack-trace">java.lang.RuntimeException: Scenario not found for: Registered, 789 Oak St, TX, 
+	at tests.CheckoutTests.lambda$1(CheckoutTests.java:64)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at tests.CheckoutTests.getScenario(CheckoutTests.java:64)
+	at tests.CheckoutTests.testWithMissingPaymentMethod(CheckoutTests.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithMissingShippingAddress">
+                  </a> <!-- testWithMissingShippingAddress -->
+                  <span class="method-name">testWithMissingShippingAddress</span>
+                  <div class="stack-trace">java.lang.AssertionError: Validation failed for user type: Guest expected [Shipping address required] but found [Thank you for your purchase!]
+	at tests.CheckoutTests.runCheckoutTest(CheckoutTests.java:104)
+	at tests.CheckoutTests.testWithMissingShippingAddress(CheckoutTests.java:123)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CartTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddProductToCart(Samsung galaxy s6, Add, 1.0, 360.0)">
+                  </a> <!-- testAddProductToCart(Samsung galaxy s6, Add, 1.0, 360.0) -->
+                  <span class="method-name">testAddProductToCart</span>
+                  <span class="parameters">(Samsung galaxy s6,Add,1.0,360.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddProductToCart(Sony vaio i5, Add, 1.0, 790.0)">
+                  </a> <!-- testAddProductToCart(Sony vaio i5, Add, 1.0, 790.0) -->
+                  <span class="method-name">testAddProductToCart</span>
+                  <span class="parameters">(Sony vaio i5,Add,1.0,790.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPriceCalculationVerification">
+                  </a> <!-- testPriceCalculationVerification -->
+                  <span class="method-name">testPriceCalculationVerification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRemoveProductFromCart(Samsung galaxy s6, Remove, 0.0, 0.0)">
+                  </a> <!-- testRemoveProductFromCart(Samsung galaxy s6, Remove, 0.0, 0.0) -->
+                  <span class="method-name">testRemoveProductFromCart</span>
+                  <span class="parameters">(Samsung galaxy s6,Remove,0.0,0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRemoveProductFromCart(Sony vaio i5, Remove, 0.0, 0.0)">
+                  </a> <!-- testRemoveProductFromCart(Sony vaio i5, Remove, 0.0, 0.0) -->
+                  <span class="method-name">testRemoveProductFromCart</span>
+                  <span class="parameters">(Sony vaio i5,Remove,0.0,0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateProductQuantity">
+                  </a> <!-- testUpdateProductQuantity -->
+                  <span class="method-name">testUpdateProductQuantity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SearchTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchByCategory(ASUS Full HD, Monitors)">
+                  </a> <!-- testSearchByCategory(ASUS Full HD, Monitors) -->
+                  <span class="method-name">testSearchByCategory</span>
+                  <span class="parameters">(ASUS Full HD,Monitors)</span>
+                  <em>
+(Searching by category)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchWithNoResults">
+                  </a> <!-- testSearchWithNoResults -->
+                  <span class="method-name">testSearchWithNoResults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithEmptyFields(Validuser1, , true)">
+                  </a> <!-- loginWithEmptyFields(Validuser1, , true) -->
+                  <span class="method-name">loginWithEmptyFields</span>
+                  <span class="parameters">(Validuser1,,true)</span>
+                  <em>
+(Verifying with all empty credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithEmptyFields(, , true)">
+                  </a> <!-- loginWithEmptyFields(, , true) -->
+                  <span class="method-name">loginWithEmptyFields</span>
+                  <span class="parameters">(,,true)</span>
+                  <em>
+(Verifying with all empty credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithInvalidData(Validuser1, ValidPass@123, false)">
+                  </a> <!-- loginWithInvalidData(Validuser1, ValidPass@123, false) -->
+                  <span class="method-name">loginWithInvalidData</span>
+                  <span class="parameters">(Validuser1,ValidPass@123,false)</span>
+                  <em>
+(Verifying with all invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithInvalidData(invalidUser, wrongPass, false)">
+                  </a> <!-- loginWithInvalidData(invalidUser, wrongPass, false) -->
+                  <span class="method-name">loginWithInvalidData</span>
+                  <span class="parameters">(invalidUser,wrongPass,false)</span>
+                  <em>
+(Verifying with all invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithInvalidData(invalidUser, validPass@123, false)">
+                  </a> <!-- loginWithInvalidData(invalidUser, validPass@123, false) -->
+                  <span class="method-name">loginWithInvalidData</span>
+                  <span class="parameters">(invalidUser,validPass@123,false)</span>
+                  <em>
+(Verifying with all invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithValidData(Validuser, validPass123, true)">
+                  </a> <!-- loginWithValidData(Validuser, validPass123, true) -->
+                  <span class="method-name">loginWithValidData</span>
+                  <span class="parameters">(Validuser,validPass123,true)</span>
+                  <em>
+(Verifying with all valid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithValidData(Validuser1, validPass@123, true)">
+                  </a> <!-- loginWithValidData(Validuser1, validPass@123, true) -->
+                  <span class="method-name">loginWithValidData</span>
+                  <span class="parameters">(Validuser1,validPass@123,true)</span>
+                  <em>
+(Verifying with all valid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithValidData(Validuser_100, valid, true)">
+                  </a> <!-- loginWithValidData(Validuser_100, valid, true) -->
+                  <span class="method-name">loginWithValidData</span>
+                  <span class="parameters">(Validuser_100,valid,true)</span>
+                  <em>
+(Verifying with all valid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CheckoutTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testForGuestCheckout">
+                  </a> <!-- testForGuestCheckout -->
+                  <span class="method-name">testForGuestCheckout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGuestCheckoutWithDebitCard">
+                  </a> <!-- testGuestCheckoutWithDebitCard -->
+                  <span class="method-name">testGuestCheckoutWithDebitCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;listeners.TestListener&quot;/&gt;
+      &lt;class name=&quot;tests.CartTests&quot;/&gt;
+      &lt;class name=&quot;tests.CheckoutTests&quot;/&gt;
+      &lt;class name=&quot;tests.LoginTests&quot;/&gt;
+      &lt;class name=&quot;tests.RegistrationTest&quot;/&gt;
+      &lt;class name=&quot;tests.SearchTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCartPersistenceAcrossSessions')
+data.setCell(0, 2, 'tests.CartTests')
+data.setCell(0, 3, 11171);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testForGuestCheckout')
+data.setCell(1, 2, 'tests.CheckoutTests')
+data.setCell(1, 3, 10540);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testGuestCheckoutWithDebitCard')
+data.setCell(2, 2, 'tests.CheckoutTests')
+data.setCell(2, 3, 10351);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testWithMissingShippingAddress')
+data.setCell(3, 2, 'tests.CheckoutTests')
+data.setCell(3, 3, 10287);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testRemoveProductFromCart')
+data.setCell(4, 2, 'tests.CartTests')
+data.setCell(4, 3, 6508);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testRemoveProductFromCart')
+data.setCell(5, 2, 'tests.CartTests')
+data.setCell(5, 3, 5877);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testAddProductToCart')
+data.setCell(6, 2, 'tests.CartTests')
+data.setCell(6, 3, 5549);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testPriceCalculationVerification')
+data.setCell(7, 2, 'tests.CartTests')
+data.setCell(7, 3, 5201);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testAddProductToCart')
+data.setCell(8, 2, 'tests.CartTests')
+data.setCell(8, 3, 4918);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'loginWithValidData')
+data.setCell(9, 2, 'tests.LoginTests')
+data.setCell(9, 3, 4479);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginWithValidData')
+data.setCell(10, 2, 'tests.LoginTests')
+data.setCell(10, 3, 4463);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'loginWithValidData')
+data.setCell(11, 2, 'tests.LoginTests')
+data.setCell(11, 3, 4455);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testForRegisteredCheckout')
+data.setCell(12, 2, 'tests.CheckoutTests')
+data.setCell(12, 3, 2209);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginWithInvalidData')
+data.setCell(13, 2, 'tests.LoginTests')
+data.setCell(13, 3, 1983);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testSignUp')
+data.setCell(14, 2, 'tests.RegistrationTest')
+data.setCell(14, 3, 1975);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'loginWithInvalidData')
+data.setCell(15, 2, 'tests.LoginTests')
+data.setCell(15, 3, 1974);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'loginWithInvalidData')
+data.setCell(16, 2, 'tests.LoginTests')
+data.setCell(16, 3, 1449);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'loginWithEmptyFields')
+data.setCell(17, 2, 'tests.LoginTests')
+data.setCell(17, 3, 978);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testSearchByCategory')
+data.setCell(18, 2, 'tests.SearchTests')
+data.setCell(18, 3, 929);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'loginWithEmptyFields')
+data.setCell(19, 2, 'tests.LoginTests')
+data.setCell(19, 3, 919);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testSearchByCategory')
+data.setCell(20, 2, 'tests.SearchTests')
+data.setCell(20, 3, 502);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testSearchByProductName')
+data.setCell(21, 2, 'tests.SearchTests')
+data.setCell(21, 3, 342);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testSearchByProductName')
+data.setCell(22, 2, 'tests.SearchTests')
+data.setCell(22, 3, 317);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testSearchWithNoResults')
+data.setCell(23, 2, 'tests.SearchTests')
+data.setCell(23, 3, 308);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testWithMissingPaymentMethod')
+data.setCell(24, 2, 'tests.CheckoutTests')
+data.setCell(24, 3, 38);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testUpdateProductQuantity')
+data.setCell(25, 2, 'tests.CartTests')
+data.setCell(25, 3, 3);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CartTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddProductToCart(Samsung galaxy s6, Add, 1.0, 360.0)</span>
+                <span class="method-start">4780 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10527 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">11621 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddProductToCart(Sony vaio i5, Add, 1.0, 790.0)</span>
+                <span class="method-start">15194 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20284 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">21292 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCartPersistenceAcrossSessions</span>
+                <span class="method-start">24526 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35779 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">36732 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPriceCalculationVerification</span>
+                <span class="method-start">40056 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">45439 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">46527 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRemoveProductFromCart(Samsung galaxy s6, Remove, 0.0, 0.0)</span>
+                <span class="method-start">49840 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">56528 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">57543 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRemoveProductFromCart(Sony vaio i5, Remove, 0.0, 0.0)</span>
+                <span class="method-start">61045 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">67094 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">68086 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdateProductQuantity</span>
+                <span class="method-start">71478 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">71702 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckoutTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">72706 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testForGuestCheckout</span>
+                <span class="method-start">75049 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">85781 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">86782 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testForRegisteredCheckout</span>
+                <span class="method-start">89054 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">91512 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">92520 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGuestCheckoutWithDebitCard</span>
+                <span class="method-start">94823 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">105379 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">106400 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testWithMissingPaymentMethod</span>
+                <span class="method-start">108720 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">108929 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">109885 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testWithMissingShippingAddress</span>
+                <span class="method-start">112097 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">122583 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">123611 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithEmptyFields(Validuser1, , true)</span>
+                <span class="method-start">127131 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">128355 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">129344 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithEmptyFields(, , true)</span>
+                <span class="method-start">132692 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">133872 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">134878 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithInvalidData(invalidUser, validPass@123, false)</span>
+                <span class="method-start">138253 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">139946 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">141038 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithInvalidData(Validuser1, ValidPass@123, false)</span>
+                <span class="method-start">144477 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">146695 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">147682 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithInvalidData(invalidUser, wrongPass, false)</span>
+                <span class="method-start">151062 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">153284 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">154300 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithValidData(Validuser1, validPass@123, true)</span>
+                <span class="method-start">157570 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">162245 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">163251 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithValidData(Validuser, validPass123, true)</span>
+                <span class="method-start">166398 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">171055 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">172093 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithValidData(Validuser_100, valid, true)</span>
+                <span class="method-start">175458 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">180124 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RegistrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">181173 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSignUp(Validuser13, ValidPass@123, true)</span>
+                <span class="method-start">184633 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">186850 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">187854 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearchByCategory(Apple monitor 24, Monitors)</span>
+                <span class="method-start">191359 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">192084 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">193085 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchByCategory(ASUS Full HD, Monitors)</span>
+                <span class="method-start">196364 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">197509 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">198552 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearchByProductName(Sony xperia z5, Phones)</span>
+                <span class="method-start">202033 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">202552 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">203529 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearchByProductName(Sony vaio i5, Laptops)</span>
+                <span class="method-start">206991 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">207537 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialSetup(firefox)</span>
+                <span class="method-start">208528 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchWithNoResults</span>
+                <span class="method-start">212049 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">212565 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

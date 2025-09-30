@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="216.379" tests="26" errors="0" skipped="0" failures="8">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze\target\test-classes;C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze\target\classes;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\Administrator\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\Administrator\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\Administrator\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\Administrator\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Administrator\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Administrator\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Administrator\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Administrator\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Administrator\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Administrator\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Administrator\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Administrator\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Administrator\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Administrator\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Administrator\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Administrator\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Administrator\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Administrator\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Administrator\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Administrator\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.0\webdrivermanager-5.6.0.jar;C:\Users\Administrator\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Administrator\.m2\repository\com\github\docker-java\docker-java\3.3.3\docker-java-3.3.3.jar;C:\Users\Administrator\.m2\repository\com\github\docker-java\docker-java-core\3.3.3\docker-java-core-3.3.3.jar;C:\Users\Administrator\.m2\repository\com\github\docker-java\docker-java-api\3.3.3\docker-java-api-3.3.3.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Administrator\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\Administrator\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\Administrator\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\Administrator\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Administrator\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.3\docker-java-transport-httpclient5-3.3.3.jar;C:\Users\Administrator\.m2\repository\com\github\docker-java\docker-java-transport\3.3.3\docker-java-transport-3.3.3.jar;C:\Users\Administrator\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\Administrator\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Administrator\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\Administrator\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\Administrator\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.20.0\log4j-slf4j-impl-2.20.0.jar;C:\Users\Administrator\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Administrator\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Administrator\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Administrator\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Administrator\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Administrator\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\Administrator\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\Administrator\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\Administrator\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\Administrator\AppData\Local\Temp\surefire10372088654976970849\surefirebooter-20250930220008255_3.jar C:\Users\Administrator\AppData\Local\Temp\surefire10372088654976970849 2025-09-30T22-00-07_753-jvmRun1 surefire-20250930220008255_1tmp surefire_0-20250930220008255_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze\target\test-classes;C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze\target\classes;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\Administrator\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\Administrator\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\Administrator\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\Administrator\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Administrator\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Administrator\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Administrator\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Administrator\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Administrator\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Administrator\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Administrator\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\Administrator\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Administrator\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Administrator\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Administrator\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Administrator\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Administrator\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Administrator\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Administrator\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Administrator\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Administrator\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Administrator\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.0\webdrivermanager-5.6.0.jar;C:\Users\Administrator\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Administrator\.m2\repository\com\github\docker-java\docker-java\3.3.3\docker-java-3.3.3.jar;C:\Users\Administrator\.m2\repository\com\github\docker-java\docker-java-core\3.3.3\docker-java-core-3.3.3.jar;C:\Users\Administrator\.m2\repository\com\github\docker-java\docker-java-api\3.3.3\docker-java-api-3.3.3.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Administrator\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\Administrator\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\Administrator\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\Administrator\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Administrator\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.3\docker-java-transport-httpclient5-3.3.3.jar;C:\Users\Administrator\.m2\repository\com\github\docker-java\docker-java-transport\3.3.3\docker-java-transport-3.3.3.jar;C:\Users\Administrator\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\Administrator\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Administrator\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\Administrator\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\Administrator\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.20.0\log4j-slf4j-impl-2.20.0.jar;C:\Users\Administrator\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Administrator\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Administrator\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Administrator\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Administrator\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Administrator\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\Administrator\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\Administrator\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\Administrator\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Administrator\AppData\Local\Temp\surefire10372088654976970849\surefirebooter-20250930220008255_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.7+6-LTS"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.7+6"/>
+    <property name="localRepository" value="C:\Users\Administrator\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.7"/>
+    <property name="user.dir" value="C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin;C:\Program Files\Python313\Scripts\;C:\Program Files\Python313\;C:\Program Files\Java\jdk-11.0.15.1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;%ERLANG_HOME%\bin;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Java\jdk1.8.0_202\bin;C:\apache-maven-3.9.8\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\apache-jmeter-5.6.3\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\GrafanaLabs\grafana\bin;C:\Prometheus\prometheus-3.3.0.windows-amd64;C:\Program Files (x86)\Micro Focus\LoadRunner\bin\Silk\Silk Performer 21.0;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1\bin;;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;C:\ProgramData\Administrator\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.7+6-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testAddProductToCart[Samsung galaxy s6, Add, 1.0, 360.0](1)" classname="tests.CartTests" time="5.548">
+    <system-out><![CDATA[22:00:11.047 [main] INFO  utils.LoggerUtil - Setting up test....
+22:00:11.052 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:00:11.478 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:00:11.502 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:00:15.719 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:00:15.815 [main] INFO  utils.LoggerUtil - Starting test: testAddProductToCart
+22:00:15.856 [main] INFO  utils.LoggerUtil - ...TESTING ADD TO CART FUNCTIONALITY...
+22:00:15.907 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:00:17.113 [main] INFO  utils.LoggerUtil - Clicked element: Product: Samsung galaxy s6
+22:00:17.113 [main] INFO  utils.LoggerUtil - Successfully selected the product: Samsung galaxy s6
+22:00:18.199 [main] INFO  utils.LoggerUtil - Actual product title on page: Samsung galaxy s6
+22:00:18.200 [main] INFO  utils.LoggerUtil - Expected product name from test case: Samsung galaxy s6
+22:00:18.299 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:00:19.385 [main] INFO  utils.LoggerUtil - Alert accepted.
+22:00:20.006 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:00:20.046 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:00:20.235 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/AddProductToCartSamsung galaxy s6_20250930_220020.png
+22:00:21.286 [main] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' found in the cart.
+22:00:21.326 [main] INFO  utils.LoggerUtil - TestCase passed. Product 'Samsung galaxy s6' found in the cart.
+22:00:21.344 [main] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' found in the cart.
+]]></system-out>
+  </testcase>
+  <testcase name="testAddProductToCart[Sony vaio i5, Add, 1.0, 790.0](2)" classname="tests.CartTests" time="4.921">
+    <system-out><![CDATA[22:00:21.550 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testAddProductToCart_20250930_220021.png
+22:00:22.646 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:00:22.649 [main] INFO  utils.LoggerUtil - Setting up test....
+22:00:22.649 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:00:22.664 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:00:22.673 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:00:26.219 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:00:26.221 [main] INFO  utils.LoggerUtil - Starting test: testAddProductToCart
+22:00:26.223 [main] INFO  utils.LoggerUtil - ...TESTING ADD TO CART FUNCTIONALITY...
+22:00:26.282 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:00:27.484 [main] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:00:27.484 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:00:28.051 [main] INFO  utils.LoggerUtil - Actual product title on page: Sony vaio i5
+22:00:28.051 [main] INFO  utils.LoggerUtil - Expected product name from test case: Sony vaio i5
+22:00:28.152 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:00:29.229 [main] INFO  utils.LoggerUtil - Alert accepted.
+22:00:29.828 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:00:29.871 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:00:30.053 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/AddProductToCartSony vaio i5_20250930_220030.png
+22:00:31.085 [main] INFO  utils.LoggerUtil - Product 'Sony vaio i5' found in the cart.
+22:00:31.112 [main] INFO  utils.LoggerUtil - TestCase passed. Product 'Sony vaio i5' found in the cart.
+22:00:31.127 [main] INFO  utils.LoggerUtil - Product 'Sony vaio i5' found in the cart.
+]]></system-out>
+  </testcase>
+  <testcase name="testCartPersistenceAcrossSessions" classname="tests.CartTests" time="11.173">
+    <failure message="Testcase failed: Product was not found after restarting session. expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Testcase failed: Product was not found after restarting session. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.CartTests.testCartPersistenceAcrossSessions(CartTests.java:151)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[22:00:31.310 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testAddProductToCart_20250930_220031.png
+22:00:32.310 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:00:32.320 [main] INFO  utils.LoggerUtil - Setting up test....
+22:00:32.320 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:00:32.335 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:00:32.344 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:00:35.551 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:00:35.553 [main] INFO  utils.LoggerUtil - Starting test: testCartPersistenceAcrossSessions
+22:00:35.556 [main] INFO  utils.LoggerUtil - ...TESTING CART PERSISTENCE ACROSS SESSIONS...
+22:00:36.535 [main] INFO  utils.LoggerUtil - Clicked element: Product: Nokia lumia 1520
+22:00:36.536 [main] INFO  utils.LoggerUtil - Successfully selected the product: Nokia lumia 1520
+22:00:37.658 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:00:38.729 [main] INFO  utils.LoggerUtil - Alert accepted.
+22:00:39.708 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:00:39.722 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:00:39.731 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:00:42.863 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:00:43.597 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:00:43.639 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:00:46.718 [main] ERROR utils.LoggerUtil - Product 'Nokia lumia 1520' was not found in the cart. Error: Expected condition failed: waiting for visibility of element located by By.xpath: //tbody/tr/td[text()='Nokia lumia 1520'] (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2860, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: bfc16d50-3170-46f8-ab71-e7c16ea98ecd
+]]></system-out>
+  </testcase>
+  <testcase name="testPriceCalculationVerification" classname="tests.CartTests" time="5.2">
+    <system-out><![CDATA[22:00:46.802 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testCartPersistenceAcrossSessions_20250930_220046.png
+22:00:47.757 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:00:47.760 [main] INFO  utils.LoggerUtil - Setting up test....
+22:00:47.760 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:00:47.772 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:00:47.781 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:00:51.082 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:00:51.084 [main] INFO  utils.LoggerUtil - Starting test: testPriceCalculationVerification
+22:00:51.087 [main] INFO  utils.LoggerUtil - ...TESTING PRICE CALCULATION IN CART...
+22:00:52.067 [main] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:00:52.068 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:00:53.129 [main] INFO  utils.LoggerUtil - Successfully read the value as: $790 *includes tax from element Product Price
+22:00:53.236 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:00:54.291 [main] INFO  utils.LoggerUtil - Alert accepted.
+22:00:54.947 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:00:54.996 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:00:56.284 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/priceCalculationVerification_20250930_220056.png
+]]></system-out>
+  </testcase>
+  <testcase name="testRemoveProductFromCart[Samsung galaxy s6, Remove, 0.0, 0.0](1)" classname="tests.CartTests" time="6.508">
+    <system-out><![CDATA[22:00:56.465 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testPriceCalculationVerification_20250930_220056.png
+22:00:57.467 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:00:57.554 [main] INFO  utils.LoggerUtil - Setting up test....
+22:00:57.554 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:00:57.566 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:00:57.575 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:01:00.865 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:01:00.867 [main] INFO  utils.LoggerUtil - Starting test: testRemoveProductFromCart
+22:01:00.870 [main] INFO  utils.LoggerUtil - ...TESTING REMOVING FROM CART FUNCTIONALITY FOR: Samsung galaxy s6...
+22:01:00.961 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:01:02.106 [main] INFO  utils.LoggerUtil - Clicked element: Product: Samsung galaxy s6
+22:01:02.107 [main] INFO  utils.LoggerUtil - Successfully selected the product: Samsung galaxy s6
+22:01:03.151 [main] INFO  utils.LoggerUtil - Actual product title on page: Samsung galaxy s6
+22:01:03.151 [main] INFO  utils.LoggerUtil - Expected product name from test case: Samsung galaxy s6
+22:01:03.262 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:01:04.322 [main] INFO  utils.LoggerUtil - Alert accepted.
+22:01:04.942 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:01:04.984 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:01:06.019 [main] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' found in the cart.
+22:01:07.189 [main] INFO  utils.LoggerUtil - Removed product 'Samsung galaxy s6' from the cart.
+22:01:07.193 [main] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' successfully removed from the cart.
+22:01:07.206 [main] INFO  utils.LoggerUtil - Test passed: Product Samsung galaxy s6 was successfully removed and cart state is correct.
+22:01:07.375 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/RemoveProductFromCart_Samsung galaxy s6_20250930_220107.png
+]]></system-out>
+  </testcase>
+  <testcase name="testRemoveProductFromCart[Sony vaio i5, Remove, 0.0, 0.0](2)" classname="tests.CartTests" time="5.873">
+    <system-out><![CDATA[22:01:07.554 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testRemoveProductFromCart_20250930_220107.png
+22:01:08.568 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:01:08.570 [main] INFO  utils.LoggerUtil - Setting up test....
+22:01:08.571 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:01:08.583 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:01:08.591 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:01:12.070 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:01:12.072 [main] INFO  utils.LoggerUtil - Starting test: testRemoveProductFromCart
+22:01:12.075 [main] INFO  utils.LoggerUtil - ...TESTING REMOVING FROM CART FUNCTIONALITY FOR: Sony vaio i5...
+22:01:12.109 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:01:13.240 [main] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:01:13.241 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:01:13.795 [main] INFO  utils.LoggerUtil - Actual product title on page: Sony vaio i5
+22:01:13.795 [main] INFO  utils.LoggerUtil - Expected product name from test case: Sony vaio i5
+22:01:13.901 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:01:14.949 [main] INFO  utils.LoggerUtil - Alert accepted.
+22:01:15.537 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:01:15.581 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:01:16.611 [main] INFO  utils.LoggerUtil - Product 'Sony vaio i5' found in the cart.
+22:01:17.765 [main] INFO  utils.LoggerUtil - Removed product 'Sony vaio i5' from the cart.
+22:01:17.769 [main] INFO  utils.LoggerUtil - Product 'Sony vaio i5' successfully removed from the cart.
+22:01:17.782 [main] INFO  utils.LoggerUtil - Test passed: Product Sony vaio i5 was successfully removed and cart state is correct.
+22:01:17.949 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/RemoveProductFromCart_Sony vaio i5_20250930_220117.png
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateProductQuantity" classname="tests.CartTests" time="0.002">
+    <system-out><![CDATA[22:01:18.120 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testRemoveProductFromCart_20250930_220118.png
+22:01:19.111 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:01:19.113 [main] INFO  utils.LoggerUtil - Setting up test....
+22:01:19.114 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:01:19.125 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:01:19.132 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:01:22.504 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:01:22.506 [main] INFO  utils.LoggerUtil - Starting test: testUpdateProductQuantity
+]]></system-out>
+  </testcase>
+  <testcase name="testForGuestCheckout" classname="tests.CheckoutTests" time="10.54">
+    <system-out><![CDATA[22:01:22.728 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testUpdateProductQuantity_20250930_220122.png
+22:01:23.730 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:01:23.734 [main] INFO  utils.LoggerUtil - Setting up test....
+22:01:23.734 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:01:23.747 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:01:23.755 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:01:26.076 [main] INFO  utils.LoggerUtil - Starting test: testForGuestCheckout
+22:01:27.003 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:01:27.003 [main] INFO  utils.LoggerUtil - Simulated guest user flow (no login).
+22:01:28.701 [main] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:01:28.701 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:01:29.811 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:01:30.854 [main] INFO  utils.LoggerUtil - Alert accepted.
+22:01:31.445 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:01:31.491 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:01:32.620 [main] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+22:01:33.229 [main] INFO  utils.LoggerUtil - Typed value as: GuestUser1 to element Name Field
+22:01:33.265 [main] INFO  utils.LoggerUtil - Typed value as: US to element Country Field
+22:01:33.300 [main] INFO  utils.LoggerUtil - Typed value as: NY to element City Field
+22:01:33.339 [main] INFO  utils.LoggerUtil - Typed value as: Credit Card to element Card Field
+22:01:33.372 [main] INFO  utils.LoggerUtil - Typed value as: 10.0 to element Month Field
+22:01:33.411 [main] INFO  utils.LoggerUtil - Typed value as: 2025.0 to element Year Field
+22:01:33.520 [main] INFO  utils.LoggerUtil - Clicked element: Purchase Button
+22:01:36.616 [main] INFO  utils.LoggerUtil - Successfully read the value as: Thank you for your purchase! from element Confirmation Header
+]]></system-out>
+  </testcase>
+  <testcase name="testForRegisteredCheckout" classname="tests.CheckoutTests" time="2.216">
+    <failure message="Could not find and click product: Sony vaio i5" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: Could not find and click product: Sony vaio i5
+	at pages.HomePage.selectProduct(HomePage.java:74)
+	at tests.CheckoutTests.runCheckoutTest(CheckoutTests.java:75)
+	at tests.CheckoutTests.testForRegisteredCheckout(CheckoutTests.java:117)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.RuntimeException: Click failed on Product: Sony vaio i5
+	at pages.BasePage.click(BasePage.java:34)
+	at pages.HomePage.selectProduct(HomePage.java:70)
+	... 33 more
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element <a class="hrefch" href="prod.html?idp_=8"> is not clickable at point (1944,1451) because another element <div id="logInModal" class="modal fade show"> obscures it
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [013b9277-c265-4975-a66b-95a8ab3d64aa, clickElement {id=48a806f2-e27f-4f4a-9170-aefea56029a0}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11072, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (013b9277-c265-4975-a66b-95a8ab3d64aa)] -> xpath: //a[@class='hrefch'][text()='Sony vaio i5']]
+Session ID: 013b9277-c265-4975-a66b-95a8ab3d64aa
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at pages.BasePage.click(BasePage.java:30)
+	... 34 more
+]]></failure>
+    <system-out><![CDATA[22:01:36.808 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testForGuestCheckout_20250930_220136.png
+22:01:37.807 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:01:37.809 [main] INFO  utils.LoggerUtil - Setting up test....
+22:01:37.809 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:01:37.820 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:01:37.828 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:01:40.081 [main] INFO  utils.LoggerUtil - Starting test: testForRegisteredCheckout
+22:01:41.330 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:01:41.495 [main] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:01:42.039 [main] INFO  utils.LoggerUtil - Opened login page.
+22:01:42.119 [main] INFO  utils.LoggerUtil - Typed value as: Validuser13 to element UserName
+22:01:42.161 [main] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+22:01:42.254 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:01:42.254 [main] INFO  utils.LoggerUtil - Simulated registered user login.
+22:01:42.290 [main] ERROR utils.LoggerUtil - Failed to click element: Product: Sony vaio i5. Error: Element <a class="hrefch" href="prod.html?idp_=8"> is not clickable at point (1944,1451) because another element <div id="logInModal" class="modal fade show"> obscures it
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [013b9277-c265-4975-a66b-95a8ab3d64aa, clickElement {id=48a806f2-e27f-4f4a-9170-aefea56029a0}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11072, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (013b9277-c265-4975-a66b-95a8ab3d64aa)] -> xpath: //a[@class='hrefch'][text()='Sony vaio i5']]
+Session ID: 013b9277-c265-4975-a66b-95a8ab3d64aa
+22:01:42.290 [main] ERROR utils.LoggerUtil - Failed to select product 'Sony vaio i5'. Error: Click failed on Product: Sony vaio i5
+]]></system-out>
+  </testcase>
+  <testcase name="testGuestCheckoutWithDebitCard" classname="tests.CheckoutTests" time="10.352">
+    <system-out><![CDATA[22:01:42.538 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testForRegisteredCheckout_20250930_220142.png
+22:01:43.545 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:01:43.548 [main] INFO  utils.LoggerUtil - Setting up test....
+22:01:43.548 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:01:43.559 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:01:43.566 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:01:45.850 [main] INFO  utils.LoggerUtil - Starting test: testGuestCheckoutWithDebitCard
+22:01:47.097 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:01:47.097 [main] INFO  utils.LoggerUtil - Simulated guest user flow (no login).
+22:01:48.267 [main] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:01:48.268 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:01:49.397 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:01:50.447 [main] INFO  utils.LoggerUtil - Alert accepted.
+22:01:51.043 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:01:51.087 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:01:52.224 [main] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+22:01:52.819 [main] INFO  utils.LoggerUtil - Typed value as: GuestUser3 to element Name Field
+22:01:52.852 [main] INFO  utils.LoggerUtil - Typed value as: US to element Country Field
+22:01:52.887 [main] INFO  utils.LoggerUtil - Typed value as: FL to element City Field
+22:01:52.923 [main] INFO  utils.LoggerUtil - Typed value as: Debit Card to element Card Field
+22:01:52.959 [main] INFO  utils.LoggerUtil - Typed value as: 10.0 to element Month Field
+22:01:52.997 [main] INFO  utils.LoggerUtil - Typed value as: 2025.0 to element Year Field
+22:01:53.102 [main] INFO  utils.LoggerUtil - Clicked element: Purchase Button
+22:01:56.200 [main] INFO  utils.LoggerUtil - Successfully read the value as: Thank you for your purchase! from element Confirmation Header
+]]></system-out>
+  </testcase>
+  <testcase name="testWithMissingPaymentMethod" classname="tests.CheckoutTests" time="0.039">
+    <failure message="Scenario not found for: Registered, 789 Oak St, TX, " type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: Scenario not found for: Registered, 789 Oak St, TX, 
+	at tests.CheckoutTests.lambda$1(CheckoutTests.java:64)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at tests.CheckoutTests.getScenario(CheckoutTests.java:64)
+	at tests.CheckoutTests.testWithMissingPaymentMethod(CheckoutTests.java:128)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[22:01:56.405 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testGuestCheckoutWithDebitCard_20250930_220156.png
+22:01:57.425 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:01:57.428 [main] INFO  utils.LoggerUtil - Setting up test....
+22:01:57.428 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:01:57.440 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:01:57.448 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:01:59.748 [main] INFO  utils.LoggerUtil - Starting test: testWithMissingPaymentMethod
+]]></system-out>
+  </testcase>
+  <testcase name="testWithMissingShippingAddress" classname="tests.CheckoutTests" time="10.288">
+    <failure message="Validation failed for user type: Guest expected [Shipping address required] but found [Thank you for your purchase!]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation failed for user type: Guest expected [Shipping address required] but found [Thank you for your purchase!]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at tests.CheckoutTests.runCheckoutTest(CheckoutTests.java:104)
+	at tests.CheckoutTests.testWithMissingShippingAddress(CheckoutTests.java:123)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[22:01:59.954 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testWithMissingPaymentMethod_20250930_220159.png
+22:02:00.910 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:02:00.913 [main] INFO  utils.LoggerUtil - Setting up test....
+22:02:00.913 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:02:00.923 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:02:00.930 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:02:03.124 [main] INFO  utils.LoggerUtil - Starting test: testWithMissingShippingAddress
+22:02:04.273 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:02:04.273 [main] INFO  utils.LoggerUtil - Simulated guest user flow (no login).
+22:02:05.420 [main] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:02:05.421 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:02:06.046 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:02:07.103 [main] INFO  utils.LoggerUtil - Alert accepted.
+22:02:07.765 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:02:07.803 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:02:09.446 [main] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+22:02:10.039 [main] INFO  utils.LoggerUtil - Typed value as: GuestUser2 to element Name Field
+22:02:10.074 [main] INFO  utils.LoggerUtil - Typed value as: US to element Country Field
+22:02:10.106 [main] INFO  utils.LoggerUtil - Typed value as:  to element City Field
+22:02:10.143 [main] INFO  utils.LoggerUtil - Typed value as: Credit Card to element Card Field
+22:02:10.176 [main] INFO  utils.LoggerUtil - Typed value as: 10.0 to element Month Field
+22:02:10.207 [main] INFO  utils.LoggerUtil - Typed value as: 2025.0 to element Year Field
+22:02:10.310 [main] INFO  utils.LoggerUtil - Clicked element: Purchase Button
+22:02:13.410 [main] INFO  utils.LoggerUtil - Successfully read the value as: Thank you for your purchase! from element Confirmation Header
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithEmptyFields[Validuser1, , true](1)" classname="tests.LoginTests" time="0.979">
+    <system-out><![CDATA[22:02:13.609 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testWithMissingShippingAddress_20250930_220213.png
+22:02:14.609 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:02:14.639 [main] INFO  utils.LoggerUtil - Setting up test....
+22:02:14.639 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:02:14.649 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:02:14.656 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:02:18.158 [main] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+22:02:18.164 [main] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+22:02:18.332 [main] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:02:18.881 [main] INFO  utils.LoggerUtil - Opened login page.
+22:02:18.970 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:02:19.002 [main] INFO  utils.LoggerUtil - Typed value as:  to element Password
+22:02:19.101 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:02:19.136 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithEmptyFields[, , true](2)" classname="tests.LoginTests" time="0.926">
+    <system-out><![CDATA[22:02:19.382 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250930_220219.png
+22:02:20.369 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:02:20.371 [main] INFO  utils.LoggerUtil - Setting up test....
+22:02:20.372 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:02:20.382 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:02:20.389 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:02:23.719 [main] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+22:02:23.721 [main] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+22:02:23.854 [main] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:02:24.412 [main] INFO  utils.LoggerUtil - Opened login page.
+22:02:24.471 [main] INFO  utils.LoggerUtil - Typed value as:  to element UserName
+22:02:24.516 [main] INFO  utils.LoggerUtil - Typed value as:  to element Password
+22:02:24.623 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:02:24.638 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithInvalidData[invalidUser, validPass@123, false](1)" classname="tests.LoginTests" time="1.451">
+    <system-out><![CDATA[22:02:24.898 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250930_220224.png
+22:02:25.880 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:02:25.906 [main] INFO  utils.LoggerUtil - Setting up test....
+22:02:25.906 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:02:25.916 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:02:25.923 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:02:29.280 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+22:02:29.282 [main] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+22:02:29.416 [main] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:02:29.957 [main] INFO  utils.LoggerUtil - Opened login page.
+22:02:30.035 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+22:02:30.091 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:02:30.191 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:02:30.728 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithInvalidData[Validuser1, ValidPass@123, false](2)" classname="tests.LoginTests" time="1.975">
+    <system-out><![CDATA[22:02:30.971 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250930_220230.png
+22:02:32.064 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:02:32.066 [main] INFO  utils.LoggerUtil - Setting up test....
+22:02:32.066 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:02:32.076 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:02:32.082 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:02:35.504 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+22:02:35.506 [main] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+22:02:35.669 [main] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:02:36.209 [main] INFO  utils.LoggerUtil - Opened login page.
+22:02:36.274 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:02:36.320 [main] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+22:02:36.413 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:02:37.478 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: Validuser1
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithInvalidData[invalidUser, wrongPass, false](3)" classname="tests.LoginTests" time="1.984">
+    <system-out><![CDATA[22:02:37.721 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250930_220237.png
+22:02:38.707 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:02:38.709 [main] INFO  utils.LoggerUtil - Setting up test....
+22:02:38.709 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:02:38.720 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:02:38.726 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:02:42.089 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+22:02:42.091 [main] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+22:02:42.248 [main] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:02:42.789 [main] INFO  utils.LoggerUtil - Opened login page.
+22:02:42.868 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+22:02:42.911 [main] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+22:02:43.006 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:02:44.072 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithValidData[Validuser1, validPass@123, true](1)" classname="tests.LoginTests" time="4.485">
+    <system-out><![CDATA[22:02:44.311 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250930_220244.png
+22:02:45.299 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:02:45.328 [main] INFO  utils.LoggerUtil - Setting up test....
+22:02:45.328 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:02:45.338 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:02:45.344 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:02:48.597 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+22:02:48.599 [main] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+22:02:48.779 [main] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:02:49.333 [main] INFO  utils.LoggerUtil - Opened login page.
+22:02:49.418 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:02:49.462 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:02:49.557 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:02:52.653 [main] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser1
+22:02:53.031 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:02:53.076 [main] INFO  utils.LoggerUtil - Successfully logged out
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithValidData[Validuser, validPass123, true](2)" classname="tests.LoginTests" time="4.462">
+    <system-out><![CDATA[22:02:53.272 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithValidData_20250930_220253.png
+22:02:54.276 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:02:54.278 [main] INFO  utils.LoggerUtil - Setting up test....
+22:02:54.278 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:02:54.289 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:02:54.296 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:02:57.425 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+22:02:57.427 [main] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+22:02:57.592 [main] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:02:58.134 [main] INFO  utils.LoggerUtil - Opened login page.
+22:02:58.203 [main] INFO  utils.LoggerUtil - Typed value as: Validuser to element UserName
+22:02:58.241 [main] INFO  utils.LoggerUtil - Typed value as: validPass123 to element Password
+22:02:58.335 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:03:01.433 [main] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser
+22:03:01.836 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:03:01.880 [main] INFO  utils.LoggerUtil - Successfully logged out
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithValidData[Validuser_100, valid, true](3)" classname="tests.LoginTests" time="4.469">
+    <system-out><![CDATA[22:03:02.082 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithValidData_20250930_220302.png
+22:03:03.118 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:03:03.120 [main] INFO  utils.LoggerUtil - Setting up test....
+22:03:03.120 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:03:03.132 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:03:03.138 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:03:06.485 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+22:03:06.487 [main] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+22:03:06.652 [main] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:03:07.193 [main] INFO  utils.LoggerUtil - Opened login page.
+22:03:07.263 [main] INFO  utils.LoggerUtil - Typed value as: Validuser_100 to element UserName
+22:03:07.315 [main] INFO  utils.LoggerUtil - Typed value as: valid to element Password
+22:03:07.413 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:03:10.511 [main] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser_100
+22:03:10.900 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:03:10.948 [main] INFO  utils.LoggerUtil - Successfully logged out
+]]></system-out>
+  </testcase>
+  <testcase name="testSignUp[Validuser13, ValidPass@123, true](1)" classname="tests.RegistrationTest" time="1.977">
+    <failure message="Testcase failed. Registration blocked: User already exists." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Testcase failed. Registration blocked: User already exists.
+	at org.testng.Assert.fail(Assert.java:111)
+	at tests.RegistrationTest.testSignUp(RegistrationTest.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[22:03:11.151 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithValidData_20250930_220311.png
+22:03:12.173 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:03:12.200 [main] INFO  utils.LoggerUtil - Setting up test....
+22:03:12.200 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:03:12.210 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:03:12.216 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:03:15.660 [main] INFO  utils.LoggerUtil - Starting test: testSignUp
+22:03:15.663 [main] INFO  utils.LoggerUtil - ...TEST SIGNUP FOR USER: Validuser13...
+22:03:15.838 [main] INFO  utils.LoggerUtil - Clicked element: Clicked on signup link
+22:03:16.380 [main] INFO  utils.LoggerUtil - Opened signup page.
+22:03:16.460 [main] INFO  utils.LoggerUtil - Typed value as: Validuser13 to element UserName
+22:03:16.498 [main] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+22:03:16.594 [main] INFO  utils.LoggerUtil - Clicked element: SignUp Button
+22:03:17.635 [main] WARN  utils.LoggerUtil - Registration blocked: User already exists - Validuser13
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchByCategory[Apple monitor 24, Monitors](1)" classname="tests.SearchTests" time="0.492">
+    <failure message="TestCase failed. Expected product &apos;Apple monitor 24&apos; to be visible under category &apos;Monitors&apos;, but it was not found. expected object to not be null" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: TestCase failed. Expected product 'Apple monitor 24' to be visible under category 'Monitors', but it was not found. expected object to not be null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.assertNotNull(Assert.java:1484)
+	at tests.SearchTests.testSearchByCategory(SearchTests.java:91)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[22:03:17.876 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSignUp_20250930_220317.png
+22:03:18.856 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:03:18.882 [main] INFO  utils.LoggerUtil - Setting up test....
+22:03:18.882 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:03:18.893 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:03:18.900 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:03:22.326 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:03:22.384 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:03:22.386 [main] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+22:03:22.391 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY: Monitors FOR PRODUCT: Apple monitor 24...
+22:03:22.391 [main] INFO  utils.LoggerUtil - Selecting category: Monitors
+22:03:22.701 [main] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchByCategory[ASUS Full HD, Monitors](2)" classname="tests.SearchTests" time="0.927">
+    <system-out><![CDATA[22:03:23.111 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByCategory_20250930_220323.png
+22:03:24.110 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:03:24.113 [main] INFO  utils.LoggerUtil - Setting up test....
+22:03:24.113 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:03:24.123 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:03:24.130 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:03:27.359 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:03:27.389 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:03:27.391 [main] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+22:03:27.393 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY: Monitors FOR PRODUCT: ASUS Full HD...
+22:03:27.393 [main] INFO  utils.LoggerUtil - Selecting category: Monitors
+22:03:27.734 [main] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+22:03:28.319 [main] INFO  utils.LoggerUtil - TestCase passed. Product 'ASUS Full HD' is visible under category 'Monitors'
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchByProductName[Sony xperia z5, Phones](1)" classname="tests.SearchTests" time="0.318">
+    <failure message="TestCase failed. Product &apos;Sony xperia z5&apos; is not visible." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: TestCase failed. Product 'Sony xperia z5' is not visible.
+	at org.testng.Assert.fail(Assert.java:111)
+	at tests.SearchTests.testSearchByProductName(SearchTests.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[22:03:28.535 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testSearchByCategory_20250930_220328.png
+22:03:29.556 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:03:29.580 [main] INFO  utils.LoggerUtil - Setting up test....
+22:03:29.580 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:03:29.590 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:03:29.596 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:03:33.029 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:03:33.059 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:03:33.060 [main] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+22:03:33.062 [main] INFO  utils.LoggerUtil - ...SEARCH BY PRODUCT NAME...
+22:03:33.161 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:03:33.180 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:03:33.180 [main] INFO  utils.LoggerUtil - Checking visibility of product: Sony xperia z5
+22:03:33.376 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByProduct_Sony xperia z5_20250930_220333.png
+22:03:33.377 [main] ERROR utils.LoggerUtil - Product 'Sony xperia z5' is not visible.
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchByProductName[Sony vaio i5, Laptops](2)" classname="tests.SearchTests" time="0.346">
+    <failure message="TestCase failed. Product &apos;Sony vaio i5&apos; is not visible." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: TestCase failed. Product 'Sony vaio i5' is not visible.
+	at org.testng.Assert.fail(Assert.java:111)
+	at tests.SearchTests.testSearchByProductName(SearchTests.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[22:03:33.578 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByProductName_20250930_220333.png
+22:03:34.555 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:03:34.557 [main] INFO  utils.LoggerUtil - Setting up test....
+22:03:34.557 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:03:34.567 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:03:34.573 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:03:37.985 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:03:38.017 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:03:38.018 [main] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+22:03:38.020 [main] INFO  utils.LoggerUtil - ...SEARCH BY PRODUCT NAME...
+22:03:38.132 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:03:38.151 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:03:38.152 [main] INFO  utils.LoggerUtil - Checking visibility of product: Sony vaio i5
+22:03:38.360 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByProduct_Sony vaio i5_20250930_220338.png
+22:03:38.360 [main] ERROR utils.LoggerUtil - Product 'Sony vaio i5' is not visible.
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchWithNoResults" classname="tests.SearchTests" time="0.308">
+    <system-out><![CDATA[22:03:38.564 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByProductName_20250930_220338.png
+22:03:39.553 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:03:39.555 [main] INFO  utils.LoggerUtil - Setting up test....
+22:03:39.555 [main] INFO  utils.LoggerUtil - Running firefox browser
+22:03:39.566 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:03:39.572 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:03:43.044 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:03:43.075 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:03:43.076 [main] INFO  utils.LoggerUtil - Starting test: testSearchWithNoResults
+22:03:43.380 [main] INFO  utils.LoggerUtil - Clicked element: Phones Category
+22:03:43.384 [main] INFO  utils.LoggerUtil - TestCase passed. Product not found as expected.
+]]></system-out>
+  </testcase>
+</testsuite>
