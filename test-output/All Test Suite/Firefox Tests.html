@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>17/8/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Sep 25 16:02:05 IST 2025</td>
+<td>Started on:</td><td>Sun Sep 28 22:32:33 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>260 seconds (260103 ms)</td>
+<tr><td>Total time:</td><td>210 seconds (210705 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,6 +76,94 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='tests.CheckoutTests.testForRegisteredCheckout()'><b>testForRegisteredCheckout</b><br>Test class: tests.CheckoutTests</td>
+<td><div><pre>java.lang.RuntimeException: Could not find and click product: Sony vaio i5
+	at pages.HomePage.selectProduct(HomePage.java:74)
+	at tests.CheckoutTests.runCheckoutTest(CheckoutTests.java:75)
+	at tests.CheckoutTests.testForRegisteredCheckout(CheckoutTests.java:117)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.RuntimeException: Click failed on Product: Sony vaio i5
+	at pages.BasePage.click(BasePage.java:34)
+	at pages.HomePage.selectProduct(HomePage.java:70)
+	... 22 more
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element &lt;a class=&quot;hrefch&quot; href=&quot;prod.html?idp_=8&quot;&gt; is not clickable at point (2019,1460) because another element &lt;div id=&quot;logInModal&quot; class=&quot;modal fade show&quot;&gt; obscures it
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [15c4dae6-0ed0-4ba2-9374-499365e5b338, clickElement {id=af5a498a-a222-4e34-94c1-1375a125c03f}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10620, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (15c4dae6-0ed0-4ba2-9374-499365e5b338)] -&gt; xpath: //a[@class=&apos;hrefch&apos;][text()=&apos;Sony vaio i5&apos;]]
+Session ID: 15c4dae6-0ed0-4ba2-9374-499365e5b338
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at pages.BasePage.click(BasePage.java:30)
+	... 23 more
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1537249856", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1537249856'><pre>java.lang.RuntimeException: Could not find and click product: Sony vaio i5
+	at pages.HomePage.selectProduct(HomePage.java:74)
+	at tests.CheckoutTests.runCheckoutTest(CheckoutTests.java:75)
+	at tests.CheckoutTests.testForRegisteredCheckout(CheckoutTests.java:117)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.RuntimeException: Click failed on Product: Sony vaio i5
+	at pages.BasePage.click(BasePage.java:34)
+	at pages.HomePage.selectProduct(HomePage.java:70)
+	... 22 more
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element &lt;a class=&quot;hrefch&quot; href=&quot;prod.html?idp_=8&quot;&gt; is not clickable at point (2019,1460) because another element &lt;div id=&quot;logInModal&quot; class=&quot;modal fade show&quot;&gt; obscures it
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [15c4dae6-0ed0-4ba2-9374-499365e5b338, clickElement {id=af5a498a-a222-4e34-94c1-1375a125c03f}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10620, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (15c4dae6-0ed0-4ba2-9374-499365e5b338)] -&gt; xpath: //a[@class=&apos;hrefch&apos;][text()=&apos;Sony vaio i5&apos;]]
+Session ID: 15c4dae6-0ed0-4ba2-9374-499365e5b338
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at pages.BasePage.click(BasePage.java:30)
+	... 23 more
+</pre></div></td>
+<td>1</td>
+<td>tests.CheckoutTests@e24ddd0</td></tr>
+<tr>
 <td title='tests.SearchTests.testSearchByProductName()'><b>testSearchByProductName</b><br>Test class: tests.SearchTests<br>Test method: Searching by product name<br>Parameters: Sony xperia z5, Phones</td>
 <td><div><pre>java.lang.AssertionError: TestCase failed. Product &apos;Sony xperia z5&apos; is not visible.
 	at tests.SearchTests.testSearchByProductName(SearchTests.java:67)
@@ -84,10 +172,130 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace530226104", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace530226104'><pre>java.lang.AssertionError: TestCase failed. Product &apos;Sony xperia z5&apos; is not visible.
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace874999827", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace874999827'><pre>java.lang.AssertionError: TestCase failed. Product &apos;Sony xperia z5&apos; is not visible.
 	at org.testng.Assert.fail(Assert.java:111)
 	at tests.SearchTests.testSearchByProductName(SearchTests.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>0</td>
+<td>tests.SearchTests@4eeea57d</td></tr>
+<tr>
+<td title='tests.CheckoutTests.testWithMissingShippingAddress()'><b>testWithMissingShippingAddress</b><br>Test class: tests.CheckoutTests</td>
+<td><div><pre>java.lang.AssertionError: Validation failed for user type: Guest expected [Shipping address required] but found [Thank you for your purchase!]
+	at tests.CheckoutTests.runCheckoutTest(CheckoutTests.java:104)
+	at tests.CheckoutTests.testWithMissingShippingAddress(CheckoutTests.java:123)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace632290473", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace632290473'><pre>java.lang.AssertionError: Validation failed for user type: Guest expected [Shipping address required] but found [Thank you for your purchase!]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at tests.CheckoutTests.runCheckoutTest(CheckoutTests.java:104)
+	at tests.CheckoutTests.testWithMissingShippingAddress(CheckoutTests.java:123)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>10</td>
+<td>tests.CheckoutTests@e24ddd0</td></tr>
+<tr>
+<td title='tests.CheckoutTests.testWithMissingPaymentMethod()'><b>testWithMissingPaymentMethod</b><br>Test class: tests.CheckoutTests</td>
+<td><div><pre>java.lang.RuntimeException: Scenario not found for: Registered, 789 Oak St, TX, 
+	at tests.CheckoutTests.lambda$1(CheckoutTests.java:64)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at tests.CheckoutTests.getScenario(CheckoutTests.java:64)
+	at tests.CheckoutTests.testWithMissingPaymentMethod(CheckoutTests.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace817061876", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace817061876'><pre>java.lang.RuntimeException: Scenario not found for: Registered, 789 Oak St, TX, 
+	at tests.CheckoutTests.lambda$1(CheckoutTests.java:64)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at tests.CheckoutTests.getScenario(CheckoutTests.java:64)
+	at tests.CheckoutTests.testWithMissingPaymentMethod(CheckoutTests.java:128)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>0</td>
+<td>tests.CheckoutTests@e24ddd0</td></tr>
+<tr>
+<td title='tests.SearchTests.testSearchByCategory()'><b>testSearchByCategory</b><br>Test class: tests.SearchTests<br>Test method: Searching by category<br>Parameters: Apple monitor 24, Monitors</td>
+<td><div><pre>java.lang.AssertionError: TestCase failed. Expected product &apos;Apple monitor 24&apos; to be visible under category &apos;Monitors&apos;, but it was not found. expected object to not be null
+	at tests.SearchTests.testSearchByCategory(SearchTests.java:91)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace238930757", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace238930757'><pre>java.lang.AssertionError: TestCase failed. Expected product &apos;Apple monitor 24&apos; to be visible under category &apos;Monitors&apos;, but it was not found. expected object to not be null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.assertNotNull(Assert.java:1484)
+	at tests.SearchTests.testSearchByCategory(SearchTests.java:91)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -120,212 +328,10 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1882735038", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1882735038'><pre>java.lang.AssertionError: TestCase failed. Product &apos;Sony vaio i5&apos; is not visible.
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace276937529", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace276937529'><pre>java.lang.AssertionError: TestCase failed. Product &apos;Sony vaio i5&apos; is not visible.
 	at org.testng.Assert.fail(Assert.java:111)
 	at tests.SearchTests.testSearchByProductName(SearchTests.java:67)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div></td>
-<td>0</td>
-<td>tests.SearchTests@4eeea57d</td></tr>
-<tr>
-<td title='tests.CheckoutTests.testForRegisteredCheckout()'><b>testForRegisteredCheckout</b><br>Test class: tests.CheckoutTests</td>
-<td><div><pre>java.lang.RuntimeException: Could not find and click product: Sony vaio i5
-	at pages.HomePage.selectProduct(HomePage.java:74)
-	at tests.CheckoutTests.runCheckoutTest(CheckoutTests.java:75)
-	at tests.CheckoutTests.testForRegisteredCheckout(CheckoutTests.java:117)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.lang.RuntimeException: Click failed on Product: Sony vaio i5
-	at pages.BasePage.click(BasePage.java:34)
-	at pages.HomePage.selectProduct(HomePage.java:70)
-	... 22 more
-Caused by: org.openqa.selenium.ElementClickInterceptedException: Element &lt;a class=&quot;hrefch&quot; href=&quot;prod.html?idp_=8&quot;&gt; is not clickable at point (1530,1401) because another element &lt;div id=&quot;logInModal&quot; class=&quot;modal fade show&quot;&gt; obscures it
-Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [4e25ef76-0c4e-4ee0-a63a-dcc600d20880, clickElement {id=8de2209e-5a55-445e-b8d5-38565a88360c}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11044, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10....}
-Element: [[FirefoxDriver: firefox on windows (4e25ef76-0c4e-4ee0-a63a-dcc600d20880)] -&gt; xpath: //a[@class=&apos;hrefch&apos;][text()=&apos;Sony vaio i5&apos;]]
-Session ID: 4e25ef76-0c4e-4ee0-a63a-dcc600d20880
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at pages.BasePage.click(BasePage.java:30)
-	... 23 more
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace659170338", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace659170338'><pre>java.lang.RuntimeException: Could not find and click product: Sony vaio i5
-	at pages.HomePage.selectProduct(HomePage.java:74)
-	at tests.CheckoutTests.runCheckoutTest(CheckoutTests.java:75)
-	at tests.CheckoutTests.testForRegisteredCheckout(CheckoutTests.java:117)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.lang.RuntimeException: Click failed on Product: Sony vaio i5
-	at pages.BasePage.click(BasePage.java:34)
-	at pages.HomePage.selectProduct(HomePage.java:70)
-	... 22 more
-Caused by: org.openqa.selenium.ElementClickInterceptedException: Element &lt;a class=&quot;hrefch&quot; href=&quot;prod.html?idp_=8&quot;&gt; is not clickable at point (1530,1401) because another element &lt;div id=&quot;logInModal&quot; class=&quot;modal fade show&quot;&gt; obscures it
-Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [4e25ef76-0c4e-4ee0-a63a-dcc600d20880, clickElement {id=8de2209e-5a55-445e-b8d5-38565a88360c}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11044, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10....}
-Element: [[FirefoxDriver: firefox on windows (4e25ef76-0c4e-4ee0-a63a-dcc600d20880)] -&gt; xpath: //a[@class=&apos;hrefch&apos;][text()=&apos;Sony vaio i5&apos;]]
-Session ID: 4e25ef76-0c4e-4ee0-a63a-dcc600d20880
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at pages.BasePage.click(BasePage.java:30)
-	... 23 more
-</pre></div></td>
-<td>2</td>
-<td>tests.CheckoutTests@e24ddd0</td></tr>
-<tr>
-<td title='tests.CheckoutTests.testWithMissingPaymentMethod()'><b>testWithMissingPaymentMethod</b><br>Test class: tests.CheckoutTests</td>
-<td><div><pre>java.lang.RuntimeException: Scenario not found for: Registered, 789 Oak St, TX, 
-	at tests.CheckoutTests.lambda$1(CheckoutTests.java:64)
-	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
-	at tests.CheckoutTests.getScenario(CheckoutTests.java:64)
-	at tests.CheckoutTests.testWithMissingPaymentMethod(CheckoutTests.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace751894153", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace751894153'><pre>java.lang.RuntimeException: Scenario not found for: Registered, 789 Oak St, TX, 
-	at tests.CheckoutTests.lambda$1(CheckoutTests.java:64)
-	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
-	at tests.CheckoutTests.getScenario(CheckoutTests.java:64)
-	at tests.CheckoutTests.testWithMissingPaymentMethod(CheckoutTests.java:128)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div></td>
-<td>0</td>
-<td>tests.CheckoutTests@e24ddd0</td></tr>
-<tr>
-<td title='tests.RegistrationTest.testSignUp()'><b>testSignUp</b><br>Test class: tests.RegistrationTest<br>Test method: Verifying with all valid credentials<br>Parameters: Validuser13, ValidPass@123, true</td>
-<td><div><pre>java.lang.AssertionError: Testcase failed. Registration blocked: User already exists.
-	at tests.RegistrationTest.testSignUp(RegistrationTest.java:67)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1119962139", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1119962139'><pre>java.lang.AssertionError: Testcase failed. Registration blocked: User already exists.
-	at org.testng.Assert.fail(Assert.java:111)
-	at tests.RegistrationTest.testSignUp(RegistrationTest.java:67)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div></td>
-<td>2</td>
-<td>tests.RegistrationTest@3574e198</td></tr>
-<tr>
-<td title='tests.SearchTests.testSearchByCategory()'><b>testSearchByCategory</b><br>Test class: tests.SearchTests<br>Test method: Searching by category<br>Parameters: Apple monitor 24, Monitors</td>
-<td><div><pre>java.lang.AssertionError: TestCase failed. Expected product &apos;Apple monitor 24&apos; to be visible under category &apos;Monitors&apos;, but it was not found. expected object to not be null
-	at tests.SearchTests.testSearchByCategory(SearchTests.java:91)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1365333098", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1365333098'><pre>java.lang.AssertionError: TestCase failed. Expected product &apos;Apple monitor 24&apos; to be visible under category &apos;Monitors&apos;, but it was not found. expected object to not be null
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.assertNotNull(Assert.java:1484)
-	at tests.SearchTests.testSearchByCategory(SearchTests.java:91)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -358,8 +364,8 @@ Session ID: 4e25ef76-0c4e-4ee0-a63a-dcc600d20880
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace470005567", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace470005567'><pre>java.lang.AssertionError: Testcase failed: Product was not found after restarting session. expected [true] but found [false]
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1417246227", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1417246227'><pre>java.lang.AssertionError: Testcase failed: Product was not found after restarting session. expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertTrue(Assert.java:57)
@@ -385,27 +391,21 @@ Session ID: 4e25ef76-0c4e-4ee0-a63a-dcc600d20880
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 </pre></div></td>
-<td>13</td>
+<td>11</td>
 <td>tests.CartTests@780ec4a5</td></tr>
 <tr>
-<td title='tests.CheckoutTests.testWithMissingShippingAddress()'><b>testWithMissingShippingAddress</b><br>Test class: tests.CheckoutTests</td>
-<td><div><pre>java.lang.AssertionError: Validation failed for user type: Guest expected [Shipping address required] but found [Thank you for your purchase!]
-	at tests.CheckoutTests.runCheckoutTest(CheckoutTests.java:104)
-	at tests.CheckoutTests.testWithMissingShippingAddress(CheckoutTests.java:123)
+<td title='tests.RegistrationTest.testSignUp()'><b>testSignUp</b><br>Test class: tests.RegistrationTest<br>Test method: Verifying with all valid credentials<br>Parameters: Validuser13, ValidPass@123, true</td>
+<td><div><pre>java.lang.AssertionError: Testcase failed. Registration blocked: User already exists.
+	at tests.RegistrationTest.testSignUp(RegistrationTest.java:67)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace234561044", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace234561044'><pre>java.lang.AssertionError: Validation failed for user type: Guest expected [Shipping address required] but found [Thank you for your purchase!]
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1973562463", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1973562463'><pre>java.lang.AssertionError: Testcase failed. Registration blocked: User already exists.
 	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at tests.CheckoutTests.runCheckoutTest(CheckoutTests.java:104)
-	at tests.CheckoutTests.testWithMissingShippingAddress(CheckoutTests.java:123)
+	at tests.RegistrationTest.testSignUp(RegistrationTest.java:67)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -427,8 +427,8 @@ Session ID: 4e25ef76-0c4e-4ee0-a63a-dcc600d20880
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 </pre></div></td>
-<td>10</td>
-<td>tests.CheckoutTests@e24ddd0</td></tr>
+<td>1</td>
+<td>tests.RegistrationTest@3574e198</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -439,77 +439,57 @@ Session ID: 4e25ef76-0c4e-4ee0-a63a-dcc600d20880
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.LoginTests.loginWithInvalidData()'><b>loginWithInvalidData</b><br>Test class: tests.LoginTests<br>Test method: Verifying with all invalid credentials<br>Parameters: invalidUser, wrongPass, false</td>
-<td></td>
-<td>2</td>
-<td>tests.LoginTests@16423501</td></tr>
-<tr>
-<td title='tests.CartTests.testRemoveProductFromCart()'><b>testRemoveProductFromCart</b><br>Test class: tests.CartTests<br>Parameters: Sony vaio i5, Remove, 0.0, 0.0</td>
-<td></td>
-<td>6</td>
-<td>tests.CartTests@780ec4a5</td></tr>
-<tr>
-<td title='tests.LoginTests.loginWithInvalidData()'><b>loginWithInvalidData</b><br>Test class: tests.LoginTests<br>Test method: Verifying with all invalid credentials<br>Parameters: Validuser1, ValidPass@123, false</td>
-<td></td>
-<td>2</td>
-<td>tests.LoginTests@16423501</td></tr>
-<tr>
 <td title='tests.CartTests.testPriceCalculationVerification()'><b>testPriceCalculationVerification</b><br>Test class: tests.CartTests</td>
 <td></td>
 <td>5</td>
 <td>tests.CartTests@780ec4a5</td></tr>
-<tr>
-<td title='tests.LoginTests.loginWithValidData()'><b>loginWithValidData</b><br>Test class: tests.LoginTests<br>Test method: Verifying with all valid credentials<br>Parameters: Validuser, validPass123, true</td>
-<td></td>
-<td>4</td>
-<td>tests.LoginTests@16423501</td></tr>
-<tr>
-<td title='tests.SearchTests.testSearchByCategory()'><b>testSearchByCategory</b><br>Test class: tests.SearchTests<br>Test method: Searching by category<br>Parameters: ASUS Full HD, Monitors</td>
-<td></td>
-<td>1</td>
-<td>tests.SearchTests@4eeea57d</td></tr>
-<tr>
-<td title='tests.LoginTests.loginWithEmptyFields()'><b>loginWithEmptyFields</b><br>Test class: tests.LoginTests<br>Test method: Verifying with all empty credentials<br>Parameters: Validuser1, , true</td>
-<td></td>
-<td>0</td>
-<td>tests.LoginTests@16423501</td></tr>
-<tr>
-<td title='tests.SearchTests.testSearchWithNoResults()'><b>testSearchWithNoResults</b><br>Test class: tests.SearchTests</td>
-<td></td>
-<td>0</td>
-<td>tests.SearchTests@4eeea57d</td></tr>
-<tr>
-<td title='tests.CheckoutTests.testGuestCheckoutWithDebitCard()'><b>testGuestCheckoutWithDebitCard</b><br>Test class: tests.CheckoutTests</td>
-<td></td>
-<td>10</td>
-<td>tests.CheckoutTests@e24ddd0</td></tr>
-<tr>
-<td title='tests.LoginTests.loginWithValidData()'><b>loginWithValidData</b><br>Test class: tests.LoginTests<br>Test method: Verifying with all valid credentials<br>Parameters: Validuser_100, valid, true</td>
-<td></td>
-<td>4</td>
-<td>tests.LoginTests@16423501</td></tr>
 <tr>
 <td title='tests.LoginTests.loginWithValidData()'><b>loginWithValidData</b><br>Test class: tests.LoginTests<br>Test method: Verifying with all valid credentials<br>Parameters: Validuser1, validPass@123, true</td>
 <td></td>
 <td>4</td>
 <td>tests.LoginTests@16423501</td></tr>
 <tr>
-<td title='tests.LoginTests.loginWithEmptyFields()'><b>loginWithEmptyFields</b><br>Test class: tests.LoginTests<br>Test method: Verifying with all empty credentials<br>Parameters: , , true</td>
+<td title='tests.SearchTests.testSearchByCategory()'><b>testSearchByCategory</b><br>Test class: tests.SearchTests<br>Test method: Searching by category<br>Parameters: ASUS Full HD, Monitors</td>
 <td></td>
-<td>1</td>
+<td>0</td>
+<td>tests.SearchTests@4eeea57d</td></tr>
+<tr>
+<td title='tests.SearchTests.testSearchWithNoResults()'><b>testSearchWithNoResults</b><br>Test class: tests.SearchTests</td>
+<td></td>
+<td>0</td>
+<td>tests.SearchTests@4eeea57d</td></tr>
+<tr>
+<td title='tests.LoginTests.loginWithInvalidData()'><b>loginWithInvalidData</b><br>Test class: tests.LoginTests<br>Test method: Verifying with all invalid credentials<br>Parameters: Validuser1, ValidPass@123, false</td>
+<td></td>
+<td>2</td>
 <td>tests.LoginTests@16423501</td></tr>
 <tr>
-<td title='tests.CartTests.testAddProductToCart()'><b>testAddProductToCart</b><br>Test class: tests.CartTests<br>Parameters: Sony vaio i5, Add, 1.0, 790.0</td>
+<td title='tests.LoginTests.loginWithValidData()'><b>loginWithValidData</b><br>Test class: tests.LoginTests<br>Test method: Verifying with all valid credentials<br>Parameters: Validuser, validPass123, true</td>
+<td></td>
+<td>4</td>
+<td>tests.LoginTests@16423501</td></tr>
+<tr>
+<td title='tests.LoginTests.loginWithInvalidData()'><b>loginWithInvalidData</b><br>Test class: tests.LoginTests<br>Test method: Verifying with all invalid credentials<br>Parameters: invalidUser, wrongPass, false</td>
+<td></td>
+<td>2</td>
+<td>tests.LoginTests@16423501</td></tr>
+<tr>
+<td title='tests.CartTests.testAddProductToCart()'><b>testAddProductToCart</b><br>Test class: tests.CartTests<br>Parameters: Samsung galaxy s6, Add, 1.0, 360.0</td>
+<td></td>
+<td>3</td>
+<td>tests.CartTests@780ec4a5</td></tr>
+<tr>
+<td title='tests.LoginTests.loginWithValidData()'><b>loginWithValidData</b><br>Test class: tests.LoginTests<br>Test method: Verifying with all valid credentials<br>Parameters: Validuser_100, valid, true</td>
+<td></td>
+<td>4</td>
+<td>tests.LoginTests@16423501</td></tr>
+<tr>
+<td title='tests.CartTests.testRemoveProductFromCart()'><b>testRemoveProductFromCart</b><br>Test class: tests.CartTests<br>Parameters: Sony vaio i5, Remove, 0.0, 0.0</td>
 <td></td>
 <td>5</td>
 <td>tests.CartTests@780ec4a5</td></tr>
 <tr>
-<td title='tests.CartTests.testRemoveProductFromCart()'><b>testRemoveProductFromCart</b><br>Test class: tests.CartTests<br>Parameters: Samsung galaxy s6, Remove, 0.0, 0.0</td>
-<td></td>
-<td>7</td>
-<td>tests.CartTests@780ec4a5</td></tr>
-<tr>
-<td title='tests.CheckoutTests.testForGuestCheckout()'><b>testForGuestCheckout</b><br>Test class: tests.CheckoutTests</td>
+<td title='tests.CheckoutTests.testGuestCheckoutWithDebitCard()'><b>testGuestCheckoutWithDebitCard</b><br>Test class: tests.CheckoutTests</td>
 <td></td>
 <td>10</td>
 <td>tests.CheckoutTests@e24ddd0</td></tr>
@@ -519,7 +499,27 @@ Session ID: 4e25ef76-0c4e-4ee0-a63a-dcc600d20880
 <td>2</td>
 <td>tests.LoginTests@16423501</td></tr>
 <tr>
-<td title='tests.CartTests.testAddProductToCart()'><b>testAddProductToCart</b><br>Test class: tests.CartTests<br>Parameters: Samsung galaxy s6, Add, 1.0, 360.0</td>
+<td title='tests.LoginTests.loginWithEmptyFields()'><b>loginWithEmptyFields</b><br>Test class: tests.LoginTests<br>Test method: Verifying with all empty credentials<br>Parameters: Validuser1, , true</td>
+<td></td>
+<td>0</td>
+<td>tests.LoginTests@16423501</td></tr>
+<tr>
+<td title='tests.CheckoutTests.testForGuestCheckout()'><b>testForGuestCheckout</b><br>Test class: tests.CheckoutTests</td>
+<td></td>
+<td>9</td>
+<td>tests.CheckoutTests@e24ddd0</td></tr>
+<tr>
+<td title='tests.CartTests.testRemoveProductFromCart()'><b>testRemoveProductFromCart</b><br>Test class: tests.CartTests<br>Parameters: Samsung galaxy s6, Remove, 0.0, 0.0</td>
+<td></td>
+<td>5</td>
+<td>tests.CartTests@780ec4a5</td></tr>
+<tr>
+<td title='tests.LoginTests.loginWithEmptyFields()'><b>loginWithEmptyFields</b><br>Test class: tests.LoginTests<br>Test method: Verifying with all empty credentials<br>Parameters: , , true</td>
+<td></td>
+<td>1</td>
+<td>tests.LoginTests@16423501</td></tr>
+<tr>
+<td title='tests.CartTests.testAddProductToCart()'><b>testAddProductToCart</b><br>Test class: tests.CartTests<br>Parameters: Sony vaio i5, Add, 1.0, 790.0</td>
 <td></td>
 <td>5</td>
 <td>tests.CartTests@780ec4a5</td></tr>

@@ -1,43 +1,1684 @@
-14:55:26.042 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
-14:55:26.059 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
-14:55:26.063 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:55:26.064 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:55:26.065 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:55:26.065 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:55:26.072 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:55:26.072 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:55:26.074 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:55:26.074 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:55:26.075 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:55:26.075 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:55:26.076 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:55:26.076 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:55:26.077 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:55:26.077 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:55:26.093 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 11 ms.
-14:55:26.105 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 11 ms.
-14:55:26.107 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:55:26.108 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:55:26.115 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:55:26.115 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:55:26.115 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:55:26.115 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:55:26.128 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 11 ms.
-14:55:26.129 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:55:26.131 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:55:26.131 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:55:26.131 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-14:55:26.132 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-14:55:26.159 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Administrator\AppData\Local\Temp\testng-eclipse--1246654934\testng-customsuite.xml
+22:26:34.377 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze\src\main\resources\testng.xml
 
-14:55:26.207 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
-14:55:27.142 [main] INFO  utils.LoggerUtil - Setting up test....
-14:55:28.715 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Reading https://raw.githubusercontent.com/bonigarcia/webdrivermanager/master/docs/mirror/geckodriver to seek geckodriver
-14:55:29.298 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
-14:55:40.108 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@3db6dd52: 76 ms
-14:55:40.126 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@f559c74: 17 ms
-14:55:40.143 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@478967eb: 17 ms
-14:55:40.154 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@3c33fcf8: 11 ms
-14:55:40.164 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@167a21b: 10 ms
-14:55:40.165 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7c0df4ab: 0 ms
+22:26:35.374 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:26:35.374 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:26:35.841 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:26:35.841 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:26:35.868 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:26:35.868 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:26:38.613 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+22:26:38.696 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+22:26:38.857 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:26:39.418 [TestNG-tests-2] INFO  utils.LoggerUtil - Opened login page.
+22:26:39.547 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:26:39.654 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:26:39.768 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:26:40.245 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+22:26:40.249 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+22:26:40.434 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:26:40.999 [TestNG-tests-1] INFO  utils.LoggerUtil - Opened login page.
+22:26:41.082 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:26:41.208 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:26:41.321 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:26:42.890 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser1
+22:26:43.317 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:26:43.362 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully logged out
+22:26:44.367 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithValidData_20250928_222644.png
+22:26:44.463 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser1
+22:26:44.615 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:26:44.618 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:26:44.636 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:26:44.647 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:26:44.853 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:26:44.900 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully logged out
+22:26:45.243 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithValidData_20250928_222645.png
+22:26:46.240 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:26:46.243 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:26:46.257 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:26:46.266 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:26:48.605 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+22:26:48.617 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+22:26:48.762 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:26:49.325 [TestNG-tests-2] INFO  utils.LoggerUtil - Opened login page.
+22:26:49.453 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser to element UserName
+22:26:49.689 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+22:26:49.692 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+22:26:49.733 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: validPass123 to element Password
+22:26:49.851 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:26:49.869 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:26:50.436 [TestNG-tests-1] INFO  utils.LoggerUtil - Opened login page.
+22:26:50.515 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser to element UserName
+22:26:50.576 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: validPass123 to element Password
+22:26:50.667 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:26:52.939 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser
+22:26:53.399 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:26:53.420 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully logged out
+22:26:53.746 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser
+22:26:53.933 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:26:53.974 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully logged out
+22:26:54.205 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithValidData_20250928_222654.png
+22:26:54.411 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithValidData_20250928_222654.png
+22:26:54.573 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:26:54.576 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:26:54.591 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:26:54.600 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:26:55.438 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:26:55.441 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:26:55.454 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:26:55.461 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:26:56.416 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+22:26:56.419 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+22:26:56.608 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:26:57.159 [TestNG-tests-2] INFO  utils.LoggerUtil - Opened login page.
+22:26:57.300 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser_100 to element UserName
+22:26:57.416 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: valid to element Password
+22:26:57.612 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:26:58.932 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+22:26:58.934 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+22:26:59.123 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:26:59.667 [TestNG-tests-1] INFO  utils.LoggerUtil - Opened login page.
+22:26:59.740 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser_100 to element UserName
+22:26:59.785 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: valid to element Password
+22:26:59.882 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:27:00.830 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser_100
+22:27:01.255 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:27:01.295 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully logged out
+22:27:02.264 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithValidData_20250928_222702.png
+22:27:02.453 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:27:02.504 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:27:02.519 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:27:02.527 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:27:02.983 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser_100
+22:27:03.498 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:27:03.539 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully logged out
+22:27:03.771 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithValidData_20250928_222703.png
+22:27:04.756 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:27:04.797 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:27:04.809 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:27:04.818 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:27:06.147 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+22:27:06.153 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+22:27:06.303 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:27:06.922 [TestNG-tests-2] INFO  utils.LoggerUtil - Opened login page.
+22:27:07.157 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+22:27:07.273 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:27:07.371 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:27:08.118 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+22:27:08.120 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+22:27:08.302 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:27:08.401 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+22:27:08.837 [TestNG-tests-1] INFO  utils.LoggerUtil - Opened login page.
+22:27:08.922 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+22:27:08.961 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:27:09.051 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:27:09.230 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250928_222709.png
+22:27:09.387 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:27:09.390 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:27:09.401 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:27:09.408 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:27:10.094 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+22:27:10.405 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250928_222710.png
+22:27:10.981 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+22:27:10.984 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+22:27:11.173 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:27:11.638 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:27:11.640 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:27:11.651 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:27:11.659 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:27:11.736 [TestNG-tests-2] INFO  utils.LoggerUtil - Opened login page.
+22:27:11.863 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:27:11.986 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+22:27:12.091 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:27:14.140 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: Validuser1
+22:27:14.947 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+22:27:14.950 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+22:27:15.039 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250928_222715.png
+22:27:15.158 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:27:15.296 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:27:15.299 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:27:15.326 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:27:15.336 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:27:15.688 [TestNG-tests-1] INFO  utils.LoggerUtil - Opened login page.
+22:27:15.771 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:27:15.828 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+22:27:15.929 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:27:16.469 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: Validuser1
+22:27:16.755 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250928_222716.png
+22:27:17.830 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:27:17.832 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:27:17.843 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:27:17.850 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:27:18.664 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+22:27:18.669 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+22:27:19.506 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:27:20.197 [TestNG-tests-2] INFO  utils.LoggerUtil - Opened login page.
+22:27:20.328 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+22:27:20.435 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+22:27:20.535 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:27:21.321 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+22:27:21.325 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+22:27:21.478 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:27:21.591 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+22:27:22.029 [TestNG-tests-1] INFO  utils.LoggerUtil - Opened login page.
+22:27:22.129 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+22:27:22.167 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+22:27:22.253 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:27:22.476 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250928_222722.png
+22:27:23.312 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+22:27:23.562 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:27:23.598 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250928_222723.png
+22:27:23.605 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:27:23.617 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:27:23.624 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:27:24.751 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:27:24.785 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:27:24.796 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:27:24.803 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:27:25.429 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+22:27:25.434 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+22:27:25.561 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:27:26.105 [TestNG-tests-2] INFO  utils.LoggerUtil - Opened login page.
+22:27:26.239 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:27:26.348 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as:  to element Password
+22:27:26.458 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:27:26.466 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+22:27:27.220 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250928_222727.png
+22:27:27.416 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:27:27.419 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:27:27.430 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:27:27.438 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:27:28.139 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+22:27:28.144 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+22:27:28.365 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:27:28.927 [TestNG-tests-1] INFO  utils.LoggerUtil - Opened login page.
+22:27:28.998 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:27:29.044 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as:  to element Password
+22:27:29.143 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:27:29.192 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+22:27:29.480 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250928_222729.png
+22:27:30.574 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:27:30.576 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:27:30.587 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:27:30.594 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:27:31.131 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+22:27:31.133 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+22:27:31.260 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:27:31.806 [TestNG-tests-2] INFO  utils.LoggerUtil - Opened login page.
+22:27:31.915 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as:  to element UserName
+22:27:32.015 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as:  to element Password
+22:27:32.154 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:27:32.161 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+22:27:33.018 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250928_222733.png
+22:27:33.266 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:27:33.306 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:27:33.317 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:27:33.324 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:27:33.758 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+22:27:33.761 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+22:27:34.070 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:27:34.616 [TestNG-tests-1] INFO  utils.LoggerUtil - Opened login page.
+22:27:34.702 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as:  to element UserName
+22:27:34.773 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as:  to element Password
+22:27:34.831 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSignUp
+22:27:34.839 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST SIGNUP FOR USER: Validuser13...
+22:27:34.893 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:27:34.915 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+22:27:34.982 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Clicked on signup link
+22:27:35.239 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250928_222735.png
+22:27:35.534 [TestNG-tests-2] INFO  utils.LoggerUtil - Opened signup page.
+22:27:35.653 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser13 to element UserName
+22:27:35.788 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+22:27:35.899 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: SignUp Button
+22:27:36.238 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:27:36.268 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:27:36.279 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:27:36.285 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:27:37.948 [TestNG-tests-2] WARN  utils.LoggerUtil - Registration blocked: User already exists - Validuser13
+22:27:38.884 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSignUp_20250928_222738.png
+22:27:39.159 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:27:39.188 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:27:39.198 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:27:39.204 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:27:39.616 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSignUp
+22:27:39.619 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST SIGNUP FOR USER: Validuser13...
+22:27:39.848 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Clicked on signup link
+22:27:40.449 [TestNG-tests-1] INFO  utils.LoggerUtil - Opened signup page.
+22:27:40.513 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser13 to element UserName
+22:27:40.543 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+22:27:40.634 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: SignUp Button
+22:27:41.719 [TestNG-tests-1] WARN  utils.LoggerUtil - Registration blocked: User already exists - Validuser13
+22:27:41.998 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSignUp_20250928_222741.png
+22:27:43.075 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:27:43.110 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:27:43.120 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:27:43.126 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:27:43.222 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:27:43.254 [TestNG-tests-2] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:27:43.256 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+22:27:43.259 [TestNG-tests-2] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY: Monitors FOR PRODUCT: Apple monitor 24...
+22:27:43.260 [TestNG-tests-2] INFO  utils.LoggerUtil - Selecting category: Monitors
+22:27:43.454 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+22:27:45.171 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByCategory_20250928_222745.png
+22:27:45.366 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:27:45.369 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:27:45.381 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:27:45.388 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:27:46.284 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:27:46.321 [TestNG-tests-1] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:27:46.323 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+22:27:46.326 [TestNG-tests-1] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY: Monitors FOR PRODUCT: Apple monitor 24...
+22:27:46.326 [TestNG-tests-1] INFO  utils.LoggerUtil - Selecting category: Monitors
+22:27:46.630 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+22:27:47.447 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByCategory_20250928_222747.png
+22:27:48.403 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:27:48.405 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:27:48.414 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:27:48.420 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:27:49.255 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:27:49.354 [TestNG-tests-2] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:27:49.356 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+22:27:49.359 [TestNG-tests-2] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY: Monitors FOR PRODUCT: ASUS Full HD...
+22:27:49.359 [TestNG-tests-2] INFO  utils.LoggerUtil - Selecting category: Monitors
+22:27:49.496 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+22:27:50.102 [TestNG-tests-2] INFO  utils.LoggerUtil - TestCase passed. Product 'ASUS Full HD' is visible under category 'Monitors'
+22:27:51.076 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testSearchByCategory_20250928_222751.png
+22:27:51.304 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:27:51.340 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:27:51.358 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:27:51.365 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:27:51.682 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:27:51.783 [TestNG-tests-1] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:27:51.785 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+22:27:51.788 [TestNG-tests-1] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY: Monitors FOR PRODUCT: ASUS Full HD...
+22:27:51.788 [TestNG-tests-1] INFO  utils.LoggerUtil - Selecting category: Monitors
+22:27:52.311 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+22:27:52.803 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByCategory_20250928_222752.png
+22:27:53.097 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:27:53.138 [TestNG-tests-2] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:27:53.140 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+22:27:53.143 [TestNG-tests-2] INFO  utils.LoggerUtil - ...SEARCH BY PRODUCT NAME...
+22:27:53.210 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:27:53.231 [TestNG-tests-2] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:27:53.232 [TestNG-tests-2] INFO  utils.LoggerUtil - Checking visibility of product: Sony xperia z5
+22:27:53.878 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:27:53.909 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:27:53.919 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:27:53.925 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:27:54.248 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByProduct_Sony xperia z5_20250928_222754.png
+22:27:54.249 [TestNG-tests-2] ERROR utils.LoggerUtil - Product 'Sony xperia z5' is not visible.
+22:27:55.185 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByProductName_20250928_222755.png
+22:27:55.401 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:27:55.403 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:27:55.413 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:27:55.419 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:27:57.480 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:27:57.509 [TestNG-tests-1] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:27:57.513 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+22:27:57.521 [TestNG-tests-1] INFO  utils.LoggerUtil - ...SEARCH BY PRODUCT NAME...
+22:27:57.643 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:27:57.683 [TestNG-tests-1] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:27:57.683 [TestNG-tests-1] INFO  utils.LoggerUtil - Checking visibility of product: Sony xperia z5
+22:27:57.910 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByProduct_Sony xperia z5_20250928_222757.png
+22:27:57.910 [TestNG-tests-1] ERROR utils.LoggerUtil - Product 'Sony xperia z5' is not visible.
+22:27:58.130 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByProductName_20250928_222758.png
+22:27:59.202 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:27:59.204 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:27:59.217 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:27:59.224 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:27:59.294 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:27:59.348 [TestNG-tests-2] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:27:59.350 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+22:27:59.353 [TestNG-tests-2] INFO  utils.LoggerUtil - ...SEARCH BY PRODUCT NAME...
+22:27:59.413 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:27:59.449 [TestNG-tests-2] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:27:59.449 [TestNG-tests-2] INFO  utils.LoggerUtil - Checking visibility of product: Sony vaio i5
+22:28:00.404 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByProduct_Sony vaio i5_20250928_222800.png
+22:28:00.404 [TestNG-tests-2] ERROR utils.LoggerUtil - Product 'Sony vaio i5' is not visible.
+22:28:01.401 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByProductName_20250928_222801.png
+22:28:01.605 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:28:01.608 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:28:01.619 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:28:01.626 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:28:02.443 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:28:02.506 [TestNG-tests-1] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:28:02.508 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+22:28:02.511 [TestNG-tests-1] INFO  utils.LoggerUtil - ...SEARCH BY PRODUCT NAME...
+22:28:02.618 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:28:02.639 [TestNG-tests-1] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:28:02.639 [TestNG-tests-1] INFO  utils.LoggerUtil - Checking visibility of product: Sony vaio i5
+22:28:02.935 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByProduct_Sony vaio i5_20250928_222802.png
+22:28:02.936 [TestNG-tests-1] ERROR utils.LoggerUtil - Product 'Sony vaio i5' is not visible.
+22:28:03.179 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByProductName_20250928_222803.png
+22:28:03.223 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:28:03.268 [TestNG-tests-2] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:28:03.270 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSearchWithNoResults
+22:28:03.391 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Phones Category
+22:28:03.429 [TestNG-tests-2] INFO  utils.LoggerUtil - TestCase passed. Product not found as expected.
+22:28:04.231 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:28:04.233 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:28:04.243 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:28:04.249 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:28:04.450 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testSearchWithNoResults_20250928_222804.png
+22:28:04.609 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:28:04.684 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:28:04.708 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:28:04.717 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:28:07.671 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:28:07.700 [TestNG-tests-1] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:28:07.707 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSearchWithNoResults
+22:28:08.030 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Phones Category
+22:28:08.034 [TestNG-tests-1] INFO  utils.LoggerUtil - TestCase passed. Product not found as expected.
+22:28:08.268 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testSearchWithNoResults_20250928_222808.png
+22:28:08.519 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:28:08.521 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testAddProductToCart
+22:28:08.531 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TESTING ADD TO CART FUNCTIONALITY...
+22:28:08.600 [TestNG-tests-2] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:28:09.358 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:28:09.399 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:28:09.409 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:28:09.415 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:28:09.878 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Product: Samsung galaxy s6
+22:28:09.878 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully selected the product: Samsung galaxy s6
+22:28:10.454 [TestNG-tests-2] INFO  utils.LoggerUtil - Actual product title on page: Samsung galaxy s6
+22:28:10.454 [TestNG-tests-2] INFO  utils.LoggerUtil - Expected product name from test case: Samsung galaxy s6
+22:28:10.571 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:28:11.619 [TestNG-tests-2] INFO  utils.LoggerUtil - Alert accepted.
+22:28:12.374 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:28:12.410 [TestNG-tests-2] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:28:12.546 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:28:12.548 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testAddProductToCart
+22:28:12.550 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TESTING ADD TO CART FUNCTIONALITY...
+22:28:12.667 [TestNG-tests-1] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:28:13.121 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/AddProductToCartSamsung galaxy s6_20250928_222813.png
+22:28:13.596 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Product: Samsung galaxy s6
+22:28:13.597 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully selected the product: Samsung galaxy s6
+22:28:13.657 [TestNG-tests-2] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' found in the cart.
+22:28:13.695 [TestNG-tests-2] INFO  utils.LoggerUtil - TestCase passed. Product 'Samsung galaxy s6' found in the cart.
+22:28:13.711 [TestNG-tests-2] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' found in the cart.
+22:28:14.396 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testAddProductToCart_20250928_222814.png
+22:28:14.573 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:28:14.575 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:28:14.586 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:28:14.593 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:28:14.640 [TestNG-tests-1] INFO  utils.LoggerUtil - Actual product title on page: Samsung galaxy s6
+22:28:14.640 [TestNG-tests-1] INFO  utils.LoggerUtil - Expected product name from test case: Samsung galaxy s6
+22:28:14.743 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:28:15.812 [TestNG-tests-1] INFO  utils.LoggerUtil - Alert accepted.
+22:28:16.333 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:28:16.335 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testAddProductToCart
+22:28:16.338 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TESTING ADD TO CART FUNCTIONALITY...
+22:28:16.372 [TestNG-tests-2] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:28:16.385 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:28:16.423 [TestNG-tests-1] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:28:16.618 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/AddProductToCartSamsung galaxy s6_20250928_222816.png
+22:28:17.649 [TestNG-tests-1] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' found in the cart.
+22:28:17.670 [TestNG-tests-1] INFO  utils.LoggerUtil - TestCase passed. Product 'Samsung galaxy s6' found in the cart.
+22:28:17.682 [TestNG-tests-1] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' found in the cart.
+22:28:17.884 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testAddProductToCart_20250928_222817.png
+22:28:18.865 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:28:18.867 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:28:18.878 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:28:18.885 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:28:19.623 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:28:19.624 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:28:20.173 [TestNG-tests-2] INFO  utils.LoggerUtil - Actual product title on page: Sony vaio i5
+22:28:20.173 [TestNG-tests-2] INFO  utils.LoggerUtil - Expected product name from test case: Sony vaio i5
+22:28:20.303 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:28:20.903 [TestNG-tests-2] INFO  utils.LoggerUtil - Alert accepted.
+22:28:21.713 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:28:21.744 [TestNG-tests-2] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:28:22.423 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/AddProductToCartSony vaio i5_20250928_222822.png
+22:28:22.804 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:28:22.805 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testAddProductToCart
+22:28:22.808 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TESTING ADD TO CART FUNCTIONALITY...
+22:28:22.842 [TestNG-tests-1] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:28:22.962 [TestNG-tests-2] INFO  utils.LoggerUtil - Product 'Sony vaio i5' found in the cart.
+22:28:23.002 [TestNG-tests-2] INFO  utils.LoggerUtil - TestCase passed. Product 'Sony vaio i5' found in the cart.
+22:28:23.018 [TestNG-tests-2] INFO  utils.LoggerUtil - Product 'Sony vaio i5' found in the cart.
+22:28:23.467 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:28:23.467 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:28:23.704 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testAddProductToCart_20250928_222823.png
+22:28:23.897 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:28:23.935 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:28:23.949 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:28:23.960 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:28:24.544 [TestNG-tests-1] INFO  utils.LoggerUtil - Actual product title on page: Sony vaio i5
+22:28:24.544 [TestNG-tests-1] INFO  utils.LoggerUtil - Expected product name from test case: Sony vaio i5
+22:28:24.634 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:28:25.688 [TestNG-tests-1] INFO  utils.LoggerUtil - Alert accepted.
+22:28:26.287 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:28:26.330 [TestNG-tests-1] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:28:26.524 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/AddProductToCartSony vaio i5_20250928_222826.png
+22:28:27.535 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:28:27.538 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testRemoveProductFromCart
+22:28:27.541 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TESTING REMOVING FROM CART FUNCTIONALITY FOR: Samsung galaxy s6...
+22:28:27.564 [TestNG-tests-1] INFO  utils.LoggerUtil - Product 'Sony vaio i5' found in the cart.
+22:28:27.569 [TestNG-tests-2] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:28:27.588 [TestNG-tests-1] INFO  utils.LoggerUtil - TestCase passed. Product 'Sony vaio i5' found in the cart.
+22:28:27.602 [TestNG-tests-1] INFO  utils.LoggerUtil - Product 'Sony vaio i5' found in the cart.
+22:28:27.807 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testAddProductToCart_20250928_222827.png
+22:28:28.711 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Product: Samsung galaxy s6
+22:28:28.711 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully selected the product: Samsung galaxy s6
+22:28:28.792 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:28:28.832 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:28:28.841 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:28:28.848 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:28:29.283 [TestNG-tests-2] INFO  utils.LoggerUtil - Actual product title on page: Samsung galaxy s6
+22:28:29.283 [TestNG-tests-2] INFO  utils.LoggerUtil - Expected product name from test case: Samsung galaxy s6
+22:28:29.384 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:28:30.407 [TestNG-tests-2] INFO  utils.LoggerUtil - Alert accepted.
+22:28:31.127 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:28:31.165 [TestNG-tests-2] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:28:32.236 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:28:32.238 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testRemoveProductFromCart
+22:28:32.241 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TESTING REMOVING FROM CART FUNCTIONALITY FOR: Samsung galaxy s6...
+22:28:32.245 [TestNG-tests-2] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' found in the cart.
+22:28:32.306 [TestNG-tests-1] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:28:33.393 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Product: Samsung galaxy s6
+22:28:33.393 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully selected the product: Samsung galaxy s6
+22:28:33.484 [TestNG-tests-2] INFO  utils.LoggerUtil - Removed product 'Samsung galaxy s6' from the cart.
+22:28:33.492 [TestNG-tests-2] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' successfully removed from the cart.
+22:28:33.522 [TestNG-tests-2] INFO  utils.LoggerUtil - Test passed: Product Samsung galaxy s6 was successfully removed and cart state is correct.
+22:28:33.959 [TestNG-tests-1] INFO  utils.LoggerUtil - Actual product title on page: Samsung galaxy s6
+22:28:33.959 [TestNG-tests-1] INFO  utils.LoggerUtil - Expected product name from test case: Samsung galaxy s6
+22:28:34.045 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:28:34.203 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/RemoveProductFromCart_Samsung galaxy s6_20250928_222834.png
+22:28:34.869 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testRemoveProductFromCart_20250928_222834.png
+22:28:35.049 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:28:35.051 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:28:35.060 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:28:35.066 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:28:35.094 [TestNG-tests-1] INFO  utils.LoggerUtil - Alert accepted.
+22:28:35.588 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:28:35.641 [TestNG-tests-1] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:28:36.685 [TestNG-tests-1] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' found in the cart.
+22:28:36.800 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:28:36.802 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testRemoveProductFromCart
+22:28:36.804 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TESTING REMOVING FROM CART FUNCTIONALITY FOR: Sony vaio i5...
+22:28:36.840 [TestNG-tests-2] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:28:37.822 [TestNG-tests-1] INFO  utils.LoggerUtil - Removed product 'Samsung galaxy s6' from the cart.
+22:28:37.825 [TestNG-tests-1] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' successfully removed from the cart.
+22:28:37.835 [TestNG-tests-1] INFO  utils.LoggerUtil - Test passed: Product Samsung galaxy s6 was successfully removed and cart state is correct.
+22:28:38.028 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/RemoveProductFromCart_Samsung galaxy s6_20250928_222838.png
+22:28:38.225 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testRemoveProductFromCart_20250928_222838.png
+22:28:39.188 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:28:39.190 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:28:39.199 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:28:39.205 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:28:40.115 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:28:40.115 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:28:40.674 [TestNG-tests-2] INFO  utils.LoggerUtil - Actual product title on page: Sony vaio i5
+22:28:40.674 [TestNG-tests-2] INFO  utils.LoggerUtil - Expected product name from test case: Sony vaio i5
+22:28:40.772 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:28:41.804 [TestNG-tests-2] INFO  utils.LoggerUtil - Alert accepted.
+22:28:42.525 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:28:42.578 [TestNG-tests-2] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:28:42.848 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:28:42.850 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testRemoveProductFromCart
+22:28:42.852 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TESTING REMOVING FROM CART FUNCTIONALITY FOR: Sony vaio i5...
+22:28:42.880 [TestNG-tests-1] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:28:44.153 [TestNG-tests-2] INFO  utils.LoggerUtil - Product 'Sony vaio i5' found in the cart.
+22:28:44.936 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:28:44.936 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:28:45.111 [TestNG-tests-2] INFO  utils.LoggerUtil - Removed product 'Sony vaio i5' from the cart.
+22:28:45.119 [TestNG-tests-2] INFO  utils.LoggerUtil - Product 'Sony vaio i5' successfully removed from the cart.
+22:28:45.147 [TestNG-tests-2] INFO  utils.LoggerUtil - Test passed: Product Sony vaio i5 was successfully removed and cart state is correct.
+22:28:45.855 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/RemoveProductFromCart_Sony vaio i5_20250928_222845.png
+22:28:45.978 [TestNG-tests-1] INFO  utils.LoggerUtil - Actual product title on page: Sony vaio i5
+22:28:45.978 [TestNG-tests-1] INFO  utils.LoggerUtil - Expected product name from test case: Sony vaio i5
+22:28:46.065 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:28:46.525 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testRemoveProductFromCart_20250928_222846.png
+22:28:46.749 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:28:46.751 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:28:46.761 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:28:46.768 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:28:47.125 [TestNG-tests-1] INFO  utils.LoggerUtil - Alert accepted.
+22:28:47.728 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:28:47.771 [TestNG-tests-1] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:28:48.797 [TestNG-tests-1] INFO  utils.LoggerUtil - Product 'Sony vaio i5' found in the cart.
+22:28:49.936 [TestNG-tests-1] INFO  utils.LoggerUtil - Removed product 'Sony vaio i5' from the cart.
+22:28:49.939 [TestNG-tests-1] INFO  utils.LoggerUtil - Product 'Sony vaio i5' successfully removed from the cart.
+22:28:49.950 [TestNG-tests-1] INFO  utils.LoggerUtil - Test passed: Product Sony vaio i5 was successfully removed and cart state is correct.
+22:28:50.150 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/RemoveProductFromCart_Sony vaio i5_20250928_222850.png
+22:28:50.366 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testRemoveProductFromCart_20250928_222850.png
+22:28:50.502 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:28:50.504 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testCartPersistenceAcrossSessions
+22:28:50.506 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TESTING CART PERSISTENCE ACROSS SESSIONS...
+22:28:51.341 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:28:51.343 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:28:51.353 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:28:51.359 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:28:53.952 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Product: Nokia lumia 1520
+22:28:53.952 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully selected the product: Nokia lumia 1520
+22:28:54.592 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:28:54.722 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:28:54.723 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testCartPersistenceAcrossSessions
+22:28:54.725 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TESTING CART PERSISTENCE ACROSS SESSIONS...
+22:28:55.618 [TestNG-tests-2] INFO  utils.LoggerUtil - Alert accepted.
+22:28:55.684 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Product: Nokia lumia 1520
+22:28:55.684 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully selected the product: Nokia lumia 1520
+22:28:55.836 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:28:55.842 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:28:56.796 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:28:57.846 [TestNG-tests-1] INFO  utils.LoggerUtil - Alert accepted.
+22:28:58.857 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:28:58.980 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:28:58.986 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:28:59.496 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:28:59.514 [TestNG-tests-2] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:29:01.569 [TestNG-tests-2] INFO  utils.LoggerUtil - Product 'Nokia lumia 1520' found in the cart.
+22:29:01.655 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testCartPersistenceAcrossSessions_20250928_222901.png
+22:29:02.029 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:29:02.665 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:29:02.704 [TestNG-tests-1] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:29:02.755 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:29:02.757 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:29:02.768 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:29:02.774 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:29:05.766 [TestNG-tests-1] ERROR utils.LoggerUtil - Product 'Nokia lumia 1520' was not found in the cart. Error: Expected condition failed: waiting for visibility of element located by By.xpath: //tbody/tr/td[text()='Nokia lumia 1520'] (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 696, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9c331133-74a6-4d55-8a3f-5992ca0f52f9
+22:29:05.838 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testCartPersistenceAcrossSessions_20250928_222905.png
+22:29:06.347 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:29:06.349 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testPriceCalculationVerification
+22:29:06.351 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TESTING PRICE CALCULATION IN CART...
+22:29:06.817 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:29:06.819 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:29:06.828 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:29:06.835 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:29:08.038 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:29:08.038 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:29:08.631 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully read the value as: $790 *includes tax from element Product Price
+22:29:08.737 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:29:09.761 [TestNG-tests-2] INFO  utils.LoggerUtil - Alert accepted.
+22:29:10.454 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:29:10.478 [TestNG-tests-2] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:29:10.679 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:29:10.680 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testPriceCalculationVerification
+22:29:10.682 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TESTING PRICE CALCULATION IN CART...
+22:29:11.286 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:29:11.286 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:29:12.228 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/priceCalculationVerification_20250928_222912.png
+22:29:12.351 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully read the value as: $790 *includes tax from element Product Price
+22:29:12.450 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:29:12.917 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testPriceCalculationVerification_20250928_222912.png
+22:29:13.126 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:29:13.128 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:29:13.137 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:29:13.143 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:29:13.507 [TestNG-tests-1] INFO  utils.LoggerUtil - Alert accepted.
+22:29:13.931 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testForGuestCheckout
+22:29:14.173 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:29:14.211 [TestNG-tests-1] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:29:14.581 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:29:14.581 [TestNG-tests-2] INFO  utils.LoggerUtil - Simulated guest user flow (no login).
+22:29:15.461 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/priceCalculationVerification_20250928_222915.png
+22:29:15.662 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testPriceCalculationVerification_20250928_222915.png
+22:29:16.618 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:29:16.620 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:29:16.629 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:29:16.635 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:29:18.426 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:29:18.427 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:29:19.037 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testForGuestCheckout
+22:29:19.045 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:29:20.066 [TestNG-tests-2] INFO  utils.LoggerUtil - Alert accepted.
+22:29:20.078 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:29:20.079 [TestNG-tests-1] INFO  utils.LoggerUtil - Simulated guest user flow (no login).
+22:29:20.770 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:29:20.810 [TestNG-tests-2] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:29:21.277 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:29:21.277 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:29:21.952 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+22:29:22.392 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:29:22.611 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: GuestUser1 to element Name Field
+22:29:22.706 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: US to element Country Field
+22:29:22.801 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: NY to element City Field
+22:29:22.933 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Credit Card to element Card Field
+22:29:23.040 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: 10.0 to element Month Field
+22:29:23.143 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: 2025.0 to element Year Field
+22:29:23.253 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Purchase Button
+22:29:23.438 [TestNG-tests-1] INFO  utils.LoggerUtil - Alert accepted.
+22:29:24.034 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:29:24.079 [TestNG-tests-1] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:29:25.226 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+22:29:25.819 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: GuestUser1 to element Name Field
+22:29:25.847 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: US to element Country Field
+22:29:25.881 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: NY to element City Field
+22:29:25.918 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Credit Card to element Card Field
+22:29:25.948 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: 10.0 to element Month Field
+22:29:25.979 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: 2025.0 to element Year Field
+22:29:26.073 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Purchase Button
+22:29:26.370 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully read the value as: Thank you for your purchase! from element Confirmation Header
+22:29:26.950 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testForGuestCheckout_20250928_222926.png
+22:29:27.133 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:29:27.135 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:29:27.145 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:29:27.150 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:29:27.846 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testForRegisteredCheckout
+22:29:29.149 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully read the value as: Thank you for your purchase! from element Confirmation Header
+22:29:29.383 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testForGuestCheckout_20250928_222929.png
+22:29:30.376 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:29:30.378 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:29:30.388 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:29:30.393 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:29:30.944 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:29:31.132 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:29:31.739 [TestNG-tests-2] INFO  utils.LoggerUtil - Opened login page.
+22:29:31.897 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser13 to element UserName
+22:29:32.009 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+22:29:32.105 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:29:32.105 [TestNG-tests-2] INFO  utils.LoggerUtil - Simulated registered user login.
+22:29:32.883 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testForRegisteredCheckout
+22:29:33.362 [TestNG-tests-2] ERROR utils.LoggerUtil - Failed to click element: Product: Sony vaio i5. Error: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.207)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [050ca07d24cdec380d224a15d248a577, clickElement {id=f.C36EC30DB6672E08D5F37B926C1BF8D0.d.7DABD3F5E602692A83A82347E2A44DE8.e.117}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.207, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58341}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58341/devtoo..., se:cdpVersion: 140.0.7339.207, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (050ca07d24cdec380d224a15d248a577)] -> xpath: //a[@class='hrefch'][text()='Sony vaio i5']]
+Session ID: 050ca07d24cdec380d224a15d248a577
+22:29:33.363 [TestNG-tests-2] ERROR utils.LoggerUtil - Failed to select product 'Sony vaio i5'. Error: Click failed on Product: Sony vaio i5
+22:29:33.998 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:29:34.166 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:29:34.349 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testForRegisteredCheckout_20250928_222934.png
+22:29:34.592 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:29:34.594 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:29:34.604 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:29:34.610 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:29:34.710 [TestNG-tests-1] INFO  utils.LoggerUtil - Opened login page.
+22:29:34.815 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser13 to element UserName
+22:29:34.864 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+22:29:34.979 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:29:34.979 [TestNG-tests-1] INFO  utils.LoggerUtil - Simulated registered user login.
+22:29:35.051 [TestNG-tests-1] ERROR utils.LoggerUtil - Failed to click element: Product: Sony vaio i5. Error: Element <a class="hrefch" href="prod.html?idp_=8"> is not clickable at point (2019,1460) because another element <div id="logInModal" class="modal fade show"> obscures it
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f6bd9651-ed46-4aba-baa4-cb099a985f9e, clickElement {id=cfdfe8ea-1ea9-46f1-a2dc-62d6cea0b7a4}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8276, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (f6bd9651-ed46-4aba-baa4-cb099a985f9e)] -> xpath: //a[@class='hrefch'][text()='Sony vaio i5']]
+Session ID: f6bd9651-ed46-4aba-baa4-cb099a985f9e
+22:29:35.051 [TestNG-tests-1] ERROR utils.LoggerUtil - Failed to select product 'Sony vaio i5'. Error: Click failed on Product: Sony vaio i5
+22:29:35.429 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testForRegisteredCheckout_20250928_222935.png
+22:29:35.535 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testWithMissingShippingAddress
+22:29:36.453 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:29:36.453 [TestNG-tests-2] INFO  utils.LoggerUtil - Simulated guest user flow (no login).
+22:29:36.504 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:29:36.506 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:29:36.515 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:29:36.521 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:29:38.835 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testWithMissingShippingAddress
+22:29:39.894 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:29:39.894 [TestNG-tests-1] INFO  utils.LoggerUtil - Simulated guest user flow (no login).
+22:29:40.157 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:29:40.157 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:29:40.817 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:29:41.067 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:29:41.067 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:29:41.847 [TestNG-tests-2] INFO  utils.LoggerUtil - Alert accepted.
+22:29:42.182 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:29:42.498 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:29:42.538 [TestNG-tests-2] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:29:43.218 [TestNG-tests-1] INFO  utils.LoggerUtil - Alert accepted.
+22:29:43.690 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+22:29:43.808 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:29:43.853 [TestNG-tests-1] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:29:44.348 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: GuestUser2 to element Name Field
+22:29:44.452 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: US to element Country Field
+22:29:44.542 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as:  to element City Field
+22:29:44.647 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Credit Card to element Card Field
+22:29:44.743 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: 10.0 to element Month Field
+22:29:44.843 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: 2025.0 to element Year Field
+22:29:44.963 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Purchase Button
+22:29:44.990 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+22:29:45.595 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: GuestUser2 to element Name Field
+22:29:45.625 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: US to element Country Field
+22:29:45.661 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as:  to element City Field
+22:29:45.695 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Credit Card to element Card Field
+22:29:45.727 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: 10.0 to element Month Field
+22:29:45.759 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: 2025.0 to element Year Field
+22:29:45.851 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Purchase Button
+22:29:48.064 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully read the value as: Thank you for your purchase! from element Confirmation Header
+22:29:48.585 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testWithMissingShippingAddress_20250928_222948.png
+22:29:48.812 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:29:48.814 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:29:48.823 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:29:48.828 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:29:48.934 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully read the value as: Thank you for your purchase! from element Confirmation Header
+22:29:49.166 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testWithMissingShippingAddress_20250928_222949.png
+22:29:49.571 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testWithMissingPaymentMethod
+22:29:49.981 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testWithMissingPaymentMethod_20250928_222949.png
+22:29:50.183 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:29:50.186 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:29:50.196 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:29:50.203 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:29:50.221 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:29:50.223 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:29:50.232 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:29:50.238 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:29:50.893 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testGuestCheckoutWithDebitCard
+22:29:52.591 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testWithMissingPaymentMethod
+22:29:52.768 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testWithMissingPaymentMethod_20250928_222952.png
+22:29:53.915 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:29:53.917 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:29:53.927 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:29:53.932 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:29:54.009 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:29:54.009 [TestNG-tests-2] INFO  utils.LoggerUtil - Simulated guest user flow (no login).
+22:29:56.219 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testGuestCheckoutWithDebitCard
+22:29:57.287 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:29:57.287 [TestNG-tests-1] INFO  utils.LoggerUtil - Simulated guest user flow (no login).
+22:29:57.338 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:29:57.338 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:29:57.979 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:29:58.475 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:29:58.475 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:29:59.002 [TestNG-tests-2] INFO  utils.LoggerUtil - Alert accepted.
+22:29:59.583 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:29:59.671 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:29:59.697 [TestNG-tests-2] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:30:00.625 [TestNG-tests-1] INFO  utils.LoggerUtil - Alert accepted.
+22:30:00.852 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+22:30:01.214 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:30:01.263 [TestNG-tests-1] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:30:01.517 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: GuestUser3 to element Name Field
+22:30:01.635 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: US to element Country Field
+22:30:01.736 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: FL to element City Field
+22:30:01.847 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Debit Card to element Card Field
+22:30:01.948 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: 10.0 to element Month Field
+22:30:02.058 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: 2025.0 to element Year Field
+22:30:02.187 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Purchase Button
+22:30:02.402 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+22:30:03.012 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: GuestUser3 to element Name Field
+22:30:03.040 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: US to element Country Field
+22:30:03.071 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: FL to element City Field
+22:30:03.108 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Debit Card to element Card Field
+22:30:03.136 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: 10.0 to element Month Field
+22:30:03.170 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: 2025.0 to element Year Field
+22:30:03.261 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Purchase Button
+22:30:05.283 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully read the value as: Thank you for your purchase! from element Confirmation Header
+22:30:05.820 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testGuestCheckoutWithDebitCard_20250928_223005.png
+22:30:06.007 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:30:06.044 [TestNG-tests-2] INFO  utils.LoggerUtil - Test suite finished: Chrome Tests
+22:30:06.341 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully read the value as: Thank you for your purchase! from element Confirmation Header
+22:30:06.570 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testGuestCheckoutWithDebitCard_20250928_223006.png
+22:30:07.563 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:30:07.585 [TestNG-tests-1] INFO  utils.LoggerUtil - Test suite finished: Firefox Tests
+22:32:33.325 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze\src\main\resources\testng.xml
+
+22:32:34.316 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:32:34.316 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:32:34.318 [TestNG-tests-2] INFO  utils.LoggerUtil - Running Chrome browser
+22:32:34.318 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:32:34.771 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:32:34.771 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:32:34.796 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:32:34.796 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:32:37.584 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+22:32:37.634 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+22:32:37.808 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:32:38.381 [TestNG-tests-2] INFO  utils.LoggerUtil - Opened login page.
+22:32:38.559 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+22:32:38.574 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+22:32:38.583 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:32:38.716 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:32:38.758 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:32:38.870 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:32:39.388 [TestNG-tests-1] INFO  utils.LoggerUtil - Opened login page.
+22:32:39.465 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:32:39.609 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:32:39.711 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:32:41.960 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser1
+22:32:42.364 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:32:42.409 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully logged out
+22:32:42.780 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser1
+22:32:42.955 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:32:43.008 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully logged out
+22:32:43.297 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithValidData_20250928_223243.png
+22:32:43.415 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithValidData_20250928_223243.png
+22:32:43.583 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:32:43.586 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:32:43.587 [TestNG-tests-2] INFO  utils.LoggerUtil - Running Chrome browser
+22:32:43.605 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:32:43.619 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:32:44.604 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:32:44.606 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:32:44.607 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:32:44.620 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:32:44.633 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:32:45.077 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+22:32:45.082 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+22:32:45.243 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:32:45.805 [TestNG-tests-2] INFO  utils.LoggerUtil - Opened login page.
+22:32:45.936 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser to element UserName
+22:32:46.057 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: validPass123 to element Password
+22:32:46.180 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:32:47.863 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+22:32:47.865 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+22:32:48.053 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:32:48.656 [TestNG-tests-1] INFO  utils.LoggerUtil - Opened login page.
+22:32:48.730 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser to element UserName
+22:32:48.768 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: validPass123 to element Password
+22:32:48.862 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:32:49.587 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser
+22:32:50.232 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:32:50.267 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully logged out
+22:32:51.360 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithValidData_20250928_223251.png
+22:32:51.527 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:32:51.530 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:32:51.530 [TestNG-tests-2] INFO  utils.LoggerUtil - Running Chrome browser
+22:32:51.542 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:32:51.550 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:32:51.924 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser
+22:32:52.568 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:32:52.610 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully logged out
+22:32:52.840 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithValidData_20250928_223252.png
+22:32:53.829 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:32:53.831 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:32:53.831 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:32:53.844 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:32:53.852 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:32:55.242 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+22:32:55.248 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+22:32:55.373 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:32:55.938 [TestNG-tests-2] INFO  utils.LoggerUtil - Opened login page.
+22:32:56.091 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser_100 to element UserName
+22:32:56.276 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: valid to element Password
+22:32:56.387 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:32:57.309 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+22:32:57.313 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+22:32:57.462 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:32:58.025 [TestNG-tests-1] INFO  utils.LoggerUtil - Opened login page.
+22:32:58.100 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser_100 to element UserName
+22:32:58.134 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: valid to element Password
+22:32:58.226 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:32:59.656 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser_100
+22:33:00.297 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:33:00.347 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully logged out
+22:33:01.308 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithValidData_20250928_223301.png
+22:33:01.329 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser_100
+22:33:01.507 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:33:01.555 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:33:01.556 [TestNG-tests-2] INFO  utils.LoggerUtil - Running Chrome browser
+22:33:01.567 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:33:01.575 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:33:01.709 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:33:01.755 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully logged out
+22:33:02.004 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithValidData_20250928_223302.png
+22:33:03.108 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:33:03.146 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:33:03.146 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:33:03.158 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:33:03.165 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:33:04.717 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+22:33:04.724 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+22:33:05.713 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:33:06.275 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+22:33:06.278 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+22:33:06.301 [TestNG-tests-2] INFO  utils.LoggerUtil - Opened login page.
+22:33:06.488 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:33:06.504 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+22:33:06.623 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:33:06.733 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:33:07.067 [TestNG-tests-1] INFO  utils.LoggerUtil - Opened login page.
+22:33:07.135 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+22:33:07.195 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:33:07.287 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:33:07.757 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+22:33:08.344 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+22:33:08.580 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250928_223308.png
+22:33:08.635 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250928_223308.png
+22:33:08.781 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:33:08.784 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:33:08.784 [TestNG-tests-2] INFO  utils.LoggerUtil - Running Chrome browser
+22:33:08.795 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:33:08.803 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:33:09.917 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:33:09.921 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:33:09.921 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:33:09.937 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:33:09.946 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:33:10.420 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+22:33:10.426 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+22:33:10.561 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:33:11.119 [TestNG-tests-2] INFO  utils.LoggerUtil - Opened login page.
+22:33:11.240 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:33:11.356 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+22:33:11.461 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:33:13.110 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+22:33:13.112 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+22:33:13.301 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:33:13.521 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: Validuser1
+22:33:13.847 [TestNG-tests-1] INFO  utils.LoggerUtil - Opened login page.
+22:33:13.924 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:33:13.960 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+22:33:14.047 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:33:14.414 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250928_223314.png
+22:33:14.584 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:33:14.587 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:33:14.587 [TestNG-tests-2] INFO  utils.LoggerUtil - Running Chrome browser
+22:33:14.603 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:33:14.611 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:33:15.142 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: Validuser1
+22:33:15.458 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250928_223315.png
+22:33:16.425 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:33:16.427 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:33:16.427 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:33:16.437 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:33:16.444 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:33:18.669 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+22:33:18.672 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+22:33:18.811 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:33:19.373 [TestNG-tests-2] INFO  utils.LoggerUtil - Opened login page.
+22:33:19.504 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+22:33:19.563 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+22:33:19.570 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+22:33:19.645 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+22:33:19.752 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:33:19.753 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:33:20.290 [TestNG-tests-1] INFO  utils.LoggerUtil - Opened login page.
+22:33:20.375 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+22:33:20.413 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+22:33:20.523 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:33:20.776 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+22:33:21.563 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+22:33:21.582 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250928_223321.png
+22:33:21.765 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:33:21.804 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:33:21.805 [TestNG-tests-2] INFO  utils.LoggerUtil - Running Chrome browser
+22:33:21.817 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:33:21.824 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:33:21.853 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250928_223321.png
+22:33:22.914 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:33:22.944 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:33:22.944 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:33:22.956 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:33:22.964 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:33:23.536 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+22:33:23.538 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+22:33:23.701 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:33:24.243 [TestNG-tests-2] INFO  utils.LoggerUtil - Opened login page.
+22:33:24.360 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:33:24.469 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as:  to element Password
+22:33:24.575 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:33:24.582 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+22:33:25.360 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250928_223325.png
+22:33:25.571 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:33:25.573 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:33:25.574 [TestNG-tests-2] INFO  utils.LoggerUtil - Running Chrome browser
+22:33:25.584 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:33:25.591 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:33:26.479 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+22:33:26.482 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+22:33:26.637 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:33:27.170 [TestNG-tests-1] INFO  utils.LoggerUtil - Opened login page.
+22:33:27.236 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:33:27.272 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as:  to element Password
+22:33:27.379 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:33:27.407 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+22:33:27.712 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250928_223327.png
+22:33:28.673 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:33:28.675 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:33:28.676 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:33:28.690 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:33:28.697 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:33:29.918 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+22:33:29.920 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+22:33:30.078 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:33:30.683 [TestNG-tests-2] INFO  utils.LoggerUtil - Opened login page.
+22:33:30.903 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as:  to element UserName
+22:33:31.047 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as:  to element Password
+22:33:31.167 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:33:31.174 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+22:33:32.027 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250928_223332.png
+22:33:32.099 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+22:33:32.104 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+22:33:32.266 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:33:32.283 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:33:32.308 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:33:32.308 [TestNG-tests-2] INFO  utils.LoggerUtil - Running Chrome browser
+22:33:32.320 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:33:32.327 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:33:32.983 [TestNG-tests-1] INFO  utils.LoggerUtil - Opened login page.
+22:33:33.054 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as:  to element UserName
+22:33:33.086 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as:  to element Password
+22:33:33.193 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:33:33.220 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+22:33:33.502 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250928_223333.png
+22:33:34.470 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:33:34.497 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:33:34.497 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:33:34.506 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:33:34.513 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:33:35.920 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSignUp
+22:33:35.923 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST SIGNUP FOR USER: Validuser13...
+22:33:36.060 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Clicked on signup link
+22:33:36.689 [TestNG-tests-2] INFO  utils.LoggerUtil - Opened signup page.
+22:33:36.851 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser13 to element UserName
+22:33:36.967 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+22:33:37.064 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: SignUp Button
+22:33:37.667 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSignUp
+22:33:37.670 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST SIGNUP FOR USER: Validuser13...
+22:33:37.819 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Clicked on signup link
+22:33:38.107 [TestNG-tests-2] WARN  utils.LoggerUtil - Registration blocked: User already exists - Validuser13
+22:33:38.352 [TestNG-tests-1] INFO  utils.LoggerUtil - Opened signup page.
+22:33:38.437 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser13 to element UserName
+22:33:38.477 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+22:33:38.572 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: SignUp Button
+22:33:38.912 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSignUp_20250928_223338.png
+22:33:39.096 [TestNG-tests-1] WARN  utils.LoggerUtil - Registration blocked: User already exists - Validuser13
+22:33:39.097 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:33:39.210 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:33:39.210 [TestNG-tests-2] INFO  utils.LoggerUtil - Running Chrome browser
+22:33:39.223 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:33:39.230 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:33:39.428 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSignUp_20250928_223339.png
+22:33:40.587 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:33:40.643 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:33:40.643 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:33:40.681 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:33:40.690 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:33:40.973 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:33:41.002 [TestNG-tests-2] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:33:41.004 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+22:33:41.007 [TestNG-tests-2] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY: Monitors FOR PRODUCT: Apple monitor 24...
+22:33:41.007 [TestNG-tests-2] INFO  utils.LoggerUtil - Selecting category: Monitors
+22:33:41.173 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+22:33:43.859 [TestNG-tests-2] INFO  utils.LoggerUtil - TestCase passed. Product 'Apple monitor 24' is visible under category 'Monitors'
+22:33:44.076 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:33:44.131 [TestNG-tests-1] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:33:44.133 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+22:33:44.136 [TestNG-tests-1] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY: Monitors FOR PRODUCT: Apple monitor 24...
+22:33:44.136 [TestNG-tests-1] INFO  utils.LoggerUtil - Selecting category: Monitors
+22:33:44.446 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+22:33:44.839 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testSearchByCategory_20250928_223344.png
+22:33:44.924 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByCategory_20250928_223344.png
+22:33:45.069 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:33:45.070 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:33:45.071 [TestNG-tests-2] INFO  utils.LoggerUtil - Running Chrome browser
+22:33:45.080 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:33:45.086 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:33:46.137 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:33:46.139 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:33:46.139 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:33:46.149 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:33:46.155 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:33:48.859 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:33:48.891 [TestNG-tests-2] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:33:48.892 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+22:33:48.896 [TestNG-tests-2] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY: Monitors FOR PRODUCT: ASUS Full HD...
+22:33:48.896 [TestNG-tests-2] INFO  utils.LoggerUtil - Selecting category: Monitors
+22:33:49.020 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+22:33:49.163 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:33:49.228 [TestNG-tests-1] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:33:49.231 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+22:33:49.234 [TestNG-tests-1] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY: Monitors FOR PRODUCT: ASUS Full HD...
+22:33:49.234 [TestNG-tests-1] INFO  utils.LoggerUtil - Selecting category: Monitors
+22:33:49.615 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+22:33:50.193 [TestNG-tests-1] INFO  utils.LoggerUtil - TestCase passed. Product 'ASUS Full HD' is visible under category 'Monitors'
+22:33:50.435 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testSearchByCategory_20250928_223350.png
+22:33:50.602 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByCategory_20250928_223350.png
+22:33:50.779 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:33:50.804 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:33:50.805 [TestNG-tests-2] INFO  utils.LoggerUtil - Running Chrome browser
+22:33:50.814 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:33:50.820 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:33:51.573 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:33:51.601 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:33:51.602 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:33:51.624 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:33:51.650 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:33:52.610 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:33:52.697 [TestNG-tests-2] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:33:52.699 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+22:33:52.702 [TestNG-tests-2] INFO  utils.LoggerUtil - ...SEARCH BY PRODUCT NAME...
+22:33:52.788 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:33:52.818 [TestNG-tests-2] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:33:52.818 [TestNG-tests-2] INFO  utils.LoggerUtil - Checking visibility of product: Sony xperia z5
+22:33:53.810 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByProduct_Sony xperia z5_20250928_223353.png
+22:33:53.812 [TestNG-tests-2] ERROR utils.LoggerUtil - Product 'Sony xperia z5' is not visible.
+22:33:54.788 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByProductName_20250928_223354.png
+22:33:54.955 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:33:54.957 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:33:54.958 [TestNG-tests-2] INFO  utils.LoggerUtil - Running Chrome browser
+22:33:54.968 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:33:54.974 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:33:54.995 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:33:55.043 [TestNG-tests-1] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:33:55.044 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+22:33:55.047 [TestNG-tests-1] INFO  utils.LoggerUtil - ...SEARCH BY PRODUCT NAME...
+22:33:55.181 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:33:55.201 [TestNG-tests-1] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:33:55.202 [TestNG-tests-1] INFO  utils.LoggerUtil - Checking visibility of product: Sony xperia z5
+22:33:55.444 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByProduct_Sony xperia z5_20250928_223355.png
+22:33:55.444 [TestNG-tests-1] ERROR utils.LoggerUtil - Product 'Sony xperia z5' is not visible.
+22:33:55.862 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByProductName_20250928_223355.png
+22:33:56.814 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:33:56.816 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:33:56.816 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:33:56.826 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:33:56.832 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:33:59.065 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:33:59.109 [TestNG-tests-2] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:33:59.111 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+22:33:59.114 [TestNG-tests-2] INFO  utils.LoggerUtil - ...SEARCH BY PRODUCT NAME...
+22:33:59.173 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:33:59.231 [TestNG-tests-2] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:33:59.231 [TestNG-tests-2] INFO  utils.LoggerUtil - Checking visibility of product: Sony vaio i5
+22:34:00.141 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:34:00.203 [TestNG-tests-1] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:34:00.205 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+22:34:00.206 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByProduct_Sony vaio i5_20250928_223400.png
+22:34:00.206 [TestNG-tests-2] ERROR utils.LoggerUtil - Product 'Sony vaio i5' is not visible.
+22:34:00.208 [TestNG-tests-1] INFO  utils.LoggerUtil - ...SEARCH BY PRODUCT NAME...
+22:34:00.358 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:34:00.410 [TestNG-tests-1] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:34:00.410 [TestNG-tests-1] INFO  utils.LoggerUtil - Checking visibility of product: Sony vaio i5
+22:34:00.663 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByProduct_Sony vaio i5_20250928_223400.png
+22:34:00.664 [TestNG-tests-1] ERROR utils.LoggerUtil - Product 'Sony vaio i5' is not visible.
+22:34:00.887 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByProductName_20250928_223400.png
+22:34:01.259 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testSearchByProductName_20250928_223401.png
+22:34:01.491 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:34:01.496 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:34:01.496 [TestNG-tests-2] INFO  utils.LoggerUtil - Running Chrome browser
+22:34:01.508 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:34:01.518 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:34:02.028 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:34:02.041 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:34:02.042 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:34:02.077 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:34:02.101 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:34:03.321 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:34:03.361 [TestNG-tests-2] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:34:03.363 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSearchWithNoResults
+22:34:03.546 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Phones Category
+22:34:03.559 [TestNG-tests-2] INFO  utils.LoggerUtil - TestCase passed. Product not found as expected.
+22:34:04.605 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testSearchWithNoResults_20250928_223404.png
+22:34:04.796 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:34:04.859 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:34:04.859 [TestNG-tests-2] INFO  utils.LoggerUtil - Running Chrome browser
+22:34:04.869 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:34:04.876 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:34:05.510 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:34:05.552 [TestNG-tests-1] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:34:05.583 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSearchWithNoResults
+22:34:05.970 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Phones Category
+22:34:05.974 [TestNG-tests-1] INFO  utils.LoggerUtil - TestCase passed. Product not found as expected.
+22:34:06.208 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testSearchWithNoResults_20250928_223406.png
+22:34:07.272 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:34:07.314 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:34:07.314 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:34:07.323 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:34:07.329 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:34:08.646 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:34:08.650 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testAddProductToCart
+22:34:08.666 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TESTING ADD TO CART FUNCTIONALITY...
+22:34:08.712 [TestNG-tests-2] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:34:10.155 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Product: Samsung galaxy s6
+22:34:10.155 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully selected the product: Samsung galaxy s6
+22:34:10.745 [TestNG-tests-2] INFO  utils.LoggerUtil - Actual product title on page: Samsung galaxy s6
+22:34:10.746 [TestNG-tests-2] INFO  utils.LoggerUtil - Expected product name from test case: Samsung galaxy s6
+22:34:10.839 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:34:11.212 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:34:11.213 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testAddProductToCart
+22:34:11.216 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TESTING ADD TO CART FUNCTIONALITY...
+22:34:11.245 [TestNG-tests-1] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:34:11.858 [TestNG-tests-2] INFO  utils.LoggerUtil - Alert accepted.
+22:34:11.863 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Product: Samsung galaxy s6
+22:34:11.863 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully selected the product: Samsung galaxy s6
+22:34:12.422 [TestNG-tests-1] INFO  utils.LoggerUtil - Actual product title on page: Samsung galaxy s6
+22:34:12.423 [TestNG-tests-1] INFO  utils.LoggerUtil - Expected product name from test case: Samsung galaxy s6
+22:34:12.527 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:34:12.557 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:34:12.596 [TestNG-tests-2] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:34:13.062 [TestNG-tests-1] INFO  utils.LoggerUtil - Alert accepted.
+22:34:13.298 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/AddProductToCartSamsung galaxy s6_20250928_223413.png
+22:34:13.655 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:34:13.694 [TestNG-tests-1] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:34:13.838 [TestNG-tests-2] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' found in the cart.
+22:34:13.876 [TestNG-tests-2] INFO  utils.LoggerUtil - TestCase passed. Product 'Samsung galaxy s6' found in the cart.
+22:34:13.890 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/AddProductToCartSamsung galaxy s6_20250928_223413.png
+22:34:13.893 [TestNG-tests-2] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' found in the cart.
+22:34:14.576 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testAddProductToCart_20250928_223414.png
+22:34:14.767 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:34:14.769 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:34:14.769 [TestNG-tests-2] INFO  utils.LoggerUtil - Running Chrome browser
+22:34:14.778 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:34:14.784 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:34:14.919 [TestNG-tests-1] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' found in the cart.
+22:34:14.940 [TestNG-tests-1] INFO  utils.LoggerUtil - TestCase passed. Product 'Samsung galaxy s6' found in the cart.
+22:34:14.953 [TestNG-tests-1] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' found in the cart.
+22:34:15.170 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testAddProductToCart_20250928_223415.png
+22:34:15.899 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:34:15.901 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testAddProductToCart
+22:34:15.904 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TESTING ADD TO CART FUNCTIONALITY...
+22:34:16.315 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:34:16.318 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:34:16.318 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:34:16.329 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:34:16.337 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:34:16.397 [TestNG-tests-2] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:34:19.662 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:34:19.662 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:34:19.712 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:34:19.713 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testAddProductToCart
+22:34:19.716 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TESTING ADD TO CART FUNCTIONALITY...
+22:34:19.769 [TestNG-tests-1] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:34:20.757 [TestNG-tests-2] INFO  utils.LoggerUtil - Actual product title on page: Sony vaio i5
+22:34:20.757 [TestNG-tests-2] INFO  utils.LoggerUtil - Expected product name from test case: Sony vaio i5
+22:34:20.857 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:34:20.890 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:34:20.890 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:34:21.878 [TestNG-tests-2] INFO  utils.LoggerUtil - Alert accepted.
+22:34:21.924 [TestNG-tests-1] INFO  utils.LoggerUtil - Actual product title on page: Sony vaio i5
+22:34:21.924 [TestNG-tests-1] INFO  utils.LoggerUtil - Expected product name from test case: Sony vaio i5
+22:34:22.014 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:34:22.519 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:34:22.555 [TestNG-tests-2] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:34:23.063 [TestNG-tests-1] INFO  utils.LoggerUtil - Alert accepted.
+22:34:23.266 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/AddProductToCartSony vaio i5_20250928_223423.png
+22:34:23.644 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:34:23.686 [TestNG-tests-1] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:34:23.797 [TestNG-tests-2] INFO  utils.LoggerUtil - Product 'Sony vaio i5' found in the cart.
+22:34:23.832 [TestNG-tests-2] INFO  utils.LoggerUtil - TestCase passed. Product 'Sony vaio i5' found in the cart.
+22:34:23.847 [TestNG-tests-2] INFO  utils.LoggerUtil - Product 'Sony vaio i5' found in the cart.
+22:34:23.882 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/AddProductToCartSony vaio i5_20250928_223423.png
+22:34:24.516 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testAddProductToCart_20250928_223424.png
+22:34:24.706 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:34:24.758 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:34:24.758 [TestNG-tests-2] INFO  utils.LoggerUtil - Running Chrome browser
+22:34:24.767 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:34:24.773 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:34:24.920 [TestNG-tests-1] INFO  utils.LoggerUtil - Product 'Sony vaio i5' found in the cart.
+22:34:24.942 [TestNG-tests-1] INFO  utils.LoggerUtil - TestCase passed. Product 'Sony vaio i5' found in the cart.
+22:34:24.955 [TestNG-tests-1] INFO  utils.LoggerUtil - Product 'Sony vaio i5' found in the cart.
+22:34:25.168 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testAddProductToCart_20250928_223425.png
+22:34:26.187 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:34:26.232 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:34:26.232 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:34:26.241 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:34:26.248 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:34:29.013 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:34:29.015 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testRemoveProductFromCart
+22:34:29.018 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TESTING REMOVING FROM CART FUNCTIONALITY FOR: Samsung galaxy s6...
+22:34:29.047 [TestNG-tests-2] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:34:29.652 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:34:29.653 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testRemoveProductFromCart
+22:34:29.656 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TESTING REMOVING FROM CART FUNCTIONALITY FOR: Samsung galaxy s6...
+22:34:29.699 [TestNG-tests-1] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:34:30.254 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Product: Samsung galaxy s6
+22:34:30.254 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully selected the product: Samsung galaxy s6
+22:34:30.834 [TestNG-tests-2] INFO  utils.LoggerUtil - Actual product title on page: Samsung galaxy s6
+22:34:30.834 [TestNG-tests-2] INFO  utils.LoggerUtil - Expected product name from test case: Samsung galaxy s6
+22:34:30.840 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Product: Samsung galaxy s6
+22:34:30.840 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully selected the product: Samsung galaxy s6
+22:34:30.943 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:34:31.882 [TestNG-tests-1] INFO  utils.LoggerUtil - Actual product title on page: Samsung galaxy s6
+22:34:31.882 [TestNG-tests-1] INFO  utils.LoggerUtil - Expected product name from test case: Samsung galaxy s6
+22:34:31.972 [TestNG-tests-2] INFO  utils.LoggerUtil - Alert accepted.
+22:34:31.984 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:34:32.534 [TestNG-tests-1] INFO  utils.LoggerUtil - Alert accepted.
+22:34:32.639 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:34:32.664 [TestNG-tests-2] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:34:33.153 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:34:33.196 [TestNG-tests-1] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:34:33.711 [TestNG-tests-2] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' found in the cart.
+22:34:34.229 [TestNG-tests-1] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' found in the cart.
+22:34:34.874 [TestNG-tests-2] INFO  utils.LoggerUtil - Removed product 'Samsung galaxy s6' from the cart.
+22:34:34.883 [TestNG-tests-2] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' successfully removed from the cart.
+22:34:34.912 [TestNG-tests-2] INFO  utils.LoggerUtil - Test passed: Product Samsung galaxy s6 was successfully removed and cart state is correct.
+22:34:35.367 [TestNG-tests-1] INFO  utils.LoggerUtil - Removed product 'Samsung galaxy s6' from the cart.
+22:34:35.370 [TestNG-tests-1] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' successfully removed from the cart.
+22:34:35.380 [TestNG-tests-1] INFO  utils.LoggerUtil - Test passed: Product Samsung galaxy s6 was successfully removed and cart state is correct.
+22:34:35.576 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/RemoveProductFromCart_Samsung galaxy s6_20250928_223435.png
+22:34:35.578 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/RemoveProductFromCart_Samsung galaxy s6_20250928_223435.png
+22:34:35.776 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testRemoveProductFromCart_20250928_223435.png
+22:34:36.245 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testRemoveProductFromCart_20250928_223436.png
+22:34:36.487 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:34:36.489 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:34:36.489 [TestNG-tests-2] INFO  utils.LoggerUtil - Running Chrome browser
+22:34:36.499 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:34:36.506 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:34:36.902 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:34:36.904 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:34:36.904 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:34:36.915 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:34:36.924 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:34:38.039 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:34:38.041 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testRemoveProductFromCart
+22:34:38.044 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TESTING REMOVING FROM CART FUNCTIONALITY FOR: Sony vaio i5...
+22:34:38.102 [TestNG-tests-2] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:34:40.445 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:34:40.447 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testRemoveProductFromCart
+22:34:40.449 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TESTING REMOVING FROM CART FUNCTIONALITY FOR: Sony vaio i5...
+22:34:40.476 [TestNG-tests-1] INFO  utils.LoggerUtil - Home page loaded successfully.
+22:34:41.546 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:34:41.547 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:34:41.609 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:34:41.609 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:34:42.108 [TestNG-tests-2] INFO  utils.LoggerUtil - Actual product title on page: Sony vaio i5
+22:34:42.108 [TestNG-tests-2] INFO  utils.LoggerUtil - Expected product name from test case: Sony vaio i5
+22:34:42.179 [TestNG-tests-1] INFO  utils.LoggerUtil - Actual product title on page: Sony vaio i5
+22:34:42.179 [TestNG-tests-1] INFO  utils.LoggerUtil - Expected product name from test case: Sony vaio i5
+22:34:42.215 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:34:42.275 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:34:43.236 [TestNG-tests-2] INFO  utils.LoggerUtil - Alert accepted.
+22:34:43.313 [TestNG-tests-1] INFO  utils.LoggerUtil - Alert accepted.
+22:34:43.890 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:34:43.914 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:34:43.916 [TestNG-tests-2] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:34:43.953 [TestNG-tests-1] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:34:44.979 [TestNG-tests-2] INFO  utils.LoggerUtil - Product 'Sony vaio i5' found in the cart.
+22:34:44.992 [TestNG-tests-1] INFO  utils.LoggerUtil - Product 'Sony vaio i5' found in the cart.
+22:34:46.120 [TestNG-tests-2] INFO  utils.LoggerUtil - Removed product 'Sony vaio i5' from the cart.
+22:34:46.128 [TestNG-tests-2] INFO  utils.LoggerUtil - Product 'Sony vaio i5' successfully removed from the cart.
+22:34:46.144 [TestNG-tests-1] INFO  utils.LoggerUtil - Removed product 'Sony vaio i5' from the cart.
+22:34:46.147 [TestNG-tests-1] INFO  utils.LoggerUtil - Product 'Sony vaio i5' successfully removed from the cart.
+22:34:46.159 [TestNG-tests-1] INFO  utils.LoggerUtil - Test passed: Product Sony vaio i5 was successfully removed and cart state is correct.
+22:34:46.159 [TestNG-tests-2] INFO  utils.LoggerUtil - Test passed: Product Sony vaio i5 was successfully removed and cart state is correct.
+22:34:46.357 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/RemoveProductFromCart_Sony vaio i5_20250928_223446.png
+22:34:46.558 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testRemoveProductFromCart_20250928_223446.png
+22:34:46.828 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/RemoveProductFromCart_Sony vaio i5_20250928_223446.png
+22:34:47.497 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testRemoveProductFromCart_20250928_223447.png
+22:34:47.548 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:34:47.551 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:34:47.551 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:34:47.561 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:34:47.568 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:34:47.737 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:34:47.740 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:34:47.740 [TestNG-tests-2] INFO  utils.LoggerUtil - Running Chrome browser
+22:34:47.751 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:34:47.758 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:34:50.894 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:34:50.896 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testCartPersistenceAcrossSessions
+22:34:50.899 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TESTING CART PERSISTENCE ACROSS SESSIONS...
+22:34:51.065 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:34:51.067 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testCartPersistenceAcrossSessions
+22:34:51.068 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TESTING CART PERSISTENCE ACROSS SESSIONS...
+22:34:52.193 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Product: Nokia lumia 1520
+22:34:52.193 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully selected the product: Nokia lumia 1520
+22:34:53.301 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:34:54.342 [TestNG-tests-1] INFO  utils.LoggerUtil - Alert accepted.
+22:34:54.793 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Product: Nokia lumia 1520
+22:34:54.793 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully selected the product: Nokia lumia 1520
+22:34:55.412 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:34:55.436 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:34:55.446 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:34:55.452 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:34:56.433 [TestNG-tests-2] INFO  utils.LoggerUtil - Alert accepted.
+22:34:56.665 [TestNG-tests-2] INFO  utils.LoggerUtil - Running firefox browser
+22:34:56.675 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:34:56.681 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:34:58.450 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:34:59.482 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:34:59.495 [TestNG-tests-1] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:34:59.836 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:35:00.492 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:35:00.536 [TestNG-tests-2] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:35:02.548 [TestNG-tests-1] ERROR utils.LoggerUtil - Product 'Nokia lumia 1520' was not found in the cart. Error: Expected condition failed: waiting for visibility of element located by By.xpath: //tbody/tr/td[text()='Nokia lumia 1520'] (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9152, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9ce75781-e712-404f-bf66-a167a5ebb122
+22:35:02.620 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testCartPersistenceAcrossSessions_20250928_223502.png
+22:35:03.566 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:35:03.568 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:35:03.568 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:35:03.577 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:35:03.583 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:35:03.598 [TestNG-tests-2] ERROR utils.LoggerUtil - Product 'Nokia lumia 1520' was not found in the cart. Error: Expected condition failed: waiting for visibility of element located by By.xpath: //tbody/tr/td[text()='Nokia lumia 1520'] (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11756, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 62c60c2b-1b54-4595-93bf-6e7454cea2bb
+22:35:03.667 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testCartPersistenceAcrossSessions_20250928_223503.png
+22:35:04.625 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:35:04.628 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:35:04.628 [TestNG-tests-2] INFO  utils.LoggerUtil - Running Chrome browser
+22:35:04.638 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:35:04.643 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:35:06.991 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:35:06.993 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testPriceCalculationVerification
+22:35:06.995 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TESTING PRICE CALCULATION IN CART...
+22:35:08.148 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:35:08.148 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:35:08.584 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:35:08.587 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testPriceCalculationVerification
+22:35:08.589 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TESTING PRICE CALCULATION IN CART...
+22:35:09.197 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully read the value as: $790 *includes tax from element Product Price
+22:35:09.289 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:35:09.759 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:35:09.759 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:35:10.344 [TestNG-tests-1] INFO  utils.LoggerUtil - Alert accepted.
+22:35:10.353 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully read the value as: $790 *includes tax from element Product Price
+22:35:10.450 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:35:11.427 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:35:11.466 [TestNG-tests-1] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:35:11.486 [TestNG-tests-2] INFO  utils.LoggerUtil - Alert accepted.
+22:35:12.144 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:35:12.176 [TestNG-tests-2] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:35:12.704 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/priceCalculationVerification_20250928_223512.png
+22:35:12.906 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testPriceCalculationVerification_20250928_223512.png
+22:35:13.867 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:35:13.869 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:35:13.869 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:35:13.878 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:35:13.885 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:35:13.929 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/priceCalculationVerification_20250928_223513.png
+22:35:14.592 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testPriceCalculationVerification_20250928_223514.png
+22:35:14.846 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:35:14.849 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:35:14.849 [TestNG-tests-2] INFO  utils.LoggerUtil - Running Chrome browser
+22:35:14.858 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:35:14.864 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:35:15.624 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testForGuestCheckout
+22:35:16.355 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testForGuestCheckout
+22:35:16.533 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:35:16.533 [TestNG-tests-2] INFO  utils.LoggerUtil - Simulated guest user flow (no login).
+22:35:17.360 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:35:17.360 [TestNG-tests-1] INFO  utils.LoggerUtil - Simulated guest user flow (no login).
+22:35:18.505 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:35:18.505 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:35:19.116 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:35:19.798 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:35:19.798 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:35:20.156 [TestNG-tests-1] INFO  utils.LoggerUtil - Alert accepted.
+22:35:20.430 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:35:20.747 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:35:20.791 [TestNG-tests-1] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:35:21.460 [TestNG-tests-2] INFO  utils.LoggerUtil - Alert accepted.
+22:35:21.922 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+22:35:22.110 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:35:22.139 [TestNG-tests-2] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:35:22.513 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: GuestUser1 to element Name Field
+22:35:22.538 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: US to element Country Field
+22:35:22.564 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: NY to element City Field
+22:35:22.591 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Credit Card to element Card Field
+22:35:22.617 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: 10.0 to element Month Field
+22:35:22.643 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: 2025.0 to element Year Field
+22:35:22.743 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Purchase Button
+22:35:23.285 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+22:35:23.955 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: GuestUser1 to element Name Field
+22:35:24.052 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: US to element Country Field
+22:35:24.160 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: NY to element City Field
+22:35:24.283 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Credit Card to element Card Field
+22:35:24.387 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: 10.0 to element Month Field
+22:35:24.497 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: 2025.0 to element Year Field
+22:35:24.609 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Purchase Button
+22:35:25.812 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully read the value as: Thank you for your purchase! from element Confirmation Header
+22:35:26.078 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testForGuestCheckout_20250928_223526.png
+22:35:27.181 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:35:27.183 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:35:27.183 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:35:27.192 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:35:27.198 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:35:27.772 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully read the value as: Thank you for your purchase! from element Confirmation Header
+22:35:28.257 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testForGuestCheckout_20250928_223528.png
+22:35:28.503 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:35:28.505 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:35:28.505 [TestNG-tests-2] INFO  utils.LoggerUtil - Running Chrome browser
+22:35:28.519 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:35:28.527 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:35:29.476 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testForRegisteredCheckout
+22:35:29.501 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testForRegisteredCheckout
+22:35:30.549 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:35:30.670 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:35:31.230 [TestNG-tests-1] INFO  utils.LoggerUtil - Opened login page.
+22:35:31.294 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser13 to element UserName
+22:35:31.348 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+22:35:31.432 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:35:31.432 [TestNG-tests-1] INFO  utils.LoggerUtil - Simulated registered user login.
+22:35:31.464 [TestNG-tests-1] ERROR utils.LoggerUtil - Failed to click element: Product: Sony vaio i5. Error: Element <a class="hrefch" href="prod.html?idp_=8"> is not clickable at point (2019,1460) because another element <div id="logInModal" class="modal fade show"> obscures it
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [15c4dae6-0ed0-4ba2-9374-499365e5b338, clickElement {id=af5a498a-a222-4e34-94c1-1375a125c03f}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10620, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (15c4dae6-0ed0-4ba2-9374-499365e5b338)] -> xpath: //a[@class='hrefch'][text()='Sony vaio i5']]
+Session ID: 15c4dae6-0ed0-4ba2-9374-499365e5b338
+22:35:31.464 [TestNG-tests-1] ERROR utils.LoggerUtil - Failed to select product 'Sony vaio i5'. Error: Click failed on Product: Sony vaio i5
+22:35:31.745 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testForRegisteredCheckout_20250928_223531.png
+22:35:32.667 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:35:32.770 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:35:32.773 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:35:32.773 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:35:32.783 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:35:32.789 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:35:32.833 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Clicked on login link
+22:35:33.401 [TestNG-tests-2] INFO  utils.LoggerUtil - Opened login page.
+22:35:33.533 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser13 to element UserName
+22:35:33.660 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+22:35:33.757 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:35:33.757 [TestNG-tests-2] INFO  utils.LoggerUtil - Simulated registered user login.
+22:35:34.686 [TestNG-tests-2] ERROR utils.LoggerUtil - Failed to click element: Product: Sony vaio i5. Error: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.207)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9ee2920811ef13d7ea3a6371176c2a13, clickElement {id=f.B8E06FBDE0DEE55EF92E5B4ECFD02E19.d.E30DE655F6C06CF4927E0A5BADAA4BE9.e.119}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.207, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60371}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60371/devtoo..., se:cdpVersion: 140.0.7339.207, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9ee2920811ef13d7ea3a6371176c2a13)] -> xpath: //a[@class='hrefch'][text()='Sony vaio i5']]
+Session ID: 9ee2920811ef13d7ea3a6371176c2a13
+22:35:34.687 [TestNG-tests-2] ERROR utils.LoggerUtil - Failed to select product 'Sony vaio i5'. Error: Click failed on Product: Sony vaio i5
+22:35:35.089 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testWithMissingShippingAddress
+22:35:35.772 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testForRegisteredCheckout_20250928_223535.png
+22:35:35.821 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:35:35.821 [TestNG-tests-1] INFO  utils.LoggerUtil - Simulated guest user flow (no login).
+22:35:36.020 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:35:36.022 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:35:36.022 [TestNG-tests-2] INFO  utils.LoggerUtil - Running Chrome browser
+22:35:36.032 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:35:36.038 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:35:36.829 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testWithMissingShippingAddress
+22:35:37.512 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:35:37.512 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:35:37.829 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:35:37.829 [TestNG-tests-2] INFO  utils.LoggerUtil - Simulated guest user flow (no login).
+22:35:38.643 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:35:39.688 [TestNG-tests-1] INFO  utils.LoggerUtil - Alert accepted.
+22:35:40.608 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:35:40.622 [TestNG-tests-1] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:35:41.087 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:35:41.087 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:35:41.244 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+22:35:41.838 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: GuestUser2 to element Name Field
+22:35:41.865 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: US to element Country Field
+22:35:41.891 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as:  to element City Field
+22:35:41.920 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Credit Card to element Card Field
+22:35:41.944 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: 10.0 to element Month Field
+22:35:41.972 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: 2025.0 to element Year Field
+22:35:42.063 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Purchase Button
+22:35:42.236 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:35:43.254 [TestNG-tests-2] INFO  utils.LoggerUtil - Alert accepted.
+22:35:43.873 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:35:43.919 [TestNG-tests-2] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:35:45.068 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+22:35:45.143 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully read the value as: Thank you for your purchase! from element Confirmation Header
+22:35:45.384 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testWithMissingShippingAddress_20250928_223545.png
+22:35:45.721 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: GuestUser2 to element Name Field
+22:35:45.823 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: US to element Country Field
+22:35:45.918 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as:  to element City Field
+22:35:46.088 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Credit Card to element Card Field
+22:35:46.218 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: 10.0 to element Month Field
+22:35:46.340 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: 2025.0 to element Year Field
+22:35:46.399 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:35:46.401 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:35:46.401 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:35:46.410 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:35:46.416 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:35:46.459 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Purchase Button
+22:35:48.805 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testWithMissingPaymentMethod
+22:35:49.032 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testWithMissingPaymentMethod_20250928_223549.png
+22:35:49.599 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully read the value as: Thank you for your purchase! from element Confirmation Header
+22:35:50.093 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:35:50.095 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:35:50.096 [TestNG-tests-1] INFO  utils.LoggerUtil - Running firefox browser
+22:35:50.104 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 143)
+22:35:50.110 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Administrator\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:35:50.111 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testWithMissingShippingAddress_20250928_223550.png
+22:35:50.349 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:35:50.351 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:35:50.351 [TestNG-tests-2] INFO  utils.LoggerUtil - Running Chrome browser
+22:35:50.360 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:35:50.367 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:35:51.171 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testWithMissingPaymentMethod
+22:35:51.587 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/fail/testWithMissingPaymentMethod_20250928_223551.png
+22:35:51.785 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:35:51.787 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:35:51.787 [TestNG-tests-2] INFO  utils.LoggerUtil - Running Chrome browser
+22:35:51.797 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+22:35:51.803 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+22:35:52.569 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testGuestCheckoutWithDebitCard
+22:35:52.791 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testGuestCheckoutWithDebitCard
+22:35:53.601 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:35:53.601 [TestNG-tests-1] INFO  utils.LoggerUtil - Simulated guest user flow (no login).
+22:35:54.765 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:35:54.765 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:35:55.884 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:35:55.924 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:35:55.924 [TestNG-tests-2] INFO  utils.LoggerUtil - Simulated guest user flow (no login).
+22:35:56.937 [TestNG-tests-1] INFO  utils.LoggerUtil - Alert accepted.
+22:35:57.533 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:35:57.578 [TestNG-tests-1] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:35:58.703 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+22:35:59.291 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: GuestUser3 to element Name Field
+22:35:59.319 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: US to element Country Field
+22:35:59.349 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: FL to element City Field
+22:35:59.388 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Debit Card to element Card Field
+22:35:59.426 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: 10.0 to element Month Field
+22:35:59.456 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: 2025.0 to element Year Field
+22:35:59.559 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Purchase Button
+22:35:59.625 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Product: Sony vaio i5
+22:35:59.625 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+22:36:00.280 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+22:36:01.309 [TestNG-tests-2] INFO  utils.LoggerUtil - Alert accepted.
+22:36:01.967 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Cart Button
+22:36:02.016 [TestNG-tests-2] INFO  utils.LoggerUtil - Cart page loaded successfully.
+22:36:02.634 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully read the value as: Thank you for your purchase! from element Confirmation Header
+22:36:02.882 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testGuestCheckoutWithDebitCard_20250928_223602.png
+22:36:03.160 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+22:36:03.941 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: GuestUser3 to element Name Field
+22:36:04.054 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: US to element Country Field
+22:36:04.058 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:36:04.107 [TestNG-tests-1] INFO  utils.LoggerUtil - Test suite finished: Firefox Tests
+22:36:04.168 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: FL to element City Field
+22:36:04.296 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Debit Card to element Card Field
+22:36:04.421 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: 10.0 to element Month Field
+22:36:04.546 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: 2025.0 to element Year Field
+22:36:04.654 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Purchase Button
+22:36:07.751 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully read the value as: Thank you for your purchase! from element Confirmation Header
+22:36:08.256 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\Administrator\eclipse-workspace\AmazonJavaLearnings\Demoblaze/output/screenshots/pass/testGuestCheckoutWithDebitCard_20250928_223608.png
+22:36:08.495 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:36:08.516 [TestNG-tests-2] INFO  utils.LoggerUtil - Test suite finished: Chrome Tests

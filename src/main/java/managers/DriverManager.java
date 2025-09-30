@@ -1,6 +1,8 @@
 package managers;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import utils.LoggerUtil;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -29,12 +31,14 @@ public class DriverManager {
 
             switch (browser.toLowerCase()) {
                 case "chrome":
+                	LoggerUtil.info("Running Chrome browser");
                     WebDriverManager.chromedriver().setup();
                     ChromeOptions chromeOptions = new ChromeOptions();
                     chromeOptions.addArguments("--disable-notifications", "--start-maximized");
                     driver.set(new ChromeDriver(chromeOptions));
                     break;
                 case "firefox":
+                	LoggerUtil.info("Running firefox browser");
                     WebDriverManager.firefoxdriver().setup();
                     FirefoxOptions firefoxOptions = new FirefoxOptions();
                     firefoxOptions.setCapability("unhandledPromptBehavior", "ignore");
