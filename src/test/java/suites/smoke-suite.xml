@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Demoblaze Smoke Test Suite" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="Smoke Tests - Firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="tests.RegistrationTest">
+                <methods>
+                    <include name="signUpWithNewCredentials"/>
+                </methods>
+            </class>
+            <class name="tests.LoginTests">
+                <methods>
+                    <include name="loginWithValidData"/>
+                </methods>
+            </class>
+            <class name="tests.SearchTests">
+                <methods>
+                    <include name="testSearchByCategory"/>
+                </methods>
+            </class>
+            <class name="tests.CartTests">
+                <methods>
+                    <include name="testAddProductToCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Smoke Tests - Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.LoginTests">
+                <methods>
+                    <include name="loginWithValidData"/>
+                </methods>
+            </class>
+            <class name="tests.SearchTests">
+                <methods>
+                    <include name="testSearchByCategory"/>
+                </methods>
+            </class>
+            <class name="tests.CartTests">
+                <methods>
+                    <include name="testAddProductToCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,30 @@
+22:32:27.394 [TestNG-tests-1] ERROR utils.LoggerUtil - Failed to capture screenshot: Browser name not set. Call setBrowser() before getDriver().
+22:32:27.394 [TestNG-tests-2] ERROR utils.LoggerUtil - Failed to capture screenshot: Browser name not set. Call setBrowser() before getDriver().
+22:32:27.487 [TestNG-tests-2] INFO  utils.LoggerUtil - Test suite finished: Chrome Tests
+22:32:27.487 [TestNG-tests-1] INFO  utils.LoggerUtil - Test suite finished: Firefox Tests
+22:34:45.409 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\Desktop\Harika\C\Demoblaze\src\main\resources\testng.xml
+
+22:34:46.932 [TestNG-tests-2] ERROR utils.LoggerUtil - Failed to capture screenshot: Browser name not set. Call setBrowser() before getDriver().
+22:34:46.932 [TestNG-tests-1] ERROR utils.LoggerUtil - Failed to capture screenshot: Browser name not set. Call setBrowser() before getDriver().
+22:34:46.974 [TestNG-tests-1] INFO  utils.LoggerUtil - Test suite finished: Firefox Tests
+22:34:46.974 [TestNG-tests-2] INFO  utils.LoggerUtil - Test suite finished: Chrome Tests
+22:36:36.481 [TestNG-tests-1] ERROR utils.LoggerUtil - Failed to capture screenshot: Browser name not set. Call setBrowser() before getDriver().
+22:36:36.481 [TestNG-tests-2] ERROR utils.LoggerUtil - Failed to capture screenshot: Browser name not set. Call setBrowser() before getDriver().
+22:36:36.556 [TestNG-tests-2] INFO  utils.LoggerUtil - Test suite finished: Chrome Tests
+22:36:36.556 [TestNG-tests-1] INFO  utils.LoggerUtil - Test suite finished: Firefox Tests
+22:37:28.995 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\Desktop\Harika\C\Demoblaze\src\main\resources\testng.xml
+
+22:37:30.488 [TestNG-tests-2] ERROR utils.LoggerUtil - Failed to capture screenshot: Browser name not set. Call setBrowser() before getDriver().
+22:37:30.488 [TestNG-tests-1] ERROR utils.LoggerUtil - Failed to capture screenshot: Browser name not set. Call setBrowser() before getDriver().
+22:37:30.518 [TestNG-tests-2] INFO  utils.LoggerUtil - Test suite finished: Chrome Tests
+22:37:30.518 [TestNG-tests-1] INFO  utils.LoggerUtil - Test suite finished: Firefox Tests
+22:38:14.023 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+22:38:15.195 [main] ERROR utils.LoggerUtil - Failed to capture screenshot: Browser name not set. Call setBrowser() before getDriver().
+22:38:15.211 [main] INFO  utils.LoggerUtil - Test suite finished: Demoblaze
+22:38:53.218 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+

@@ -1,0 +1,723 @@
+21:05:57.749 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+21:05:58.401 [main] INFO  utils.LoggerUtil - Setting up test....
+21:06:00.334 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Reading https://raw.githubusercontent.com/bonigarcia/webdrivermanager/master/docs/mirror/geckodriver to seek geckodriver
+21:06:00.838 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+21:07:18.898 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+21:07:19.445 [main] INFO  utils.LoggerUtil - Setting up test....
+21:07:19.839 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+21:07:19.870 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+21:07:25.441 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+21:07:27.851 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+21:07:28.532 [main] INFO  utils.LoggerUtil - Successfully displayed element: Phones Category
+21:07:29.258 [main] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+21:07:29.258 [main] INFO  utils.LoggerUtil - Checking visibility of product: Apple monitor 24 under category: Monitors
+21:07:29.279 [main] ERROR utils.LoggerUtil - Product 'Apple monitor 24' not found under category 'Monitors'
+21:07:31.591 [main] INFO  utils.LoggerUtil - Finishing tests.
+21:07:31.604 [main] INFO  utils.LoggerUtil - Setting up test....
+21:07:31.655 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+21:07:31.682 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+21:07:37.413 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+21:07:39.032 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+21:07:39.523 [main] INFO  utils.LoggerUtil - Successfully displayed element: Phones Category
+21:07:40.213 [main] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+21:07:40.214 [main] INFO  utils.LoggerUtil - Checking visibility of product: ASUS Full HD under category: Monitors
+21:07:40.622 [main] ERROR utils.LoggerUtil - Product 'ASUS Full HD' not found under category 'Monitors'
+21:07:42.936 [main] INFO  utils.LoggerUtil - Finishing tests.
+21:17:41.956 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+21:17:42.493 [main] INFO  utils.LoggerUtil - Setting up test....
+21:17:42.828 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+21:17:42.859 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+21:17:47.772 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+21:17:50.061 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+21:17:50.316 [main] INFO  utils.LoggerUtil - Successfully displayed element: Phones Category
+21:17:50.319 [main] INFO  utils.LoggerUtil - Selecting category: Monitors
+21:17:50.942 [main] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+21:17:50.956 [main] ERROR utils.LoggerUtil - Product 'Apple monitor 24' not found under category 'Monitors'
+21:17:52.718 [main] INFO  utils.LoggerUtil - Finishing tests.
+21:17:52.724 [main] INFO  utils.LoggerUtil - Setting up test....
+21:17:52.749 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+21:17:52.780 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+21:17:57.141 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+21:17:58.740 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+21:17:59.490 [main] INFO  utils.LoggerUtil - Successfully displayed element: Phones Category
+21:17:59.490 [main] INFO  utils.LoggerUtil - Selecting category: Monitors
+21:18:00.341 [main] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+21:18:00.573 [main] ERROR utils.LoggerUtil - Product 'ASUS Full HD' not found under category 'Monitors'
+21:18:03.609 [main] INFO  utils.LoggerUtil - Finishing tests.
+21:28:09.115 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+21:28:09.772 [main] INFO  utils.LoggerUtil - Setting up test....
+21:28:10.146 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+21:28:10.173 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+21:28:15.522 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+21:28:17.703 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+21:28:17.889 [main] INFO  utils.LoggerUtil - Successfully displayed element: Phones Category
+21:28:17.891 [main] INFO  utils.LoggerUtil - Selecting category: Monitors
+21:28:18.576 [main] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+21:28:18.590 [main] ERROR utils.LoggerUtil - Product 'Apple monitor 24' is not visible under category 'Monitors'
+21:28:20.623 [main] INFO  utils.LoggerUtil - Finishing tests.
+21:28:20.632 [main] INFO  utils.LoggerUtil - Setting up test....
+21:28:20.665 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+21:28:20.700 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+21:28:26.526 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+21:28:28.361 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+21:28:28.735 [main] INFO  utils.LoggerUtil - Successfully displayed element: Phones Category
+21:28:28.735 [main] INFO  utils.LoggerUtil - Selecting category: Monitors
+21:28:29.353 [main] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+21:28:29.362 [main] ERROR utils.LoggerUtil - Product 'ASUS Full HD' is not visible under category 'Monitors'
+21:28:31.905 [main] INFO  utils.LoggerUtil - Finishing tests.
+21:28:51.530 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+21:28:52.099 [main] INFO  utils.LoggerUtil - Setting up test....
+21:28:52.501 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+21:28:52.532 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+21:28:59.136 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+21:29:00.869 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+21:29:01.484 [main] INFO  utils.LoggerUtil - Successfully displayed element: Phones Category
+21:29:01.490 [main] INFO  utils.LoggerUtil - Selecting category: Phones
+21:29:02.345 [main] INFO  utils.LoggerUtil - Clicked element: Phones Category
+21:29:02.709 [main] INFO  utils.LoggerUtil - TestCase passed. Product 'Sony xperia z5' is visible under category 'Phones'
+21:29:05.128 [main] INFO  utils.LoggerUtil - Finishing tests.
+21:29:05.138 [main] INFO  utils.LoggerUtil - Setting up test....
+21:29:05.170 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+21:29:05.222 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+21:29:10.804 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+21:29:12.744 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+21:29:13.329 [main] INFO  utils.LoggerUtil - Successfully displayed element: Phones Category
+21:29:13.329 [main] INFO  utils.LoggerUtil - Selecting category: Phones
+21:29:13.954 [main] INFO  utils.LoggerUtil - Clicked element: Phones Category
+21:29:13.972 [main] ERROR utils.LoggerUtil - Product 'Samsung galaxy s7' is not visible under category 'Phones'
+21:29:16.395 [main] INFO  utils.LoggerUtil - Finishing tests.
+21:36:46.993 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+21:36:47.549 [main] INFO  utils.LoggerUtil - Setting up test....
+21:36:47.910 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+21:36:47.934 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+21:36:53.137 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+21:36:55.261 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+21:36:55.727 [main] INFO  utils.LoggerUtil - Successfully displayed element: Phones Category
+21:36:55.727 [main] INFO  utils.LoggerUtil - Selecting category: Phones
+21:36:56.270 [main] INFO  utils.LoggerUtil - Clicked element: Phones Category
+21:36:59.083 [main] INFO  utils.LoggerUtil - Finishing tests.
+21:36:59.092 [main] INFO  utils.LoggerUtil - Setting up test....
+21:36:59.131 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+21:36:59.183 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+21:37:05.852 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+21:37:07.647 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+21:37:08.367 [main] INFO  utils.LoggerUtil - Successfully displayed element: Phones Category
+21:37:08.368 [main] INFO  utils.LoggerUtil - Selecting category: Phones
+21:37:09.038 [main] INFO  utils.LoggerUtil - Clicked element: Phones Category
+21:37:11.480 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:16:42.213 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+22:16:42.900 [main] INFO  utils.LoggerUtil - Setting up test....
+22:16:44.202 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:16:44.227 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:16:49.609 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+22:16:51.786 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:16:52.008 [main] INFO  utils.LoggerUtil - Successfully displayed element: Phones Category
+22:16:52.009 [main] INFO  utils.LoggerUtil - Selecting category: Phones
+22:16:52.422 [main] INFO  utils.LoggerUtil - Clicked element: Phones Category
+22:16:55.607 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:16:55.616 [main] INFO  utils.LoggerUtil - Setting up test....
+22:16:55.640 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:16:55.660 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:17:00.290 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+22:17:02.132 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:17:02.523 [main] INFO  utils.LoggerUtil - Successfully displayed element: Phones Category
+22:17:02.523 [main] INFO  utils.LoggerUtil - Selecting category: Phones
+22:17:03.089 [main] INFO  utils.LoggerUtil - Clicked element: Phones Category
+22:17:03.292 [main] INFO  utils.LoggerUtil - TestCase passed. Product 'Samsung galaxy s7' is visible under category 'Phones'
+22:17:05.322 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:19:48.077 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+22:19:48.654 [main] INFO  utils.LoggerUtil - Setting up test....
+22:19:49.050 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:19:49.081 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:19:54.980 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+22:19:58.093 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:19:58.676 [main] INFO  utils.LoggerUtil - Successfully displayed element: Phones Category
+22:19:58.689 [main] INFO  utils.LoggerUtil - Selecting category: Phones
+22:19:59.700 [main] INFO  utils.LoggerUtil - Clicked element: Phones Category
+22:20:02.719 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:20:02.733 [main] INFO  utils.LoggerUtil - Setting up test....
+22:20:02.761 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:20:02.809 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:20:09.758 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+22:20:12.576 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:20:12.991 [main] INFO  utils.LoggerUtil - Successfully displayed element: Phones Category
+22:20:12.991 [main] INFO  utils.LoggerUtil - Selecting category: Phones
+22:20:13.656 [main] INFO  utils.LoggerUtil - Clicked element: Phones Category
+22:20:18.892 [main] ERROR utils.LoggerUtil - Product not found: Samsung galaxy s7
+22:20:18.892 [main] ERROR utils.LoggerUtil - Product 'Samsung galaxy s7' is not visible under category 'Phones'
+22:20:20.565 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:21:00.367 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+22:21:01.219 [main] INFO  utils.LoggerUtil - Setting up test....
+22:21:01.830 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:21:01.874 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:21:08.609 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+22:21:10.379 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:21:11.165 [main] INFO  utils.LoggerUtil - Successfully displayed element: Phones Category
+22:21:11.172 [main] INFO  utils.LoggerUtil - Selecting category: Phones
+22:21:12.278 [main] INFO  utils.LoggerUtil - Clicked element: Phones Category
+22:21:14.578 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:21:14.605 [main] INFO  utils.LoggerUtil - Setting up test....
+22:21:14.637 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:21:14.692 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:21:20.427 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+22:21:22.279 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:21:22.816 [main] INFO  utils.LoggerUtil - Successfully displayed element: Phones Category
+22:21:22.816 [main] INFO  utils.LoggerUtil - Selecting category: Phones
+22:21:23.652 [main] INFO  utils.LoggerUtil - Clicked element: Phones Category
+22:21:24.055 [main] INFO  utils.LoggerUtil - TestCase passed. Product 'Samsung galaxy s7' is visible under category 'Phones'
+22:21:26.266 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:34:53.109 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+22:34:53.984 [main] INFO  utils.LoggerUtil - Setting up test....
+22:34:54.678 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:34:54.741 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:34:56.613 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+22:34:57.829 [main] INFO  utils.LoggerUtil - Setting up test....
+22:34:58.693 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:34:58.814 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:35:13.931 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+22:35:14.671 [main] INFO  utils.LoggerUtil - Setting up test....
+22:35:15.150 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:35:15.193 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:35:21.827 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+22:35:24.116 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:35:24.610 [main] INFO  utils.LoggerUtil - Successfully displayed element: Phones Category
+22:35:24.615 [main] INFO  utils.LoggerUtil - Selecting category: Phones
+22:35:25.182 [main] INFO  utils.LoggerUtil - Clicked element: Phones Category
+22:35:26.131 [main] INFO  utils.LoggerUtil - TestCase passed. Product 'Sony xperia z5' is visible under category 'Phones'
+22:35:28.260 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:35:28.266 [main] INFO  utils.LoggerUtil - Setting up test....
+22:35:28.289 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:35:28.329 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:35:34.621 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+22:35:36.330 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:35:36.827 [main] INFO  utils.LoggerUtil - Successfully displayed element: Phones Category
+22:35:36.827 [main] INFO  utils.LoggerUtil - Selecting category: Phones
+22:35:37.747 [main] INFO  utils.LoggerUtil - Clicked element: Phones Category
+22:35:38.041 [main] INFO  utils.LoggerUtil - TestCase passed. Product 'Samsung galaxy s7' is visible under category 'Phones'
+22:35:40.031 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:36:07.772 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+22:36:08.707 [main] INFO  utils.LoggerUtil - Setting up test....
+22:36:09.261 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:36:09.304 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:36:15.971 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+22:36:17.943 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:36:18.389 [main] INFO  utils.LoggerUtil - Successfully displayed element: Phones Category
+22:36:18.392 [main] INFO  utils.LoggerUtil - Selecting category: Monitors
+22:36:18.976 [main] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+22:36:21.288 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:36:21.296 [main] INFO  utils.LoggerUtil - Setting up test....
+22:36:21.316 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:36:21.350 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:36:27.167 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+22:36:29.332 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:36:29.752 [main] INFO  utils.LoggerUtil - Successfully displayed element: Phones Category
+22:36:29.752 [main] INFO  utils.LoggerUtil - Selecting category: Monitors
+22:36:30.590 [main] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+22:36:33.044 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:40:25.484 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+22:40:26.043 [main] INFO  utils.LoggerUtil - Setting up test....
+22:40:26.390 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:40:26.417 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:40:31.483 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+22:40:33.278 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:40:33.599 [main] INFO  utils.LoggerUtil - Successfully displayed element: Page loaded successfully
+22:40:33.601 [main] INFO  utils.LoggerUtil - Selecting category: Laptops
+22:40:34.015 [main] INFO  utils.LoggerUtil - Clicked element: Laptops Category
+22:40:34.781 [main] INFO  utils.LoggerUtil - TestCase passed. Product 'MacBook Pro' is visible under category 'Laptops'
+22:40:36.153 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:40:36.160 [main] INFO  utils.LoggerUtil - Setting up test....
+22:40:36.171 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:40:36.196 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:40:41.335 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+22:40:43.359 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:40:43.832 [main] INFO  utils.LoggerUtil - Successfully displayed element: Page loaded successfully
+22:40:43.833 [main] INFO  utils.LoggerUtil - Selecting category: Laptops
+22:40:44.598 [main] INFO  utils.LoggerUtil - Clicked element: Laptops Category
+22:40:45.353 [main] INFO  utils.LoggerUtil - TestCase passed. Product 'Sony vaio i5' is visible under category 'Laptops'
+22:40:47.645 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:42:56.926 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+22:42:57.549 [main] INFO  utils.LoggerUtil - Setting up test....
+22:42:57.958 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:42:57.997 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:43:03.547 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+22:43:05.548 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:43:05.851 [main] INFO  utils.LoggerUtil - Successfully displayed element: Page loaded successfully
+22:43:05.857 [main] INFO  utils.LoggerUtil - Selecting category: Monitors
+22:43:06.492 [main] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+22:43:07.305 [main] INFO  utils.LoggerUtil - TestCase passed. Product 'Apple monitor 24' is visible under category 'Monitors'
+22:43:08.817 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:43:08.825 [main] INFO  utils.LoggerUtil - Setting up test....
+22:43:08.856 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:43:08.905 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:43:14.414 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+22:43:16.105 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:43:16.569 [main] INFO  utils.LoggerUtil - Successfully displayed element: Page loaded successfully
+22:43:16.569 [main] INFO  utils.LoggerUtil - Selecting category: Monitors
+22:43:17.278 [main] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+22:43:19.594 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:48:10.389 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+22:48:10.936 [main] INFO  utils.LoggerUtil - Setting up test....
+22:48:11.276 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:48:11.303 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:48:15.958 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+22:48:17.957 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:48:18.233 [main] INFO  utils.LoggerUtil - Successfully displayed element: Page loaded successfully
+22:48:18.235 [main] INFO  utils.LoggerUtil - Selecting category: Monitors
+22:48:18.706 [main] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+22:48:25.096 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:48:25.102 [main] INFO  utils.LoggerUtil - Setting up test....
+22:48:25.120 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:48:25.156 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:48:29.616 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+22:48:31.449 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:48:31.618 [main] INFO  utils.LoggerUtil - Successfully displayed element: Page loaded successfully
+22:48:31.618 [main] INFO  utils.LoggerUtil - Selecting category: Monitors
+22:48:32.129 [main] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+22:48:38.366 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:49:17.145 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+22:49:17.761 [main] INFO  utils.LoggerUtil - Setting up test....
+22:49:18.130 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:49:18.146 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:49:23.095 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+22:49:24.753 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:49:24.986 [main] INFO  utils.LoggerUtil - Successfully displayed element: Page loaded successfully
+22:49:24.988 [main] INFO  utils.LoggerUtil - Selecting category: Monitors
+22:49:25.484 [main] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+22:49:27.642 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:49:27.652 [main] INFO  utils.LoggerUtil - Setting up test....
+22:49:27.694 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:49:27.738 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:49:33.104 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+22:49:34.979 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:49:35.305 [main] INFO  utils.LoggerUtil - Successfully displayed element: Page loaded successfully
+22:49:35.305 [main] INFO  utils.LoggerUtil - Selecting category: Monitors
+22:49:35.924 [main] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+22:49:36.333 [main] ERROR utils.LoggerUtil - Product 'ASUS Full HD' is not visible under category 'Monitors'
+22:49:38.134 [main] INFO  utils.LoggerUtil - Finishing tests.
+22:51:30.682 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\Desktop\Harika\C\Demoblaze\src\main\resources\testng.xml
+
+22:51:31.540 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:51:31.540 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:51:31.928 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:51:31.957 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:51:33.063 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+22:51:33.081 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+22:51:35.907 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+22:51:35.922 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+22:51:37.481 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:51:38.752 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+22:51:38.754 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+22:51:40.885 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:51:41.502 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:51:41.842 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:51:42.847 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:51:43.118 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:51:43.514 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:51:43.930 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:51:45.048 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:51:45.666 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:51:46.719 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser1
+22:51:47.309 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:51:47.347 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully logged out
+22:51:47.558 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250923_225147.png
+22:51:48.867 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser1
+22:51:49.033 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:51:49.042 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:51:49.075 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:51:49.132 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:51:49.688 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:51:50.074 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully logged out
+22:51:50.684 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250923_225150.png
+22:51:52.075 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:51:52.085 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:51:52.126 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+22:51:52.167 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+22:51:55.052 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+22:51:55.055 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+22:51:56.939 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:51:58.212 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:51:58.670 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+22:51:58.671 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+22:52:00.304 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:52:00.819 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:52:01.708 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser to element UserName
+22:52:02.017 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: validPass123 to element Password
+22:52:02.375 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:52:02.770 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser to element UserName
+22:52:03.688 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: validPass123 to element Password
+22:52:04.261 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:52:05.540 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser
+22:52:06.172 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:52:06.325 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully logged out
+22:52:06.488 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250923_225206.png
+22:52:07.775 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser
+22:52:08.479 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:52:08.488 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:52:08.512 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:52:08.538 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:52:09.252 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:52:09.683 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully logged out
+22:52:10.165 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250923_225210.png
+22:52:11.411 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:52:11.418 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:52:11.433 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+22:52:11.453 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+22:52:14.006 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+22:52:14.006 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+22:52:14.410 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:52:15.478 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:52:16.425 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser_100 to element UserName
+22:52:16.780 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: valid to element Password
+22:52:17.029 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:52:18.876 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+22:52:18.878 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+22:52:20.499 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:52:20.561 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser_100
+22:52:21.035 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:52:21.204 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser_100 to element UserName
+22:52:21.356 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: valid to element Password
+22:52:21.708 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:52:22.914 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:52:23.432 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully logged out
+22:52:23.966 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250923_225223.png
+22:52:24.462 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:52:24.525 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:52:24.533 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+22:52:24.550 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+22:52:24.842 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser_100
+22:52:25.528 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Logout Button
+22:52:25.724 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully logged out
+22:52:26.168 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250923_225226.png
+22:52:26.891 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+22:52:26.893 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+22:52:27.483 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:52:28.457 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:52:28.584 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:52:28.620 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:52:28.656 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:52:29.100 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:52:29.743 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+22:52:29.979 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:52:30.261 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:52:31.316 [TestNG-tests-2] WARN  utils.LoggerUtil - Alert message: Wrong password.
+22:52:31.326 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+22:52:31.635 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250923_225231.png
+22:52:33.019 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:52:33.027 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:52:33.045 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+22:52:33.070 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+22:52:35.046 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+22:52:35.048 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+22:52:36.425 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:52:38.890 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+22:52:38.893 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+22:52:39.470 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:52:40.589 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:52:40.605 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:52:41.186 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:52:41.286 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+22:52:41.392 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+22:52:41.637 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+22:52:41.738 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:52:42.125 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:52:42.921 [TestNG-tests-1] WARN  utils.LoggerUtil - Alert message: Wrong password.
+22:52:43.079 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+22:52:43.199 [TestNG-tests-2] WARN  utils.LoggerUtil - Alert message: Wrong password.
+22:52:43.220 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: Validuser1
+22:52:43.323 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250923_225243.png
+22:52:43.546 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250923_225243.png
+22:52:44.282 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:52:44.291 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:52:44.312 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+22:52:44.341 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+22:52:46.136 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:52:46.143 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:52:46.161 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:52:46.204 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:52:46.687 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+22:52:46.687 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+22:52:47.158 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:52:48.410 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:52:49.303 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+22:52:49.542 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+22:52:49.754 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:52:50.829 [TestNG-tests-2] WARN  utils.LoggerUtil - Alert message: Wrong password.
+22:52:50.851 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+22:52:51.217 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250923_225251.png
+22:52:52.368 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:52:52.454 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:52:52.476 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+22:52:52.499 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+22:52:54.297 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+22:52:54.297 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+22:52:55.908 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:52:58.360 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:52:58.735 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+22:52:58.736 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+22:53:00.296 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:53:00.421 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:53:00.733 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as:  to element Password
+22:53:00.851 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:53:00.982 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:53:01.106 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:53:01.125 [TestNG-tests-2] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+22:53:01.152 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+22:53:01.464 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+22:53:01.703 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250923_225301.png
+22:53:01.893 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:53:02.943 [TestNG-tests-1] WARN  utils.LoggerUtil - Alert message: Wrong password.
+22:53:02.978 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: Validuser1
+22:53:03.156 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250923_225303.png
+22:53:05.032 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:53:05.039 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:53:05.051 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+22:53:05.069 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+22:53:05.605 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:53:05.610 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:53:05.620 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:53:05.627 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:53:06.953 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+22:53:06.954 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+22:53:08.165 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:53:08.916 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:53:09.960 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as:  to element UserName
+22:53:10.756 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as:  to element Password
+22:53:10.990 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:53:11.008 [TestNG-tests-2] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+22:53:11.028 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+22:53:11.606 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250923_225311.png
+22:53:12.257 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:53:12.315 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:53:12.331 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+22:53:12.340 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+22:53:14.550 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSignUp
+22:53:16.004 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:53:16.004 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+22:53:16.005 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+22:53:18.086 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:53:18.735 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:53:19.059 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to SignUp page
+22:53:20.164 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+22:53:20.306 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+22:53:20.719 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:53:21.264 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser13 to element UserName
+22:53:21.694 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+22:53:21.795 [TestNG-tests-1] WARN  utils.LoggerUtil - Alert message: Wrong password.
+22:53:21.854 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+22:53:22.274 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250923_225322.png
+22:53:22.501 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: SignUp Button
+22:53:23.624 [TestNG-tests-2] INFO  utils.LoggerUtil - Alert displayed: This user already exist.
+22:53:23.625 [TestNG-tests-2] WARN  utils.LoggerUtil - Testcase failed. Registration failed: User already exists - Validuser13
+22:53:23.992 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/fail/testSignUp_20250923_225323.png
+22:53:25.012 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:53:25.092 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:53:25.123 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:53:25.164 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:53:25.253 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:53:25.344 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:53:25.388 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+22:53:25.427 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+22:53:27.606 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+22:53:27.610 [TestNG-tests-2] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+22:53:29.544 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:53:29.832 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully displayed element: Page loaded successfully
+22:53:29.832 [TestNG-tests-2] INFO  utils.LoggerUtil - Selecting category: Monitors
+22:53:30.795 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+22:53:31.174 [TestNG-tests-2] ERROR utils.LoggerUtil - Product 'Apple monitor 24' is not visible under category 'Monitors'
+22:53:31.594 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/fail/testSearchByCategory_20250923_225331.png
+22:53:32.004 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:53:32.012 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:53:32.027 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+22:53:32.038 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+22:53:35.044 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+22:53:35.044 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+22:53:35.286 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+22:53:35.286 [TestNG-tests-2] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+22:53:36.856 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:53:36.999 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:53:37.608 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully displayed element: Page loaded successfully
+22:53:37.609 [TestNG-tests-2] INFO  utils.LoggerUtil - Selecting category: Monitors
+22:53:37.672 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:53:37.871 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+22:53:37.978 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as:  to element Password
+22:53:38.245 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:53:38.535 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+22:53:38.569 [TestNG-tests-1] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+22:53:38.686 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+22:53:39.255 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250923_225339.png
+22:53:39.529 [TestNG-tests-2] INFO  utils.LoggerUtil - TestCase passed. Product 'ASUS Full HD' is visible under category 'Monitors'
+22:53:40.059 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/testSearchByCategory_20250923_225340.png
+22:53:41.636 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:53:41.738 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:53:41.792 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+22:53:41.867 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+22:53:42.194 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:53:42.207 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:53:42.237 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:53:42.263 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:53:44.240 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+22:53:44.242 [TestNG-tests-2] INFO  utils.LoggerUtil - ...SEARCH BY PRODUCT NAME...
+22:53:44.620 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:53:45.977 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully displayed element: Page loaded successfully
+22:53:45.978 [TestNG-tests-2] INFO  utils.LoggerUtil - Checking visibility of product: Sony xperia z5
+22:53:46.595 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/fail/testSearchByProduct_Sony xperia z5_20250923_225346.png
+22:53:46.596 [TestNG-tests-2] ERROR utils.LoggerUtil - Product 'Sony xperia z5' is not visible.
+22:53:47.021 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/fail/testSearchByProductName_20250923_225347.png
+22:53:48.936 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:53:48.943 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+22:53:48.959 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+22:53:48.984 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+22:53:51.372 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+22:53:51.372 [TestNG-tests-2] INFO  utils.LoggerUtil - ...SEARCH BY PRODUCT NAME...
+22:53:52.081 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:53:53.422 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+22:53:53.425 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+22:53:53.768 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully displayed element: Page loaded successfully
+22:53:53.768 [TestNG-tests-2] INFO  utils.LoggerUtil - Checking visibility of product: Sony vaio i5
+22:53:54.642 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/fail/testSearchByProduct_Sony vaio i5_20250923_225354.png
+22:53:54.656 [TestNG-tests-2] ERROR utils.LoggerUtil - Product 'Sony vaio i5' is not visible.
+22:53:55.142 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/fail/testSearchByProductName_20250923_225355.png
+22:53:56.162 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:53:56.908 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+22:53:57.037 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as:  to element UserName
+22:53:57.210 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as:  to element Password
+22:53:57.503 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+22:53:57.544 [TestNG-tests-1] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+22:53:57.592 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+22:53:57.772 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250923_225357.png
+22:54:00.612 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:54:00.664 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:54:00.678 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:54:00.697 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:54:01.316 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+22:54:01.322 [TestNG-tests-2] INFO  utils.LoggerUtil - Test suite finished: Chrome Tests
+22:54:07.959 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSignUp
+22:54:09.811 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+22:54:10.180 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to SignUp page
+22:54:10.317 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser13 to element UserName
+22:54:10.413 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+22:54:10.720 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: SignUp Button
+22:54:11.820 [TestNG-tests-1] INFO  utils.LoggerUtil - Alert displayed: This user already exist.
+22:54:11.820 [TestNG-tests-1] WARN  utils.LoggerUtil - Testcase failed. Registration failed: User already exists - Validuser13
+22:54:11.991 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/fail/testSignUp_20250923_225411.png
+22:54:13.600 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:54:13.658 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:54:13.683 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:54:13.710 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:54:19.369 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+22:54:19.370 [TestNG-tests-1] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+22:54:21.223 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:54:21.562 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully displayed element: Page loaded successfully
+22:54:21.563 [TestNG-tests-1] INFO  utils.LoggerUtil - Selecting category: Monitors
+22:54:22.185 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+22:54:22.401 [TestNG-tests-1] ERROR utils.LoggerUtil - Product 'Apple monitor 24' is not visible under category 'Monitors'
+22:54:22.514 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/fail/testSearchByCategory_20250923_225422.png
+22:54:24.045 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:54:24.051 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:54:24.060 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:54:24.076 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:54:29.709 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+22:54:29.709 [TestNG-tests-1] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+22:54:31.324 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:54:31.746 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully displayed element: Page loaded successfully
+22:54:31.746 [TestNG-tests-1] INFO  utils.LoggerUtil - Selecting category: Monitors
+22:54:32.511 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+22:54:32.936 [TestNG-tests-1] ERROR utils.LoggerUtil - Product 'ASUS Full HD' is not visible under category 'Monitors'
+22:54:33.130 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/fail/testSearchByCategory_20250923_225433.png
+22:54:34.887 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:54:34.941 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:54:34.968 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:54:34.987 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:54:40.014 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+22:54:40.014 [TestNG-tests-1] INFO  utils.LoggerUtil - ...SEARCH BY PRODUCT NAME...
+22:54:41.735 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:54:42.167 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully displayed element: Page loaded successfully
+22:54:42.167 [TestNG-tests-1] INFO  utils.LoggerUtil - Checking visibility of product: Sony xperia z5
+22:54:42.328 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/fail/testSearchByProduct_Sony xperia z5_20250923_225442.png
+22:54:42.328 [TestNG-tests-1] ERROR utils.LoggerUtil - Product 'Sony xperia z5' is not visible.
+22:54:42.457 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/fail/testSearchByProductName_20250923_225442.png
+22:54:44.476 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:54:44.477 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+22:54:44.491 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+22:54:44.507 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+22:54:50.051 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+22:54:50.053 [TestNG-tests-1] INFO  utils.LoggerUtil - ...SEARCH BY PRODUCT NAME...
+22:54:51.786 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+22:54:52.363 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully displayed element: Page loaded successfully
+22:54:52.363 [TestNG-tests-1] INFO  utils.LoggerUtil - Checking visibility of product: Sony vaio i5
+22:54:52.516 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/fail/testSearchByProduct_Sony vaio i5_20250923_225452.png
+22:54:52.516 [TestNG-tests-1] ERROR utils.LoggerUtil - Product 'Sony vaio i5' is not visible.
+22:54:52.650 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/fail/testSearchByProductName_20250923_225452.png
+22:54:54.418 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+22:54:54.421 [TestNG-tests-1] INFO  utils.LoggerUtil - Test suite finished: Firefox Tests
+23:03:03.912 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+23:03:03.975 [main] INFO  utils.LoggerUtil - Setting up test....
+23:03:04.363 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:03:04.394 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:03:12.278 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+23:03:12.841 [main] INFO  utils.LoggerUtil - Clicked element: Phones Category
+23:03:15.487 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:45:28.913 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+23:45:29.797 [main] ERROR utils.LoggerUtil - Failed to capture screenshot: Browser name not set. Call setBrowser() before getDriver().
+23:45:29.814 [main] INFO  utils.LoggerUtil - Test suite finished: Demoblaze
+23:46:12.453 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+23:51:37.048 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+23:51:37.633 [main] INFO  utils.LoggerUtil - Setting up test....
+23:51:38.805 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:51:38.814 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:51:46.175 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+23:51:47.597 [main] INFO  utils.LoggerUtil - Setting up test....
+23:51:47.624 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:51:47.650 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:51:54.288 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+23:51:56.253 [main] INFO  utils.LoggerUtil - Setting up test....
+23:51:56.274 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:51:56.300 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:52:04.176 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+23:52:06.671 [main] INFO  utils.LoggerUtil - Setting up test....
+23:52:06.706 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:52:06.732 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:52:13.952 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com

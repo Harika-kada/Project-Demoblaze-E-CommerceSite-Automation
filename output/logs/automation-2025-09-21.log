@@ -1,0 +1,1827 @@
+16:04:47.037 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\Desktop\Harika\C\Demoblaze\src\main\resources\testng.xml
+
+16:04:48.796 [main] INFO  utils.LoggerUtil - Setting up test....
+16:04:49.075 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:04:49.085 [main] WARN  utils.LoggerUtil - Test skipped: loginWithValidData
+16:04:49.137 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:04:49.139 [main] WARN  utils.LoggerUtil - Test skipped: loginWithValidData
+16:04:49.204 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:04:49.207 [main] WARN  utils.LoggerUtil - Test skipped: loginWithValidData
+16:04:49.417 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:04:49.417 [main] WARN  utils.LoggerUtil - Test skipped: loginWithInvalidData
+16:04:49.457 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:04:49.457 [main] WARN  utils.LoggerUtil - Test skipped: loginWithInvalidData
+16:04:49.490 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:04:49.493 [main] WARN  utils.LoggerUtil - Test skipped: loginWithInvalidData
+16:04:49.631 [main] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+16:04:49.631 [main] WARN  utils.LoggerUtil - Test skipped: loginWithEmptyFields
+16:04:49.664 [main] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+16:04:49.664 [main] WARN  utils.LoggerUtil - Test skipped: loginWithEmptyFields
+16:04:49.799 [main] INFO  utils.LoggerUtil - Setting up test....
+16:04:49.829 [main] INFO  utils.LoggerUtil - Starting test: testSignUp
+16:04:49.831 [main] WARN  utils.LoggerUtil - Test skipped: testSignUp
+16:04:50.006 [main] INFO  utils.LoggerUtil - Setting up test....
+16:04:50.037 [main] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+16:04:50.037 [main] WARN  utils.LoggerUtil - Test skipped: testSearchByCategory
+16:04:50.089 [main] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+16:04:50.091 [main] WARN  utils.LoggerUtil - Test skipped: testSearchByCategory
+16:04:50.284 [main] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+16:04:50.286 [main] WARN  utils.LoggerUtil - Test skipped: testSearchByProductName
+16:04:50.318 [main] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+16:04:50.321 [main] WARN  utils.LoggerUtil - Test skipped: testSearchByProductName
+16:04:50.343 [main] INFO  utils.LoggerUtil - Test suite finished: Firefox Tests
+16:04:51.132 [main] INFO  utils.LoggerUtil - Setting up test....
+16:04:51.159 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:04:51.161 [main] WARN  utils.LoggerUtil - Test skipped: loginWithValidData
+16:04:51.202 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:04:51.208 [main] WARN  utils.LoggerUtil - Test skipped: loginWithValidData
+16:04:51.245 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:04:51.245 [main] WARN  utils.LoggerUtil - Test skipped: loginWithValidData
+16:04:51.387 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:04:51.387 [main] WARN  utils.LoggerUtil - Test skipped: loginWithInvalidData
+16:04:51.486 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:04:51.488 [main] WARN  utils.LoggerUtil - Test skipped: loginWithInvalidData
+16:04:51.539 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:04:51.539 [main] WARN  utils.LoggerUtil - Test skipped: loginWithInvalidData
+16:04:51.691 [main] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+16:04:51.691 [main] WARN  utils.LoggerUtil - Test skipped: loginWithEmptyFields
+16:04:51.735 [main] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+16:04:51.737 [main] WARN  utils.LoggerUtil - Test skipped: loginWithEmptyFields
+16:04:51.841 [main] INFO  utils.LoggerUtil - Setting up test....
+16:04:51.878 [main] INFO  utils.LoggerUtil - Starting test: testSignUp
+16:04:51.880 [main] WARN  utils.LoggerUtil - Test skipped: testSignUp
+16:04:52.039 [main] INFO  utils.LoggerUtil - Setting up test....
+16:04:52.066 [main] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+16:04:52.068 [main] WARN  utils.LoggerUtil - Test skipped: testSearchByCategory
+16:04:52.101 [main] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+16:04:52.101 [main] WARN  utils.LoggerUtil - Test skipped: testSearchByCategory
+16:04:52.217 [main] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+16:04:52.219 [main] WARN  utils.LoggerUtil - Test skipped: testSearchByProductName
+16:04:52.258 [main] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+16:04:52.258 [main] WARN  utils.LoggerUtil - Test skipped: testSearchByProductName
+16:04:52.284 [main] INFO  utils.LoggerUtil - Test suite finished: Chrome Tests
+16:05:20.933 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\Desktop\Harika\C\Demoblaze\src\main\resources\testng.xml
+
+16:05:22.324 [main] INFO  utils.LoggerUtil - Setting up test....
+16:05:22.543 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:05:22.543 [main] WARN  utils.LoggerUtil - Test skipped: loginWithValidData
+16:05:22.582 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:05:22.586 [main] WARN  utils.LoggerUtil - Test skipped: loginWithValidData
+16:05:22.627 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:05:22.629 [main] WARN  utils.LoggerUtil - Test skipped: loginWithValidData
+16:05:22.827 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:05:22.827 [main] WARN  utils.LoggerUtil - Test skipped: loginWithInvalidData
+16:05:22.865 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:05:22.865 [main] WARN  utils.LoggerUtil - Test skipped: loginWithInvalidData
+16:05:22.896 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:05:22.896 [main] WARN  utils.LoggerUtil - Test skipped: loginWithInvalidData
+16:05:23.027 [main] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+16:05:23.028 [main] WARN  utils.LoggerUtil - Test skipped: loginWithEmptyFields
+16:05:23.058 [main] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+16:05:23.058 [main] WARN  utils.LoggerUtil - Test skipped: loginWithEmptyFields
+16:05:23.205 [main] INFO  utils.LoggerUtil - Setting up test....
+16:05:23.237 [main] INFO  utils.LoggerUtil - Starting test: testSignUp
+16:05:23.239 [main] WARN  utils.LoggerUtil - Test skipped: testSignUp
+16:05:23.384 [main] INFO  utils.LoggerUtil - Setting up test....
+16:05:23.413 [main] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+16:05:23.414 [main] WARN  utils.LoggerUtil - Test skipped: testSearchByCategory
+16:05:23.444 [main] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+16:05:23.447 [main] WARN  utils.LoggerUtil - Test skipped: testSearchByCategory
+16:05:23.592 [main] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+16:05:23.598 [main] WARN  utils.LoggerUtil - Test skipped: testSearchByProductName
+16:05:23.634 [main] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+16:05:23.634 [main] WARN  utils.LoggerUtil - Test skipped: testSearchByProductName
+16:05:23.655 [main] INFO  utils.LoggerUtil - Test suite finished: Firefox Tests
+16:05:24.398 [main] INFO  utils.LoggerUtil - Setting up test....
+16:05:24.428 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:05:24.429 [main] WARN  utils.LoggerUtil - Test skipped: loginWithValidData
+16:05:24.469 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:05:24.471 [main] WARN  utils.LoggerUtil - Test skipped: loginWithValidData
+16:05:24.519 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:05:24.522 [main] WARN  utils.LoggerUtil - Test skipped: loginWithValidData
+16:05:24.636 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:05:24.638 [main] WARN  utils.LoggerUtil - Test skipped: loginWithInvalidData
+16:05:24.671 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:05:24.675 [main] WARN  utils.LoggerUtil - Test skipped: loginWithInvalidData
+16:05:24.705 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:05:24.705 [main] WARN  utils.LoggerUtil - Test skipped: loginWithInvalidData
+16:05:24.854 [main] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+16:05:24.856 [main] WARN  utils.LoggerUtil - Test skipped: loginWithEmptyFields
+16:05:24.874 [main] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+16:05:24.874 [main] WARN  utils.LoggerUtil - Test skipped: loginWithEmptyFields
+16:05:24.975 [main] INFO  utils.LoggerUtil - Setting up test....
+16:05:24.995 [main] INFO  utils.LoggerUtil - Starting test: testSignUp
+16:05:24.997 [main] WARN  utils.LoggerUtil - Test skipped: testSignUp
+16:05:25.089 [main] INFO  utils.LoggerUtil - Setting up test....
+16:05:25.115 [main] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+16:05:25.119 [main] WARN  utils.LoggerUtil - Test skipped: testSearchByCategory
+16:05:25.151 [main] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+16:05:25.153 [main] WARN  utils.LoggerUtil - Test skipped: testSearchByCategory
+16:05:25.308 [main] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+16:05:25.310 [main] WARN  utils.LoggerUtil - Test skipped: testSearchByProductName
+16:05:25.346 [main] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+16:05:25.347 [main] WARN  utils.LoggerUtil - Test skipped: testSearchByProductName
+16:05:25.369 [main] INFO  utils.LoggerUtil - Test suite finished: Chrome Tests
+16:11:56.771 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\Desktop\Harika\C\Demoblaze\src\main\resources\testng.xml
+
+16:11:58.477 [main] INFO  utils.LoggerUtil - Setting up test....
+16:12:01.882 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Reading https://raw.githubusercontent.com/bonigarcia/webdrivermanager/master/docs/mirror/geckodriver to seek geckodriver
+16:12:02.673 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:12:15.149 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:12:15.182 [main] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+16:12:16.936 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:12:18.007 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:12:18.294 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+16:12:18.561 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+16:12:18.932 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:12:22.232 [main] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser1
+16:12:22.918 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+16:12:23.041 [main] INFO  utils.LoggerUtil - Successfully logged out
+16:12:23.297 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_161223.png
+16:12:25.646 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:12:25.661 [main] INFO  utils.LoggerUtil - Setting up test....
+16:12:25.703 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:12:25.764 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:12:34.712 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:12:34.712 [main] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+16:12:36.399 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:12:37.367 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:12:38.862 [main] INFO  utils.LoggerUtil - Typed value as: Validuser to element UserName
+16:12:39.091 [main] INFO  utils.LoggerUtil - Typed value as: validPass123 to element Password
+16:12:39.452 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:12:42.635 [main] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser
+16:12:43.341 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+16:12:43.442 [main] INFO  utils.LoggerUtil - Successfully logged out
+16:12:43.675 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_161243.png
+16:12:45.901 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:12:45.911 [main] INFO  utils.LoggerUtil - Setting up test....
+16:12:45.956 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:12:46.003 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:12:55.202 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:12:55.204 [main] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+16:12:56.834 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:12:57.662 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:12:58.998 [main] INFO  utils.LoggerUtil - Typed value as: Validuser_100 to element UserName
+16:12:59.235 [main] INFO  utils.LoggerUtil - Typed value as: valid to element Password
+16:12:59.659 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:13:02.914 [main] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser_100
+16:13:03.629 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+16:13:03.780 [main] INFO  utils.LoggerUtil - Successfully logged out
+16:13:04.039 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_161304.png
+16:13:07.103 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:13:07.303 [main] INFO  utils.LoggerUtil - Setting up test....
+16:13:07.343 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:13:07.394 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:13:18.374 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:13:18.381 [main] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+16:13:20.142 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:13:21.152 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:13:22.525 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+16:13:22.893 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+16:13:23.284 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:13:23.853 [main] WARN  utils.LoggerUtil - Alert message: Wrong password.
+16:13:23.912 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+16:13:24.229 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_161324.png
+16:13:27.414 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:13:27.430 [main] INFO  utils.LoggerUtil - Setting up test....
+16:13:27.463 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:13:27.512 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:13:37.102 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:13:37.104 [main] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+16:13:38.858 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:13:39.833 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:13:41.456 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+16:13:41.731 [main] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+16:13:42.112 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:13:42.687 [main] WARN  utils.LoggerUtil - Alert message: Wrong password.
+16:13:42.742 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: Validuser1
+16:13:42.960 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_161342.png
+16:13:45.428 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:13:45.438 [main] INFO  utils.LoggerUtil - Setting up test....
+16:13:45.477 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:13:45.516 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:13:55.223 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:13:55.223 [main] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+16:13:56.833 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:13:57.543 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:13:58.867 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+16:13:59.066 [main] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+16:13:59.474 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:14:00.578 [main] WARN  utils.LoggerUtil - Alert message: Wrong password.
+16:14:00.627 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+16:14:00.911 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_161400.png
+16:14:04.109 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:14:04.302 [main] INFO  utils.LoggerUtil - Setting up test....
+16:14:04.349 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:14:04.387 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:14:13.100 [main] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+16:14:13.102 [main] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+16:14:14.746 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:14:15.425 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:14:16.461 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+16:14:16.648 [main] INFO  utils.LoggerUtil - Typed value as:  to element Password
+16:14:16.963 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:14:16.999 [main] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+16:14:17.047 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+16:14:17.310 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250921_161417.png
+16:14:19.751 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:14:19.761 [main] INFO  utils.LoggerUtil - Setting up test....
+16:14:19.803 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:14:19.843 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:14:29.094 [main] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+16:14:29.098 [main] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+16:14:30.994 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:14:31.642 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:14:32.579 [main] INFO  utils.LoggerUtil - Typed value as:  to element UserName
+16:14:32.749 [main] INFO  utils.LoggerUtil - Typed value as:  to element Password
+16:14:33.129 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:14:33.175 [main] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+16:14:33.221 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+16:14:33.539 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250921_161433.png
+16:14:37.446 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:14:37.599 [main] INFO  utils.LoggerUtil - Setting up test....
+16:14:37.640 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:14:37.687 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:14:46.329 [main] INFO  utils.LoggerUtil - Starting test: testSignUp
+16:14:48.082 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:14:49.081 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to SignUp page
+16:14:50.070 [main] INFO  utils.LoggerUtil - Typed value as: Validuser13 to element UserName
+16:14:50.254 [main] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+16:14:50.600 [main] INFO  utils.LoggerUtil - Clicked element: SignUp Button
+16:14:51.185 [main] INFO  utils.LoggerUtil - Alert displayed: This user already exist.
+16:14:51.185 [main] WARN  utils.LoggerUtil - Testcase failed. Registration failed: User already exists - Validuser13
+16:14:51.404 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/fail/testSignUp_20250921_161451.png
+16:14:54.004 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:14:54.125 [main] INFO  utils.LoggerUtil - Setting up test....
+16:14:54.165 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:14:54.222 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:15:03.572 [main] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+16:15:03.574 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+16:15:05.269 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:15:06.696 [main] INFO  utils.LoggerUtil - TestCase passed. Product 'Apple monitor 24' is visible under category 'Monitors'
+16:15:06.968 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/testSearchByCategory_20250921_161506.png
+16:15:09.345 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:15:09.359 [main] INFO  utils.LoggerUtil - Setting up test....
+16:15:09.396 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:15:09.433 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:15:17.780 [main] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+16:15:17.780 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+16:15:19.370 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:15:20.731 [main] INFO  utils.LoggerUtil - TestCase passed. Product 'ASUS Full HD' is visible under category 'Monitors'
+16:15:21.079 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/testSearchByCategory_20250921_161521.png
+16:15:23.494 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:15:23.617 [main] INFO  utils.LoggerUtil - Setting up test....
+16:15:23.653 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:15:23.694 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:15:32.431 [main] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+16:15:32.433 [main] INFO  utils.LoggerUtil - ...SEARCH BY PRODUCT NAME...
+16:15:33.954 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:15:33.956 [main] INFO  utils.LoggerUtil - Navigated to homepage. Checking visibility of product: Sony xperia z5
+16:15:35.339 [main] INFO  utils.LoggerUtil - TestCase passed. Product 'Sony xperia z5' is visible.
+16:15:35.578 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/testSearchByProductName_20250921_161535.png
+16:15:37.830 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:15:37.840 [main] INFO  utils.LoggerUtil - Setting up test....
+16:15:37.877 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:15:37.917 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:15:46.625 [main] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+16:15:46.625 [main] INFO  utils.LoggerUtil - ...SEARCH BY PRODUCT NAME...
+16:15:48.255 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:15:48.256 [main] INFO  utils.LoggerUtil - Navigated to homepage. Checking visibility of product: Sony vaio i5
+16:15:49.586 [main] INFO  utils.LoggerUtil - TestCase passed. Product 'Sony vaio i5' is visible.
+16:15:49.844 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/testSearchByProductName_20250921_161549.png
+16:15:52.211 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:15:52.220 [main] INFO  utils.LoggerUtil - Test suite finished: Firefox Tests
+16:15:53.414 [main] INFO  utils.LoggerUtil - Setting up test....
+16:15:53.453 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:15:53.492 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:16:02.901 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:16:02.901 [main] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+16:16:04.461 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:16:05.287 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:16:06.759 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+16:16:06.954 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+16:16:07.272 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:16:10.444 [main] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser1
+16:16:11.374 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+16:16:11.536 [main] INFO  utils.LoggerUtil - Successfully logged out
+16:16:11.745 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_161611.png
+16:16:13.916 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:16:13.926 [main] INFO  utils.LoggerUtil - Setting up test....
+16:16:13.964 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:16:13.999 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:16:22.705 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:16:22.709 [main] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+16:16:24.465 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:16:25.237 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:16:26.643 [main] INFO  utils.LoggerUtil - Typed value as: Validuser to element UserName
+16:16:26.747 [main] INFO  utils.LoggerUtil - Typed value as: validPass123 to element Password
+16:16:27.074 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:16:30.238 [main] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser
+16:16:31.162 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+16:16:31.256 [main] INFO  utils.LoggerUtil - Successfully logged out
+16:16:31.455 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_161631.png
+16:16:33.665 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:16:33.679 [main] INFO  utils.LoggerUtil - Setting up test....
+16:16:33.716 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:16:33.748 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:16:42.305 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:16:42.305 [main] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+16:16:44.001 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:16:44.663 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:16:46.037 [main] INFO  utils.LoggerUtil - Typed value as: Validuser_100 to element UserName
+16:16:46.209 [main] INFO  utils.LoggerUtil - Typed value as: valid to element Password
+16:16:46.529 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:16:49.681 [main] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser_100
+16:16:50.333 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+16:16:50.448 [main] INFO  utils.LoggerUtil - Successfully logged out
+16:16:50.628 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_161650.png
+16:16:53.024 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:16:53.143 [main] INFO  utils.LoggerUtil - Setting up test....
+16:16:53.183 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:16:53.228 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:17:01.891 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:17:01.891 [main] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+16:17:03.729 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:17:04.609 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:17:05.514 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+16:17:05.830 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+16:17:06.181 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:17:06.739 [main] WARN  utils.LoggerUtil - Alert message: Wrong password.
+16:17:06.764 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+16:17:06.958 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_161706.png
+16:17:09.979 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:17:09.989 [main] INFO  utils.LoggerUtil - Setting up test....
+16:17:10.016 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:17:10.047 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:17:18.525 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:17:18.525 [main] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+16:17:20.046 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:17:20.607 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:17:21.898 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+16:17:22.108 [main] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+16:17:22.450 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:17:23.531 [main] WARN  utils.LoggerUtil - Alert message: Wrong password.
+16:17:23.564 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: Validuser1
+16:17:23.758 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_161723.png
+16:17:26.211 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:17:26.221 [main] INFO  utils.LoggerUtil - Setting up test....
+16:17:26.251 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:17:26.287 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:23:21.628 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\Desktop\Harika\C\Demoblaze\src\main\resources\testng.xml
+
+16:23:22.908 [main] INFO  utils.LoggerUtil - Setting up test....
+16:23:23.151 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:23:23.160 [main] WARN  utils.LoggerUtil - Test skipped: loginWithValidData
+16:23:23.199 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:23:23.199 [main] WARN  utils.LoggerUtil - Test skipped: loginWithValidData
+16:23:23.245 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:23:23.247 [main] WARN  utils.LoggerUtil - Test skipped: loginWithValidData
+16:23:23.375 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:23:23.375 [main] WARN  utils.LoggerUtil - Test skipped: loginWithInvalidData
+16:23:23.404 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:23:23.410 [main] WARN  utils.LoggerUtil - Test skipped: loginWithInvalidData
+16:23:23.440 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:23:23.440 [main] WARN  utils.LoggerUtil - Test skipped: loginWithInvalidData
+16:23:23.549 [main] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+16:23:23.549 [main] WARN  utils.LoggerUtil - Test skipped: loginWithEmptyFields
+16:23:23.586 [main] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+16:23:23.586 [main] WARN  utils.LoggerUtil - Test skipped: loginWithEmptyFields
+16:23:23.599 [main] INFO  utils.LoggerUtil - Test suite finished: Firefox Tests
+16:23:24.285 [main] INFO  utils.LoggerUtil - Setting up test....
+16:23:24.305 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:23:24.311 [main] WARN  utils.LoggerUtil - Test skipped: loginWithValidData
+16:23:24.334 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:23:24.341 [main] WARN  utils.LoggerUtil - Test skipped: loginWithValidData
+16:23:24.367 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:23:24.367 [main] WARN  utils.LoggerUtil - Test skipped: loginWithValidData
+16:23:24.482 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:23:24.484 [main] WARN  utils.LoggerUtil - Test skipped: loginWithInvalidData
+16:23:24.522 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:23:24.524 [main] WARN  utils.LoggerUtil - Test skipped: loginWithInvalidData
+16:23:24.560 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:23:24.562 [main] WARN  utils.LoggerUtil - Test skipped: loginWithInvalidData
+16:23:24.694 [main] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+16:23:24.694 [main] WARN  utils.LoggerUtil - Test skipped: loginWithEmptyFields
+16:23:24.737 [main] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+16:23:24.741 [main] WARN  utils.LoggerUtil - Test skipped: loginWithEmptyFields
+16:23:24.762 [main] INFO  utils.LoggerUtil - Test suite finished: Chrome Tests
+16:33:11.963 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\Desktop\Harika\C\Demoblaze\src\main\resources\testng.xml
+
+16:33:13.422 [main] INFO  utils.LoggerUtil - Setting up test....
+16:33:14.251 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:33:14.288 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:33:24.016 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:33:24.034 [main] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+16:33:25.885 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:33:26.563 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:33:26.888 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+16:33:27.128 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+16:33:27.596 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:33:30.824 [main] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser1
+16:33:31.433 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+16:33:31.560 [main] INFO  utils.LoggerUtil - Successfully logged out
+16:33:31.788 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_163331.png
+16:33:33.992 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:33:34.005 [main] INFO  utils.LoggerUtil - Setting up test....
+16:33:34.055 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:33:34.102 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:33:42.216 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:33:42.218 [main] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+16:33:44.149 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:33:44.810 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:33:45.701 [main] INFO  utils.LoggerUtil - Typed value as: Validuser to element UserName
+16:33:45.872 [main] INFO  utils.LoggerUtil - Typed value as: validPass123 to element Password
+16:33:46.203 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:33:49.370 [main] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser
+16:33:49.964 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+16:33:50.073 [main] INFO  utils.LoggerUtil - Successfully logged out
+16:33:50.236 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_163350.png
+16:33:52.241 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:33:52.253 [main] INFO  utils.LoggerUtil - Setting up test....
+16:33:52.306 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:33:52.338 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:34:00.324 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:34:00.327 [main] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+16:34:02.278 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:34:03.146 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:34:04.555 [main] INFO  utils.LoggerUtil - Typed value as: Validuser_100 to element UserName
+16:34:04.733 [main] INFO  utils.LoggerUtil - Typed value as: valid to element Password
+16:34:05.126 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:34:08.320 [main] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser_100
+16:34:08.871 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+16:34:08.992 [main] INFO  utils.LoggerUtil - Successfully logged out
+16:34:09.151 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_163409.png
+16:34:11.224 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:34:11.391 [main] INFO  utils.LoggerUtil - Setting up test....
+16:34:11.438 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:34:11.486 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:34:19.665 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:34:19.667 [main] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+16:34:21.376 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:34:22.204 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:34:23.286 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+16:34:23.426 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+16:34:23.776 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:34:24.352 [main] WARN  utils.LoggerUtil - Alert message: Wrong password.
+16:34:24.382 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+16:34:24.653 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_163424.png
+16:34:26.932 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:34:26.944 [main] INFO  utils.LoggerUtil - Setting up test....
+16:34:26.984 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:34:27.034 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:34:36.223 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:34:36.225 [main] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+16:34:37.962 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:34:38.659 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:34:40.094 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+16:34:40.258 [main] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+16:34:40.569 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:34:41.640 [main] WARN  utils.LoggerUtil - Alert message: Wrong password.
+16:34:41.672 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: Validuser1
+16:34:41.861 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_163441.png
+16:34:43.822 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:34:43.829 [main] INFO  utils.LoggerUtil - Setting up test....
+16:34:43.870 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:34:43.909 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:34:52.205 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:34:52.207 [main] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+16:34:53.857 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:34:54.534 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:34:55.324 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+16:34:55.501 [main] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+16:34:55.853 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:34:56.403 [main] WARN  utils.LoggerUtil - Alert message: Wrong password.
+16:34:56.439 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+16:34:56.694 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_163456.png
+16:34:58.677 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:34:58.836 [main] INFO  utils.LoggerUtil - Setting up test....
+16:34:58.885 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:34:58.924 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:35:07.579 [main] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+16:35:07.581 [main] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+16:35:09.087 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:35:09.645 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:35:10.469 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+16:35:10.619 [main] INFO  utils.LoggerUtil - Typed value as:  to element Password
+16:35:10.911 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:35:10.943 [main] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+16:35:10.984 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+16:35:11.211 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250921_163511.png
+16:35:13.117 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:35:13.128 [main] INFO  utils.LoggerUtil - Setting up test....
+16:35:13.160 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:35:13.190 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:35:21.233 [main] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+16:35:21.236 [main] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+16:35:22.803 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:35:23.382 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:35:24.140 [main] INFO  utils.LoggerUtil - Typed value as:  to element UserName
+16:35:24.260 [main] INFO  utils.LoggerUtil - Typed value as:  to element Password
+16:35:24.535 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:35:24.564 [main] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+16:35:24.595 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+16:35:24.781 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250921_163524.png
+16:35:26.739 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:35:26.749 [main] INFO  utils.LoggerUtil - Test suite finished: Firefox Tests
+16:35:27.872 [main] INFO  utils.LoggerUtil - Setting up test....
+16:35:30.260 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+16:35:30.364 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.185/win64/chromedriver-win64.zip
+16:35:31.054 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+16:35:31.897 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+16:35:39.518 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:35:39.520 [main] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+16:35:39.996 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:35:41.216 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:35:42.135 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+16:35:42.417 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+16:35:42.939 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:35:46.354 [main] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser1
+16:35:47.107 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+16:35:47.192 [main] INFO  utils.LoggerUtil - Successfully logged out
+16:35:47.726 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_163547.png
+16:35:48.819 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:35:48.825 [main] INFO  utils.LoggerUtil - Setting up test....
+16:35:48.865 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+16:35:48.913 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+16:35:51.242 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:35:51.242 [main] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+16:35:51.657 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:35:52.895 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:35:53.855 [main] INFO  utils.LoggerUtil - Typed value as: Validuser to element UserName
+16:35:54.164 [main] INFO  utils.LoggerUtil - Typed value as: validPass123 to element Password
+16:35:54.423 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:35:58.689 [main] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser
+16:35:59.186 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+16:35:59.251 [main] INFO  utils.LoggerUtil - Successfully logged out
+16:35:59.768 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_163559.png
+16:36:00.938 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:36:00.946 [main] INFO  utils.LoggerUtil - Setting up test....
+16:36:00.971 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+16:36:00.994 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+16:36:03.774 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:36:03.776 [main] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+16:36:04.173 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:36:05.314 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:36:06.148 [main] INFO  utils.LoggerUtil - Typed value as: Validuser_100 to element UserName
+16:36:06.354 [main] INFO  utils.LoggerUtil - Typed value as: valid to element Password
+16:36:06.572 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:36:11.565 [main] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser_100
+16:36:12.157 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+16:36:12.214 [main] INFO  utils.LoggerUtil - Successfully logged out
+16:36:12.660 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_163612.png
+16:36:13.459 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:36:13.541 [main] INFO  utils.LoggerUtil - Setting up test....
+16:36:13.557 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+16:36:13.579 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+16:36:15.827 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:36:15.827 [main] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+16:36:17.049 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:36:17.391 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:36:18.209 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+16:36:18.452 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+16:36:18.666 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:36:19.714 [main] WARN  utils.LoggerUtil - Alert message: Wrong password.
+16:36:19.726 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+16:36:20.073 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_163620.png
+16:36:20.704 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:36:20.712 [main] INFO  utils.LoggerUtil - Setting up test....
+16:36:20.733 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+16:36:20.754 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+16:36:22.738 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:36:22.738 [main] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+16:36:23.972 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:36:24.291 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:36:25.156 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+16:36:25.389 [main] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+16:36:25.573 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:36:26.617 [main] WARN  utils.LoggerUtil - Alert message: Wrong password.
+16:36:26.627 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: Validuser1
+16:36:26.964 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_163626.png
+16:36:27.578 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:36:27.591 [main] INFO  utils.LoggerUtil - Setting up test....
+16:36:27.619 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+16:36:27.654 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+16:36:29.850 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:36:29.854 [main] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+16:36:30.943 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:36:31.267 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:36:32.091 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+16:36:32.299 [main] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+16:36:32.499 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:36:33.543 [main] WARN  utils.LoggerUtil - Alert message: Wrong password.
+16:36:33.554 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+16:36:33.875 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_163633.png
+16:36:34.434 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:36:34.537 [main] INFO  utils.LoggerUtil - Setting up test....
+16:36:34.594 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+16:36:34.650 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+16:36:36.723 [main] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+16:36:36.724 [main] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+16:36:37.967 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:36:38.299 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:36:39.100 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+16:36:39.303 [main] INFO  utils.LoggerUtil - Typed value as:  to element Password
+16:36:39.525 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:36:39.547 [main] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+16:36:39.560 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+16:36:40.052 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250921_163640.png
+16:36:40.731 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:36:40.741 [main] INFO  utils.LoggerUtil - Setting up test....
+16:36:40.759 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+16:36:40.777 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+16:36:43.147 [main] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+16:36:43.149 [main] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+16:36:44.287 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:36:44.670 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:36:45.469 [main] INFO  utils.LoggerUtil - Typed value as:  to element UserName
+16:36:45.688 [main] INFO  utils.LoggerUtil - Typed value as:  to element Password
+16:36:45.910 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:36:45.918 [main] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+16:36:45.937 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+16:36:46.414 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250921_163646.png
+16:36:47.174 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:36:47.179 [main] INFO  utils.LoggerUtil - Test suite finished: Chrome Tests
+16:39:51.276 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\Desktop\Harika\C\Demoblaze\src\main\resources\testng.xml
+
+16:39:52.553 [main] INFO  utils.LoggerUtil - Setting up test....
+16:39:53.247 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:39:53.292 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:40:02.748 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:40:02.768 [main] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+16:40:03.981 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:40:04.912 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:40:05.422 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+16:40:05.660 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+16:40:06.076 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:40:09.329 [main] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser1
+16:40:10.000 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+16:40:10.106 [main] INFO  utils.LoggerUtil - Successfully logged out
+16:40:10.401 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_164010.png
+16:40:12.630 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:40:12.639 [main] INFO  utils.LoggerUtil - Setting up test....
+16:40:12.665 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:40:12.705 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:40:20.601 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:40:20.603 [main] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+16:40:22.173 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:40:22.875 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:40:24.142 [main] INFO  utils.LoggerUtil - Typed value as: Validuser to element UserName
+16:40:24.428 [main] INFO  utils.LoggerUtil - Typed value as: validPass123 to element Password
+16:40:24.763 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:40:27.950 [main] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser
+16:40:28.515 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+16:40:28.578 [main] INFO  utils.LoggerUtil - Successfully logged out
+16:40:28.760 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_164028.png
+16:40:30.773 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:40:30.780 [main] INFO  utils.LoggerUtil - Setting up test....
+16:40:30.831 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:40:30.865 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:40:38.892 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:40:38.892 [main] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+16:40:40.357 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:40:41.029 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:40:41.853 [main] INFO  utils.LoggerUtil - Typed value as: Validuser_100 to element UserName
+16:40:42.158 [main] INFO  utils.LoggerUtil - Typed value as: valid to element Password
+16:40:42.507 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:40:45.700 [main] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser_100
+16:40:46.309 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+16:40:46.431 [main] INFO  utils.LoggerUtil - Successfully logged out
+16:40:46.615 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_164046.png
+16:40:48.601 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:40:48.783 [main] INFO  utils.LoggerUtil - Setting up test....
+16:40:48.827 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:40:48.881 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:40:56.857 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:40:56.859 [main] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+16:40:58.491 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:40:59.257 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:40:59.991 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+16:41:00.191 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+16:41:00.682 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:41:01.229 [main] WARN  utils.LoggerUtil - Alert message: Wrong password.
+16:41:01.262 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+16:41:01.548 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_164101.png
+16:41:03.978 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:41:03.991 [main] INFO  utils.LoggerUtil - Setting up test....
+16:41:04.017 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:41:04.063 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:41:11.914 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:41:11.918 [main] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+16:41:13.423 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:41:14.215 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:41:15.440 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+16:41:15.588 [main] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+16:41:15.905 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:41:16.451 [main] WARN  utils.LoggerUtil - Alert message: Wrong password.
+16:41:16.492 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: Validuser1
+16:41:16.744 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_164116.png
+16:41:18.728 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:41:18.738 [main] INFO  utils.LoggerUtil - Setting up test....
+16:41:18.784 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:41:18.825 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:41:26.912 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:41:26.914 [main] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+16:41:28.528 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:41:29.240 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:41:29.655 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+16:41:29.952 [main] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+16:41:30.329 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:41:31.411 [main] WARN  utils.LoggerUtil - Alert message: Wrong password.
+16:41:31.430 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+16:41:31.683 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_164131.png
+16:41:33.734 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:41:33.874 [main] INFO  utils.LoggerUtil - Setting up test....
+16:41:33.913 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:41:33.937 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:41:41.871 [main] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+16:41:41.873 [main] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+16:41:43.521 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:41:44.135 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:41:45.062 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+16:41:45.212 [main] INFO  utils.LoggerUtil - Typed value as:  to element Password
+16:41:45.495 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:41:45.531 [main] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+16:41:45.565 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+16:41:45.769 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250921_164145.png
+16:41:47.878 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:41:47.892 [main] INFO  utils.LoggerUtil - Setting up test....
+16:41:47.940 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:41:47.974 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:41:56.309 [main] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+16:41:56.311 [main] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+16:41:57.806 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:41:58.509 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:41:59.239 [main] INFO  utils.LoggerUtil - Typed value as:  to element UserName
+16:41:59.354 [main] INFO  utils.LoggerUtil - Typed value as:  to element Password
+16:41:59.592 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:41:59.620 [main] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+16:41:59.662 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+16:41:59.868 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250921_164159.png
+16:42:02.057 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:42:02.066 [main] INFO  utils.LoggerUtil - Test suite finished: Firefox Tests
+16:42:03.239 [main] INFO  utils.LoggerUtil - Setting up test....
+16:42:03.283 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+16:42:03.316 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+16:42:05.941 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:42:05.944 [main] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+16:42:07.159 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:42:07.530 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:42:08.397 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+16:42:08.672 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+16:42:08.914 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:42:12.114 [main] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser1
+16:42:12.837 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+16:42:12.891 [main] INFO  utils.LoggerUtil - Successfully logged out
+16:42:13.351 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_164213.png
+16:42:14.464 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:42:14.477 [main] INFO  utils.LoggerUtil - Setting up test....
+16:42:14.521 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+16:42:14.559 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+16:42:16.674 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:42:16.676 [main] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+16:42:17.844 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:42:18.203 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:42:19.065 [main] INFO  utils.LoggerUtil - Typed value as: Validuser to element UserName
+16:42:19.290 [main] INFO  utils.LoggerUtil - Typed value as: validPass123 to element Password
+16:42:19.491 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:42:22.650 [main] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser
+16:42:23.276 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+16:42:23.336 [main] INFO  utils.LoggerUtil - Successfully logged out
+16:42:23.801 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_164223.png
+16:42:24.684 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:42:24.693 [main] INFO  utils.LoggerUtil - Setting up test....
+16:42:24.707 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+16:42:24.722 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+16:42:26.655 [main] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+16:42:26.657 [main] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+16:42:27.795 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:42:28.153 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:42:29.012 [main] INFO  utils.LoggerUtil - Typed value as: Validuser_100 to element UserName
+16:42:29.202 [main] INFO  utils.LoggerUtil - Typed value as: valid to element Password
+16:42:29.404 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:42:32.599 [main] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser_100
+16:42:33.034 [main] INFO  utils.LoggerUtil - Clicked element: Logout Button
+16:42:33.083 [main] INFO  utils.LoggerUtil - Successfully logged out
+16:42:33.467 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_164233.png
+16:42:34.106 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:42:34.237 [main] INFO  utils.LoggerUtil - Setting up test....
+16:42:34.288 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+16:42:34.304 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+16:42:36.412 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:42:36.414 [main] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+16:42:37.508 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:42:37.874 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:42:38.766 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+16:42:39.039 [main] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+16:42:39.239 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:42:40.279 [main] WARN  utils.LoggerUtil - Alert message: Wrong password.
+16:42:40.292 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+16:42:40.677 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_164240.png
+16:42:41.388 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:42:41.398 [main] INFO  utils.LoggerUtil - Setting up test....
+16:42:41.428 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+16:42:41.450 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+16:42:43.621 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:42:43.621 [main] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+16:42:44.793 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:42:45.154 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:42:45.954 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+16:42:46.205 [main] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+16:42:46.421 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:42:47.466 [main] WARN  utils.LoggerUtil - Alert message: Wrong password.
+16:42:47.479 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: Validuser1
+16:42:47.816 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_164247.png
+16:42:48.463 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:42:48.472 [main] INFO  utils.LoggerUtil - Setting up test....
+16:42:48.486 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+16:42:48.504 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+16:42:50.622 [main] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+16:42:50.624 [main] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+16:42:51.688 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:42:52.028 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:42:52.846 [main] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+16:42:53.115 [main] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+16:42:53.377 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:42:54.414 [main] WARN  utils.LoggerUtil - Alert message: Wrong password.
+16:42:54.434 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+16:42:54.789 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_164254.png
+16:42:55.444 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:42:55.542 [main] INFO  utils.LoggerUtil - Setting up test....
+16:42:55.574 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+16:42:55.599 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+16:42:57.683 [main] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+16:42:57.683 [main] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+16:42:58.823 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:42:59.235 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:43:00.071 [main] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+16:43:00.283 [main] INFO  utils.LoggerUtil - Typed value as:  to element Password
+16:43:00.734 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:43:00.768 [main] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+16:43:00.812 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+16:43:01.393 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250921_164301.png
+16:43:02.732 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:43:02.738 [main] INFO  utils.LoggerUtil - Setting up test....
+16:43:02.760 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+16:43:02.790 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+16:43:04.963 [main] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+16:43:04.964 [main] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+16:43:06.225 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+16:43:06.538 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+16:43:07.343 [main] INFO  utils.LoggerUtil - Typed value as:  to element UserName
+16:43:07.622 [main] INFO  utils.LoggerUtil - Typed value as:  to element Password
+16:43:07.855 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+16:43:07.872 [main] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+16:43:07.886 [main] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+16:43:08.370 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250921_164308.png
+16:43:08.945 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:43:08.951 [main] INFO  utils.LoggerUtil - Test suite finished: Chrome Tests
+20:25:44.663 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\Desktop\Harika\C\Demoblaze\src\main\resources\testng.xml
+
+20:25:45.624 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:25:45.624 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:25:47.476 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:25:47.476 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:25:47.514 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:25:47.516 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:25:49.953 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+20:25:49.974 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+20:25:51.819 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:25:52.078 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:25:52.907 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+20:25:53.154 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+20:25:53.383 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:25:56.209 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+20:25:56.211 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+20:25:57.201 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser1
+20:25:58.056 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:25:58.699 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:25:59.028 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+20:25:59.225 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+20:25:59.373 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Logout Button
+20:25:59.602 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully logged out
+20:25:59.796 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:26:00.297 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_202600.png
+20:26:01.787 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:26:01.795 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:26:01.849 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+20:26:01.851 [TestNG-tests-2] WARN  utils.LoggerUtil - Test skipped: loginWithValidData
+20:26:01.877 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+20:26:01.879 [TestNG-tests-2] WARN  utils.LoggerUtil - Test skipped: loginWithValidData
+20:26:02.097 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+20:26:02.111 [TestNG-tests-2] WARN  utils.LoggerUtil - Test skipped: loginWithInvalidData
+20:26:02.151 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+20:26:02.151 [TestNG-tests-2] WARN  utils.LoggerUtil - Test skipped: loginWithInvalidData
+20:26:02.188 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+20:26:02.190 [TestNG-tests-2] WARN  utils.LoggerUtil - Test skipped: loginWithInvalidData
+20:26:02.303 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+20:26:02.303 [TestNG-tests-2] WARN  utils.LoggerUtil - Test skipped: loginWithEmptyFields
+20:26:02.325 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+20:26:02.327 [TestNG-tests-2] WARN  utils.LoggerUtil - Test skipped: loginWithEmptyFields
+20:26:02.347 [TestNG-tests-2] INFO  utils.LoggerUtil - Test suite finished: Chrome Tests
+20:26:02.993 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser1
+20:26:03.540 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Logout Button
+20:26:03.621 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully logged out
+20:26:03.736 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_202603.png
+20:26:05.768 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:26:05.775 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:26:05.787 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+20:26:05.798 [TestNG-tests-1] WARN  utils.LoggerUtil - Test skipped: loginWithValidData
+20:26:05.817 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+20:26:05.817 [TestNG-tests-1] WARN  utils.LoggerUtil - Test skipped: loginWithValidData
+20:26:05.915 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+20:26:05.915 [TestNG-tests-1] WARN  utils.LoggerUtil - Test skipped: loginWithInvalidData
+20:26:05.941 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+20:26:05.941 [TestNG-tests-1] WARN  utils.LoggerUtil - Test skipped: loginWithInvalidData
+20:26:05.975 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+20:26:05.975 [TestNG-tests-1] WARN  utils.LoggerUtil - Test skipped: loginWithInvalidData
+20:26:06.067 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+20:26:06.068 [TestNG-tests-1] WARN  utils.LoggerUtil - Test skipped: loginWithEmptyFields
+20:26:06.085 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+20:26:06.085 [TestNG-tests-1] WARN  utils.LoggerUtil - Test skipped: loginWithEmptyFields
+20:26:06.105 [TestNG-tests-1] INFO  utils.LoggerUtil - Test suite finished: Firefox Tests
+20:30:44.691 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\Desktop\Harika\C\Demoblaze\src\main\resources\testng.xml
+
+20:30:45.622 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:30:45.622 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:30:46.198 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:30:46.244 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:30:47.228 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:30:47.249 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:30:49.310 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+20:30:49.320 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+20:30:51.536 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:30:51.980 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:30:52.791 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+20:30:53.117 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+20:30:53.305 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:30:55.801 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+20:30:55.813 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+20:30:57.426 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser1
+20:30:57.850 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:30:58.350 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:30:59.117 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+20:30:59.319 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+20:30:59.437 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Logout Button
+20:30:59.531 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully logged out
+20:30:59.725 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:31:00.086 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_203100.png
+20:31:00.981 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:31:00.990 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:31:01.027 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:31:01.069 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:31:03.170 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser1
+20:31:03.796 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+20:31:03.799 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+20:31:03.805 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Logout Button
+20:31:03.989 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully logged out
+20:31:04.191 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_203104.png
+20:31:04.448 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:31:05.940 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:31:06.468 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:31:06.475 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:31:06.517 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:31:06.549 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:31:06.750 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser to element UserName
+20:31:06.979 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: validPass123 to element Password
+20:31:07.249 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:31:10.497 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser
+20:31:11.430 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Logout Button
+20:31:11.502 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully logged out
+20:31:12.042 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_203112.png
+20:31:13.087 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:31:13.098 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:31:13.134 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:31:13.190 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:31:14.824 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+20:31:14.838 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+20:31:17.155 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:31:17.881 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+20:31:17.891 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+20:31:17.965 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:31:18.276 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser to element UserName
+20:31:18.480 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:31:18.480 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: validPass123 to element Password
+20:31:18.802 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:31:20.714 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:31:21.514 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser_100 to element UserName
+20:31:22.071 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser
+20:31:22.431 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: valid to element Password
+20:31:23.211 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Logout Button
+20:31:23.379 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:31:23.429 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully logged out
+20:31:23.880 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_203123.png
+20:31:26.404 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:31:26.411 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:31:26.435 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:31:26.460 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:31:26.644 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser_100
+20:31:27.281 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Logout Button
+20:31:27.342 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully logged out
+20:31:27.850 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_203127.png
+20:31:29.363 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:31:29.708 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:31:29.744 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:31:29.783 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:31:32.837 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+20:31:32.838 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+20:31:33.375 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:31:36.029 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+20:31:36.035 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+20:31:36.509 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:31:38.259 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:31:38.826 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:31:39.089 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser_100 to element UserName
+20:31:39.237 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: valid to element Password
+20:31:39.660 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:31:39.806 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+20:31:40.126 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+20:31:40.368 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:31:41.404 [TestNG-tests-2] WARN  utils.LoggerUtil - Alert message: Wrong password.
+20:31:41.423 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+20:31:41.865 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_203141.png
+20:31:42.511 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:31:42.521 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:31:42.545 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:31:42.590 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:31:42.812 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser_100
+20:31:43.985 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Logout Button
+20:31:44.124 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully logged out
+20:31:44.557 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_203144.png
+20:31:44.806 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+20:31:44.807 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+20:31:46.355 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:31:46.435 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:31:46.448 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:31:46.469 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:31:46.498 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:31:46.983 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:31:48.309 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+20:31:49.087 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+20:31:49.540 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:31:50.940 [TestNG-tests-2] WARN  utils.LoggerUtil - Alert message: Wrong password.
+20:31:51.020 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: Validuser1
+20:31:51.447 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_203151.png
+20:31:52.827 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:31:52.850 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:31:52.923 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:31:53.005 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:31:55.498 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+20:31:55.500 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+20:31:56.254 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:31:56.971 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+20:31:56.973 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+20:31:58.702 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:31:59.011 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:31:59.551 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:31:59.800 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+20:31:59.894 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+20:32:00.311 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:32:00.649 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+20:32:01.055 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+20:32:01.304 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:32:01.545 [TestNG-tests-1] WARN  utils.LoggerUtil - Alert message: Wrong password.
+20:32:01.575 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+20:32:01.808 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_203201.png
+20:32:02.358 [TestNG-tests-2] WARN  utils.LoggerUtil - Alert message: Wrong password.
+20:32:02.370 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+20:32:02.694 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_203202.png
+20:32:04.873 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:32:04.904 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:32:04.911 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:32:04.927 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:32:04.932 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:32:04.945 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:32:04.945 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:32:04.964 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:32:06.978 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+20:32:06.978 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+20:32:07.785 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:32:09.253 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:32:10.097 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+20:32:10.272 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as:  to element Password
+20:32:10.454 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:32:10.472 [TestNG-tests-2] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+20:32:10.485 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+20:32:10.981 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250921_203210.png
+20:32:11.459 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:32:11.466 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:32:11.497 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:32:11.531 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:32:14.266 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+20:32:14.268 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+20:32:14.381 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+20:32:14.386 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+20:32:16.228 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:32:16.484 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:32:17.109 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:32:17.125 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:32:17.773 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+20:32:17.909 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+20:32:18.229 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as:  to element UserName
+20:32:18.260 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:32:18.429 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as:  to element Password
+20:32:18.669 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:32:18.696 [TestNG-tests-2] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+20:32:18.717 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+20:32:19.205 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250921_203219.png
+20:32:19.336 [TestNG-tests-1] WARN  utils.LoggerUtil - Alert message: Wrong password.
+20:32:19.386 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: Validuser1
+20:32:19.585 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_203219.png
+20:32:20.598 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:32:20.609 [TestNG-tests-2] INFO  utils.LoggerUtil - Test suite finished: Chrome Tests
+20:32:21.582 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:32:21.591 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:32:21.609 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:32:21.628 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:32:27.564 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+20:32:27.564 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+20:32:29.542 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:32:29.870 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:32:29.957 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+20:32:30.108 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+20:32:30.436 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:32:31.473 [TestNG-tests-1] WARN  utils.LoggerUtil - Alert message: Wrong password.
+20:32:31.501 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+20:32:31.621 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_203231.png
+20:32:33.461 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:32:33.565 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:32:33.598 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:32:33.627 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:32:38.860 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+20:32:38.862 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+20:32:40.650 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:32:41.058 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:32:41.140 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+20:32:41.212 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as:  to element Password
+20:32:41.420 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:32:41.453 [TestNG-tests-1] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+20:32:41.479 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+20:32:41.611 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250921_203241.png
+20:32:44.414 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:32:44.420 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:32:44.438 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:32:44.455 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:32:50.508 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+20:32:50.508 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+20:32:52.368 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:32:52.761 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:32:52.847 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as:  to element UserName
+20:32:53.083 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as:  to element Password
+20:32:53.343 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:32:53.368 [TestNG-tests-1] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+20:32:53.395 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+20:32:53.584 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250921_203253.png
+20:32:55.422 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:32:55.428 [TestNG-tests-1] INFO  utils.LoggerUtil - Test suite finished: Firefox Tests
+20:35:04.885 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\Desktop\Harika\C\Demoblaze\src\main\resources\testng.xml
+
+20:35:05.612 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:35:05.612 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:35:05.982 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:35:05.982 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:35:06.007 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:35:06.007 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:35:07.797 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+20:35:07.805 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+20:35:09.587 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:35:09.767 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:35:10.492 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+20:35:10.737 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+20:35:10.880 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:35:12.096 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+20:35:12.105 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+20:35:13.761 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:35:14.060 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:35:14.155 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+20:35:14.269 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+20:35:14.428 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser1
+20:35:14.552 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:35:15.136 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Logout Button
+20:35:15.307 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully logged out
+20:35:15.706 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_203515.png
+20:35:16.183 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:35:16.189 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:35:16.209 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:35:16.226 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:35:17.570 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+20:35:17.570 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+20:35:17.754 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser1
+20:35:18.280 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Logout Button
+20:35:18.334 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully logged out
+20:35:18.424 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_203518.png
+20:35:19.164 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:35:19.443 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:35:19.905 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:35:19.914 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:35:19.940 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:35:19.960 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:35:20.297 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser to element UserName
+20:35:20.535 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: validPass123 to element Password
+20:35:20.796 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:35:24.000 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser
+20:35:24.882 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Logout Button
+20:35:24.977 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully logged out
+20:35:25.343 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_203525.png
+20:35:26.745 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+20:35:26.747 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+20:35:27.839 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:35:27.881 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:35:28.006 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:35:28.046 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:35:28.731 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:35:29.222 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:35:29.330 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser to element UserName
+20:35:30.137 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: validPass123 to element Password
+20:35:30.838 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:35:30.868 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+20:35:30.871 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+20:35:32.262 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:35:32.466 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:35:32.930 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser_100 to element UserName
+20:35:33.097 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: valid to element Password
+20:35:33.276 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:35:34.002 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser
+20:35:34.560 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Logout Button
+20:35:34.647 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully logged out
+20:35:34.771 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_203534.png
+20:35:36.513 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser_100
+20:35:36.589 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:35:36.596 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:35:36.631 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:35:36.657 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:35:37.339 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Logout Button
+20:35:37.425 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully logged out
+20:35:37.871 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_203537.png
+20:35:38.962 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:35:39.151 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:35:39.193 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:35:39.233 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:35:41.118 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+20:35:41.119 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+20:35:43.024 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:35:44.263 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+20:35:44.265 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+20:35:45.345 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:35:46.053 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:35:46.422 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:35:47.121 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+20:35:47.204 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser_100 to element UserName
+20:35:47.372 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: valid to element Password
+20:35:47.686 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+20:35:47.689 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:35:48.042 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:35:49.083 [TestNG-tests-2] WARN  utils.LoggerUtil - Alert message: Wrong password.
+20:35:49.088 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+20:35:49.502 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_203549.png
+20:35:49.950 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:35:49.956 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:35:49.965 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:35:49.974 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:35:50.852 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser_100
+20:35:51.748 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+20:35:51.750 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+20:35:51.881 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Logout Button
+20:35:52.026 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully logged out
+20:35:52.153 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_203552.png
+20:35:53.061 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:35:53.288 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:35:53.505 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:35:53.593 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:35:53.624 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:35:53.646 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:35:54.063 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+20:35:54.285 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+20:35:54.493 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:35:55.544 [TestNG-tests-2] WARN  utils.LoggerUtil - Alert message: Wrong password.
+20:35:55.567 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: Validuser1
+20:35:55.973 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_203555.png
+20:35:57.825 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:35:57.832 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:35:57.848 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:35:57.869 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:35:59.586 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+20:35:59.586 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+20:36:00.782 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:36:02.428 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+20:36:02.430 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+20:36:03.475 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:36:04.348 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:36:04.705 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+20:36:05.043 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:36:05.286 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+20:36:05.355 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+20:36:05.467 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+20:36:05.520 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:36:05.766 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:36:06.103 [TestNG-tests-2] WARN  utils.LoggerUtil - Alert message: Wrong password.
+20:36:06.115 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+20:36:06.472 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_203606.png
+20:36:06.849 [TestNG-tests-1] WARN  utils.LoggerUtil - Alert message: Wrong password.
+20:36:06.876 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+20:36:06.984 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:36:07.001 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_203606.png
+20:36:07.042 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:36:07.065 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:36:07.088 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:36:09.082 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+20:36:09.084 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+20:36:10.022 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:36:10.030 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:36:10.050 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:36:10.080 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:36:10.182 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:36:10.522 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:36:11.366 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+20:36:11.590 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as:  to element Password
+20:36:11.800 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:36:11.815 [TestNG-tests-2] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+20:36:11.829 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+20:36:12.242 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250921_203612.png
+20:36:13.417 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:36:13.424 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:36:13.439 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:36:13.462 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:36:15.688 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+20:36:15.688 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+20:36:16.770 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:36:17.080 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:36:18.937 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as:  to element UserName
+20:36:19.482 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+20:36:19.482 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+20:36:19.783 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as:  to element Password
+20:36:20.509 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:36:20.675 [TestNG-tests-2] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+20:36:20.710 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+20:36:21.143 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250921_203621.png
+20:36:21.448 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:36:21.945 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:36:22.208 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+20:36:22.396 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+20:36:22.711 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:36:23.804 [TestNG-tests-1] WARN  utils.LoggerUtil - Alert message: Wrong password.
+20:36:23.838 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: Validuser1
+20:36:23.990 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_203623.png
+20:36:24.834 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:36:24.927 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:36:24.962 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSignUp
+20:36:24.962 [TestNG-tests-2] WARN  utils.LoggerUtil - Test skipped: testSignUp
+20:36:25.057 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:36:25.076 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+20:36:25.076 [TestNG-tests-2] WARN  utils.LoggerUtil - Test skipped: testSearchByCategory
+20:36:25.132 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+20:36:25.132 [TestNG-tests-2] WARN  utils.LoggerUtil - Test skipped: testSearchByCategory
+20:36:25.344 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+20:36:25.344 [TestNG-tests-2] WARN  utils.LoggerUtil - Test skipped: testSearchByProductName
+20:36:25.374 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+20:36:25.376 [TestNG-tests-2] WARN  utils.LoggerUtil - Test skipped: testSearchByProductName
+20:36:25.404 [TestNG-tests-2] INFO  utils.LoggerUtil - Test suite finished: Chrome Tests
+20:36:26.063 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:36:26.072 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:36:26.090 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:36:26.116 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:36:32.321 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+20:36:32.321 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+20:36:33.762 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:36:34.218 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:36:34.852 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+20:36:35.083 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+20:36:35.373 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:36:35.898 [TestNG-tests-1] WARN  utils.LoggerUtil - Alert message: Wrong password.
+20:36:35.931 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+20:36:36.060 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_203636.png
+20:36:37.846 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:36:37.887 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:36:37.901 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:36:37.919 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:36:44.231 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+20:36:44.233 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+20:36:45.598 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:36:46.008 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:36:46.640 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+20:36:46.734 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as:  to element Password
+20:36:46.974 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:36:47.104 [TestNG-tests-1] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+20:36:47.127 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+20:36:47.267 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250921_203647.png
+20:36:48.925 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:36:48.932 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:36:48.947 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:36:48.973 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:36:54.061 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+20:36:54.061 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+20:36:55.424 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:36:55.810 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:36:56.437 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as:  to element UserName
+20:36:56.509 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as:  to element Password
+20:36:56.704 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:36:56.729 [TestNG-tests-1] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+20:36:56.757 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+20:36:56.914 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250921_203656.png
+20:36:58.470 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:36:58.529 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:36:58.553 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSignUp
+20:36:58.556 [TestNG-tests-1] WARN  utils.LoggerUtil - Test skipped: testSignUp
+20:36:58.604 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:36:58.626 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+20:36:58.626 [TestNG-tests-1] WARN  utils.LoggerUtil - Test skipped: testSearchByCategory
+20:36:58.642 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+20:36:58.642 [TestNG-tests-1] WARN  utils.LoggerUtil - Test skipped: testSearchByCategory
+20:36:58.702 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+20:36:58.702 [TestNG-tests-1] WARN  utils.LoggerUtil - Test skipped: testSearchByProductName
+20:36:58.715 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+20:36:58.715 [TestNG-tests-1] WARN  utils.LoggerUtil - Test skipped: testSearchByProductName
+20:36:58.733 [TestNG-tests-1] INFO  utils.LoggerUtil - Test suite finished: Firefox Tests
+20:45:53.125 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\Desktop\Harika\C\Demoblaze\src\main\resources\testng.xml
+
+20:45:53.873 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:45:53.873 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:45:54.259 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:45:54.259 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:45:54.286 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:45:54.286 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:45:56.300 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+20:45:56.320 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+20:45:57.027 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:45:58.411 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:45:59.213 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+20:45:59.490 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+20:45:59.849 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:46:00.844 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+20:46:00.850 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+20:46:02.797 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:46:03.298 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:46:03.442 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+20:46:03.675 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+20:46:03.773 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser1
+20:46:04.102 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:46:04.429 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Logout Button
+20:46:04.482 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully logged out
+20:46:05.066 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_204605.png
+20:46:05.973 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:46:05.980 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:46:06.006 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:46:06.040 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:46:07.467 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser1
+20:46:07.711 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+20:46:07.713 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+20:46:07.985 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:46:08.564 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Logout Button
+20:46:08.646 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully logged out
+20:46:08.792 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_204608.png
+20:46:09.105 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:46:10.075 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser to element UserName
+20:46:10.326 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: validPass123 to element Password
+20:46:10.619 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:46:10.629 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:46:10.642 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:46:10.669 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:46:10.712 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:46:14.095 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser
+20:46:15.016 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Logout Button
+20:46:15.060 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully logged out
+20:46:15.488 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_204615.png
+20:46:16.053 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:46:16.061 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:46:16.087 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:46:16.119 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:46:18.604 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+20:46:18.621 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+20:46:19.672 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+20:46:19.675 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+20:46:20.309 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:46:21.506 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:46:21.711 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:46:22.481 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:46:22.709 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser to element UserName
+20:46:22.858 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: validPass123 to element Password
+20:46:23.325 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:46:24.211 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser_100 to element UserName
+20:46:24.774 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: valid to element Password
+20:46:25.105 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:46:26.570 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser
+20:46:27.151 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Logout Button
+20:46:27.245 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully logged out
+20:46:27.382 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_204627.png
+20:46:28.351 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser_100
+20:46:29.324 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:46:29.332 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:46:29.354 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:46:29.389 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:46:29.609 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Logout Button
+20:46:29.680 [TestNG-tests-2] INFO  utils.LoggerUtil - Successfully logged out
+20:46:30.098 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_204630.png
+20:46:31.283 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:46:31.549 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:46:31.627 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:46:31.677 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:46:34.049 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+20:46:34.050 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+20:46:35.969 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:46:36.432 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:46:37.967 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithValidData
+20:46:37.968 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH VALID CREDENTIALS...
+20:46:39.331 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:46:40.066 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:46:40.929 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+20:46:41.360 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser_100 to element UserName
+20:46:41.510 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: valid to element Password
+20:46:41.729 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+20:46:41.809 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:46:42.049 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:46:43.086 [TestNG-tests-2] WARN  utils.LoggerUtil - Alert message: Wrong password.
+20:46:43.099 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+20:46:43.513 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_204643.png
+20:46:44.323 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:46:44.328 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:46:44.333 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:46:44.350 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:46:44.956 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login succeeded for user: Validuser_100
+20:46:46.077 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+20:46:46.078 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+20:46:46.283 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Logout Button
+20:46:46.376 [TestNG-tests-1] INFO  utils.LoggerUtil - Successfully logged out
+20:46:46.513 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithValidData_20250921_204646.png
+20:46:47.455 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:46:47.764 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:46:48.008 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:46:48.180 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:46:48.206 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:46:48.246 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:46:48.800 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+20:46:50.072 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+20:46:50.550 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:46:51.691 [TestNG-tests-2] WARN  utils.LoggerUtil - Alert message: Wrong password.
+20:46:51.726 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: Validuser1
+20:46:52.058 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_204652.png
+20:46:53.396 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:46:53.402 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:46:53.422 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:46:53.443 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:46:55.172 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+20:46:55.173 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+20:46:56.805 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:46:57.585 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+20:46:57.588 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+20:46:59.222 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:46:59.801 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:47:00.272 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:47:01.200 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+20:47:01.327 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: validPass@123 to element Password
+20:47:01.507 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+20:47:01.636 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:47:01.848 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+20:47:02.096 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:47:02.707 [TestNG-tests-1] WARN  utils.LoggerUtil - Alert message: Wrong password.
+20:47:02.750 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+20:47:02.906 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_204702.png
+20:47:03.140 [TestNG-tests-2] WARN  utils.LoggerUtil - Alert message: Wrong password.
+20:47:03.148 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+20:47:03.432 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_204703.png
+20:47:03.951 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:47:04.036 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:47:04.055 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:47:04.070 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:47:04.865 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:47:04.871 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:47:04.887 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:47:04.912 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:47:05.992 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+20:47:05.992 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+20:47:06.467 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:47:07.686 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:47:08.537 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+20:47:09.062 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as:  to element Password
+20:47:09.254 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:47:09.272 [TestNG-tests-2] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+20:47:09.289 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+20:47:09.722 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250921_204709.png
+20:47:10.329 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:47:10.333 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:47:10.354 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:47:10.370 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:47:12.328 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+20:47:12.330 [TestNG-tests-2] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+20:47:12.852 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:47:14.230 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+20:47:14.230 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+20:47:15.226 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:47:15.918 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:47:16.502 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:47:16.662 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as:  to element UserName
+20:47:16.685 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+20:47:16.814 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+20:47:17.117 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:47:17.171 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as:  to element Password
+20:47:17.575 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:47:17.588 [TestNG-tests-2] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+20:47:17.614 [TestNG-tests-2] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+20:47:18.067 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250921_204718.png
+20:47:18.207 [TestNG-tests-1] WARN  utils.LoggerUtil - Alert message: Wrong password.
+20:47:18.245 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: Validuser1
+20:47:18.409 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_204718.png
+20:47:18.981 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:47:19.034 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:47:19.042 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:47:19.065 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:47:20.775 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:47:20.789 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:47:20.819 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:47:20.840 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:47:21.229 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSignUp
+20:47:21.712 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:47:22.928 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: Navigating to SignUp page
+20:47:24.055 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: Validuser13 to element UserName
+20:47:24.345 [TestNG-tests-2] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+20:47:24.634 [TestNG-tests-2] INFO  utils.LoggerUtil - Clicked element: SignUp Button
+20:47:25.739 [TestNG-tests-2] INFO  utils.LoggerUtil - Alert displayed: This user already exist.
+20:47:25.739 [TestNG-tests-2] WARN  utils.LoggerUtil - Testcase failed. Registration failed: User already exists - Validuser13
+20:47:26.061 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/fail/testSignUp_20250921_204726.png
+20:47:26.887 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:47:26.930 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:47:26.949 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:47:26.964 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:47:29.401 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+20:47:29.403 [TestNG-tests-2] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+20:47:30.362 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithInvalidData
+20:47:30.362 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH INVALID CREDENTIALS...
+20:47:30.985 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:47:32.042 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:47:33.099 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:47:33.307 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: invalidUser to element UserName
+20:47:33.466 [TestNG-tests-2] INFO  utils.LoggerUtil - TestCase passed. Product 'Apple monitor 24' is visible under category 'Monitors'
+20:47:33.657 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: wrongPass to element Password
+20:47:33.853 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/testSearchByCategory_20250921_204733.png
+20:47:34.002 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:47:34.546 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:47:34.554 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:47:34.584 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:47:34.605 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:47:35.052 [TestNG-tests-1] WARN  utils.LoggerUtil - Alert message: Wrong password.
+20:47:35.073 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for user: invalidUser
+20:47:35.244 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithInvalidData_20250921_204735.png
+20:47:36.618 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+20:47:36.618 [TestNG-tests-2] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+20:47:37.766 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:47:38.007 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:47:38.128 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:47:38.185 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:47:38.224 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:47:39.098 [TestNG-tests-2] INFO  utils.LoggerUtil - TestCase passed. Product 'ASUS Full HD' is visible under category 'Monitors'
+20:47:39.463 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/testSearchByCategory_20250921_204739.png
+20:47:40.030 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:47:40.171 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:47:40.195 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:47:40.249 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:47:42.650 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+20:47:42.651 [TestNG-tests-2] INFO  utils.LoggerUtil - ...SEARCH BY PRODUCT NAME...
+20:47:43.308 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:47:43.309 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigated to homepage. Checking visibility of product: Sony xperia z5
+20:47:46.402 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+20:47:46.404 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+20:47:46.984 [TestNG-tests-2] INFO  utils.LoggerUtil - TestCase passed. Product 'Sony xperia z5' is visible.
+20:47:47.585 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/testSearchByProductName_20250921_204747.png
+20:47:48.256 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:47:48.640 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:47:48.875 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:47:48.881 [TestNG-tests-2] INFO  utils.LoggerUtil - Setting up test....
+20:47:48.899 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+20:47:48.920 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+20:47:49.336 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser1 to element UserName
+20:47:49.486 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as:  to element Password
+20:47:49.748 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:47:49.773 [TestNG-tests-1] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+20:47:49.804 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+20:47:49.962 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250921_204749.png
+20:47:51.826 [TestNG-tests-2] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+20:47:51.827 [TestNG-tests-2] INFO  utils.LoggerUtil - ...SEARCH BY PRODUCT NAME...
+20:47:52.687 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:47:52.693 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:47:52.705 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:47:52.720 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:47:53.250 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:47:53.250 [TestNG-tests-2] INFO  utils.LoggerUtil - Navigated to homepage. Checking visibility of product: Sony vaio i5
+20:47:54.001 [TestNG-tests-2] INFO  utils.LoggerUtil - TestCase passed. Product 'Sony vaio i5' is visible.
+20:47:54.330 [TestNG-tests-2] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/testSearchByProductName_20250921_204754.png
+20:47:55.919 [TestNG-tests-2] INFO  utils.LoggerUtil - Finishing tests.
+20:47:55.925 [TestNG-tests-2] INFO  utils.LoggerUtil - Test suite finished: Chrome Tests
+20:47:59.810 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: loginWithEmptyFields
+20:47:59.812 [TestNG-tests-1] INFO  utils.LoggerUtil - ...TEST WITH EMPTY CREDENTIALS...
+20:48:01.213 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:48:01.680 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+20:48:02.306 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as:  to element UserName
+20:48:02.409 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as:  to element Password
+20:48:02.671 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Login Button
+20:48:02.694 [TestNG-tests-1] WARN  utils.LoggerUtil - Alert message: Please fill out Username and Password.
+20:48:02.713 [TestNG-tests-1] INFO  utils.LoggerUtil - Testcase passed. Login correctly rejected for empty credentials.
+20:48:02.889 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/loginWithEmptyFields_20250921_204802.png
+20:48:04.549 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:48:04.571 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:48:04.600 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:48:04.616 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:48:09.836 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSignUp
+20:48:11.732 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:48:12.059 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: Navigating to SignUp page
+20:48:12.319 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: Validuser13 to element UserName
+20:48:12.427 [TestNG-tests-1] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+20:48:12.762 [TestNG-tests-1] INFO  utils.LoggerUtil - Clicked element: SignUp Button
+20:48:13.319 [TestNG-tests-1] INFO  utils.LoggerUtil - Alert displayed: This user already exist.
+20:48:13.319 [TestNG-tests-1] WARN  utils.LoggerUtil - Testcase failed. Registration failed: User already exists - Validuser13
+20:48:13.443 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/fail/testSignUp_20250921_204813.png
+20:48:14.817 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:48:14.883 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:48:14.910 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:48:14.938 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:48:20.400 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+20:48:20.401 [TestNG-tests-1] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+20:48:21.997 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:48:23.614 [TestNG-tests-1] INFO  utils.LoggerUtil - TestCase passed. Product 'Apple monitor 24' is visible under category 'Monitors'
+20:48:23.718 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/testSearchByCategory_20250921_204823.png
+20:48:25.097 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:48:25.101 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:48:25.109 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:48:25.117 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:48:30.949 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSearchByCategory
+20:48:30.950 [TestNG-tests-1] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+20:48:32.683 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:48:34.286 [TestNG-tests-1] INFO  utils.LoggerUtil - TestCase passed. Product 'ASUS Full HD' is visible under category 'Monitors'
+20:48:34.401 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/testSearchByCategory_20250921_204834.png
+20:48:36.100 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:48:36.153 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:48:36.177 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:48:36.193 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:48:41.401 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+20:48:41.401 [TestNG-tests-1] INFO  utils.LoggerUtil - ...SEARCH BY PRODUCT NAME...
+20:48:43.147 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:48:43.147 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigated to homepage. Checking visibility of product: Sony xperia z5
+20:48:44.436 [TestNG-tests-1] INFO  utils.LoggerUtil - TestCase passed. Product 'Sony xperia z5' is visible.
+20:48:44.599 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/testSearchByProductName_20250921_204844.png
+20:48:46.060 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:48:46.067 [TestNG-tests-1] INFO  utils.LoggerUtil - Setting up test....
+20:48:46.069 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+20:48:46.085 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+20:48:51.759 [TestNG-tests-1] INFO  utils.LoggerUtil - Starting test: testSearchByProductName
+20:48:51.759 [TestNG-tests-1] INFO  utils.LoggerUtil - ...SEARCH BY PRODUCT NAME...
+20:48:53.437 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+20:48:53.437 [TestNG-tests-1] INFO  utils.LoggerUtil - Navigated to homepage. Checking visibility of product: Sony vaio i5
+20:48:54.734 [TestNG-tests-1] INFO  utils.LoggerUtil - TestCase passed. Product 'Sony vaio i5' is visible.
+20:48:54.877 [TestNG-tests-1] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/testSearchByProductName_20250921_204854.png
+20:48:56.648 [TestNG-tests-1] INFO  utils.LoggerUtil - Finishing tests.
+20:48:56.653 [TestNG-tests-1] INFO  utils.LoggerUtil - Test suite finished: Firefox Tests
+23:09:07.140 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+23:09:07.861 [main] INFO  utils.LoggerUtil - Setting up test....
+23:09:09.323 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:09:09.351 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:09:14.792 [main] INFO  utils.LoggerUtil - ...SEARCH BY PRODUCT NAME...
+23:09:16.838 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+23:09:17.143 [main] INFO  utils.LoggerUtil - Successfully displayed element: Phones Category
+23:09:17.145 [main] INFO  utils.LoggerUtil - Checking visibility of product: Sony xperia z5
+23:09:17.258 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/fail/testSearchByProduct_Sony xperia z5_20250921_230917.png
+23:09:17.258 [main] ERROR utils.LoggerUtil - Product 'Sony xperia z5' is not visible.
+23:09:18.856 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:09:18.861 [main] INFO  utils.LoggerUtil - Setting up test....
+23:09:18.871 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:09:18.879 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:09:24.363 [main] INFO  utils.LoggerUtil - ...SEARCH BY PRODUCT NAME...
+23:09:26.212 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+23:09:26.677 [main] INFO  utils.LoggerUtil - Successfully displayed element: Phones Category
+23:09:26.677 [main] INFO  utils.LoggerUtil - Checking visibility of product: Sony vaio i5
+23:09:26.858 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/fail/testSearchByProduct_Sony vaio i5_20250921_230926.png
+23:09:26.858 [main] ERROR utils.LoggerUtil - Product 'Sony vaio i5' is not visible.
+23:09:28.901 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:09:59.769 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+23:10:00.351 [main] INFO  utils.LoggerUtil - Setting up test....
+23:10:00.697 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:10:00.722 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:10:05.501 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+23:10:07.493 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+23:10:07.735 [main] INFO  utils.LoggerUtil - Successfully displayed element: Phones Category
+23:10:08.275 [main] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+23:10:08.280 [main] INFO  utils.LoggerUtil - Checking visibility of product: Apple monitor 24 under category: Monitors
+23:10:08.447 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/fail/testSearch_Monitors_Apple monitor 24_20250921_231008.png
+23:10:08.447 [main] ERROR utils.LoggerUtil - Product 'Apple monitor 24' not found under category 'Monitors'
+23:10:09.975 [main] INFO  utils.LoggerUtil - Finishing tests.
+23:10:09.984 [main] INFO  utils.LoggerUtil - Setting up test....
+23:10:10.009 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+23:10:10.057 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+23:10:15.713 [main] INFO  utils.LoggerUtil - ...SEARCH BY CATEGORY...
+23:10:17.896 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+23:10:18.332 [main] INFO  utils.LoggerUtil - Successfully displayed element: Phones Category
+23:10:19.141 [main] INFO  utils.LoggerUtil - Clicked element: Monitors Category
+23:10:19.141 [main] INFO  utils.LoggerUtil - Checking visibility of product: ASUS Full HD under category: Monitors
+23:10:19.284 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/fail/testSearch_Monitors_ASUS Full HD_20250921_231019.png
+23:10:19.285 [main] ERROR utils.LoggerUtil - Product 'ASUS Full HD' not found under category 'Monitors'
+23:10:21.405 [main] INFO  utils.LoggerUtil - Finishing tests.

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Demoblaze Regression Test Suite" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+    <test name="Regression Tests - Firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="tests.LoginTests">
+                <methods>
+                    <include name="loginWithValidData"/>
+                    <include name="loginWithInvalidData"/>
+                    <include name="loginWithEmptyFields"/>
+                    <include name="loginSessionPersistence"/>
+                </methods>
+            </class>
+            <class name="tests.RegistrationTest">
+                <methods>
+                    <include name="signUpWithNewCredentials"/>
+                    <include name="signUpWithExistingCredentials"/>
+                </methods>
+            </class>
+            <class name="tests.SearchTests">
+                <methods>
+                    <include name="testSearchByCategory"/>
+                    <include name="testSearchByProductName"/>
+                    <include name="testSearchWithNoResults"/>
+                </methods>
+            </class>
+            <class name="tests.CartTests">
+                <methods>
+                    <include name="testAddProductToCart"/>
+                    <include name="testRemoveProductFromCart"/>
+                    <include name="testUpdateQuantity"/>
+                    <include name="testCartPersistence"/>
+                    <include name="testPriceCalculationVerification"/>
+                </methods>
+            </class>
+            <class name="tests.CheckoutTests">
+                <methods>
+                    <include name="testForGuestCheckout"/>
+                    <include name="testForRegisteredCheckout"/>
+                    <include name="testWithMissingShippingAddress"/>
+                    <include name="testWithMissingPaymentMethod"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Regression Tests - Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.LoginTests">
+                <methods>
+                    <include name="loginWithValidData"/>
+                    <include name="loginWithInvalidData"/>
+                    <include name="loginWithEmptyFields"/>
+                    <include name="loginSessionPersistence"/>
+                </methods>
+            </class>
+            <class name="tests.RegistrationTest">
+                <methods>
+                    <include name="signUpWithNewCredentials"/>
+                    <include name="signUpWithExistingCredentials"/>
+                </methods>
+            </class>
+            <class name="tests.SearchTests">
+                <methods>
+                    <include name="testSearchByCategory"/>
+                    <include name="testSearchByProductName"/>
+                    <include name="testSearchWithNoResults"/>
+                </methods>
+            </class>
+            <class name="tests.CartTests">
+                <methods>
+                    <include name="testAddProductToCart"/>
+                    <include name="testRemoveProductFromCart"/>
+                    <include name="testUpdateQuantity"/>
+                    <include name="testCartPersistence"/>
+                    <include name="testPriceCalculationVerification"/>
+                </methods>
+            </class>
+            <class name="tests.CheckoutTests">
+                <methods>
+                    <include name="testForGuestCheckout"/>
+                    <include name="testForRegisteredCheckout"/>
+                    <include name="testWithMissingShippingAddress"/>
+                    <include name="testWithMissingPaymentMethod"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

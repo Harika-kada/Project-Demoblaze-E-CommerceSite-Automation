@@ -1,0 +1,28 @@
+20:49:01.757 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+20:51:16.688 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+21:01:15.650 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+21:01:56.747 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+21:16:00.992 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\Desktop\Harika\C\Demoblaze\src\main\resources\testng.xml
+
+21:16:03.084 [TestNG-tests-2] ERROR utils.LoggerUtil - Failed to capture screenshot: Browser name not set. Call setBrowser() before getDriver().
+21:16:03.084 [TestNG-tests-1] ERROR utils.LoggerUtil - Failed to capture screenshot: Browser name not set. Call setBrowser() before getDriver().
+21:16:03.116 [TestNG-tests-1] INFO  utils.LoggerUtil - Test suite finished: Firefox Tests
+21:16:03.116 [TestNG-tests-2] INFO  utils.LoggerUtil - Test suite finished: Chrome Tests
+21:16:55.754 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+21:22:29.922 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+21:25:44.163 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+

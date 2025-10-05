@@ -1,0 +1,1081 @@
+09:12:13.966 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+09:12:14.716 [main] INFO  utils.LoggerUtil - Setting up test....
+09:12:16.079 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+09:12:16.100 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+09:12:23.112 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+09:12:26.223 [main] INFO  utils.LoggerUtil - Finishing tests.
+09:12:26.229 [main] INFO  utils.LoggerUtil - Setting up test....
+09:12:26.239 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+09:12:26.246 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+09:12:32.638 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+09:12:35.131 [main] INFO  utils.LoggerUtil - Finishing tests.
+09:12:35.140 [main] INFO  utils.LoggerUtil - Setting up test....
+09:12:35.161 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+09:12:35.176 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+09:12:42.425 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+09:12:44.395 [main] INFO  utils.LoggerUtil - Finishing tests.
+09:12:44.405 [main] INFO  utils.LoggerUtil - Setting up test....
+09:12:44.437 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+09:12:44.470 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+09:12:52.143 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+09:12:54.317 [main] INFO  utils.LoggerUtil - Finishing tests.
+10:02:58.972 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+10:02:59.531 [main] INFO  utils.LoggerUtil - Setting up test....
+10:02:59.898 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+10:02:59.930 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+10:03:06.612 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+10:03:08.196 [main] INFO  utils.LoggerUtil - Finishing tests.
+10:03:08.202 [main] INFO  utils.LoggerUtil - Setting up test....
+10:03:08.215 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+10:03:08.221 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+10:03:14.357 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+10:03:15.612 [main] INFO  utils.LoggerUtil - Finishing tests.
+10:03:15.617 [main] INFO  utils.LoggerUtil - Setting up test....
+10:03:15.645 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+10:03:15.675 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+10:03:22.149 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+10:03:24.098 [main] INFO  utils.LoggerUtil - Finishing tests.
+10:03:24.104 [main] INFO  utils.LoggerUtil - Setting up test....
+10:03:24.112 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+10:03:24.112 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+10:03:31.142 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+10:03:33.510 [main] INFO  utils.LoggerUtil - Finishing tests.
+10:05:19.841 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+10:05:20.402 [main] INFO  utils.LoggerUtil - Setting up test....
+10:05:20.745 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+10:05:20.761 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+10:05:27.830 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+10:05:28.019 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+10:05:29.349 [main] INFO  utils.LoggerUtil - Finishing tests.
+10:05:29.358 [main] INFO  utils.LoggerUtil - Setting up test....
+10:05:29.393 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+10:05:29.436 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+10:05:37.723 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+10:05:37.833 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+10:05:39.948 [main] INFO  utils.LoggerUtil - Finishing tests.
+10:05:39.955 [main] INFO  utils.LoggerUtil - Setting up test....
+10:05:39.963 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+10:05:39.995 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+10:05:47.388 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+10:05:49.219 [main] INFO  utils.LoggerUtil - Finishing tests.
+10:05:49.219 [main] INFO  utils.LoggerUtil - Setting up test....
+10:05:49.235 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+10:05:49.253 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+10:05:56.604 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+10:05:56.676 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+10:05:58.269 [main] INFO  utils.LoggerUtil - Finishing tests.
+11:15:04.603 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+11:15:05.153 [main] INFO  utils.LoggerUtil - Setting up test....
+11:15:06.413 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+11:15:06.422 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+11:15:13.663 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+11:15:13.916 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+11:15:16.353 [main] INFO  utils.LoggerUtil - Successfully selected the product: Samsung galaxy s6
+11:15:17.425 [main] INFO  utils.LoggerUtil - Actual product title on page: Samsung galaxy s6
+11:15:17.425 [main] INFO  utils.LoggerUtil - Expected product name from test case: Samsung galaxy s6
+11:15:17.430 [main] ERROR utils.LoggerUtil - Failed to click element: Add to Cart Button
+11:15:18.593 [main] INFO  utils.LoggerUtil - Finishing tests.
+11:15:18.597 [main] INFO  utils.LoggerUtil - Setting up test....
+11:15:18.634 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+11:15:18.696 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+11:15:25.418 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+11:15:25.492 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+11:15:27.458 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+11:15:28.512 [main] INFO  utils.LoggerUtil - Actual product title on page: Sony vaio i5
+11:15:28.512 [main] INFO  utils.LoggerUtil - Expected product name from test case: Sony vaio i5
+11:15:28.512 [main] ERROR utils.LoggerUtil - Failed to click element: Add to Cart Button
+11:15:29.905 [main] INFO  utils.LoggerUtil - Finishing tests.
+11:15:29.914 [main] INFO  utils.LoggerUtil - Setting up test....
+11:15:29.945 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+11:15:29.977 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+11:15:37.234 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+11:15:38.606 [main] INFO  utils.LoggerUtil - Finishing tests.
+11:15:38.612 [main] INFO  utils.LoggerUtil - Setting up test....
+11:15:38.625 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+11:15:38.652 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+11:15:45.535 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+11:15:45.647 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+11:15:47.899 [main] INFO  utils.LoggerUtil - Successfully selected the product: Nokia lumia 1520
+11:15:49.014 [main] INFO  utils.LoggerUtil - Actual product title on page: Nokia lumia 1520
+11:15:49.016 [main] INFO  utils.LoggerUtil - Expected product name from test case: Nokia lumia 1520
+11:15:49.016 [main] ERROR utils.LoggerUtil - Failed to click element: Add to Cart Button
+11:15:50.370 [main] INFO  utils.LoggerUtil - Finishing tests.
+11:20:52.276 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+11:20:52.851 [main] INFO  utils.LoggerUtil - Setting up test....
+11:20:53.201 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+11:20:53.224 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+11:20:59.856 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+11:21:00.032 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+11:21:01.923 [main] INFO  utils.LoggerUtil - Successfully selected the product: Samsung galaxy s6
+11:21:02.994 [main] INFO  utils.LoggerUtil - Actual product title on page: Samsung galaxy s6
+11:21:02.994 [main] INFO  utils.LoggerUtil - Expected product name from test case: Samsung galaxy s6
+11:21:02.998 [main] ERROR utils.LoggerUtil - An error occurred while adding to cart: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+11:21:02.998 [main] ERROR utils.LoggerUtil - Failed to click element: Cart Button
+11:21:04.302 [main] INFO  utils.LoggerUtil - Finishing tests.
+11:21:04.309 [main] INFO  utils.LoggerUtil - Setting up test....
+11:21:04.343 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+11:21:04.371 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+11:21:11.754 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+11:21:11.952 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+11:21:13.386 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+11:21:14.457 [main] INFO  utils.LoggerUtil - Actual product title on page: Sony vaio i5
+11:21:14.457 [main] INFO  utils.LoggerUtil - Expected product name from test case: Sony vaio i5
+11:21:14.457 [main] ERROR utils.LoggerUtil - An error occurred while adding to cart: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+11:21:14.457 [main] ERROR utils.LoggerUtil - Failed to click element: Cart Button
+11:21:15.991 [main] INFO  utils.LoggerUtil - Finishing tests.
+11:21:15.997 [main] INFO  utils.LoggerUtil - Setting up test....
+11:21:16.024 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+11:21:16.056 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+11:21:23.811 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+11:21:26.203 [main] INFO  utils.LoggerUtil - Finishing tests.
+11:21:26.210 [main] INFO  utils.LoggerUtil - Setting up test....
+11:21:26.229 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+11:21:26.247 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+11:21:34.108 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+11:21:34.240 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+11:21:36.115 [main] INFO  utils.LoggerUtil - Successfully selected the product: Nokia lumia 1520
+11:21:37.194 [main] INFO  utils.LoggerUtil - Actual product title on page: Nokia lumia 1520
+11:21:37.194 [main] INFO  utils.LoggerUtil - Expected product name from test case: Nokia lumia 1520
+11:21:37.194 [main] ERROR utils.LoggerUtil - An error occurred while adding to cart: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+11:21:37.194 [main] ERROR utils.LoggerUtil - Failed to click element: Cart Button
+11:21:38.950 [main] INFO  utils.LoggerUtil - Finishing tests.
+11:46:45.230 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+11:46:45.759 [main] INFO  utils.LoggerUtil - Setting up test....
+11:46:46.115 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+11:46:46.144 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+11:46:54.232 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+11:46:54.671 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+11:46:56.555 [main] INFO  utils.LoggerUtil - Successfully selected the product: Samsung galaxy s6
+11:46:57.636 [main] INFO  utils.LoggerUtil - Actual product title on page: Samsung galaxy s6
+11:46:57.636 [main] INFO  utils.LoggerUtil - Expected product name from test case: Samsung galaxy s6
+11:46:57.911 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+11:46:58.466 [main] INFO  utils.LoggerUtil - Alert accepted.
+11:46:58.467 [main] ERROR utils.LoggerUtil - Failed to click element: Cart Button. Error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+11:46:59.847 [main] INFO  utils.LoggerUtil - Finishing tests.
+11:46:59.857 [main] INFO  utils.LoggerUtil - Setting up test....
+11:46:59.884 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+11:46:59.918 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+11:47:07.635 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+11:47:07.847 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+11:47:09.882 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+11:47:10.948 [main] INFO  utils.LoggerUtil - Actual product title on page: Sony vaio i5
+11:47:10.948 [main] INFO  utils.LoggerUtil - Expected product name from test case: Sony vaio i5
+11:47:11.218 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+11:47:11.778 [main] INFO  utils.LoggerUtil - Alert accepted.
+11:47:11.779 [main] ERROR utils.LoggerUtil - Failed to click element: Cart Button. Error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+11:47:13.251 [main] INFO  utils.LoggerUtil - Finishing tests.
+11:47:13.257 [main] INFO  utils.LoggerUtil - Setting up test....
+11:47:13.285 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+11:47:13.313 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+11:47:21.550 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+11:47:24.713 [main] INFO  utils.LoggerUtil - Finishing tests.
+11:47:24.719 [main] INFO  utils.LoggerUtil - Setting up test....
+11:47:24.732 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+11:47:24.749 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+11:47:32.861 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+11:47:33.016 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+11:47:35.048 [main] INFO  utils.LoggerUtil - Successfully selected the product: Nokia lumia 1520
+11:47:36.136 [main] INFO  utils.LoggerUtil - Actual product title on page: Nokia lumia 1520
+11:47:36.137 [main] INFO  utils.LoggerUtil - Expected product name from test case: Nokia lumia 1520
+11:47:36.423 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+11:47:37.485 [main] INFO  utils.LoggerUtil - Alert accepted.
+11:47:37.485 [main] ERROR utils.LoggerUtil - Failed to click element: Cart Button. Error: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+11:47:38.902 [main] INFO  utils.LoggerUtil - Finishing tests.
+11:50:08.340 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+11:50:08.894 [main] INFO  utils.LoggerUtil - Setting up test....
+11:50:09.250 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+11:50:09.273 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+11:50:15.890 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+11:50:16.061 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+11:50:17.918 [main] INFO  utils.LoggerUtil - Successfully selected the product: Samsung galaxy s6
+11:50:19.003 [main] INFO  utils.LoggerUtil - Actual product title on page: Samsung galaxy s6
+11:50:19.003 [main] INFO  utils.LoggerUtil - Expected product name from test case: Samsung galaxy s6
+11:50:19.304 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+11:50:19.864 [main] INFO  utils.LoggerUtil - Alert accepted.
+11:50:20.610 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+11:50:20.684 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+11:50:22.753 [main] INFO  utils.LoggerUtil - Finishing tests.
+11:50:22.766 [main] INFO  utils.LoggerUtil - Setting up test....
+11:50:22.799 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+11:50:22.844 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+11:50:30.929 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+11:50:31.027 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+11:50:32.858 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+11:50:33.941 [main] INFO  utils.LoggerUtil - Actual product title on page: Sony vaio i5
+11:50:33.941 [main] INFO  utils.LoggerUtil - Expected product name from test case: Sony vaio i5
+11:50:34.227 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+11:50:34.774 [main] INFO  utils.LoggerUtil - Alert accepted.
+11:50:35.536 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+11:50:35.591 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+11:50:37.141 [main] INFO  utils.LoggerUtil - Finishing tests.
+11:50:37.150 [main] INFO  utils.LoggerUtil - Setting up test....
+11:50:37.192 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+11:50:37.229 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+11:50:44.392 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+11:50:46.054 [main] INFO  utils.LoggerUtil - Finishing tests.
+11:50:46.062 [main] INFO  utils.LoggerUtil - Setting up test....
+11:50:46.079 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+11:50:46.103 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+11:50:53.374 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+11:50:53.441 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+11:50:55.337 [main] INFO  utils.LoggerUtil - Successfully selected the product: Nokia lumia 1520
+11:50:56.408 [main] INFO  utils.LoggerUtil - Actual product title on page: Nokia lumia 1520
+11:50:56.408 [main] INFO  utils.LoggerUtil - Expected product name from test case: Nokia lumia 1520
+11:50:56.672 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+11:50:57.215 [main] INFO  utils.LoggerUtil - Alert accepted.
+11:50:57.990 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+11:50:58.038 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+11:50:59.431 [main] INFO  utils.LoggerUtil - Finishing tests.
+11:59:30.229 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+11:59:30.771 [main] INFO  utils.LoggerUtil - Setting up test....
+11:59:31.129 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+11:59:31.151 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+11:59:37.517 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+11:59:37.743 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+11:59:39.583 [main] INFO  utils.LoggerUtil - Successfully selected the product: Samsung galaxy s6
+11:59:40.656 [main] INFO  utils.LoggerUtil - Actual product title on page: Samsung galaxy s6
+11:59:40.656 [main] INFO  utils.LoggerUtil - Expected product name from test case: Samsung galaxy s6
+11:59:40.931 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+11:59:41.486 [main] INFO  utils.LoggerUtil - Alert accepted.
+11:59:42.160 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+11:59:42.203 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+11:59:43.261 [main] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' found in the cart.
+11:59:44.446 [main] INFO  utils.LoggerUtil - Finishing tests.
+11:59:44.454 [main] INFO  utils.LoggerUtil - Setting up test....
+11:59:44.473 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+11:59:44.490 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+11:59:52.064 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+11:59:52.143 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+11:59:53.344 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+11:59:54.406 [main] INFO  utils.LoggerUtil - Actual product title on page: Sony vaio i5
+11:59:54.407 [main] INFO  utils.LoggerUtil - Expected product name from test case: Sony vaio i5
+11:59:54.663 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+11:59:55.215 [main] INFO  utils.LoggerUtil - Alert accepted.
+11:59:55.870 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+11:59:55.913 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+11:59:56.965 [main] INFO  utils.LoggerUtil - Product 'Sony vaio i5' found in the cart.
+11:59:58.231 [main] INFO  utils.LoggerUtil - Finishing tests.
+11:59:58.240 [main] INFO  utils.LoggerUtil - Setting up test....
+11:59:58.272 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+11:59:58.306 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+12:00:05.236 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+12:00:05.372 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+12:00:07.133 [main] INFO  utils.LoggerUtil - Successfully selected the product: Samsung galaxy s6
+12:00:08.204 [main] INFO  utils.LoggerUtil - Actual product title on page: Samsung galaxy s6
+12:00:08.204 [main] INFO  utils.LoggerUtil - Expected product name from test case: Samsung galaxy s6
+12:00:08.463 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+12:00:09.527 [main] INFO  utils.LoggerUtil - Alert accepted.
+12:00:10.172 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+12:00:10.229 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+12:00:11.281 [main] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' found in the cart.
+12:00:12.322 [main] INFO  utils.LoggerUtil - Finishing tests.
+12:00:12.327 [main] INFO  utils.LoggerUtil - Setting up test....
+12:00:12.343 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+12:00:12.365 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+12:00:19.266 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+12:00:19.335 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+12:00:21.136 [main] INFO  utils.LoggerUtil - Successfully selected the product: Nokia lumia 1520
+12:00:22.200 [main] INFO  utils.LoggerUtil - Actual product title on page: Nokia lumia 1520
+12:00:22.200 [main] INFO  utils.LoggerUtil - Expected product name from test case: Nokia lumia 1520
+12:00:22.458 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+12:00:23.507 [main] INFO  utils.LoggerUtil - Alert accepted.
+12:00:24.262 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+12:00:24.347 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+12:00:25.389 [main] INFO  utils.LoggerUtil - Product 'Nokia lumia 1520' found in the cart.
+12:00:26.614 [main] INFO  utils.LoggerUtil - Finishing tests.
+12:04:04.114 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+12:04:04.671 [main] INFO  utils.LoggerUtil - Setting up test....
+12:04:05.038 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+12:04:05.066 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+12:04:11.882 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+12:04:12.122 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+12:04:14.461 [main] INFO  utils.LoggerUtil - Successfully selected the product: Samsung galaxy s6
+12:04:15.529 [main] INFO  utils.LoggerUtil - Actual product title on page: Samsung galaxy s6
+12:04:15.530 [main] INFO  utils.LoggerUtil - Expected product name from test case: Samsung galaxy s6
+12:04:15.793 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+12:04:16.843 [main] INFO  utils.LoggerUtil - Alert accepted.
+12:04:17.639 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+12:04:17.691 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+12:04:18.732 [main] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' found in the cart.
+12:04:19.986 [main] INFO  utils.LoggerUtil - Finishing tests.
+12:04:19.992 [main] INFO  utils.LoggerUtil - Setting up test....
+12:04:20.008 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+12:04:20.022 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+12:04:28.184 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+12:04:28.277 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+12:04:30.133 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+12:04:31.208 [main] INFO  utils.LoggerUtil - Actual product title on page: Sony vaio i5
+12:04:31.208 [main] INFO  utils.LoggerUtil - Expected product name from test case: Sony vaio i5
+12:04:31.473 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+12:04:32.537 [main] INFO  utils.LoggerUtil - Alert accepted.
+12:04:33.255 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+12:04:33.310 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+12:04:34.901 [main] INFO  utils.LoggerUtil - Product 'Sony vaio i5' found in the cart.
+12:04:35.952 [main] INFO  utils.LoggerUtil - Finishing tests.
+12:04:35.958 [main] INFO  utils.LoggerUtil - Setting up test....
+12:04:35.974 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+12:04:36.032 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+12:04:43.215 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+12:04:43.285 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+12:04:45.208 [main] INFO  utils.LoggerUtil - Successfully selected the product: Samsung galaxy s6
+12:04:46.279 [main] INFO  utils.LoggerUtil - Actual product title on page: Samsung galaxy s6
+12:04:46.279 [main] INFO  utils.LoggerUtil - Expected product name from test case: Samsung galaxy s6
+12:04:46.544 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+12:04:47.614 [main] INFO  utils.LoggerUtil - Alert accepted.
+12:04:48.378 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+12:04:48.443 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+12:04:49.500 [main] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' found in the cart.
+12:04:50.790 [main] INFO  utils.LoggerUtil - Finishing tests.
+12:04:50.798 [main] INFO  utils.LoggerUtil - Setting up test....
+12:04:50.822 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+12:04:50.856 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+12:04:58.396 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+12:04:58.472 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+12:05:00.370 [main] INFO  utils.LoggerUtil - Successfully selected the product: Nokia lumia 1520
+12:05:01.429 [main] INFO  utils.LoggerUtil - Actual product title on page: Nokia lumia 1520
+12:05:01.429 [main] INFO  utils.LoggerUtil - Expected product name from test case: Nokia lumia 1520
+12:05:01.692 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+12:05:02.743 [main] INFO  utils.LoggerUtil - Alert accepted.
+12:05:03.550 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+12:05:03.603 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+12:05:05.169 [main] INFO  utils.LoggerUtil - Product 'Nokia lumia 1520' found in the cart.
+12:05:06.179 [main] INFO  utils.LoggerUtil - Finishing tests.
+12:06:28.093 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+12:06:28.854 [main] INFO  utils.LoggerUtil - Setting up test....
+12:06:29.281 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+12:06:29.313 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+12:06:37.390 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+12:06:37.956 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+12:06:39.835 [main] INFO  utils.LoggerUtil - Successfully selected the product: Samsung galaxy s6
+12:06:40.916 [main] INFO  utils.LoggerUtil - Actual product title on page: Samsung galaxy s6
+12:06:40.917 [main] INFO  utils.LoggerUtil - Expected product name from test case: Samsung galaxy s6
+12:06:41.199 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+12:06:41.745 [main] INFO  utils.LoggerUtil - Alert accepted.
+12:06:42.536 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+12:06:42.596 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+12:06:43.652 [main] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' found in the cart.
+12:06:44.930 [main] INFO  utils.LoggerUtil - Finishing tests.
+12:06:44.939 [main] INFO  utils.LoggerUtil - Setting up test....
+12:06:44.969 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+12:06:45.010 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+12:06:52.859 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+12:06:52.933 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+12:06:54.877 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+12:06:55.951 [main] INFO  utils.LoggerUtil - Actual product title on page: Sony vaio i5
+12:06:55.952 [main] INFO  utils.LoggerUtil - Expected product name from test case: Sony vaio i5
+12:06:56.226 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+12:06:56.773 [main] INFO  utils.LoggerUtil - Alert accepted.
+12:06:57.586 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+12:06:57.638 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+12:06:58.683 [main] INFO  utils.LoggerUtil - Product 'Sony vaio i5' found in the cart.
+12:06:59.740 [main] INFO  utils.LoggerUtil - Finishing tests.
+12:06:59.752 [main] INFO  utils.LoggerUtil - Setting up test....
+12:06:59.789 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+12:06:59.817 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+12:07:07.143 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+12:07:09.159 [main] INFO  utils.LoggerUtil - Finishing tests.
+12:07:09.166 [main] INFO  utils.LoggerUtil - Setting up test....
+12:07:09.183 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+12:07:09.196 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+12:07:16.243 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+12:07:16.339 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+12:07:18.211 [main] INFO  utils.LoggerUtil - Successfully selected the product: Nokia lumia 1520
+12:07:19.275 [main] INFO  utils.LoggerUtil - Actual product title on page: Nokia lumia 1520
+12:07:19.275 [main] INFO  utils.LoggerUtil - Expected product name from test case: Nokia lumia 1520
+12:07:19.546 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+12:07:20.613 [main] INFO  utils.LoggerUtil - Alert accepted.
+12:07:21.414 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+12:07:21.476 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+12:07:22.525 [main] INFO  utils.LoggerUtil - Product 'Nokia lumia 1520' found in the cart.
+12:07:23.759 [main] INFO  utils.LoggerUtil - Finishing tests.
+12:41:57.981 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+12:41:58.694 [main] INFO  utils.LoggerUtil - Setting up test....
+12:42:00.035 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+12:42:00.060 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+12:42:07.240 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+12:42:07.654 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+12:42:09.563 [main] INFO  utils.LoggerUtil - Successfully selected the product: Samsung galaxy s6
+12:42:10.692 [main] INFO  utils.LoggerUtil - Actual product title on page: Samsung galaxy s6
+12:42:10.693 [main] INFO  utils.LoggerUtil - Expected product name from test case: Samsung galaxy s6
+12:42:10.984 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+12:42:12.054 [main] INFO  utils.LoggerUtil - Alert accepted.
+12:42:12.861 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+12:42:12.917 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+12:42:14.487 [main] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' found in the cart.
+12:42:15.765 [main] INFO  utils.LoggerUtil - Finishing tests.
+12:42:15.771 [main] INFO  utils.LoggerUtil - Setting up test....
+12:42:15.793 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+12:42:15.814 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+12:42:23.478 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+12:42:23.578 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+12:42:25.438 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+12:42:26.510 [main] INFO  utils.LoggerUtil - Actual product title on page: Sony vaio i5
+12:42:26.510 [main] INFO  utils.LoggerUtil - Expected product name from test case: Sony vaio i5
+12:42:26.788 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+12:42:27.857 [main] INFO  utils.LoggerUtil - Alert accepted.
+12:42:28.623 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+12:42:28.678 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+12:42:30.238 [main] INFO  utils.LoggerUtil - Product 'Sony vaio i5' found in the cart.
+12:42:31.319 [main] INFO  utils.LoggerUtil - Finishing tests.
+12:42:31.324 [main] INFO  utils.LoggerUtil - Setting up test....
+12:42:31.371 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+12:42:31.390 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+12:42:38.585 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+12:42:38.661 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+12:42:40.709 [main] INFO  utils.LoggerUtil - Successfully selected the product: Nokia lumia 1520
+12:42:41.786 [main] INFO  utils.LoggerUtil - Actual product title on page: Nokia lumia 1520
+12:42:41.787 [main] INFO  utils.LoggerUtil - Expected product name from test case: Nokia lumia 1520
+12:42:42.076 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+12:42:43.144 [main] INFO  utils.LoggerUtil - Alert accepted.
+12:42:43.941 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+12:42:44.002 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+12:42:45.050 [main] INFO  utils.LoggerUtil - Product 'Nokia lumia 1520' found in the cart.
+12:42:46.204 [main] INFO  utils.LoggerUtil - Finishing tests.
+13:47:11.187 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+13:47:11.286 [main] INFO  utils.LoggerUtil - Setting up test....
+13:47:13.303 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+13:47:13.342 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+13:47:26.524 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+13:47:29.522 [main] INFO  utils.LoggerUtil - Successfully selected the product: Samsung galaxy s6
+13:47:30.997 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+13:47:32.079 [main] INFO  utils.LoggerUtil - Alert accepted.
+13:47:33.091 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+13:47:33.231 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+13:47:33.280 [main] WARN  utils.LoggerUtil - No items to remove from cart
+13:47:35.422 [main] INFO  utils.LoggerUtil - Finishing tests.
+13:58:12.524 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+13:58:13.813 [main] INFO  utils.LoggerUtil - Setting up test....
+13:58:14.553 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+13:58:14.611 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+13:58:27.232 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+13:58:28.158 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+13:58:29.838 [main] INFO  utils.LoggerUtil - Successfully selected the product: Samsung galaxy s6
+13:58:31.076 [main] INFO  utils.LoggerUtil - Actual product title on page: Samsung galaxy s6
+13:58:31.076 [main] INFO  utils.LoggerUtil - Expected product name from test case: Samsung galaxy s6
+13:58:31.440 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+13:58:32.524 [main] INFO  utils.LoggerUtil - Alert accepted.
+13:58:33.504 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+13:58:33.625 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+13:58:34.714 [main] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' found in the cart.
+13:58:36.337 [main] INFO  utils.LoggerUtil - Removed product 'Samsung galaxy s6' from the cart.
+13:58:39.584 [main] ERROR utils.LoggerUtil - Product 'Samsung galaxy s6' was not found in the cart. Error: Expected condition failed: waiting for visibility of element located by By.xpath: //tbody/tr/td[text()='Samsung galaxy s6'] (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.3.1, moz:accessibilityChecks: false, moz:buildID: 20250922173505, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14052, moz:profile: C:\Users\kadahari\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5842f5c6-a690-402c-afad-228c999ce39d
+13:58:42.153 [main] INFO  utils.LoggerUtil - Finishing tests.
+14:15:44.265 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+14:15:45.674 [main] INFO  utils.LoggerUtil - Setting up test....
+14:15:46.640 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+14:15:46.697 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+14:15:59.274 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+14:16:01.846 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+14:16:02.863 [main] INFO  utils.LoggerUtil - Successfully selected the product: Samsung galaxy s6
+14:16:03.777 [main] INFO  utils.LoggerUtil - Actual product title on page: Samsung galaxy s6
+14:16:03.779 [main] INFO  utils.LoggerUtil - Expected product name from test case: Samsung galaxy s6
+14:16:04.153 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+14:16:05.282 [main] INFO  utils.LoggerUtil - Alert accepted.
+14:16:06.242 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+14:16:06.395 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+14:16:07.485 [main] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' found in the cart.
+14:16:09.059 [main] INFO  utils.LoggerUtil - Removed product 'Samsung galaxy s6' from the cart.
+14:16:09.078 [main] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' successfully removed from the cart.
+14:16:11.482 [main] INFO  utils.LoggerUtil - Finishing tests.
+14:39:22.172 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+14:43:46.320 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+14:43:47.899 [main] INFO  utils.LoggerUtil - Setting up test....
+14:43:48.731 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+14:43:48.773 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+14:44:00.947 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+14:44:01.874 [main] INFO  utils.LoggerUtil - ...TESTING REMOVING FROM CART FUNCTIONALITY FOR: Samsung galaxy s6...
+14:44:02.016 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+14:44:03.780 [main] INFO  utils.LoggerUtil - Successfully selected the product: Samsung galaxy s6
+14:44:04.990 [main] INFO  utils.LoggerUtil - Actual product title on page: Samsung galaxy s6
+14:44:04.990 [main] INFO  utils.LoggerUtil - Expected product name from test case: Samsung galaxy s6
+14:44:05.332 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+14:44:06.416 [main] INFO  utils.LoggerUtil - Alert accepted.
+14:44:07.355 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+14:44:07.479 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+14:44:08.585 [main] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' found in the cart.
+14:44:10.047 [main] INFO  utils.LoggerUtil - Removed product 'Samsung galaxy s6' from the cart.
+14:44:10.060 [main] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' successfully removed from the cart.
+14:44:12.968 [main] INFO  utils.LoggerUtil - Finishing tests.
+14:44:12.984 [main] INFO  utils.LoggerUtil - Setting up test....
+14:44:13.039 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+14:44:13.100 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+14:44:24.248 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+14:44:24.411 [main] INFO  utils.LoggerUtil - ...TESTING REMOVING FROM CART FUNCTIONALITY FOR: Sony vaio i5...
+14:44:24.596 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+14:44:26.313 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+14:44:27.540 [main] INFO  utils.LoggerUtil - Actual product title on page: Sony vaio i5
+14:44:27.540 [main] INFO  utils.LoggerUtil - Expected product name from test case: Sony vaio i5
+14:44:27.875 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+14:44:28.956 [main] INFO  utils.LoggerUtil - Alert accepted.
+14:44:29.855 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+14:44:29.970 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+14:44:31.054 [main] INFO  utils.LoggerUtil - Product 'Sony vaio i5' found in the cart.
+14:44:32.502 [main] INFO  utils.LoggerUtil - Removed product 'Sony vaio i5' from the cart.
+14:44:32.515 [main] INFO  utils.LoggerUtil - Product 'Sony vaio i5' successfully removed from the cart.
+14:44:34.714 [main] INFO  utils.LoggerUtil - Finishing tests.
+14:46:46.254 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+14:46:47.867 [main] INFO  utils.LoggerUtil - Setting up test....
+14:46:48.850 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+14:46:48.914 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+14:47:00.900 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+14:47:01.832 [main] INFO  utils.LoggerUtil - ...TESTING REMOVING FROM CART FUNCTIONALITY FOR: Samsung galaxy s6...
+14:47:01.975 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+14:47:02.987 [main] INFO  utils.LoggerUtil - Successfully selected the product: Samsung galaxy s6
+14:47:04.163 [main] INFO  utils.LoggerUtil - Actual product title on page: Samsung galaxy s6
+14:47:04.163 [main] INFO  utils.LoggerUtil - Expected product name from test case: Samsung galaxy s6
+14:47:04.519 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+14:47:05.598 [main] INFO  utils.LoggerUtil - Alert accepted.
+14:47:06.560 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+14:47:06.688 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+14:47:07.777 [main] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' found in the cart.
+14:47:09.271 [main] INFO  utils.LoggerUtil - Removed product 'Samsung galaxy s6' from the cart.
+14:47:09.284 [main] INFO  utils.LoggerUtil - Product 'Samsung galaxy s6' successfully removed from the cart.
+14:47:09.337 [main] INFO  utils.LoggerUtil - Test passed: Product Samsung galaxy s6 was successfully removed and cart state is correct.
+14:47:09.501 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/testRemoveProductFromCart_Samsung galaxy s6_20250924_144709.png
+14:47:12.042 [main] INFO  utils.LoggerUtil - Finishing tests.
+14:47:12.056 [main] INFO  utils.LoggerUtil - Setting up test....
+14:47:12.110 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+14:47:12.178 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+14:47:23.313 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+14:47:23.436 [main] INFO  utils.LoggerUtil - ...TESTING REMOVING FROM CART FUNCTIONALITY FOR: Sony vaio i5...
+14:47:23.583 [main] INFO  utils.LoggerUtil - Home page loaded successfully.
+14:47:25.689 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+14:47:26.828 [main] INFO  utils.LoggerUtil - Actual product title on page: Sony vaio i5
+14:47:26.828 [main] INFO  utils.LoggerUtil - Expected product name from test case: Sony vaio i5
+14:47:27.260 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+14:47:28.341 [main] INFO  utils.LoggerUtil - Alert accepted.
+14:47:29.250 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+14:47:29.330 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+14:47:30.936 [main] INFO  utils.LoggerUtil - Product 'Sony vaio i5' found in the cart.
+14:47:32.412 [main] INFO  utils.LoggerUtil - Removed product 'Sony vaio i5' from the cart.
+14:47:32.426 [main] INFO  utils.LoggerUtil - Product 'Sony vaio i5' successfully removed from the cart.
+14:47:32.499 [main] INFO  utils.LoggerUtil - Test passed: Product Sony vaio i5 was successfully removed and cart state is correct.
+14:47:32.718 [main] INFO  utils.LoggerUtil - Screenshot saved: C:\Users\kadahari\Desktop\Harika\C\Demoblaze/output/screenshots/pass/testRemoveProductFromCart_Sony vaio i5_20250924_144732.png
+14:47:35.101 [main] INFO  utils.LoggerUtil - Finishing tests.
+15:21:26.772 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+15:21:26.909 [main] INFO  utils.LoggerUtil - Setting up test....
+15:21:29.038 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+15:21:29.083 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+15:21:41.912 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+15:21:44.332 [main] INFO  utils.LoggerUtil - Successfully selected the product: Nokia lumia 1520
+15:21:45.808 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+15:21:46.922 [main] INFO  utils.LoggerUtil - Alert accepted.
+15:21:50.133 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+15:21:50.196 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kadahari\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+15:21:55.685 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+15:21:56.903 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+15:21:57.060 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+15:21:58.486 [main] INFO  utils.LoggerUtil - Finishing tests.
+15:22:41.778 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+15:22:41.899 [main] INFO  utils.LoggerUtil - Setting up test....
+15:22:42.711 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+15:22:42.776 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+15:22:56.794 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+15:22:59.696 [main] INFO  utils.LoggerUtil - Successfully selected the product: Nokia lumia 1520
+15:23:01.131 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+15:23:02.216 [main] INFO  utils.LoggerUtil - Alert accepted.
+15:23:04.648 [main] INFO  utils.LoggerUtil - Finishing tests.
+15:23:28.687 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+15:23:28.824 [main] INFO  utils.LoggerUtil - Setting up test....
+15:23:29.687 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+15:23:29.745 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+15:23:41.446 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+15:23:44.138 [main] INFO  utils.LoggerUtil - Successfully selected the product: Nokia lumia 1520
+15:23:45.656 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+15:23:46.835 [main] INFO  utils.LoggerUtil - Alert accepted.
+15:23:49.689 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+15:23:49.741 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+15:24:00.505 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+15:24:01.873 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+15:24:02.137 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+15:24:05.031 [main] INFO  utils.LoggerUtil - Finishing tests.
+15:38:47.197 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+15:38:47.326 [main] INFO  utils.LoggerUtil - Setting up test....
+15:38:48.319 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+15:38:48.369 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+15:39:00.536 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+15:39:03.257 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+15:39:04.451 [main] INFO  utils.LoggerUtil - Successfully read the value as: $790 *includes tax from element Product Price
+15:39:04.816 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+15:39:05.947 [main] INFO  utils.LoggerUtil - Alert accepted.
+15:39:06.862 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+15:39:07.051 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+15:39:09.793 [main] INFO  utils.LoggerUtil - Finishing tests.
+15:40:38.716 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+15:40:38.813 [main] INFO  utils.LoggerUtil - Setting up test....
+15:40:39.659 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+15:40:39.718 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+15:40:52.163 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+15:40:54.607 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+15:40:55.910 [main] INFO  utils.LoggerUtil - Successfully read the value as: $790 *includes tax from element Product Price
+15:40:56.270 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+15:40:57.357 [main] INFO  utils.LoggerUtil - Alert accepted.
+15:40:58.362 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+15:40:58.502 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+15:41:00.916 [main] INFO  utils.LoggerUtil - Finishing tests.
+15:47:20.576 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+15:47:20.710 [main] INFO  utils.LoggerUtil - Setting up test....
+15:47:21.655 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+15:47:21.721 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+15:47:35.606 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+15:47:38.430 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+15:47:39.703 [main] INFO  utils.LoggerUtil - Successfully read the value as: $790 *includes tax from element Product Price
+15:47:40.042 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+15:47:41.170 [main] INFO  utils.LoggerUtil - Alert accepted.
+15:47:42.188 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+15:47:42.292 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+15:47:45.168 [main] INFO  utils.LoggerUtil - Finishing tests.
+15:50:37.542 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+15:50:37.645 [main] INFO  utils.LoggerUtil - Setting up test....
+15:50:38.492 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+15:50:38.545 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+15:50:51.960 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+15:50:54.452 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+15:50:55.643 [main] INFO  utils.LoggerUtil - Successfully read the value as: $790 *includes tax from element Product Price
+15:50:56.007 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+15:50:57.083 [main] INFO  utils.LoggerUtil - Alert accepted.
+15:50:57.962 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+15:50:58.133 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+15:51:03.417 [main] INFO  utils.LoggerUtil - Finishing tests.
+15:55:12.682 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+15:55:12.832 [main] INFO  utils.LoggerUtil - Setting up test....
+15:55:13.842 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+15:55:13.887 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+15:55:28.052 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+15:55:30.043 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+15:55:31.355 [main] INFO  utils.LoggerUtil - Successfully read the value as: $790 *includes tax from element Product Price
+15:55:31.732 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+15:55:32.851 [main] INFO  utils.LoggerUtil - Alert accepted.
+15:55:33.756 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+15:55:33.948 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+15:55:36.749 [main] INFO  utils.LoggerUtil - Finishing tests.
+15:56:48.699 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+15:56:48.842 [main] INFO  utils.LoggerUtil - Setting up test....
+15:56:49.704 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+15:56:49.761 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+15:57:02.009 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+15:57:04.532 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+15:57:05.764 [main] INFO  utils.LoggerUtil - Successfully read the value as: $790 *includes tax from element Product Price
+15:57:06.089 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+15:57:06.686 [main] INFO  utils.LoggerUtil - Alert accepted.
+15:57:07.740 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+15:57:07.890 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+15:57:11.434 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:16:20.120 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+16:16:20.227 [main] INFO  utils.LoggerUtil - Setting up test....
+16:16:21.251 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:16:21.329 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:16:35.940 [main] INFO  utils.LoggerUtil - Simulated guest user flow (no login)
+16:16:38.657 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:22:54.732 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+16:22:54.844 [main] INFO  utils.LoggerUtil - Setting up test....
+16:22:57.193 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:22:57.235 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:23:11.017 [main] INFO  utils.LoggerUtil - Simulated guest user flow (no login).
+16:23:14.225 [main] ERROR utils.LoggerUtil - Failed to click element: Place Order Button. Error: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Place Order']' (tried for 3 second(s) with 500 milliseconds interval)
+16:23:16.759 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:28:51.671 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+16:28:51.791 [main] INFO  utils.LoggerUtil - Setting up test....
+16:28:52.693 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:28:52.750 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:29:08.614 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+16:29:11.009 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+16:29:12.519 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+16:29:13.638 [main] INFO  utils.LoggerUtil - Alert accepted.
+16:29:14.640 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+16:29:14.747 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+16:29:14.749 [main] INFO  utils.LoggerUtil - Simulated guest user flow (no login).
+16:29:15.073 [main] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+16:29:15.237 [main] ERROR utils.LoggerUtil - Failed to type: null to element Name Field. Error: Keys to send should be a not null CharSequence
+16:29:17.917 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:46:08.464 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+16:46:08.512 [main] INFO  utils.LoggerUtil - Setting up test....
+16:46:08.910 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:46:08.938 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:46:16.794 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+16:46:18.664 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+16:46:19.975 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+16:46:21.068 [main] INFO  utils.LoggerUtil - Alert accepted.
+16:46:21.682 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+16:46:21.741 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+16:46:21.741 [main] INFO  utils.LoggerUtil - Simulated guest user flow (no login).
+16:46:22.004 [main] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+16:46:22.117 [main] INFO  utils.LoggerUtil - Typed value as: GuestUser1 to element Name Field
+16:46:22.215 [main] INFO  utils.LoggerUtil - Typed value as: US to element Country Field
+16:46:22.295 [main] INFO  utils.LoggerUtil - Typed value as: NY to element City Field
+16:46:22.353 [main] INFO  utils.LoggerUtil - Typed value as: Credit Card to element Card Field
+16:46:22.404 [main] INFO  utils.LoggerUtil - Typed value as: 10.0 to element Month Field
+16:46:22.464 [main] INFO  utils.LoggerUtil - Typed value as: 2025.0 to element Year Field
+16:46:22.734 [main] INFO  utils.LoggerUtil - Clicked element: Purchase Button
+16:46:28.968 [main] ERROR utils.LoggerUtil - Failed to read the value from element: Confirmation Header. Error: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='sweet-alert']//h2' (tried for 3 second(s) with 500 milliseconds interval)
+16:46:30.079 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:51:03.641 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+16:51:03.692 [main] INFO  utils.LoggerUtil - Setting up test....
+16:51:04.057 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:51:04.072 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:51:12.106 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+16:51:14.520 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+16:51:15.894 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+16:51:16.961 [main] INFO  utils.LoggerUtil - Alert accepted.
+16:51:17.755 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+16:51:17.815 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+16:51:17.815 [main] INFO  utils.LoggerUtil - Simulated guest user flow (no login).
+16:51:18.084 [main] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+16:51:18.207 [main] INFO  utils.LoggerUtil - Typed value as: GuestUser1 to element Name Field
+16:51:18.315 [main] INFO  utils.LoggerUtil - Typed value as: US to element Country Field
+16:51:18.382 [main] INFO  utils.LoggerUtil - Typed value as: NY to element City Field
+16:51:18.435 [main] INFO  utils.LoggerUtil - Typed value as: Credit Card to element Card Field
+16:51:18.510 [main] INFO  utils.LoggerUtil - Typed value as: 10.0 to element Month Field
+16:51:18.566 [main] INFO  utils.LoggerUtil - Typed value as: 2025.0 to element Year Field
+16:51:18.831 [main] INFO  utils.LoggerUtil - Clicked element: Purchase Button
+16:51:25.073 [main] ERROR utils.LoggerUtil - Failed to read the value from element: Confirmation Header. Error: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='sweet-alert']//h2' (tried for 3 second(s) with 500 milliseconds interval)
+16:51:26.099 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:52:45.646 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+16:52:45.703 [main] INFO  utils.LoggerUtil - Setting up test....
+16:52:46.086 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:52:46.123 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:52:53.953 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+16:52:56.368 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+16:52:57.702 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+16:52:58.791 [main] INFO  utils.LoggerUtil - Alert accepted.
+16:52:59.565 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+16:52:59.627 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+16:52:59.647 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+16:52:59.648 [main] INFO  utils.LoggerUtil - Simulated guest user flow (no login).
+16:52:59.912 [main] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+16:53:00.027 [main] INFO  utils.LoggerUtil - Typed value as: GuestUser1 to element Name Field
+16:53:00.124 [main] INFO  utils.LoggerUtil - Typed value as: US to element Country Field
+16:53:00.201 [main] INFO  utils.LoggerUtil - Typed value as: NY to element City Field
+16:53:00.260 [main] INFO  utils.LoggerUtil - Typed value as: Credit Card to element Card Field
+16:53:00.331 [main] INFO  utils.LoggerUtil - Typed value as: 10.0 to element Month Field
+16:53:00.384 [main] INFO  utils.LoggerUtil - Typed value as: 2025.0 to element Year Field
+16:53:00.657 [main] INFO  utils.LoggerUtil - Clicked element: Purchase Button
+16:53:06.841 [main] ERROR utils.LoggerUtil - Failed to read the value from element: Confirmation Header. Error: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='sweet-alert']//h2' (tried for 3 second(s) with 500 milliseconds interval)
+16:53:08.026 [main] INFO  utils.LoggerUtil - Finishing tests.
+16:54:31.206 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+16:54:31.253 [main] INFO  utils.LoggerUtil - Setting up test....
+16:54:31.636 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+16:54:31.668 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:54:40.028 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+16:54:41.954 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+16:54:43.276 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+16:54:44.328 [main] INFO  utils.LoggerUtil - Alert accepted.
+16:54:45.146 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+16:54:45.209 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+16:54:46.267 [main] INFO  utils.LoggerUtil - Simulated guest user flow (no login).
+16:54:46.548 [main] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+16:54:46.745 [main] INFO  utils.LoggerUtil - Typed value as: GuestUser1 to element Name Field
+16:54:46.877 [main] INFO  utils.LoggerUtil - Typed value as: US to element Country Field
+16:54:46.960 [main] INFO  utils.LoggerUtil - Typed value as: NY to element City Field
+16:54:47.044 [main] INFO  utils.LoggerUtil - Typed value as: Credit Card to element Card Field
+16:54:47.132 [main] INFO  utils.LoggerUtil - Typed value as: 10.0 to element Month Field
+16:54:47.207 [main] INFO  utils.LoggerUtil - Typed value as: 2025.0 to element Year Field
+16:54:47.520 [main] INFO  utils.LoggerUtil - Clicked element: Purchase Button
+16:54:53.759 [main] ERROR utils.LoggerUtil - Failed to read the value from element: Confirmation Header. Error: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='sweet-alert']//h2' (tried for 3 second(s) with 500 milliseconds interval)
+16:54:55.185 [main] INFO  utils.LoggerUtil - Finishing tests.
+17:02:20.844 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+17:02:20.895 [main] INFO  utils.LoggerUtil - Setting up test....
+17:02:21.220 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+17:02:21.253 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+17:02:28.902 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+17:02:30.737 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+17:02:32.039 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+17:02:32.596 [main] INFO  utils.LoggerUtil - Alert accepted.
+17:02:33.378 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+17:02:33.439 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+17:02:34.512 [main] INFO  utils.LoggerUtil - Simulated guest user flow (no login).
+17:02:34.778 [main] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+17:02:34.898 [main] INFO  utils.LoggerUtil - Typed value as: GuestUser1 to element Name Field
+17:02:35.001 [main] INFO  utils.LoggerUtil - Typed value as: US to element Country Field
+17:02:35.085 [main] INFO  utils.LoggerUtil - Typed value as: NY to element City Field
+17:02:35.142 [main] INFO  utils.LoggerUtil - Typed value as: Credit Card to element Card Field
+17:02:35.198 [main] INFO  utils.LoggerUtil - Typed value as: 10.0 to element Month Field
+17:02:35.270 [main] INFO  utils.LoggerUtil - Typed value as: 2025.0 to element Year Field
+17:02:35.538 [main] INFO  utils.LoggerUtil - Clicked element: Purchase Button
+17:02:38.698 [main] INFO  utils.LoggerUtil - Successfully read the value as: Thank you for your purchase! from element Confirmation Header
+17:02:39.713 [main] INFO  utils.LoggerUtil - Finishing tests.
+17:03:26.262 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+17:03:26.321 [main] INFO  utils.LoggerUtil - Setting up test....
+17:03:26.706 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+17:03:26.739 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+17:03:34.676 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+17:03:36.462 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+17:03:37.795 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+17:03:38.351 [main] INFO  utils.LoggerUtil - Alert accepted.
+17:03:39.063 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+17:03:39.116 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+17:03:43.411 [main] ERROR utils.LoggerUtil - Failed to type: ValidUser to element UserName. Error: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (4b9e56b8-7ca0-4d6d-867f-513dde2701e0)] -> id: loginusername] (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.3.1, moz:accessibilityChecks: false, moz:buildID: 20250922173505, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9804, moz:profile: C:\Users\kadahari\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 4b9e56b8-7ca0-4d6d-867f-513dde2701e0
+17:03:44.361 [main] INFO  utils.LoggerUtil - Finishing tests.
+17:08:44.601 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+17:08:44.649 [main] INFO  utils.LoggerUtil - Setting up test....
+17:08:45.022 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+17:08:45.048 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+17:08:53.091 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+17:08:54.929 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+17:08:56.252 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+17:08:56.813 [main] INFO  utils.LoggerUtil - Alert accepted.
+17:08:57.554 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+17:08:57.614 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+17:08:58.778 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+17:08:59.088 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+17:08:59.218 [main] INFO  utils.LoggerUtil - Typed value as: ValidUser to element UserName
+17:08:59.273 [main] INFO  utils.LoggerUtil - Typed value as: validPass123 to element Password
+17:08:59.534 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+17:08:59.534 [main] INFO  utils.LoggerUtil - Simulated registered user login.
+17:09:00.068 [main] ERROR utils.LoggerUtil - Failed to click element: Place Order Button. Error: Unexpected alert dialog detected. Performed handler "ignore". Dialog text: Wrong password.: Wrong password.
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [574e20b3-c75b-4893-9faa-fc5919139640, findElement {using=xpath, value=//button[text()='Place Order']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.3.1, moz:accessibilityChecks: false, moz:buildID: 20250922173505, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 26716, moz:profile: C:\Users\kadahari\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 574e20b3-c75b-4893-9faa-fc5919139640
+17:09:00.990 [main] INFO  utils.LoggerUtil - Finishing tests.
+17:11:35.462 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+17:11:35.525 [main] INFO  utils.LoggerUtil - Setting up test....
+17:11:35.913 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+17:11:35.940 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+17:11:43.587 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+17:11:44.050 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+17:11:44.358 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+17:11:44.494 [main] INFO  utils.LoggerUtil - Typed value as: ValidUser to element UserName
+17:11:44.595 [main] INFO  utils.LoggerUtil - Typed value as: validPass123 to element Password
+17:11:44.874 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+17:11:44.874 [main] INFO  utils.LoggerUtil - Simulated registered user login.
+17:11:45.409 [main] ERROR utils.LoggerUtil - Failed to select product 'Sony vaio i5'. Error: Unexpected alert dialog detected. Performed handler "ignore". Dialog text: Wrong password.: Wrong password.
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5d669eee-c2a2-4581-a310-052cb369d40a, findElement {using=xpath, value=//a[@class='hrefch'][text()='Sony vaio i5']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.3.1, moz:accessibilityChecks: false, moz:buildID: 20250922173505, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20720, moz:profile: C:\Users\kadahari\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 5d669eee-c2a2-4581-a310-052cb369d40a
+17:11:46.448 [main] INFO  utils.LoggerUtil - Finishing tests.
+17:12:23.466 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+17:12:23.517 [main] INFO  utils.LoggerUtil - Setting up test....
+17:12:23.880 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+17:12:23.893 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+17:12:31.862 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+17:12:32.042 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+17:12:32.357 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+17:12:32.513 [main] INFO  utils.LoggerUtil - Typed value as: Validuser13 to element UserName
+17:12:32.608 [main] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+17:12:32.878 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+17:12:32.878 [main] INFO  utils.LoggerUtil - Simulated registered user login.
+17:12:33.459 [main] ERROR utils.LoggerUtil - Failed to select product 'Sony vaio i5'. Error: Element <a class="hrefch" href="prod.html?idp_=8"> is not clickable at point (951,934) because another element <div id="logInModal" class="modal fade show"> obscures it
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ba0e6b4d-8102-415c-b92e-802b1f3fd3a6, clickElement {id=b6081eda-f976-492f-b5dc-c5d532b6c5ff}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.3.1, moz:accessibilityChecks: false, moz:buildID: 20250922173505, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24276, moz:profile: C:\Users\kadahari\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (ba0e6b4d-8102-415c-b92e-802b1f3fd3a6)] -> xpath: //a[@class='hrefch'][text()='Sony vaio i5']]
+Session ID: ba0e6b4d-8102-415c-b92e-802b1f3fd3a6
+17:12:34.785 [main] INFO  utils.LoggerUtil - Finishing tests.
+17:16:51.361 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+17:16:51.405 [main] INFO  utils.LoggerUtil - Setting up test....
+17:16:51.788 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+17:16:51.814 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+17:16:59.537 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+17:16:59.702 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+17:17:00.016 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+17:17:00.165 [main] INFO  utils.LoggerUtil - Typed value as: Validuser13 to element UserName
+17:17:00.243 [main] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+17:17:00.515 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+17:17:03.253 [main] INFO  utils.LoggerUtil - Simulated registered user login.
+17:17:04.088 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+17:17:05.412 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+17:17:06.478 [main] INFO  utils.LoggerUtil - Alert accepted.
+17:17:07.621 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+17:17:07.644 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+17:17:08.965 [main] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+17:17:09.048 [main] INFO  utils.LoggerUtil - Typed value as: RegisteredUser1 to element Name Field
+17:17:09.134 [main] INFO  utils.LoggerUtil - Typed value as: US to element Country Field
+17:17:09.219 [main] INFO  utils.LoggerUtil - Typed value as: CA to element City Field
+17:17:09.284 [main] INFO  utils.LoggerUtil - Typed value as: PayPal to element Card Field
+17:17:09.343 [main] INFO  utils.LoggerUtil - Typed value as: 10.0 to element Month Field
+17:17:09.397 [main] INFO  utils.LoggerUtil - Typed value as: 2025.0 to element Year Field
+17:17:09.665 [main] INFO  utils.LoggerUtil - Clicked element: Purchase Button
+17:17:12.825 [main] INFO  utils.LoggerUtil - Successfully read the value as: Thank you for your purchase! from element Confirmation Header
+17:17:13.853 [main] INFO  utils.LoggerUtil - Finishing tests.
+17:18:19.291 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+17:18:19.339 [main] INFO  utils.LoggerUtil - Setting up test....
+17:18:19.736 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+17:18:19.756 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+17:18:27.590 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+17:18:27.590 [main] INFO  utils.LoggerUtil - Simulated guest user flow (no login).
+17:18:29.454 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+17:18:30.778 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+17:18:31.848 [main] INFO  utils.LoggerUtil - Alert accepted.
+17:18:32.614 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+17:18:32.664 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+17:18:33.988 [main] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+17:18:34.097 [main] INFO  utils.LoggerUtil - Typed value as: GuestUser2 to element Name Field
+17:18:34.187 [main] INFO  utils.LoggerUtil - Typed value as: US to element Country Field
+17:18:34.263 [main] INFO  utils.LoggerUtil - Typed value as:  to element City Field
+17:18:34.323 [main] INFO  utils.LoggerUtil - Typed value as: Credit Card to element Card Field
+17:18:34.381 [main] INFO  utils.LoggerUtil - Typed value as: 10.0 to element Month Field
+17:18:34.431 [main] INFO  utils.LoggerUtil - Typed value as: 2025.0 to element Year Field
+17:18:34.681 [main] INFO  utils.LoggerUtil - Clicked element: Purchase Button
+17:18:37.790 [main] INFO  utils.LoggerUtil - Successfully read the value as: Thank you for your purchase! from element Confirmation Header
+17:18:38.847 [main] INFO  utils.LoggerUtil - Finishing tests.
+17:19:44.577 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+17:19:44.623 [main] INFO  utils.LoggerUtil - Setting up test....
+17:19:44.979 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+17:19:44.995 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+17:19:52.422 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+17:19:52.423 [main] INFO  utils.LoggerUtil - Simulated guest user flow (no login).
+17:19:54.208 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+17:19:55.563 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+17:19:56.620 [main] INFO  utils.LoggerUtil - Alert accepted.
+17:19:57.304 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+17:19:57.353 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+17:19:59.199 [main] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+17:19:59.318 [main] INFO  utils.LoggerUtil - Typed value as: GuestUser2 to element Name Field
+17:19:59.412 [main] INFO  utils.LoggerUtil - Typed value as: US to element Country Field
+17:19:59.485 [main] INFO  utils.LoggerUtil - Typed value as:  to element City Field
+17:19:59.556 [main] INFO  utils.LoggerUtil - Typed value as: Credit Card to element Card Field
+17:19:59.619 [main] INFO  utils.LoggerUtil - Typed value as: 10.0 to element Month Field
+17:19:59.675 [main] INFO  utils.LoggerUtil - Typed value as: 2025.0 to element Year Field
+17:19:59.941 [main] INFO  utils.LoggerUtil - Clicked element: Purchase Button
+17:20:03.086 [main] INFO  utils.LoggerUtil - Successfully read the value as: Thank you for your purchase! from element Confirmation Header
+17:20:04.234 [main] INFO  utils.LoggerUtil - Finishing tests.
+17:20:32.292 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+17:20:32.339 [main] INFO  utils.LoggerUtil - Setting up test....
+17:20:32.706 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+17:20:32.732 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+17:20:40.671 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+17:20:40.796 [main] INFO  utils.LoggerUtil - Navigating to website url https://www.demoblaze.com
+17:20:41.123 [main] INFO  utils.LoggerUtil - Clicked element: Navigating to Login page
+17:20:41.263 [main] INFO  utils.LoggerUtil - Typed value as: Validuser13 to element UserName
+17:20:41.341 [main] INFO  utils.LoggerUtil - Typed value as: ValidPass@123 to element Password
+17:20:41.628 [main] INFO  utils.LoggerUtil - Clicked element: Login Button
+17:20:43.789 [main] INFO  utils.LoggerUtil - Simulated registered user login.
+17:20:44.491 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+17:20:45.807 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+17:20:46.871 [main] INFO  utils.LoggerUtil - Alert accepted.
+17:20:47.620 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+17:20:47.686 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+17:20:49.564 [main] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+17:20:49.690 [main] INFO  utils.LoggerUtil - Typed value as: RegisteredUser2 to element Name Field
+17:20:49.766 [main] INFO  utils.LoggerUtil - Typed value as: US to element Country Field
+17:20:49.834 [main] INFO  utils.LoggerUtil - Typed value as: TX to element City Field
+17:20:49.880 [main] INFO  utils.LoggerUtil - Typed value as:  to element Card Field
+17:20:49.943 [main] INFO  utils.LoggerUtil - Typed value as: 10.0 to element Month Field
+17:20:49.990 [main] INFO  utils.LoggerUtil - Typed value as: 2025.0 to element Year Field
+17:20:50.078 [main] INFO  utils.LoggerUtil - Clicked element: Purchase Button
+17:20:51.177 [main] INFO  utils.LoggerUtil - Finishing tests.
+17:24:50.358 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\kadahari\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+17:24:50.423 [main] INFO  utils.LoggerUtil - Setting up test....
+17:24:51.504 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 140)
+17:24:51.513 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\kadahari\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+17:24:58.840 [main] INFO  utils.LoggerUtil - Navigating to website url: https://www.demoblaze.com
+17:24:58.840 [main] INFO  utils.LoggerUtil - Simulated guest user flow (no login).
+17:25:00.639 [main] INFO  utils.LoggerUtil - Successfully selected the product: Sony vaio i5
+17:25:01.987 [main] INFO  utils.LoggerUtil - Clicked element: Add to Cart Button
+17:25:02.547 [main] INFO  utils.LoggerUtil - Alert accepted.
+17:25:03.222 [main] INFO  utils.LoggerUtil - Clicked element: Cart Button
+17:25:03.281 [main] INFO  utils.LoggerUtil - Cart page loaded successfully.
+17:25:04.592 [main] INFO  utils.LoggerUtil - Clicked element: Place Order Button
+17:25:04.692 [main] INFO  utils.LoggerUtil - Typed value as: GuestUser3 to element Name Field
+17:25:04.790 [main] INFO  utils.LoggerUtil - Typed value as: US to element Country Field
+17:25:04.868 [main] INFO  utils.LoggerUtil - Typed value as: FL to element City Field
+17:25:04.921 [main] INFO  utils.LoggerUtil - Typed value as: Debit Card to element Card Field
+17:25:04.988 [main] INFO  utils.LoggerUtil - Typed value as: 10.0 to element Month Field
+17:25:05.037 [main] INFO  utils.LoggerUtil - Typed value as: 2025.0 to element Year Field
+17:25:05.295 [main] INFO  utils.LoggerUtil - Clicked element: Purchase Button
+17:25:08.434 [main] INFO  utils.LoggerUtil - Successfully read the value as: Thank you for your purchase! from element Confirmation Header
+17:25:09.568 [main] INFO  utils.LoggerUtil - Finishing tests.
