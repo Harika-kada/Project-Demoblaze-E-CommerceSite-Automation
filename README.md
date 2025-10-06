@@ -91,9 +91,11 @@ Project-Demoblaze-E-CommerceSite-Automation/
 ## Test Reporting
 Upon completion of the test execution, reports will be generated in the following directory:
 
-- Custom HTML reports: Saved in output/test-output/custom-report and open the file in the folder in the web browser.
-- Allure reports: Saved in target/allure-report
-- Other reports: Generated in target/surefire-reports
+1. Custom HTML reports: Saved in output/test-output/custom-report and open the file in the folder in the web browser.
+2. Allure reports: After execution, use the following commands to generate reports and will be saved in target/allure-report
+   - mvn allure:report
+   - mvn allure:serve
+3. Other reports: Generated in target/surefire-reports
 
 ## Screenshots & Logs
 Upon completion of the test execution, following will be generated with date and time.
