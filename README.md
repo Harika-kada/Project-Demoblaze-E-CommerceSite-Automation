@@ -2,6 +2,21 @@
 
 This project provides a comprehensive set of automated tests for the Demoblaze E-commerce Website (https://www.demoblaze.com/). The automation suite is designed to ensure the stability and functionality of key user journeys, including user registration, login, product browsing, adding items to the cart, and placing an order. It is built following the Page Object Model (POM) design pattern to ensure test code is clean, reusable, and easy to maintain.
 
+## Table of Contents
+
+  * [Features](#features)
+  * [Tech Stack & Dependencies](#tech-stack--dependencies)
+  * [Prerequisites](#prerequisites)
+  * [Installation & Setup](#installation--setup)
+    * [Step 1 - Clone the Repository:](#step-1---clone-the-repository)
+    * [Step 2 - Install Maven Dependencies:](#step-2---install-maven-dependencies)
+    * [Step 3 - Configuration](#step-3---configuration)
+  * [Project Structure](#project-structure)
+  * [How to Run Tests](#how-to-run-tests)
+  * [Test Reporting](#test-reporting)
+  * [Screenshots & Logs](#screenshots--logs)
+  * [Author](#author)
+
 ## Features
 
 The framework is designed for efficiency and maintainability, incorporating several best practices:
