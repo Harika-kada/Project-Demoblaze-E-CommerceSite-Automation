@@ -46,6 +46,14 @@
                     <include name="testWithMissingPaymentMethod"/>
                 </methods>
             </class>
+            <class name="tests.ContactFormTests">
+                <methods>
+                    <include name="testWithValidData"/>
+                    <include name="testWithMissingData"/>
+                    <include name="testWithInvalidMail"/>
+                    <include name="testWithEmptyData"/>
+                </methods>
+            </class>
         </classes>
     </test>
     <test name="Regression Tests - Chrome">
@@ -87,6 +95,14 @@
                     <include name="testForRegisteredCheckout"/>
                     <include name="testWithMissingShippingAddress"/>
                     <include name="testWithMissingPaymentMethod"/>
+                </methods>
+            </class>
+            <class name="tests.ContactFormTests">
+                <methods>
+                    <include name="testWithValidData"/>
+                    <include name="testWithMissingData"/>
+                    <include name="testWithInvalidMail"/>
+                    <include name="testWithEmptyData"/>
                 </methods>
             </class>
         </classes>

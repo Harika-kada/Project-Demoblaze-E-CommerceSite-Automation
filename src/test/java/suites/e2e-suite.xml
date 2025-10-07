@@ -29,6 +29,11 @@
                     <include name="testForRegisteredCheckout"/>
                 </methods>
             </class>
+            <class name="tests.ContactFormTests">
+                <methods>
+                    <include name="testWithValidData"/>
+                </methods>
+            </class>
         </classes>
     </test>
 
@@ -53,6 +58,11 @@
             <class name="tests.CheckoutTests">
                 <methods>
                     <include name="testForRegisteredCheckout"/>
+                </methods>
+            </class>
+            <class name="tests.ContactFormTests">
+                <methods>
+                    <include name="testWithValidData"/>
                 </methods>
             </class>
         </classes>

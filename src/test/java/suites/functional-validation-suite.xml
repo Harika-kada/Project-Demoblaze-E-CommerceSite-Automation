@@ -31,6 +31,13 @@
                     <include name="testWithMissingPaymentMethod"/>
                 </methods>
             </class>
+            <class name="tests.ContactFormTests">
+                <methods>
+                    <include name="testWithMissingData"/>
+                    <include name="testWithInvalidMail"/>
+                    <include name="testWithEmptyData"/>
+                </methods>
+            </class>
         </classes>
     </test>
 
@@ -57,6 +64,13 @@
                 <methods>
                     <include name="testWithMissingShippingAddress"/>
                     <include name="testWithMissingPaymentMethod"/>
+                </methods>
+            </class>
+            <class name="tests.ContactFormTests">
+                <methods>
+                    <include name="testWithMissingData"/>
+                    <include name="testWithInvalidMail"/>
+                    <include name="testWithEmptyData"/>
                 </methods>
             </class>
         </classes>
