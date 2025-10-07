@@ -48,7 +48,7 @@ You need the following software installed on your machine:
 
 - Java Development Kit (JDK) 11+
 - Apache Maven 3.6 or higher
-- Web Browser: Chrome, Firefox, or Edge
+- Web Browser: Chrome and Firefox
 - A modern IDE (e.g., IntelliJ IDEA, Eclipse).
 
 ## Installation & Setup
